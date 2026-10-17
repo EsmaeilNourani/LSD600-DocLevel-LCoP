@@ -1,0 +1,48 @@
+T1	disease 12 27	sleep disorders
+T2	disease 62 77	sleep disorders
+T3	lifestyle_factor 341 356	psychotherapies
+T5	Out-of-scope 642 663	REM-sleep deprivation
+T6	disease 743 754	depressions
+T9	disease 1513 1528	sleep disorders
+T15	disease 2309 2326	anxiety disorders
+T16	Out-of-scope 1569 1574	drugs
+T18	lifestyle_factor 1408 1413	sleep
+T20	lifestyle_factor 1896 1901	sleep
+T21	lifestyle_factor 2021 2026	sleep
+T34	Out-of-scope 361 382	behavioral treatments
+T35	Out-of-scope 618 621	ECT
+T36	Out-of-scope 665 686	sleep schedule shifts
+T37	Out-of-scope 691 703	bright light
+T39	Out-of-scope 983 985	BL
+T40	Out-of-scope 990 1015	partial sleep deprivation
+T41	Out-of-scope 1087 1089	BL
+T42	Out-of-scope 1213 1225	Electrosleep
+T43	Out-of-scope 1268 1284	physical therapy
+T44	Out-of-scope 1250 1256	hydro-
+T45	Out-of-scope 1258 1263	ergo-
+T46	Out-of-scope 1289 1309	supportive therapies
+T47	disease 1339 1350	depressions
+T50	Out-of-scope 1415 1446	Psychopharmacological treatment
+T51	Out-of-scope 2343 2358	benzodiazepines
+T52	disease 2294 2304	depressive
+T53	Out-of-scope 2104 2117	Tranquilizers
+T54	Out-of-scope 2119 2128	hypnotics
+T55	Out-of-scope 2130 2142	neuroleptics
+T56	Out-of-scope 2147 2167	serotonin precursors
+T62	lifestyle_factor 1352 1360	Exercise
+T64	lifestyle_factor 1630 1635	sleep
+T65	disease 451 471	sleep-onset insomnia
+T7	disease 2228 2236	insomnia
+T11	Out-of-scope 2509 2518	melatonin
+T66	Out-of-scope 1091 1106	antidepressants
+T67	Out-of-scope 1545 1560	Antidepressants
+T68	Out-of-scope 1751 1766	antidepressants
+T69	Out-of-scope 1809 1824	antidepressants
+T70	Out-of-scope 1871 1886	antidepressants
+T71	Out-of-scope 2188 2203	antidepressants
+T8	lifestyle_factor 1374 1393	nutritional factors
+T10	disease 214 224	depression
+T12	disease 434 445	depressions
+R1	treats Arg1:T3 Arg2:T12
+T4	disease 513 524	depressions
+R2	treats Arg1:T3 Arg2:T65

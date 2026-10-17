@@ -1,0 +1,41 @@
+T1	lifestyle_factor 8 13	sleep
+T2	disease 102 109	obesity
+T3	disease 114 131	metabolic disease
+T4	disease 147 154	obesity
+T5	disease 159 167	diabetes
+T6	lifestyle_factor 204 219	developed world
+T7	lifestyle_factor 254 265	over-eating
+T8	lifestyle_factor 267 291	poor nutritional choices
+T9	disease 361 378	metabolic disease
+T10	lifestyle_factor 512 528	sleep disruption
+T11	lifestyle_factor 627 632	sleep
+T12	lifestyle_factor 637 654	circadian rhythms
+T13	lifestyle_factor 673 678	sleep
+T14	lifestyle_factor 801 806	sleep
+T15	lifestyle_factor 863 873	shift work
+T16	lifestyle_factor 956 961	sleep
+T17	lifestyle_factor 1051 1065	caloric intake
+T18	lifestyle_factor 1089 1094	sleep
+T19	lifestyle_factor 1214 1225	wakefulness
+T20	lifestyle_factor 1230 1235	sleep
+T21	lifestyle_factor 1336 1341	sleep
+T23	lifestyle_factor 1441 1456	disturbed sleep
+T24	lifestyle_factor 1461 1478	circadian rhythms
+T25	disease 1545 1562	metabolic disease
+T26	lifestyle_factor 304 312	exercise
+T27	lifestyle_factor 1431 1439	exercise
+T28	lifestyle_factor 1096 1100	food
+R1	positive_statistical_association Arg1:T7 Arg2:T9
+R2	positive_statistical_association Arg1:T8 Arg2:T9
+R3	negative_statistical_association Arg1:T26 Arg2:T9
+T30	lifestyle_factor 1417 1426	poor diet
+R4	positive_statistical_association Arg1:T30 Arg2:T25
+R5	positive_statistical_association Arg1:T27 Arg2:T25
+T22	lifestyle_factor 18 38	circadian disruption
+T31	lifestyle_factor 683 703	circadian disruption
+T32	lifestyle_factor 533 555	circadian misalignment
+T33	lifestyle_factor 1346 1368	circadian misalignment
+R6	positive_statistical_association Arg1:T23 Arg2:T25
+R7	positive_statistical_association Arg1:T24 Arg2:T25
+T29	Out-of-scope 233 245	risk factors
+T34	Out-of-scope 1500 1512	risk factors

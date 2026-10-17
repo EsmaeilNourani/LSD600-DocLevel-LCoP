@@ -1,0 +1,23 @@
+T2	disease 140 164	Type 2 Diabetes Mellitus
+T3	disease 182 194	Hypertension
+T4	lifestyle_factor 209 218	Vitamin D
+T5	disease 268 292	Type 2 Diabetes Mellitus
+T6	disease 666 678	hypertension
+T10	Out-of-scope 1233 1251	adequate vitamin D
+T11	disease 1816 1828	hypertension
+T12	disease 2153 2160	Obesity
+T13	disease 2192 2204	hypertension
+T14	disease 294 298	T2DM
+*	Equiv T14 T5
+T15	disease 19 39	Vitamin D Deficiency
+T16	disease 964 984	vitamin D deficiency
+R1	Out-of-scope Arg1:T4 Arg2:T5
+R2	Out-of-scope Arg1:T4 Arg2:T14
+T17	disease 591 595	T2DM
+T18	disease 626 640	cardiovascular
+T19	disease 644 658	renal diseases
+T21	disease 1372 1374	DM
+T22	disease 1674 1676	DM
+T1	Out-of-scope 1188 1197	vitamin D
+T7	Out-of-scope 680 739	25-OHD was measured by electrochemiluminescence immunoassay
+T8	disease 1923 1937	cardiovascular

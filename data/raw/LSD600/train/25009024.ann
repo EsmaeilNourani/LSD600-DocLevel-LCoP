@@ -1,0 +1,42 @@
+T1	lifestyle_factor 19 36	duration of sleep
+T2	disease 88 95	obesity
+T3	lifestyle_factor 207 221	sleep duration
+T4	disease 255 262	obesity
+T5	disease 361 368	obesity
+T6	lifestyle_factor 415 434	junior high schools
+T7	lifestyle_factor 479 496	duration of sleep
+T8	lifestyle_factor 516 535	physical activities
+T9	disease 775 782	obesity
+T10	lifestyle_factor 891 896	sleep
+T11	disease 1057 1064	obesity
+T12	lifestyle_factor 1081 1102	sleep duration <7 h/d
+T13	lifestyle_factor 1183 1200	duration of sleep
+T14	disease 1217 1224	obesity
+T15	lifestyle_factor 1289 1302	family income
+T16	lifestyle_factor 1304 1323	physical activities
+T17	lifestyle_factor 1402 1432	sleep duration less than 7 h/d
+T18	lifestyle_factor 1583 1609	sleep duration of >= 8 h/d
+T19	lifestyle_factor 1637 1654	duration of sleep
+T20	disease 1703 1710	obesity
+T21	lifestyle_factor 1902 1919	duration of sleep
+T22	disease 1936 1943	obesity
+T23	lifestyle_factor 38 54	dietary patterns
+T24	lifestyle_factor 223 239	dietary patterns
+T25	lifestyle_factor 498 514	dietary patterns
+T26	lifestyle_factor 1840 1856	dietary patterns
+T27	Out-of-scope 891 896	sleep
+T28	Out-of-scope 1138 1164	no significant association
+R1	no_statistical_association Arg1:T13 Arg2:T14
+T29	Out-of-scope 1228 1233	girls
+T30	Out-of-scope 1068 1072	boys
+T33	lifestyle_factor 1537 1543	snacks
+R2	negative_statistical_association Arg1:T19 Arg2:T20
+T34	lifestyle_factor 1796 1802	snacks
+T35	Out-of-scope 1857 1862	might
+R4	statistical_association Arg1:T21 Arg2:T22
+T36	Out-of-scope 1951 1955	male
+R5	Out-of-scope Arg1:T26 Arg2:T22
+R6	positive_statistical_association Arg1:T12 Arg2:T11
+T39	lifestyle_factor 1269 1287	parental education
+T37	lifestyle_factor 554 574	watching video/audio
+T31	lifestyle_factor 1339 1359	watching video/audio

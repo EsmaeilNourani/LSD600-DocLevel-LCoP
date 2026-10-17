@@ -1,0 +1,54 @@
+T1	Out-of-scope 204 209	Botox
+T2	Out-of-scope 575 580	Botox
+T3	Out-of-scope 869 874	Botox
+T4	Out-of-scope 971 976	Botox
+T5	Out-of-scope 1098 1103	Botox
+T6	Out-of-scope 1208 1213	Botox
+T7	disease 1256 1286	detrusor sphincter dyssynergia
+T8	Out-of-scope 1333 1338	Botox
+T9	disease 1376 1390	hydronephrosis
+T10	disease 1404 1422	neurogenic bladder
+T11	Out-of-scope 1450 1455	Botox
+T13	Out-of-scope 1700 1705	Botox
+T14	Out-of-scope 1769 1774	Botox
+T15	disease 1828 1851	urinary tract infection
+T16	Out-of-scope 2034 2039	Botox
+T17	Out-of-scope 2134 2139	Botox
+T19	Out-of-scope 2279 2284	Botox
+T20	Out-of-scope 2286 2291	Botox
+T21	Out-of-scope 2513 2518	Botox
+T22	Out-of-scope 2574 2579	Botox
+T23	Out-of-scope 2753 2758	Botox
+T25	disease 2830 2844	hydronephrosis
+T26	disease 2858 2876	neurogenic bladder
+R3	Out-of-scope Arg1:T23 Arg2:T26
+R4	Out-of-scope Arg1:T23 Arg2:T25
+T27	Out-of-scope 29 81	intravesical and intrasphincteric onabotulinumtoxinA
+T28	Out-of-scope 150 202	intravesical and intrasphincteric onabotulinumtoxinA
+T29	disease 1226 1247	dysfunctional voiding
+T30	disease 1249 1251	DV
+T31	disease 1288 1291	DSD
+T32	disease 1853 1856	UTI
+*	Equiv T15 T32
+*	Equiv T29 T30
+*	Equiv T7 T31
+T33	disease 1592 1613	autonomic dysreflexia
+T34	disease 1961 1978	urinary retention
+T35	disease 2107 2109	DV
+T36	disease 2113 2116	DSD
+T37	disease 2400 2421	autonomic dysreflexia
+R5	Out-of-scope Arg1:T21 Arg2:T37
+T38	disease 2906 2927	autonomic dysreflexia
+R6	Out-of-scope Arg1:T23 Arg2:T38
+R8	Out-of-scope Arg1:T14 Arg2:T34
+R12	Out-of-scope Arg1:T8 Arg2:T9
+R13	Out-of-scope Arg1:T8 Arg2:T10
+T39	disease 1924 1927	UTI
+T40	Out-of-scope 1515 1549	trigonal hypersensitivity and pain
+R9	Out-of-scope Arg1:T6 Arg2:T29
+R11	Out-of-scope Arg1:T6 Arg2:T7
+R7	Out-of-scope Arg1:T14 Arg2:T15
+T41	Out-of-scope 2218 2252	Trigonal hypersensitivity with CIC
+R1	Out-of-scope Arg1:T11 Arg2:T40
+R14	Out-of-scope Arg1:T19 Arg2:T41
+T42	Out-of-scope 2784 2809	trigonal hypersensitivity

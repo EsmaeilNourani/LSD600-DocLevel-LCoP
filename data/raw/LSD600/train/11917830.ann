@@ -1,0 +1,32 @@
+T1	Out-of-scope 15 25	meditation
+T2	disease 27 39	hypertension
+T3	disease 44 57	heart disease
+T4	disease 156 178	coronary heart disease
+T5	Out-of-scope 333 343	meditation
+T6	Out-of-scope 380 390	meditation
+T7	disease 457 479	coronary heart disease
+T8	Out-of-scope 508 518	meditation
+T9	disease 574 596	coronary heart disease
+T10	Out-of-scope 613 623	meditation
+T11	disease 653 665	hypertension
+T12	disease 670 685	atherosclerosis
+T13	disease 717 730	heart disease
+T14	lifestyle_factor 892 902	meditation
+T15	disease 1087 1102	atherosclerosis
+T16	disease 1107 1120	heart disease
+T17	disease 1152 1164	hypertension
+T18	Out-of-scope 99 105	stress
+T19	Out-of-scope 212 218	stress
+T21	lifestyle_factor 212 239	stress reduction techniques
+T22	lifestyle_factor 0 25	Transcendental meditation
+T23	lifestyle_factor 318 343	transcendental meditation
+T24	lifestyle_factor 365 390	transcendental meditation
+T25	lifestyle_factor 493 518	Transcendental meditation
+T26	lifestyle_factor 598 623	Transcendental meditation
+R3	treats Arg1:T25 Arg2:T9
+R4	prevents Arg1:T25 Arg2:T9
+R5	negative_statistical_association Arg1:T26 Arg2:T11
+R6	negative_statistical_association Arg1:T26 Arg2:T12
+R7	treats Arg1:T26 Arg2:T13
+T27	lifestyle_factor 823 830	smoking
+T20	lifestyle_factor 907 934	stress reduction techniques

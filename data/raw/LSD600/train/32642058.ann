@@ -1,0 +1,76 @@
+T3	lifestyle_factor 153 172	developed countries
+T4	disease 320 339	work-related asthma
+T5	disease 344 352	rhinitis
+T6	disease 426 439	atopic asthma
+T7	disease 444 452	rhinitis
+T8	disease 478 496	chronic bronchitis
+T10	lifestyle_factor 985 998	disinfectants
+T11	disease 1072 1078	asthma
+T12	disease 1080 1088	rhinitis
+T13	disease 1090 1108	chronic bronchitis
+T15	disease 1398 1417	occupational asthma
+T16	disease 1422 1430	rhinitis
+T17	lifestyle_factor 1554 1568	socio-economic
+T19	lifestyle_factor 916 926	endotoxins
+T20	Out-of-scope 825 829	dust
+T21	lifestyle_factor 1154 1158	dust
+T22	lifestyle_factor 1163 1172	endotoxin
+T23	Out-of-scope 226 230	farm
+T25	lifestyle_factor 243 257	Animal farming
+T26	lifestyle_factor 679 693	animal farming
+T28	lifestyle_factor 1629 1636	farming
+T29	lifestyle_factor 57 66	livestock
+T33	lifestyle_factor 817 829	organic dust
+T34	Out-of-scope 44 51	working
+T35	lifestyle_factor 401 405	farm
+T36	disease 25 32	allergy
+T37	disease 1766 1773	allergy
+R1	positive_statistical_association Arg1:T25 Arg2:T4
+R2	positive_statistical_association Arg1:T25 Arg2:T5
+T38	Out-of-scope 283 291	negative
+T30	disease 501 522	bronchial obstruction
+T39	disease 523 527	COPD
+T40	disease 710 743	work-related respiratory diseases
+T41	lifestyle_factor 771 785	Animal farming
+T27	lifestyle_factor 841 850	allergens
+T42	lifestyle_factor 973 980	ammonia
+T43	lifestyle_factor 950 964	irritant gases
+T44	disease 1110 1114	COPD
+T45	lifestyle_factor 888 902	microorganisms
+T46	disease 1365 1384	respiratory disease
+T47	disease 0 20	Respiratory diseases
+T48	disease 1741 1761	respiratory diseases
+R48	causes Arg1:T28 Arg2:T48
+R49	causes Arg1:T28 Arg2:T37
+R50	negative_statistical_association Arg1:T35 Arg2:T6
+R51	negative_statistical_association Arg1:T35 Arg2:T7
+R3	positive_statistical_association Arg1:T33 Arg2:T11
+R4	positive_statistical_association Arg1:T33 Arg2:T12
+R5	positive_statistical_association Arg1:T33 Arg2:T13
+R6	positive_statistical_association Arg1:T33 Arg2:T44
+R7	positive_statistical_association Arg1:T27 Arg2:T11
+R8	positive_statistical_association Arg1:T27 Arg2:T12
+R9	positive_statistical_association Arg1:T27 Arg2:T13
+R10	positive_statistical_association Arg1:T27 Arg2:T44
+R11	positive_statistical_association Arg1:T45 Arg2:T11
+R12	positive_statistical_association Arg1:T45 Arg2:T12
+R13	positive_statistical_association Arg1:T45 Arg2:T13
+R14	positive_statistical_association Arg1:T45 Arg2:T44
+R15	positive_statistical_association Arg1:T19 Arg2:T11
+R16	positive_statistical_association Arg1:T19 Arg2:T12
+R17	positive_statistical_association Arg1:T19 Arg2:T13
+R18	positive_statistical_association Arg1:T19 Arg2:T44
+R19	positive_statistical_association Arg1:T43 Arg2:T11
+R20	positive_statistical_association Arg1:T43 Arg2:T12
+R21	positive_statistical_association Arg1:T43 Arg2:T13
+R22	positive_statistical_association Arg1:T43 Arg2:T44
+R23	positive_statistical_association Arg1:T42 Arg2:T11
+R24	positive_statistical_association Arg1:T42 Arg2:T12
+R25	positive_statistical_association Arg1:T42 Arg2:T13
+R26	positive_statistical_association Arg1:T42 Arg2:T44
+R27	positive_statistical_association Arg1:T10 Arg2:T11
+R28	positive_statistical_association Arg1:T10 Arg2:T12
+R29	positive_statistical_association Arg1:T10 Arg2:T13
+R30	positive_statistical_association Arg1:T10 Arg2:T44
+R31	positive_statistical_association Arg1:T22 Arg2:T46
+R32	positive_statistical_association Arg1:T21 Arg2:T46

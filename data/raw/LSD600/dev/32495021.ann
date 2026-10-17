@@ -1,0 +1,19 @@
+T1	disease 10 18	Diabetes
+T2	lifestyle_factor 32 45	Sleep Quality
+T3	disease 67 82	Type 1 Diabetes
+T4	disease 163 171	diabetes
+T5	disease 293 317	type 1 diabetes mellitus
+T8	lifestyle_factor 587 617	Pittsburgh Sleep Quality Index
+T9	disease 693 705	hypoglycemia
+T11	disease 1020 1032	hypoglycemia
+T12	disease 1146 1158	hypoglycemia
+T14	disease 1367 1375	diabetes
+T15	lifestyle_factor 1389 1402	sleep quality
+T16	disease 319 323	T1DM
+*	Equiv T16 T5
+T17	disease 1481 1485	T1DM
+T20	disease 495 499	T1DM
+T6	lifestyle_factor 619 623	PSQI
+*	Equiv T8 T6
+T7	lifestyle_factor 923 927	PSQI
+T10	lifestyle_factor 445 473	flash glucose monitoring use

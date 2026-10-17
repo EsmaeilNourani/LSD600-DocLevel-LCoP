@@ -1,0 +1,49 @@
+T1	disease 90 102	hypertension
+T2	disease 410 422	hypertension
+T3	disease 651 663	hypertension
+T4	disease 702 714	hypertension
+T9	disease 1315 1327	hypertension
+T10	disease 1420 1432	Hypertension
+T13	lifestyle_factor 853 892	normal sodium and normal potassium diet
+T14	lifestyle_factor 894 901	RRM-NaK
+T15	lifestyle_factor 1292 1299	RRM-NaK
+R1	causes Arg1:T15 Arg2:T9
+T18	lifestyle_factor 1436 1443	RRM-NaK
+T19	lifestyle_factor 1675 1708	quadrupling potassium in the diet
+T20	lifestyle_factor 1710 1718	RRM-Na4K
+T21	lifestyle_factor 784 835	sodium free and normal potassium (1.3% as KCl) diet
+T22	lifestyle_factor 837 845	RRM-0 Na
+T23	lifestyle_factor 1030 1038	RRM-Na4K
+*	Equiv T14 T13
+*	Equiv T22 T21
+T24	lifestyle_factor 981 1028	normal sodium and 4 times normal potassium diet
+*	Equiv T23 T24
+T25	lifestyle_factor 909 959	normal sodium and high potassium (2 X normal) diet
+T26	lifestyle_factor 961 969	RRM-Na2K
+*	Equiv T26 T25
+T27	lifestyle_factor 1278 1285	RRM-0Na
+T28	lifestyle_factor 1364 1372	RRM-Na2K
+T29	lifestyle_factor 1405 1413	RRM-Na4K
+T30	lifestyle_factor 1837 1844	RRM-0Na
+T31	lifestyle_factor 1806 1813	RRM-0Na
+T32	lifestyle_factor 1957 1965	RRM-Na4K
+T33	lifestyle_factor 1066 1083	dietary treatment
+*	Equiv T19 T20
+T34	lifestyle_factor 1993 2030	quadrupling the potassium in the diet
+T5	Out-of-scope 351 375	digitalis like substance
+T6	Out-of-scope 377 380	DLS
+T35	Out-of-scope 526 529	DLS
+T37	Out-of-scope 1556 1559	DLS
+T38	Out-of-scope 1731 1734	DLS
+T39	Out-of-scope 2138 2141	DLS
+T8	lifestyle_factor 1846 1851	water
+T16	lifestyle_factor 474 491	dietary potassium
+T40	lifestyle_factor 121 146	potassium supplementation
+T41	lifestyle_factor 40 57	dietary potassium
+T42	lifestyle_factor 1655 1664	potassium
+R4	Out-of-scope Arg1:T5 Arg2:T2
+R5	Out-of-scope Arg1:T6 Arg2:T2
+T11	Out-of-scope 1903 1912	potassium
+R3	treats Arg1:T41 Arg2:T1
+T12	Out-of-scope 1125 1128	DLS
+T17	Out-of-scope 1491 1494	DLS

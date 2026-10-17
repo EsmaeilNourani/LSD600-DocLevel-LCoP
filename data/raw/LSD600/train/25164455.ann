@@ -1,0 +1,17 @@
+T1	lifestyle_factor 14 26	malnutrition
+T2	lifestyle_factor 151 163	malnutrition
+T3	disease 407 415	Diseases
+T4	disease 434 442	Diseases
+T5	disease 456 464	Diseases
+T6	lifestyle_factor 697 709	malnutrition
+T7	lifestyle_factor 1416 1431	under-nutrition
+T8	disease 1487 1494	obesity
+T10	lifestyle_factor 1614 1629	under-nutrition
+T11	lifestyle_factor 1679 1691	malnutrition
+T12	disease 1809 1816	Obesity
+T13	Out-of-scope 1422 1431	nutrition
+T14	Out-of-scope 1620 1629	nutrition
+T15	lifestyle_factor 59 64	urban
+T16	Out-of-scope 444 464	Respiratory Diseases
+T17	disease 1558 1578	Respiratory Diseases
+R1	positive_statistical_association Arg1:T10 Arg2:T17

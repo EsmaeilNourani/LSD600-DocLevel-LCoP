@@ -1,0 +1,57 @@
+T1	disease 29 40	lung cancer
+T3	disease 145 156	lung cancer
+T4	disease 332 343	lung cancer
+T5	lifestyle_factor 614 621	arsenic
+T6	lifestyle_factor 674 681	hygiene
+T7	lifestyle_factor 716 748	polycyclic aromatic hydrocarbons
+T8	lifestyle_factor 750 754	PAHs
+T9	disease 928 939	lung cancer
+T10	lifestyle_factor 1029 1036	arsenic
+T12	disease 1294 1305	lung cancer
+T13	disease 1524 1535	lung cancer
+T15	lifestyle_factor 1661 1668	arsenic
+T16	disease 1846 1857	lung cancer
+T17	disease 1954 1963	silicosis
+T18	lifestyle_factor 2035 2039	PAHs
+T19	disease 2168 2179	lung cancer
+T20	lifestyle_factor 2239 2246	arsenic
+T22	disease 2315 2326	lung cancer
+T23	disease 2342 2351	Silicosis
+T24	disease 2401 2412	lung cancer
+T25	lifestyle_factor 1042 1057	tobacco smoking
+R1	positive_statistical_association Arg1:T25 Arg2:T9
+R2	positive_statistical_association Arg1:T10 Arg2:T9
+T26	lifestyle_factor 978 982	dust
+R3	positive_statistical_association Arg1:T26 Arg2:T9
+R4	causes Arg1:T20 Arg2:T22
+T27	lifestyle_factor 2251 2266	tobacco smoking
+R5	causes Arg1:T27 Arg2:T22
+*	Equiv T8 T7
+T28	lifestyle_factor 1590 1605	tobacco smoking
+T2	lifestyle_factor 1124 1128	dust
+T30	lifestyle_factor 2185 2189	dust
+T31	lifestyle_factor 1361 1365	dust
+T32	lifestyle_factor 582 586	dust
+T33	lifestyle_factor 241 245	dust
+T34	lifestyle_factor 114 131	occupational dust
+T35	lifestyle_factor 1272 1279	smoking
+T36	lifestyle_factor 1482 1489	smoking
+T37	lifestyle_factor 707 714	arsenic
+T38	lifestyle_factor 761 766	radon
+T39	lifestyle_factor 254 263	tin mines
+T40	lifestyle_factor 506 515	tin mines
+T41	lifestyle_factor 160 169	tin mines
+T43	lifestyle_factor 2330 2340	tin miners
+T42	lifestyle_factor 473 482	tin mines
+T44	lifestyle_factor 1905 1913	tin mine
+T45	lifestyle_factor 2005 2014	tin mines
+T46	lifestyle_factor 2130 2159	respirable crystalline silica
+T47	lifestyle_factor 1978 1983	radon
+R8	positive_statistical_association Arg1:T28 Arg2:T13
+R9	positive_statistical_association Arg1:T15 Arg2:T13
+R10	positive_statistical_association Arg1:T31 Arg2:T12
+R11	positive_statistical_association Arg1:T2 Arg2:T9
+T48	lifestyle_factor 57 66	tin mines
+T11	Out-of-scope 2091 2105	little support
+#1	AnnotatorNotes T11	!!!
+T14	Out-of-scope 1874 1883	silicotic

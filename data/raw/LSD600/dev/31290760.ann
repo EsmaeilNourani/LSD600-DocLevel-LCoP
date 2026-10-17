@@ -1,0 +1,32 @@
+T1	lifestyle_factor 0 13	Sleep quality
+T2	disease 40 71	premature ovarian insufficiency
+T3	lifestyle_factor 143 156	sleep quality
+T4	disease 188 219	premature ovarian insufficiency
+T5	disease 221 224	POI
+T6	disease 375 378	POI
+T7	disease 393 396	POI
+T8	lifestyle_factor 507 537	Pittsburgh Sleep Quality Index
+T9	lifestyle_factor 591 604	sleep quality
+T10	disease 752 755	POI
+T11	disease 985 988	POI
+T12	disease 1022 1025	POI
+T13	lifestyle_factor 1078 1091	sleep latency
+T14	disease 1242 1245	POI
+T15	lifestyle_factor 1375 1388	sleep quality
+T16	disease 1485 1488	POI
+*	Equiv T5 T4
+T19	lifestyle_factor 1512 1525	sleep quality
+R1	negative_statistical_association Arg1:T19 Arg2:T16
+R2	positive_statistical_association Arg1:T13 Arg2:T12
+T20	Out-of-scope 82 97	hormone therapy
+T21	Out-of-scope 236 251	hormone therapy
+T22	Out-of-scope 253 255	HT
+T23	Out-of-scope 389 391	HT
+T24	lifestyle_factor 1165 1191	use of medication to sleep
+R3	positive_statistical_association Arg1:T24 Arg2:T12
+T25	Out-of-scope 1499 1501	HT
+T17	lifestyle_factor 539 543	PSQI
+*	Equiv T8 T17
+T18	lifestyle_factor 860 864	PSQI
+T26	Out-of-scope 944 948	0.79
+R4	no_statistical_association Arg1:T18 Arg2:T11

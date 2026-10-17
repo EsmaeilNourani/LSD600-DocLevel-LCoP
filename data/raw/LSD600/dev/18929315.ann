@@ -1,0 +1,33 @@
+T1	lifestyle_factor 26 31	sleep
+T2	lifestyle_factor 36 46	sleep loss
+T3	lifestyle_factor 57 71	sleep duration
+T4	lifestyle_factor 274 279	sleep
+T5	lifestyle_factor 385 400	slow wave sleep
+T6	lifestyle_factor 443 454	sleep stage
+T7	lifestyle_factor 590 601	wakefulness
+T8	lifestyle_factor 790 800	sleep loss
+T9	disease 832 839	obesity
+T10	disease 844 859	type 2 diabetes
+T11	disease 883 890	obesity
+T12	lifestyle_factor 927 937	sleep loss
+T13	lifestyle_factor 1171 1187	sleep restricted
+T14	lifestyle_factor 1233 1250	sleep curtailment
+T15	disease 1315 1333	metabolic syndrome
+T16	disease 1335 1343	diabetes
+T17	disease 1348 1355	obesity
+T18	lifestyle_factor 1388 1402	sleep duration
+T19	disease 1468 1475	obesity
+T20	lifestyle_factor 1541 1558	sleep deprivation
+T21	lifestyle_factor 402 405	SWS
+T22	lifestyle_factor 610 613	SWS
+T23	Out-of-scope 395 400	sleep
+T25	Out-of-scope 665 671	stress
+*	Equiv T21 T5
+R1	positive_statistical_association Arg1:T8 Arg2:T9
+R2	positive_statistical_association Arg1:T8 Arg2:T10
+R3	positive_statistical_association Arg1:T12 Arg2:T11
+T26	Out-of-scope 1268 1277	important
+R4	positive_statistical_association Arg1:T14 Arg2:T15
+R5	positive_statistical_association Arg1:T14 Arg2:T16
+R6	positive_statistical_association Arg1:T14 Arg2:T17
+R7	Out-of-scope Arg1:T18 Arg2:T19

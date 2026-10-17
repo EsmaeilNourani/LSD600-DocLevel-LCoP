@@ -1,0 +1,28 @@
+T8	lifestyle_factor 177 190	air pollution
+T10	lifestyle_factor 251 262	air quality
+T11	lifestyle_factor 287 310	urban residential areas
+T14	lifestyle_factor 431 443	coal burning
+T17	lifestyle_factor 524 526	PM
+T18	lifestyle_factor 531 534	SO2
+T24	lifestyle_factor 912 923	air quality
+T28	lifestyle_factor 1008 1033	rapidly developing cities
+T29	lifestyle_factor 1088 1107	urban air pollution
+T30	lifestyle_factor 1192 1203	air quality
+T1	lifestyle_factor 10 27	urban air quality
+T2	lifestyle_factor 79 97	rapid urbanization
+T5	lifestyle_factor 323 341	Particulate matter
+T6	lifestyle_factor 360 374	sulfur dioxide
+T7	lifestyle_factor 447 469	mixed source pollution
+T12	lifestyle_factor 1234 1255	explosive development
+T15	lifestyle_factor 597 612	Nitrogen oxides
+T16	lifestyle_factor 123 138	economic growth
+T19	lifestyle_factor 343 345	PM
+T20	lifestyle_factor 376 379	SO2
+T22	lifestyle_factor 614 617	NOx
+T23	lifestyle_factor 868 883	economic growth
+T31	lifestyle_factor 888 906	energy consumption
+T21	lifestyle_factor 813 832	pollutants emission
+T34	lifestyle_factor 395 404	pollutant
+*	Equiv T5 T19
+*	Equiv T6 T20
+*	Equiv T15 T22

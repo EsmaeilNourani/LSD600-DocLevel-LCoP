@@ -1,0 +1,55 @@
+T1	disease 47 61	ovarian cancer
+T2	disease 160 174	ovarian cancer
+T3	disease 315 329	ovarian cancer
+T4	disease 698 712	ovarian cancer
+T5	disease 825 839	ovarian cancer
+T6	lifestyle_factor 889 911	green leafy vegetables
+T7	Out-of-scope 948 958	vegetables
+T8	lifestyle_factor 1027 1037	flavonoids
+T9	disease 1146 1160	ovarian cancer
+T10	lifestyle_factor 1351 1358	retinol
+T11	disease 1425 1439	ovarian cancer
+T12	lifestyle_factor 1480 1499	water disinfectants
+T13	lifestyle_factor 1504 1529	polychlorinated biphenyls
+T14	disease 1586 1600	ovarian cancer
+T15	lifestyle_factor 1661 1683	green leafy vegetables
+T16	lifestyle_factor 1685 1702	allium vegetables
+T17	lifestyle_factor 1711 1721	flavonoids
+T18	disease 1747 1761	ovarian cancer
+T19	lifestyle_factor 1173 1176	fat
+T20	lifestyle_factor 1208 1221	saturated fat
+T21	lifestyle_factor 990 995	fiber
+T22	lifestyle_factor 1704 1709	fiber
+T23	Out-of-scope 55 61	cancer
+T24	Out-of-scope 168 174	cancer
+T25	Out-of-scope 323 329	cancer
+T26	Out-of-scope 706 712	cancer
+T27	Out-of-scope 833 839	cancer
+T28	Out-of-scope 1154 1160	cancer
+T29	Out-of-scope 1433 1439	cancer
+T30	Out-of-scope 1594 1600	cancer
+T31	Out-of-scope 1755 1761	cancer
+T32	lifestyle_factor 941 958	allium vegetables
+R1	negative_statistical_association Arg1:T6 Arg2:T9
+R2	negative_statistical_association Arg1:T32 Arg2:T9
+R3	negative_statistical_association Arg1:T21 Arg2:T9
+R4	negative_statistical_association Arg1:T8 Arg2:T9
+T33	lifestyle_factor 1072 1081	green tea
+R5	negative_statistical_association Arg1:T33 Arg2:T9
+T34	lifestyle_factor 1253 1273	saturated fatty acid
+R6	positive_statistical_association Arg1:T19 Arg2:T11
+R7	positive_statistical_association Arg1:T20 Arg2:T11
+R8	positive_statistical_association Arg1:T34 Arg2:T11
+R9	positive_statistical_association Arg1:T10 Arg2:T11
+T35	lifestyle_factor 1459 1469	acrylamide
+T36	lifestyle_factor 1471 1478	nitrate
+R10	positive_statistical_association Arg1:T35 Arg2:T14
+R11	positive_statistical_association Arg1:T36 Arg2:T14
+R12	positive_statistical_association Arg1:T12 Arg2:T14
+R13	positive_statistical_association Arg1:T13 Arg2:T14
+T37	lifestyle_factor 1726 1735	green tea
+R14	prevents Arg1:T15 Arg2:T18
+R15	prevents Arg1:T16 Arg2:T18
+R16	prevents Arg1:T22 Arg2:T18
+R17	prevents Arg1:T17 Arg2:T18
+R18	prevents Arg1:T37 Arg2:T18

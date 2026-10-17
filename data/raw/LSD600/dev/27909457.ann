@@ -1,0 +1,46 @@
+T1	lifestyle_factor 125 153	Non-Rapid Eye Movement Sleep
+T2	Out-of-scope 250 255	sleep
+T3	disease 297 308	sleep apnea
+T4	disease 381 413	obstructive sleep apnea syndrome
+T5	disease 415 419	OSAS
+T6	disease 492 496	OSAS
+T7	lifestyle_factor 565 575	NREM sleep
+T8	lifestyle_factor 704 714	NREM sleep
+T10	lifestyle_factor 979 989	NREM sleep
+T11	disease 1004 1008	OSAS
+T12	lifestyle_factor 1065 1075	NREM sleep
+T13	Out-of-scope 1122 1127	sleep
+T14	lifestyle_factor 1153 1164	sleep stage
+T15	disease 1233 1237	OSAS
+T17	lifestyle_factor 1308 1318	NREM sleep
+T19	disease 1489 1493	OSAS
+T20	lifestyle_factor 246 255	REM sleep
+T21	lifestyle_factor 801 810	REM sleep
+T22	lifestyle_factor 1284 1293	REM sleep
+T23	lifestyle_factor 1459 1468	REM sleep
+T24	Out-of-scope 16 21	Sleep
+T25	Out-of-scope 148 153	Sleep
+T26	Out-of-scope 393 398	sleep
+T27	Out-of-scope 570 575	sleep
+T28	Out-of-scope 709 714	sleep
+T32	disease 16 42	Sleep Disordered Breathing
+T33	lifestyle_factor 102 120	Rapid Eye Movement
+T34	lifestyle_factor 227 234	non-REM
+T35	lifestyle_factor 236 240	NREM
+*	Equiv T35 T34
+*	Equiv T5 T4
+T16	lifestyle_factor 1057 1060	REM
+T18	lifestyle_factor 970 973	REM
+T29	lifestyle_factor 788 792	NREM
+T9	lifestyle_factor 688 691	REM
+T30	lifestyle_factor 557 560	REM
+T31	disease 730 733	OSA
+T36	disease 913 916	OSA
+T37	disease 1182 1185	SDB
+T38	Out-of-scope 231 234	REM
+T39	lifestyle_factor 835 838	REM
+T40	Out-of-scope 370 377	snoring
+T41	Out-of-scope 614 621	snoring
+T42	Out-of-scope 201 218	oxygen saturation
+T43	Out-of-scope 1271 1280	hypoxemia
+T44	Out-of-scope 1446 1455	hypoxemia

@@ -1,0 +1,64 @@
+T3	disease 86 97	lung cancer
+T4	disease 134 146	lung cancers
+T6	lifestyle_factor 253 261	asbestos
+T7	disease 313 328	adenocarcinomas
+T8	lifestyle_factor 379 394	cigarette smoke
+T10	lifestyle_factor 37 45	asbestos
+T11	disease 696 707	lung cancer
+T12	disease 804 815	lung cancer
+T13	lifestyle_factor 885 892	tobacco
+T14	lifestyle_factor 1058 1066	asbestos
+T15	lifestyle_factor 1205 1213	asbestos
+T16	lifestyle_factor 1311 1319	asbestos
+T17	disease 1486 1501	Adenocarcinomas
+T18	lifestyle_factor 1553 1568	cigarette smoke
+T20	disease 1793 1808	adenocarcinomas
+T21	disease 1995 2010	adenocarcinomas
+T22	lifestyle_factor 2038 2046	asbestos
+T23	disease 2112 2123	lung cancer
+T24	lifestyle_factor 2130 2147	cigarette smoking
+T25	lifestyle_factor 2152 2169	asbestos exposure
+T26	disease 2261 2276	adenocarcinomas
+T27	lifestyle_factor 2297 2305	asbestos
+T28	lifestyle_factor 178 195	cigarette smoking
+R1	positive_statistical_association Arg1:T28 Arg2:T4
+R2	statistical_association Arg1:T6 Arg2:T4
+T29	disease 831 848	upper-lobe tumors
+R3	Out-of-scope Arg1:T13 Arg2:T29
+T32	lifestyle_factor 1931 1949	time since smoking
+R6	positive_statistical_association Arg1:T32 Arg2:T21
+T33	lifestyle_factor 2226 2244	time since smoking
+R9	positive_statistical_association Arg1:T33 Arg2:T26
+R10	negative_statistical_association Arg1:T18 Arg2:T17
+T34	disease 586 592	cancer
+T19	lifestyle_factor 1757 1765	asbestos
+T2	lifestyle_factor 649 657	asbestos
+T36	lifestyle_factor 15 32	cigarette smoking
+T1	disease 1151 1168	upper-lobe tumors
+T38	lifestyle_factor 627 644	cigarette smoking
+T40	lifestyle_factor 1419 1426	smoking
+T41	lifestyle_factor 964 991	time since quitting smoking
+T42	lifestyle_factor 1642 1669	time since quitting smoking
+T43	disease 1256 1273	lower-lobe tumors
+R7	positive_statistical_association Arg1:T15 Arg2:T1
+T44	lifestyle_factor 429 437	asbestos
+T45	lifestyle_factor 919 925	smoked
+T46	lifestyle_factor 1595 1601	smoked
+R4	Out-of-scope Arg1:T45 Arg2:T29
+R5	negative_statistical_association Arg1:T46 Arg2:T17
+T5	Out-of-scope 949 953	0.07
+T9	Out-of-scope 1016 1020	0.05
+R11	positive_statistical_association Arg1:T42 Arg2:T17
+T30	Out-of-scope 1870 1874	0.09
+R12	positive_statistical_association Arg1:T44 Arg2:T7
+R13	negative_statistical_association Arg1:T8 Arg2:T7
+T31	Out-of-scope 849 855	tended
+R14	negative_statistical_association Arg1:T41 Arg2:T29
+R8	no_statistical_association Arg1:T22 Arg2:T21
+T35	disease 1104 1132	upper-lobe location of tumor
+T37	disease 2189 2217	upper-lobe location of tumor
+R15	positive_statistical_association Arg1:T25 Arg2:T37
+R16	positive_statistical_association Arg1:T24 Arg2:T37
+R17	statistical_association Arg1:T14 Arg2:T35
+T39	disease 1333 1361	upper-lobe location of tumor
+R18	statistical_association Arg1:T16 Arg2:T39

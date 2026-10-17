@@ -1,0 +1,70 @@
+T1	lifestyle_factor 18 37	sedentary behaviors
+T2	disease 215 222	obesity
+T3	lifestyle_factor 332 350	sedentary behavior
+T4	disease 355 362	obesity
+T5	lifestyle_factor 490 522	leisure time sedentary behaviors
+T6	lifestyle_factor 524 543	watching television
+T7	disease 780 787	obesity
+T8	disease 793 810	abdominal obesity
+T9	lifestyle_factor 1140 1172	leisure time sedentary behaviors
+T10	lifestyle_factor 1174 1193	watching television
+T11	lifestyle_factor 1416 1435	sedentary behaviors
+T12	lifestyle_factor 1558 1576	sedentary behavior
+T13	lifestyle_factor 1681 1699	sedentary behavior
+T14	disease 1722 1729	obesity
+T15	disease 1735 1752	abdominal obesity
+T17	lifestyle_factor 1900 1906	income
+T18	lifestyle_factor 2035 2041	income
+T20	lifestyle_factor 2144 2150	income
+T22	lifestyle_factor 2254 2260	income
+T25	disease 2851 2858	obesity
+T26	disease 2863 2880	abdominal obesity
+T27	lifestyle_factor 3241 3259	sedentary behavior
+T28	disease 3471 3488	abdominal obesity
+T29	lifestyle_factor 3373 3388	television time
+R1	positive_statistical_association Arg1:T29 Arg2:T28
+T32	disease 2398 2415	abdominal obesity
+T33	lifestyle_factor 2300 2315	television time
+R3	positive_statistical_association Arg1:T33 Arg2:T32
+T34	lifestyle_factor 2504 2519	television time
+T36	disease 2669 2686	abdominal obesity
+R5	positive_statistical_association Arg1:T34 Arg2:T36
+T37	lifestyle_factor 2447 2462	television time
+T38	lifestyle_factor 3059 3074	television time
+T39	lifestyle_factor 2718 2733	television time
+T23	lifestyle_factor 1195 1209	using computer
+T24	lifestyle_factor 1215 1222	reading
+T30	lifestyle_factor 550 563	computer time
+T31	lifestyle_factor 568 575	reading
+T40	lifestyle_factor 2050 2064	Computer hours
+T41	lifestyle_factor 2756 2764	computer
+T42	lifestyle_factor 2766 2773	reading
+T43	lifestyle_factor 2790 2804	sedentary time
+T44	lifestyle_factor 2989 3002	computer time
+T45	lifestyle_factor 3158 3171	computer time
+T46	lifestyle_factor 3527 3535	Computer
+T47	lifestyle_factor 3537 3544	reading
+T48	lifestyle_factor 3560 3574	sedentary time
+T50	lifestyle_factor 2121 2138	educational level
+T51	lifestyle_factor 2231 2248	educational level
+T19	lifestyle_factor 1876 1894	educational levels
+T52	lifestyle_factor 1281 1295	sedentary time
+T53	lifestyle_factor 1450 1464	sedentary time
+T54	lifestyle_factor 1780 1794	sedentary time
+T21	lifestyle_factor 2159 2166	Reading
+T56	lifestyle_factor 3202 3209	reading
+T57	lifestyle_factor 3022 3029	reading
+R2	no_statistical_association Arg1:T41 Arg2:T25
+R4	no_statistical_association Arg1:T42 Arg2:T25
+R6	no_statistical_association Arg1:T43 Arg2:T25
+R7	no_statistical_association Arg1:T43 Arg2:T26
+R8	no_statistical_association Arg1:T42 Arg2:T26
+R9	no_statistical_association Arg1:T41 Arg2:T26
+T49	lifestyle_factor 1933 1949	Television hours
+T55	Out-of-scope 3606 3623	weight indicators
+T58	lifestyle_factor 1300 1315	video game time
+T16	lifestyle_factor 1238 1252	sedentary time
+T35	lifestyle_factor 596 610	sedentary time
+R10	no_statistical_association Arg1:T48 Arg2:T28
+R11	no_statistical_association Arg1:T47 Arg2:T28
+R12	no_statistical_association Arg1:T46 Arg2:T28

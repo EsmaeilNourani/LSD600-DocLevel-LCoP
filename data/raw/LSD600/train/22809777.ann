@@ -1,0 +1,54 @@
+T1	disease 62 68	stroke
+T2	lifestyle_factor 158 169	xenobiotics
+T3	disease 391 397	stroke
+T4	Out-of-scope 511 521	pesticides
+T5	disease 732 738	Stroke
+T6	disease 855 861	stroke
+T7	disease 889 895	stroke
+T8	Out-of-scope 936 944	chlorine
+T9	disease 1046 1052	stroke
+T10	Out-of-scope 1106 1116	pesticides
+T11	Out-of-scope 1291 1301	pesticides
+T12	Out-of-scope 1479 1489	pesticides
+T13	disease 1666 1672	stroke
+T14	Out-of-scope 42 52	pollutants
+T15	Out-of-scope 128 138	pollutants
+T16	lifestyle_factor 23 52	persistent organic pollutants
+T17	lifestyle_factor 109 138	persistent organic pollutants
+T18	lifestyle_factor 140 144	POPs
+T19	Out-of-scope 369 373	POPs
+T20	Out-of-scope 428 432	POPs
+T21	lifestyle_factor 1601 1605	POPs
+*	Equiv T18 T17
+T22	disease 258 281	cardiovascular diseases
+R1	positive_statistical_association Arg1:T17 Arg2:T22
+R2	positive_statistical_association Arg1:T2 Arg2:T22
+T23	Out-of-scope 447 471	polychlorinated biphenyl
+T24	Out-of-scope 473 476	PCB
+T25	Out-of-scope 525 550	brominated diphenyl ether
+T26	Out-of-scope 552 555	BDE
+*	Equiv T26 T25
+T27	Out-of-scope 564 570	dioxin
+T28	Out-of-scope 491 521	organochlorine (OC) pesticides
+T29	lifestyle_factor 915 919	PCBs
+T30	lifestyle_factor 1094 1098	PCBs
+T31	lifestyle_factor 1222 1226	PCBs
+T32	lifestyle_factor 1448 1452	PCBs
+T34	lifestyle_factor 983 1009	octachlorodibenzo-p-dioxin
+R3	positive_statistical_association Arg1:T29 Arg2:T9
+R4	positive_statistical_association Arg1:T34 Arg2:T9
+T35	lifestyle_factor 1103 1116	OC pesticides
+T36	lifestyle_factor 1288 1301	OC pesticides
+T37	lifestyle_factor 1476 1489	OC pesticides
+R5	statistical_association Arg1:T21 Arg2:T13
+T33	Out-of-scope 447 487	polychlorinated biphenyl (PCB) congeners
+T38	Out-of-scope 1303 1319	P for trend=0.11
+R7	positive_statistical_association Arg1:T16 Arg2:T1
+R8	positive_statistical_association Arg1:T32 Arg2:T9
+R9	positive_statistical_association Arg1:T37 Arg2:T9
+R6	positive_statistical_association Arg1:T36 Arg2:T9
+#1	AnnotatorNotes R6	highest quartile is significant
+T39	lifestyle_factor 962 977	trans-nonachlor
+T40	lifestyle_factor 952 960	p,p'-DDE
+R10	positive_statistical_association Arg1:T40 Arg2:T9
+R11	positive_statistical_association Arg1:T39 Arg2:T9

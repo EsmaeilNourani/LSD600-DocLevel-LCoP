@@ -1,0 +1,24 @@
+T1	disease 18 24	asthma
+T2	disease 103 109	asthma
+T3	lifestyle_factor 113 123	travelling
+T4	lifestyle_factor 181 191	travelling
+T5	disease 251 257	asthma
+T6	Out-of-scope 344 350	Asthma
+T7	lifestyle_factor 543 553	travelling
+T8	lifestyle_factor 692 707	passive smoking
+T9	lifestyle_factor 773 783	travelling
+T10	lifestyle_factor 920 930	travelling
+T11	disease 1054 1060	asthma
+T12	lifestyle_factor 1114 1124	travelling
+T13	disease 1172 1178	asthma
+T14	lifestyle_factor 1216 1226	travelling
+T15	disease 1285 1291	asthma
+T16	lifestyle_factor 722 730	siblings
+T18	Out-of-scope 335 340	Study
+R1	negative_statistical_association Arg1:T12 Arg2:T13
+R2	prevents Arg1:T14 Arg2:T15
+T21	Out-of-scope 700 707	smoking
+T22	Out-of-scope 841 847	wheeze
+T23	Out-of-scope 969 975	wheeze
+T24	Out-of-scope 42 52	travellers
+R3	negative_statistical_association Arg1:T10 Arg2:T11

@@ -1,0 +1,31 @@
+T1	lifestyle_factor 4 17	pool chlorine
+T2	disease 33 39	asthma
+T5	lifestyle_factor 197 205	chlorine
+T6	lifestyle_factor 272 280	chlorine
+T7	disease 540 546	asthma
+T8	Out-of-scope 685 691	asthma
+T9	Out-of-scope 737 743	Asthma
+T10	disease 1019 1025	asthma
+T11	disease 1262 1268	asthma
+T12	disease 1482 1488	asthma
+T13	disease 1588 1594	asthma
+T14	Out-of-scope 1615 1623	Swimming
+T15	disease 1664 1670	asthma
+T16	lifestyle_factor 1496 1512	parental smoking
+T18	lifestyle_factor 1615 1628	Swimming pool
+R1	no_statistical_association Arg1:T16 Arg2:T13
+T3	lifestyle_factor 53 77	Swimming pool sanitation
+T20	lifestyle_factor 447 473	chlorinated swimming pools
+T19	lifestyle_factor 1395 1411	chlorinated pool
+R2	positive_statistical_association Arg1:T18 Arg2:T15
+R3	positive_statistical_association Arg1:T19 Arg2:T12
+T21	lifestyle_factor 1140 1148	swimming
+T22	Out-of-scope 459 467	swimming
+T23	lifestyle_factor 898 906	swimming
+T24	lifestyle_factor 1046 1054	swimming
+T25	lifestyle_factor 1532 1540	swimming
+R4	positive_statistical_association Arg1:T21 Arg2:T11
+T26	Out-of-scope 1171 1179	wheezing
+T27	Out-of-scope 1443 1451	wheezing
+R5	no_statistical_association Arg1:T25 Arg2:T13
+T28	disease 685 691	asthma

@@ -1,0 +1,34 @@
+T2	disease 26 41	Type 2 Diabetes
+T4	disease 187 202	type 2 diabetes
+T5	lifestyle_factor 241 253	binge eating
+T6	disease 308 315	obesity
+T7	disease 546 561	eating disorder
+T8	lifestyle_factor 591 603	binge eating
+T9	lifestyle_factor 832 844	binge-eating
+T10	disease 955 963	diabetes
+T11	lifestyle_factor 1134 1146	binge-eating
+T12	lifestyle_factor 1224 1237	psychotherapy
+T14	disease 1415 1422	obesity
+T15	disease 204 208	T2DM
+*	Equiv T15 T4
+T16	disease 258 262	T2DM
+T17	disease 380 384	T2DM
+T18	disease 302 306	T2DM
+T19	disease 522 526	T2DM
+T20	disease 157 160	BED
+T21	disease 297 300	BED
+T22	disease 359 362	BED
+T23	disease 775 778	BED
+T24	disease 605 608	BED
+T25	disease 1000 1003	BED
+T26	disease 1427 1431	T2DM
+T27	disease 1581 1585	T2DM
+T28	disease 1197 1200	BED
+T29	disease 1291 1294	BED
+T30	disease 134 155	binge-eating disorder
+T31	disease 0 21	Binge-Eating Disorder
+R1	positive_statistical_association Arg1:T8 Arg2:T19
+R2	treats Arg1:T12 Arg2:T28
+T32	lifestyle_factor 1249 1277	cognitive behavioral therapy
+R3	treats Arg1:T32 Arg2:T28
+*	Equiv T30 T20

@@ -1,0 +1,34 @@
+T1	lifestyle_factor 24 37	air pollution
+T2	disease 41 47	stroke
+T3	lifestyle_factor 71 84	air pollution
+T4	lifestyle_factor 197 210	air pollution
+T5	disease 214 220	stroke
+T6	disease 309 315	stroke
+T7	lifestyle_factor 338 351	air pollution
+T8	lifestyle_factor 353 371	particulate matter
+T9	lifestyle_factor 405 419	sulfur dioxide
+T10	lifestyle_factor 425 441	nitrogen dioxide
+T11	lifestyle_factor 757 770	air pollution
+T12	disease 782 788	stroke
+T13	lifestyle_factor 809 822	Air pollution
+T14	disease 849 855	stroke
+T15	lifestyle_factor 982 1000	particulate matter
+T16	lifestyle_factor 1034 1048	sulfur dioxide
+T17	lifestyle_factor 1054 1070	nitrogen dioxide
+T18	disease 1234 1240	stroke
+T19	lifestyle_factor 1351 1364	air pollution
+T20	disease 1377 1383	stroke
+T21	lifestyle_factor 1487 1507	developing countries
+T22	lifestyle_factor 1539 1552	air pollution
+T23	disease 1556 1562	stroke
+T24	lifestyle_factor 1635 1648	air pollution
+T25	disease 1652 1658	stroke
+T26	lifestyle_factor 1697 1717	developing countries
+R1	statistical_association Arg1:T13 Arg2:T14
+R2	statistical_association Arg1:T19 Arg2:T20
+R3	statistical_association Arg1:T22 Arg2:T23
+R4	statistical_association Arg1:T24 Arg2:T25
+R5	Out-of-scope Arg1:T26 Arg2:T25
+R6	positive_statistical_association Arg1:T15 Arg2:T18
+T27	Out-of-scope 1163 1172	0.54-1.22
+T28	Out-of-scope 1211 1220	0.88-2.06

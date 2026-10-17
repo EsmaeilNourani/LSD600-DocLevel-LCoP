@@ -1,0 +1,18 @@
+T1	lifestyle_factor 11 31	intrauterine devices
+T4	lifestyle_factor 409 413	IUDs
+T5	lifestyle_factor 254 257	IUD
+T6	lifestyle_factor 472 476	IUDs
+T7	lifestyle_factor 297 300	IUD
+T8	lifestyle_factor 546 549	IUD
+T9	lifestyle_factor 614 617	IUD
+T10	lifestyle_factor 985 988	IUD
+T11	lifestyle_factor 1071 1074	IUD
+T12	lifestyle_factor 171 184	contraception
+T2	lifestyle_factor 95 115	Intrauterine devices
+T3	lifestyle_factor 117 121	IUDs
+*	Equiv T2 T3
+T13	disease 186 205	Uterine perforation
+T14	disease 961 980	Uterine perforation
+R1	causes Arg1:T13 Arg2:T5
+R2	causes Arg1:T13 Arg2:T7
+R3	causes Arg1:T14 Arg2:T11

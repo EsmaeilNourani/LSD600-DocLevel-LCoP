@@ -1,0 +1,48 @@
+T1	disease 17 25	epilepsy
+T3	disease 241 253	heart attack
+T4	disease 255 261	stroke
+T5	disease 267 274	cancers
+T7	disease 343 351	epilepsy
+T9	lifestyle_factor 406 414	nicotine
+T10	disease 439 447	epilepsy
+T11	lifestyle_factor 563 576	tobacco smoke
+T12	lifestyle_factor 581 589	nicotine
+T13	disease 649 657	epilepsy
+T16	disease 842 850	epilepsy
+T17	lifestyle_factor 983 996	tobacco smoke
+T18	lifestyle_factor 1048 1056	nicotine
+T20	lifestyle_factor 42 57	Tobacco smoking
+T21	disease 117 141	noncommunicable diseases
+R1	positive_statistical_association Arg1:T20 Arg2:T21
+T22	lifestyle_factor 204 219	tobacco smoking
+R2	statistical_association Arg1:T22 Arg2:T3
+R3	statistical_association Arg1:T22 Arg2:T4
+R4	statistical_association Arg1:T22 Arg2:T5
+R5	Out-of-scope Arg1:T11 Arg2:T13
+R6	Out-of-scope Arg1:T12 Arg2:T13
+T23	lifestyle_factor 924 946	chronic active smokers
+T24	lifestyle_factor 952 978	babies whose mothers smoke
+T25	lifestyle_factor 898 922	acute secondhand smokers
+T26	disease 870 877	seizure
+R7	positive_statistical_association Arg1:T25 Arg2:T26
+R8	positive_statistical_association Arg1:T23 Arg2:T26
+R9	positive_statistical_association Arg1:T24 Arg2:T26
+T27	disease 1014 1022	seizures
+R10	prevents Arg1:T17 Arg2:T27
+T28	disease 427 435	seizures
+T29	disease 331 339	seizures
+T30	disease 637 645	seizures
+T31	disease 666 673	seizure
+R11	Out-of-scope Arg1:T11 Arg2:T30
+R12	Out-of-scope Arg1:T12 Arg2:T30
+T32	disease 31 39	seizures
+T33	lifestyle_factor 0 15	Tobacco smoking
+T34	lifestyle_factor 792 799	smoking
+T35	lifestyle_factor 1097 1112	tobacco smoking
+T37	lifestyle_factor 311 326	tobacco smoking
+T38	lifestyle_factor 386 401	tobacco smoking
+T42	lifestyle_factor 757 774	cigarette smokers
+T43	lifestyle_factor 695 710	tobacco smokers
+T2	lifestyle_factor 722 744	smoke during pregnancy
+T6	Out-of-scope 538 554	vast differences
+T8	Out-of-scope 858 865	unclear

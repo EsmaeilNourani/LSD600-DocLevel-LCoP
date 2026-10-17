@@ -1,0 +1,23 @@
+T2	disease 95 103	COVID-19
+T3	disease 110 118	COVID-19
+T4	lifestyle_factor 211 217	sports
+T5	disease 424 432	COVID-19
+T6	lifestyle_factor 531 550	vitamin supplements
+T7	disease 660 668	COVID-19
+T8	lifestyle_factor 724 733	vitamin D
+T9	disease 816 824	COVID-19
+T11	lifestyle_factor 1326 1351	vitamin D supplementation
+T12	disease 1499 1507	COVID-19
+T15	lifestyle_factor 1753 1778	vitamin D supplementation
+T16	disease 1838 1846	COVID-19
+R2	Out-of-scope Arg1:T8 Arg2:T9
+T17	disease 1368 1402	acute respiratory tract infections
+R3	negative_statistical_association Arg1:T11 Arg2:T17
+R4	negative_statistical_association Arg1:T15 Arg2:T16
+T18	lifestyle_factor 16 41	Vitamin D Supplementation
+T19	lifestyle_factor 1568 1593	Vitamin D supplementation
+T20	lifestyle_factor 1622 1630	athletes
+T1	lifestyle_factor 1728 1736	athletes
+T13	lifestyle_factor 46 54	Athletes
+T10	lifestyle_factor 1635 1641	sports
+R1	prevents Arg1:T3 Arg2:T4

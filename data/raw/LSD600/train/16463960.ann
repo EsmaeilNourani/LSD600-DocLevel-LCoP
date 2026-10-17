@@ -1,0 +1,38 @@
+T2	lifestyle_factor 212 226	air pollutants
+T3	lifestyle_factor 229 251	electromagnetic fields
+T5	disease 919 927	melanoma
+T6	disease 997 1008	skin cancer
+T8	lifestyle_factor 1110 1130	socioeconomic status
+T9	disease 1206 1214	melanoma
+T10	lifestyle_factor 1247 1267	socioeconomic status
+T11	disease 1320 1335	prostate cancer
+T12	lifestyle_factor 1412 1435	disrupted sleep pattern
+T13	disease 1651 1667	Kaposi's sarcoma
+T15	disease 1717 1721	AIDS
+T17	lifestyle_factor 1060 1078	ionizing radiation
+T18	lifestyle_factor 1080 1105	recreational sun exposure
+R1	positive_statistical_association Arg1:T17 Arg2:T5
+R2	positive_statistical_association Arg1:T18 Arg2:T5
+R3	positive_statistical_association Arg1:T8 Arg2:T5
+R4	positive_statistical_association Arg1:T17 Arg2:T6
+R5	positive_statistical_association Arg1:T18 Arg2:T6
+R6	positive_statistical_association Arg1:T8 Arg2:T6
+T21	disease 520 526	cancer
+T19	disease 0 6	Cancer
+T26	lifestyle_factor 141 166	cosmic ionizing radiation
+T27	lifestyle_factor 179 183	fuel
+T28	lifestyle_factor 196 204	exhausts
+T29	disease 439 445	cancer
+T30	disease 326 332	cancer
+T41	Out-of-scope 1548 1563	prostate cancer
+T43	disease 1693 1715	non-Hodgkin's lymphoma
+T44	Out-of-scope 1849 1855	tumors
+T45	Out-of-scope 1030 1036	tumors
+R16	Out-of-scope Arg1:T17 Arg2:T45
+R17	Out-of-scope Arg1:T18 Arg2:T45
+R18	Out-of-scope Arg1:T8 Arg2:T45
+T1	lifestyle_factor 168 177	chemicals
+T4	lifestyle_factor 282 306	disrupted sleep patterns
+T7	lifestyle_factor 1464 1473	melatonin
+R20	Out-of-scope Arg1:T7 Arg2:T41
+R19	Out-of-scope Arg1:T12 Arg2:T11

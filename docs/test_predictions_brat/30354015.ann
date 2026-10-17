@@ -1,0 +1,34 @@
+T1	lifestyle_factor 9 15	Sports
+T2	lifestyle_factor 24 54	Leisure-Time Physical Activity
+T5	disease 114 143	Juvenile Idiopathic Arthritis
+T6	disease 180 209	Juvenile idiopathic arthritis
+T7	disease 211 214	JIA
+T8	disease 364 367	JIA
+T9	lifestyle_factor 400 406	sports
+T10	lifestyle_factor 408 438	leisure-time physical activity
+T12	lifestyle_factor 807 813	sports
+T13	lifestyle_factor 815 845	leisure-time physical activity
+T15	disease 1148 1151	JIA
+T16	disease 1251 1254	JIA
+T17	lifestyle_factor 1534 1540	sports
+T20	lifestyle_factor 1948 1978	leisure-time physical activity
+T22	disease 2206 2209	JIA
+T23	Out-of-scope 37 54	Physical Activity
+T24	lifestyle_factor 276 293	physical activity
+T25	Out-of-scope 421 438	physical activity
+T27	lifestyle_factor 521 538	physical activity
+T28	Out-of-scope 828 845	physical activity
+T30	lifestyle_factor 1030 1047	physical activity
+T31	lifestyle_factor 1303 1320	physical activity
+T32	lifestyle_factor 1646 1683	physical activity during leisure-time
+T34	Out-of-scope 1961 1978	physical activity
+T36	lifestyle_factor 2331 2348	physical activity
+*	Equiv T6 T7
+T42	lifestyle_factor 60 96	School-Educational Physical Activity
+T43	lifestyle_factor 444 480	school-educational physical activity
+T44	lifestyle_factor 851 887	school-educational physical activity
+T45	lifestyle_factor 1726 1762	school-educational physical activity
+T46	lifestyle_factor 2066 2102	school-educational physical activity
+T3	lifestyle_factor 1933 1943	club sport
+T4	lifestyle_factor 1389 1410	club sport activities
+R1	negative_statistical_association Arg1:T16 Arg2:T31

@@ -1,0 +1,7 @@
+T3	lifestyle_factor 1067 1080	contraceptive
+T2	lifestyle_factor 271 303	combined hormonal contraceptives
+T4	lifestyle_factor 1117 1121	CHCs
+T5	lifestyle_factor 1275 1278	CHC
+T1	lifestyle_factor 30 52	hormonal contraception
+T6	lifestyle_factor 305 309	CHCs
+*	Equiv T2 T6

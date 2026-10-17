@@ -1,0 +1,42 @@
+T4	lifestyle_factor 940 950	occupation
+T6	disease 1159 1178	occupational asthma
+T8	disease 1469 1497	hypersensitivity pneumonitis
+T9	disease 1547 1555	rhinitis
+T10	lifestyle_factor 1557 1565	morphine
+T11	disease 1596 1607	sarcoidosis
+T13	disease 577 596	Respiratory Disease
+T14	disease 235 268	work-related respiratory diseases
+T15	disease 270 274	WRRD
+T16	disease 1386 1390	WRRD
+T17	disease 909 913	WRRD
+T18	disease 330 334	WRRD
+T19	disease 982 986	WRRD
+T22	disease 1022 1026	WRRD
+T25	disease 792 811	respiratory disease
+T26	disease 480 500	respiratory diseases
+T27	disease 402 421	respiratory disease
+T20	lifestyle_factor 1234 1243	ninhydrin
+R2	causes Arg1:T20 Arg2:T6
+T21	disease 1291 1313	interstitial pneumonia
+T23	lifestyle_factor 1330 1334	wood
+T24	lifestyle_factor 1339 1349	brass dust
+R3	causes Arg1:T23 Arg2:T21
+R4	causes Arg1:T24 Arg2:T21
+T28	lifestyle_factor 1435 1447	green coffee
+T29	lifestyle_factor 1452 1466	nitrocellulose
+R5	causes Arg1:T28 Arg2:T16
+R6	causes Arg1:T29 Arg2:T16
+T30	lifestyle_factor 1499 1527	diphenylmethane diisocyanate
+T31	lifestyle_factor 1532 1544	salami mould
+T32	lifestyle_factor 1570 1590	Amaranthus quitensis
+T33	lifestyle_factor 1609 1615	prions
+T34	lifestyle_factor 1620 1626	horses
+T35	disease 1097 1101	WRRD
+T36	disease 47 80	work-related respiratory diseases
+*	Equiv T15 T14
+R8	causes Arg1:T30 Arg2:T8
+R11	causes Arg1:T31 Arg2:T8
+R1	causes Arg1:T10 Arg2:T9
+R7	causes Arg1:T32 Arg2:T9
+R9	causes Arg1:T33 Arg2:T11
+R10	causes Arg1:T34 Arg2:T11

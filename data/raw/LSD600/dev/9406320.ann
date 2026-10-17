@@ -1,0 +1,11 @@
+T2	lifestyle_factor 364 369	sleep
+T4	lifestyle_factor 478 491	sleep latency
+T5	lifestyle_factor 634 647	sleep latency
+T6	lifestyle_factor 589 594	sleep
+T7	disease 32 55	obstructive sleep apnea
+T8	disease 267 290	obstructive sleep apnea
+T9	disease 689 712	Obstructive sleep apnea
+T1	disease 292 295	OSA
+T3	disease 905 908	OSA
+T10	disease 319 322	OSA
+*	Equiv T8 T1

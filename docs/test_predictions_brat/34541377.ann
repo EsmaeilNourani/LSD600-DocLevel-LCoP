@@ -1,0 +1,25 @@
+T1	Out-of-scope 50 56	rabies
+T2	disease 93 99	rabies
+T4	disease 445 451	rabies
+T9	Out-of-scope 770 776	rabies
+T10	disease 854 860	rabies
+T11	Out-of-scope 1024 1030	rabies
+T12	Out-of-scope 1138 1144	rabies
+T13	Out-of-scope 1226 1232	rabies
+T16	disease 1741 1747	rabies
+T17	disease 1775 1781	rabies
+T18	lifestyle_factor 125 130	rural
+T7	lifestyle_factor 677 682	rural
+T19	lifestyle_factor 1318 1328	rural area
+T20	lifestyle_factor 1468 1478	rural area
+T15	lifestyle_factor 115 120	urban
+T21	disease 246 262	zoonotic disease
+T22	disease 189 205	zoonotic disease
+T23	lifestyle_factor 0 13	Dog ownership
+T24	lifestyle_factor 1551 1574	dog ownership practices
+T25	lifestyle_factor 1345 1359	household size
+T26	Out-of-scope 37 46	knowledge
+T3	lifestyle_factor 469 474	rural
+T5	lifestyle_factor 459 464	urban
+T6	lifestyle_factor 579 584	urban
+T8	lifestyle_factor 569 574	rural

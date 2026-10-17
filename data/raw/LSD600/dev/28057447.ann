@@ -1,0 +1,35 @@
+T1	Out-of-scope 168 183	antidepressants
+T2	disease 290 307	anxiety disorders
+T5	disease 891 908	anxiety disorders
+T6	Out-of-scope 1014 1029	antidepressants
+T7	disease 1172 1189	anxiety disorders
+T8	lifestyle_factor 1352 1365	psychotherapy
+T11	disease 1819 1836	anxiety disorders
+T12	disease 1891 1908	anxiety disorders
+T15	disease 2386 2403	anxiety disorders
+T17	disease 2613 2630	anxiety disorders
+T18	lifestyle_factor 2686 2699	psychotherapy
+T19	disease 1202 1222	depressive disorders
+T20	disease 2427 2447	depressive disorders
+T21	disease 1921 1941	depressive disorders
+T22	disease 1794 1814	depressive disorders
+T23	disease 934 954	depressive disorders
+T24	disease 869 889	depressive disorders
+T25	Out-of-scope 0 14	Antidepressant
+T26	disease 275 285	depressive
+T32	lifestyle_factor 2044 2064	parental ambivalence
+T33	lifestyle_factor 2066 2092	family-related dysfunction
+T34	Out-of-scope 0 14	Antidepressant
+T36	Out-of-scope 1437 1451	Antidepressant
+T37	Out-of-scope 1540 1554	antidepressant
+T38	Out-of-scope 2282 2296	antidepressant
+T40	Out-of-scope 392 407	antidepressants
+T41	Out-of-scope 781 796	antidepressants
+T43	Out-of-scope 1397 1412	antidepressants
+T44	Out-of-scope 1764 1779	antidepressants
+T45	Out-of-scope 2002 2017	antidepressants
+T46	Out-of-scope 2355 2370	antidepressants
+T47	Out-of-scope 2485 2500	antidepressants
+T3	Out-of-scope 1129 1143	antidepressant
+R1	Out-of-scope Arg1:T17 Arg2:T18
+#1	AnnotatorNotes R1	perception

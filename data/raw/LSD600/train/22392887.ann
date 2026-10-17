@@ -1,0 +1,28 @@
+T1	lifestyle_factor 121 130	radiation
+T3	disease 723 730	cancers
+T4	lifestyle_factor 794 810	drinking alcohol
+T5	lifestyle_factor 815 830	smoking tobacco
+T6	lifestyle_factor 889 898	radiation
+T7	disease 926 933	cancers
+T8	disease 1082 1089	cancers
+T10	disease 1286 1293	cancers
+T11	disease 1356 1363	cancers
+T12	disease 1404 1411	cancers
+T13	disease 1736 1743	cancers
+T14	lifestyle_factor 957 964	smoking
+T15	disease 22 28	cancer
+T16	disease 697 706	leukaemia
+T17	disease 1514 1520	cancer
+T18	disease 211 217	cancer
+T19	disease 744 750	cancer
+T20	disease 970 979	leukaemia
+T21	disease 1100 1109	leukaemia
+T22	disease 1374 1383	leukaemia
+T23	lifestyle_factor 1270 1277	alcohol
+R2	statistical_association Arg1:T23 Arg2:T10
+T24	lifestyle_factor 1388 1395	alcohol
+R3	statistical_association Arg1:T24 Arg2:T12
+T2	lifestyle_factor 1206 1225	alcohol consumption
+T25	lifestyle_factor 945 953	drinking
+T26	lifestyle_factor 1485 1502	lifestyle factors
+R4	statistical_association Arg1:T26 Arg2:T17

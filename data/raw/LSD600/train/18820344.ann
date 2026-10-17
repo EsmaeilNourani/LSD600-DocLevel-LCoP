@@ -1,0 +1,23 @@
+T1	lifestyle_factor 24 43	exercise counseling
+T2	lifestyle_factor 148 167	exercise counseling
+T4	lifestyle_factor 271 288	exercise behavior
+T6	lifestyle_factor 337 358	environmental factors
+T8	lifestyle_factor 672 695	residential environment
+T9	lifestyle_factor 709 726	physical activity
+T10	lifestyle_factor 752 775	face-to-face counseling
+T11	lifestyle_factor 780 799	exercising outdoors
+T12	lifestyle_factor 838 864	exercise alone and at home
+T13	lifestyle_factor 880 894	social support
+T14	lifestyle_factor 896 918	Low-intensity exercise
+T15	lifestyle_factor 1007 1015	exercise
+T16	lifestyle_factor 1069 1083	social support
+T18	lifestyle_factor 1159 1165	income
+T19	lifestyle_factor 1178 1192	social support
+T20	lifestyle_factor 1229 1245	social cognitive
+T21	lifestyle_factor 1251 1272	environmental factors
+T22	lifestyle_factor 1289 1309	exercise preferences
+T5	lifestyle_factor 315 331	social cognitive
+T26	lifestyle_factor 958 967	sedentary
+T27	disease 74 87	breast cancer
+T28	disease 238 251	breast cancer
+T29	disease 416 429	breast cancer

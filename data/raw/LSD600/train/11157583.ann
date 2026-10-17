@@ -1,0 +1,32 @@
+T1	disease 146 178	Obstructive sleep apnea syndrome
+T2	disease 180 184	OSAS
+T3	lifestyle_factor 455 485	rapid eye movement (REM) sleep
+T5	disease 515 519	OSAS
+T6	disease 869 873	OSAS
+T7	disease 977 981	OSAS
+T8	lifestyle_factor 1062 1073	wakefulness
+T9	disease 1243 1247	OSAS
+T12	lifestyle_factor 1396 1407	wakefulness
+T13	disease 1601 1605	OSAS
+T14	disease 1660 1667	obesity
+*	Equiv T2 T1
+T17	lifestyle_factor 230 235	sleep
+T16	lifestyle_factor 1382 1391	REM sleep
+T18	lifestyle_factor 1085 1094	REM sleep
+T4	lifestyle_factor 490 501	wakefulness
+T21	disease 695 723	excessive daytime sleepiness
+T22	disease 725 728	EDS
+*	Equiv T22 T21
+T23	disease 1627 1630	EDS
+T25	Out-of-scope 1321 1325	CPAP
+T26	Out-of-scope 1518 1522	CPAP
+T29	disease 1409 1427	Daytime sleepiness
+T30	disease 0 18	Daytime sleepiness
+T19	disease 216 222	apneas
+T31	lifestyle_factor 305 325	normal sleep pattern
+T10	lifestyle_factor 1257 1270	sleep latency
+T11	lifestyle_factor 1301 1314	sleep latency
+R1	prevents Arg1:T1 Arg2:T31
+T15	Out-of-scope 952 956	CPAP
+T20	Out-of-scope 638 642	CPAP
+T24	Out-of-scope 1674 1678	CPAP

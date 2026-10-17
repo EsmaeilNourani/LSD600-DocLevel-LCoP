@@ -1,0 +1,31 @@
+T1	lifestyle_factor 73 87	sleep duration
+T2	disease 92 99	obesity
+T3	disease 223 230	obesity
+T4	disease 482 489	obesity
+T5	lifestyle_factor 508 522	sleep duration
+T7	lifestyle_factor 865 879	sleep duration
+T8	disease 884 891	obesity
+T9	disease 1057 1064	obesity
+T10	lifestyle_factor 1097 1111	sleep duration
+T11	disease 1152 1159	obesity
+T13	lifestyle_factor 1392 1406	sleep duration
+T14	disease 1411 1418	obesity
+T15	lifestyle_factor 1535 1549	sleep duration
+T16	disease 1554 1561	obesity
+R1	negative_statistical_association Arg1:T7 Arg2:T8
+R2	negative_statistical_association Arg1:T10 Arg2:T11
+R3	statistical_association Arg1:T13 Arg2:T14
+T17	lifestyle_factor 1001 1006	sleep
+T18	lifestyle_factor 217 222	sleep
+T20	Out-of-scope 659 670	anxiolytics
+T21	Out-of-scope 671 680	sedatives
+T22	Out-of-scope 681 690	hypnotics
+T23	Out-of-scope 709 719	sleep aids
+T24	Out-of-scope 721 736	anticonvulsants
+T25	Out-of-scope 738 752	thyroid agents
+T26	Out-of-scope 758 774	metabolic agents
+R6	negative_statistical_association Arg1:T17 Arg2:T9
+T27	Out-of-scope 1281 1295	thyroid agents
+T28	Out-of-scope 1297 1313	metabolic agents
+T29	Out-of-scope 692 707	antidepressants
+T30	Out-of-scope 1264 1279	antidepressants

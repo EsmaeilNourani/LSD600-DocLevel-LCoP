@@ -1,0 +1,46 @@
+T1	lifestyle_factor 42 55	air pollution
+T2	disease 60 74	sleep disorder
+T3	lifestyle_factor 204 217	air pollution
+T4	disease 221 236	sleep disorders
+T5	lifestyle_factor 770 784	sulfur dioxide
+T6	lifestyle_factor 792 808	nitrogen dioxide
+T7	lifestyle_factor 832 847	carbon monoxide
+T8	disease 997 1011	sleep disorder
+T9	lifestyle_factor 1046 1060	air pollutants
+T12	lifestyle_factor 1548 1562	air pollutants
+T13	lifestyle_factor 1691 1705	air pollutants
+T14	disease 1728 1742	sleep disorder
+T15	lifestyle_factor 1806 1820	air pollutants
+R1	statistical_association Arg1:T9 Arg2:T8
+T16	lifestyle_factor 1306 1309	PM1
+T17	lifestyle_factor 1377 1380	PM1
+T18	lifestyle_factor 1385 1390	PM2.5
+R5	positive_statistical_association Arg1:T13 Arg2:T14
+T19	lifestyle_factor 786 789	SO2
+T20	lifestyle_factor 810 813	NO2
+*	Equiv T19 T5
+*	Equiv T6 T20
+T21	lifestyle_factor 849 851	CO
+*	Equiv T7 T21
+T22	lifestyle_factor 497 502	sleep
+T23	lifestyle_factor 1573 1578	sleep
+T24	lifestyle_factor 685 688	PM1
+T25	lifestyle_factor 1090 1093	PM1
+T26	lifestyle_factor 1476 1479	PM1
+T27	lifestyle_factor 1503 1508	PM2.5
+T28	lifestyle_factor 600 610	pollutants
+T29	lifestyle_factor 705 710	PM2.5
+T30	lifestyle_factor 816 821	ozone
+T31	lifestyle_factor 823 825	O3
+*	Equiv T31 T30
+T32	lifestyle_factor 763 767	PM10
+R7	positive_statistical_association Arg1:T25 Arg2:T8
+T34	disease 1314 1347	Disorders of Excessive Somnolence
+R6	positive_statistical_association Arg1:T16 Arg2:T34
+T10	disease 1267 1280	sleep disorde
+R2	positive_statistical_association Arg1:T16 Arg2:T10
+T11	disease 1425 1439	sleep disorder
+R3	positive_statistical_association Arg1:T18 Arg2:T11
+R4	positive_statistical_association Arg1:T17 Arg2:T11
+R8	positive_statistical_association Arg1:T26 Arg2:T11
+R9	positive_statistical_association Arg1:T27 Arg2:T11

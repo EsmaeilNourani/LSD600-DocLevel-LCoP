@@ -1,0 +1,44 @@
+T1	lifestyle_factor 76 90	social classes
+T3	lifestyle_factor 797 803	income
+T4	lifestyle_factor 862 868	income
+T5	lifestyle_factor 921 932	rural areas
+T6	lifestyle_factor 1102 1110	caffeine
+T7	lifestyle_factor 1123 1137	calcium intake
+T9	disease 1284 1301	diabetes mellitus
+T10	disease 1345 1352	obesity
+T11	disease 1393 1405	hypertension
+T12	disease 1569 1576	obesity
+T13	disease 1578 1590	hypertension
+T14	disease 1592 1609	diabetes mellitus
+T15	lifestyle_factor 1620 1639	alcohol consumption
+T16	lifestyle_factor 1654 1665	rural areas
+T17	disease 1776 1793	diabetes mellitus
+T18	disease 1795 1802	obesity
+T19	disease 1838 1850	hypertension
+T20	lifestyle_factor 1886 1905	alcohol consumption
+T21	lifestyle_factor 1146 1183	physical activity during leisure time
+T22	lifestyle_factor 489 500	medications
+T23	lifestyle_factor 1008 1014	smoked
+T24	lifestyle_factor 1611 1618	smoking
+T25	lifestyle_factor 1874 1881	smoking
+T2	disease 1449 1478	autoimmune rheumatic diseases
+T26	disease 1804 1833	autoimmune rheumatic diseases
+T27	lifestyle_factor 1035 1042	alcohol
+T28	lifestyle_factor 227 234	poverty
+T29	Out-of-scope 902 906	poor
+T30	Out-of-scope 1246 1250	poor
+R1	Out-of-scope Arg1:T30 Arg2:T9
+R2	Out-of-scope Arg1:T30 Arg2:T11
+R3	Out-of-scope Arg1:T30 Arg2:T2
+T31	lifestyle_factor 1700 1707	poverty
+R4	statistical_association Arg1:T31 Arg2:T12
+R5	statistical_association Arg1:T31 Arg2:T13
+R6	statistical_association Arg1:T31 Arg2:T14
+T32	Out-of-scope 1722 1726	Poor
+R7	Out-of-scope Arg1:T32 Arg2:T17
+R8	Out-of-scope Arg1:T32 Arg2:T18
+R9	Out-of-scope Arg1:T32 Arg2:T26
+R10	Out-of-scope Arg1:T32 Arg2:T19
+T33	lifestyle_factor 686 693	Poverty
+#1	AnnotatorNotes T29	# TODO: check
+T8	lifestyle_factor 109 130	unhealthy life-styles

@@ -1,0 +1,39 @@
+T1	lifestyle_factor 19 24	fruit
+T2	lifestyle_factor 26 36	vegetables
+T3	disease 61 78	colorectal cancer
+T4	disease 243 260	colorectal cancer
+T5	lifestyle_factor 399 404	fruit
+T6	lifestyle_factor 406 416	vegetables
+T7	disease 432 449	colorectal cancer
+T8	disease 670 687	colorectal cancer
+T9	disease 790 807	colorectal cancer
+T10	lifestyle_factor 820 825	fruit
+T11	lifestyle_factor 827 837	vegetables
+T12	lifestyle_factor 1033 1038	fruit
+T13	lifestyle_factor 1040 1050	vegetables
+T14	disease 1116 1133	colorectal cancer
+T15	lifestyle_factor 1268 1273	fruit
+T16	lifestyle_factor 1331 1341	vegetables
+T17	disease 1407 1424	colorectal cancer
+T18	disease 1603 1620	colorectal cancer
+T19	lifestyle_factor 1794 1799	fruit
+T20	lifestyle_factor 1801 1811	vegetables
+T21	disease 1828 1845	colorectal cancer
+T22	disease 1944 1961	colorectal cancer
+T23	lifestyle_factor 1883 1895	legume fiber
+R1	negative_statistical_association Arg1:T23 Arg2:T22
+T24	lifestyle_factor 1554 1566	legume fiber
+R2	negative_statistical_association Arg1:T24 Arg2:T18
+T25	lifestyle_factor 219 230	plant foods
+T26	lifestyle_factor 843 848	fiber
+T27	lifestyle_factor 42 47	fiber
+T28	lifestyle_factor 422 427	fiber
+T29	lifestyle_factor 1377 1382	fiber
+T30	lifestyle_factor 1817 1822	fiber
+R4	no_statistical_association Arg1:T29 Arg2:T17
+R7	no_statistical_association Arg1:T12 Arg2:T14
+R8	no_statistical_association Arg1:T13 Arg2:T14
+T32	Out-of-scope 1321 1325	0.30
+R10	no_statistical_association Arg1:T15 Arg2:T14
+R11	no_statistical_association Arg1:T16 Arg2:T14
+T31	Out-of-scope 1258 1262	0.30

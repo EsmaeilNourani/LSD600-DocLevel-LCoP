@@ -1,0 +1,30 @@
+T1	lifestyle_factor 403 414	cloudy days
+T2	lifestyle_factor 696 706	occupation
+T3	disease 733 741	neoplasm
+T4	lifestyle_factor 884 894	sunny days
+T8	disease 1402 1410	neoplasm
+T9	disease 1434 1451	basal cell cancer
+T10	disease 1485 1503	Malignant melanoma
+T11	lifestyle_factor 1888 1898	occupation
+T12	disease 2111 2129	malignant melanoma
+T13	disease 2181 2201	basal cell neoplasms
+T14	disease 2288 2307	malignant neoplasms
+T15	lifestyle_factor 2448 2459	cloudy days
+T16	lifestyle_factor 2503 2513	sunny days
+T17	lifestyle_factor 2546 2556	sunny days
+T18	disease 2611 2629	malignant melanoma
+T19	disease 2683 2702	malignant neoplasms
+T20	disease 2903 2911	melanoma
+R1	positive_statistical_association Arg1:T17 Arg2:T18
+T21	lifestyle_factor 2828 2843	exposure to sun
+R2	causes Arg1:T21 Arg2:T20
+T29	disease 2022 2048	squamous cell malignancies
+T30	disease 1668 1694	planocellular malignancies
+T31	disease 1453 1456	BCC
+*	Equiv T9 T31
+T32	lifestyle_factor 1874 1883	workplace
+T33	lifestyle_factor 1267 1278	rural areas
+T5	lifestyle_factor 1916 1932	working outdoors
+T22	disease 233 267	head and/or neck skin malignancies
+T23	disease 559 588	head and/or neck malignancies
+T6	disease 54 85	Head and Neck Skin Malignancies

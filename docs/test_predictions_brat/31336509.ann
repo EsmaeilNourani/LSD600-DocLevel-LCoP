@@ -1,0 +1,36 @@
+T1	disease 36 52	Type II diabetes
+T2	disease 68 87	clinical depression
+T4	Out-of-scope 404 415	nutritional
+T5	lifestyle_factor 430 462	high intensity interval training
+T6	lifestyle_factor 464 468	HIIT
+T7	lifestyle_factor 481 511	solution-focused psychotherapy
+T8	disease 610 629	clinical depression
+T12	disease 1131 1149	Metabolic Syndrome
+T13	disease 1286 1301	Type 2 diabetes
+T14	disease 1313 1338	major depressive disorder
+T16	Out-of-scope 1512 1531	nutrition education
+T17	lifestyle_factor 1533 1565	high intensity interval training
+T18	lifestyle_factor 1632 1662	solution-focused psychotherapy
+T19	disease 2262 2281	clinical depression
+T20	Out-of-scope 1456 1459	fat
+T23	Out-of-scope 2271 2281	depression
+T24	lifestyle_factor 0 15	Ketogenic diets
+T26	lifestyle_factor 371 385	ketogenic diet
+T27	lifestyle_factor 1375 1389	ketogenic diet
+*	Equiv T5 T6
+T3	disease 601 605	T2DM
+T28	disease 199 203	T2DM
+T29	disease 307 311	T2DM
+T31	disease 1303 1307	T2DM
+T32	disease 2420 2424	T2DM
+T15	lifestyle_factor 1391 1393	KD
+*	Equiv T15 T27
+T25	disease 181 197	Type 2 diabetics
+*	Equiv T28 T25
+T9	disease 1340 1343	MDD
+T10	disease 2461 2488	chronic depressive disorder
+T11	Out-of-scope 2400 2407	reverse
+*	Equiv T14 T9
+T21	Out-of-scope 16 27	potentially
+*	Equiv T13 T31
+T22	disease 1811 1825	cardiovascular

@@ -1,0 +1,60 @@
+T2	disease 127 150	coronary artery disease
+T5	disease 366 379	heart disease
+T7	lifestyle_factor 551 556	fruit
+T8	disease 633 656	coronary artery disease
+T10	disease 703 718	Atherosclerosis
+T11	lifestyle_factor 908 913	fruit
+T13	lifestyle_factor 1347 1352	fruit
+T14	lifestyle_factor 1532 1537	fruit
+T17	lifestyle_factor 1866 1871	fruit
+T19	lifestyle_factor 319 336	whole-grain foods
+R1	negative_statistical_association Arg1:T19 Arg2:T5
+T20	disease 658 661	CAD
+*	Equiv T20 T8
+T21	disease 1291 1294	CAD
+T22	lifestyle_factor 1213 1224	whole-grain
+R2	negative_statistical_association Arg1:T22 Arg2:T21
+T23	lifestyle_factor 1850 1861	whole-grain
+T24	disease 1943 1946	CAD
+R3	negative_statistical_association Arg1:T23 Arg2:T24
+R4	negative_statistical_association Arg1:T17 Arg2:T24
+T25	disease 980 983	CAD
+T26	lifestyle_factor 16 27	whole-grain
+T27	lifestyle_factor 876 887	whole-grain
+T28	lifestyle_factor 29 42	refined-grain
+T29	lifestyle_factor 889 902	refined-grain
+T30	disease 1563 1566	CAD
+T31	lifestyle_factor 1357 1366	vegetable
+T32	lifestyle_factor 1542 1551	vegetable
+R5	negative_statistical_association Arg1:T32 Arg2:T30
+T33	lifestyle_factor 519 530	whole-grain
+T34	lifestyle_factor 532 545	refined-grain
+T36	disease 1065 1087	cardiovascular disease
+T6	lifestyle_factor 463 468	fruit
+T37	lifestyle_factor 473 482	vegetable
+T1	lifestyle_factor 48 53	fruit
+T38	lifestyle_factor 58 67	vegetable
+T35	lifestyle_factor 561 570	vegetable
+T39	lifestyle_factor 918 927	vegetable
+T40	lifestyle_factor 1876 1885	vegetable
+R6	negative_statistical_association Arg1:T40 Arg2:T24
+T41	lifestyle_factor 1714 1725	whole-grain
+T42	lifestyle_factor 1727 1740	refined-grain
+T16	lifestyle_factor 1745 1750	fruit
+T43	lifestyle_factor 1755 1764	vegetable
+R7	negative_statistical_association Arg1:T14 Arg2:T30
+T44	disease 667 682	ischemic stroke
+T9	disease 988 1003	ischemic stroke
+T12	disease 1970 1985	ischemic stroke
+T18	disease 155 170	ischemic stroke
+T3	disease 1665 1680	ischemic stroke
+R8	no_statistical_association Arg1:T41 Arg2:T3
+R9	no_statistical_association Arg1:T42 Arg2:T3
+R10	no_statistical_association Arg1:T16 Arg2:T3
+R11	no_statistical_association Arg1:T43 Arg2:T3
+R12	no_statistical_association Arg1:T23 Arg2:T12
+R13	no_statistical_association Arg1:T17 Arg2:T12
+R14	no_statistical_association Arg1:T40 Arg2:T12
+T4	lifestyle_factor 1046 1059	energy intake
+T15	disease 176 191	Atherosclerosis
+T45	Out-of-scope 1143 1147	food

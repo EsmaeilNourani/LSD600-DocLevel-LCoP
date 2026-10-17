@@ -1,0 +1,39 @@
+T2	lifestyle_factor 44 74	leisure-time physical activity
+T3	disease 79 86	obesity
+T4	disease 89 96	Obesity
+T6	disease 253 260	obesity
+T7	lifestyle_factor 349 370	sedentary occupations
+T9	lifestyle_factor 446 476	leisure-time physical activity
+T10	lifestyle_factor 478 482	LTPA
+T11	disease 489 496	obesity
+T13	lifestyle_factor 769 790	occupational activity
+T14	lifestyle_factor 830 834	LTPA
+T16	lifestyle_factor 991 995	LTPA
+T18	lifestyle_factor 1158 1168	work hours
+T19	disease 1172 1179	obesity
+T21	disease 1353 1360	obesity
+T23	disease 1533 1540	obesity
+T24	lifestyle_factor 1647 1657	work hours
+T25	disease 1693 1700	obesity
+T27	lifestyle_factor 208 218	work hours
+R1	Out-of-scope Arg1:T27 Arg2:T6
+R2	Out-of-scope Arg1:T7 Arg2:T6
+T29	lifestyle_factor 1472 1490	working long hours
+R3	positive_statistical_association Arg1:T29 Arg2:T23
+*	Equiv T10 T9
+T30	lifestyle_factor 290 307	physical activity
+R4	Out-of-scope Arg1:T30 Arg2:T6
+T31	lifestyle_factor 1670 1687	physical activity
+R5	positive_statistical_association Arg1:T24 Arg2:T25
+R6	statistical_association Arg1:T31 Arg2:T25
+R7	statistical_association Arg1:T18 Arg2:T19
+T32	lifestyle_factor 29 39	work hours
+T33	lifestyle_factor 434 444	work hours
+T34	lifestyle_factor 918 942	low activity occupations
+T35	lifestyle_factor 1034 1059	high activity occupations
+T36	lifestyle_factor 1338 1348	work hours
+R8	statistical_association Arg1:T36 Arg2:T21
+T38	lifestyle_factor 1793 1826	intermediate activity occupations
+T39	lifestyle_factor 1438 1471	intermediate activity occupations
+R9	positive_statistical_association Arg1:T39 Arg2:T23
+T1	lifestyle_factor 514 535	occupational activity

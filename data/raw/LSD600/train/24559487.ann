@@ -1,0 +1,30 @@
+T1	lifestyle_factor 23 39	aerobic exercise
+T2	lifestyle_factor 43 56	sleep quality
+T4	disease 97 117	rheumatoid arthritis
+T6	disease 258 278	rheumatoid arthritis
+T7	disease 481 501	rheumatoid arthritis
+T8	lifestyle_factor 658 663	sleep
+T9	disease 681 701	rheumatoid arthritis
+T10	lifestyle_factor 773 789	aerobic exercise
+T11	lifestyle_factor 806 811	sleep
+T12	disease 873 893	rheumatoid arthritis
+T13	disease 968 988	rheumatoid arthritis
+T14	lifestyle_factor 1120 1145	aerobic exercise training
+T15	lifestyle_factor 1246 1251	sleep
+T16	lifestyle_factor 1351 1364	sleep quality
+T18	lifestyle_factor 1581 1597	aerobic exercise
+T19	lifestyle_factor 1620 1625	sleep
+T20	disease 1643 1663	rheumatoid arthritis
+T22	disease 1876 1896	rheumatoid arthritis
+T23	Out-of-scope 31 39	exercise
+T24	Out-of-scope 781 789	exercise
+T25	lifestyle_factor 1013 1030	exercise training
+T27	Out-of-scope 1589 1597	exercise
+T28	lifestyle_factor 174 184	Poor sleep
+T29	lifestyle_factor 1848 1858	poor sleep
+T31	disease 315 325	depression
+T32	disease 61 79	sleep disturbances
+T33	disease 1369 1387	sleep disturbances
+T34	disease 224 246	inflammatory disorders
+R1	Out-of-scope Arg1:T28 Arg2:T34
+T3	Out-of-scope 1534 1550	provide evidence

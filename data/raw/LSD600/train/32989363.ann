@@ -1,0 +1,41 @@
+T1	lifestyle_factor 20 26	Income
+T2	disease 31 38	Obesity
+T3	disease 90 97	Obesity
+T4	lifestyle_factor 116 132	household income
+T5	disease 340 347	obesity
+T6	disease 514 521	obesity
+T7	lifestyle_factor 673 679	income
+T8	disease 685 692	obesity
+T9	lifestyle_factor 794 810	household income
+T10	disease 838 845	obesity
+T11	lifestyle_factor 1028 1034	income
+T12	disease 1062 1069	obesity
+T13	lifestyle_factor 1177 1183	income
+T14	disease 1249 1256	obesity
+T15	lifestyle_factor 1362 1378	household income
+T16	disease 1424 1431	obesity
+T17	lifestyle_factor 1477 1483	income
+T18	lifestyle_factor 1528 1534	income
+T19	disease 1539 1546	obesity
+T20	lifestyle_factor 1714 1720	income
+T21	disease 1725 1732	obesity
+T22	lifestyle_factor 1852 1863	high-income
+T23	lifestyle_factor 472 494	Work-life interference
+R2	positive_statistical_association Arg1:T20 Arg2:T21
+T24	lifestyle_factor 1631 1653	work-life interference
+R3	causes Arg1:T24 Arg2:T21
+T25	lifestyle_factor 1139 1161	work-life interference
+R4	positive_statistical_association Arg1:T4 Arg2:T3
+T26	lifestyle_factor 649 671	work-life interference
+T27	lifestyle_factor 1320 1342	work-life interference
+T28	lifestyle_factor 1073 1095	work-life interference
+T29	lifestyle_factor 1582 1604	work-life interference
+R5	statistical_association Arg1:T25 Arg2:T14
+R7	statistical_association Arg1:T13 Arg2:T14
+R8	positive_statistical_association Arg1:T15 Arg2:T16
+T30	lifestyle_factor 365 387	Work-life interference
+T31	lifestyle_factor 65 87	Work-Life Interference
+R9	no_statistical_association Arg1:T18 Arg2:T19
+T32	lifestyle_factor 1199 1206	poverty
+T33	Out-of-scope 530 539	behaviors
+R1	Out-of-scope Arg1:T23 Arg2:T6

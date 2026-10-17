@@ -1,0 +1,36 @@
+T1	disease 29 36	obesity
+T2	disease 76 83	obesity
+T3	disease 147 154	Obesity
+T4	disease 280 287	obesity
+T5	lifestyle_factor 308 312	diet
+T6	disease 415 422	obesity
+T7	disease 565 572	obesity
+T8	lifestyle_factor 587 591	diet
+T9	lifestyle_factor 758 763	fruit
+T10	lifestyle_factor 796 826	leisure-time physical activity
+T11	Out-of-scope 837 841	Diet
+T12	lifestyle_factor 889 894	fruit
+T13	disease 1202 1209	obesity
+T14	disease 1241 1248	obesity
+T15	disease 1367 1374	obesity
+T16	lifestyle_factor 593 610	physical activity
+T17	lifestyle_factor 1054 1071	physical activity
+T18	lifestyle_factor 1089 1106	physical activity
+T19	lifestyle_factor 317 325	exercise
+T20	lifestyle_factor 768 777	vegetable
+T21	lifestyle_factor 899 908	vegetable
+T22	lifestyle_factor 56 71	weight control,
+T23	lifestyle_factor 524 538	weight control
+T24	lifestyle_factor 940 954	weight control
+T25	lifestyle_factor 1182 1196	weight control
+T26	lifestyle_factor 1016 1030	weight control
+T27	lifestyle_factor 1275 1289	weight control
+T28	Out-of-scope 252 259	beliefs
+R1	Out-of-scope Arg1:T5 Arg2:T4
+R2	Out-of-scope Arg1:T19 Arg2:T4
+T29	Out-of-scope 849 856	beliefs
+T30	Out-of-scope 1155 1162	beliefs
+T31	Out-of-scope 1350 1362	attributions
+T32	Out-of-scope 553 561	mediator
+R3	causes Arg1:T8 Arg2:T7
+R4	causes Arg1:T16 Arg2:T7

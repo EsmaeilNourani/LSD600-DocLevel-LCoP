@@ -1,0 +1,14 @@
+T1	lifestyle_factor 5 22	physical activity
+T2	lifestyle_factor 133 150	physical activity
+T3	lifestyle_factor 367 369	PA
+T4	lifestyle_factor 251 253	PA
+T5	lifestyle_factor 667 669	PA
+T6	lifestyle_factor 691 693	PA
+T7	lifestyle_factor 997 999	PA
+T9	lifestyle_factor 915 917	PA
+T10	lifestyle_factor 1054 1056	PA
+T11	lifestyle_factor 86 93	walking
+T12	lifestyle_factor 339 346	walking
+T8	lifestyle_factor 760 768	PA level
+T13	lifestyle_factor 152 154	PA
+*	Equiv T2 T13

@@ -1,0 +1,13 @@
+T1	disease 27 49	restless legs syndrome
+T2	disease 52 74	Restless legs syndrome
+T3	disease 76 79	RLS
+T4	disease 245 248	RLS
+T5	disease 345 367	restless legs syndrome
+T6	disease 561 564	RLS
+T7	disease 607 610	RLS
+T8	disease 615 637	burning mouth syndrome
+T9	disease 746 749	RLS
+T10	disease 812 815	RLS
+*	Equiv T2 T3
+T11	disease 639 642	BMS
+*	Equiv T8 T11

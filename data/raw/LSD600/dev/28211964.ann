@@ -1,0 +1,33 @@
+T1	disease 21 42	pathological gambling
+T2	disease 44 55	alexithymia
+T3	lifestyle_factor 61 69	gambling
+T4	disease 144 155	alexithymia
+T5	lifestyle_factor 203 211	gambling
+T6	disease 227 238	alexithymia
+T7	lifestyle_factor 286 294	gambling
+T8	lifestyle_factor 369 377	gambling
+T9	disease 666 677	alexithymia
+T10	disease 686 697	Alexithymia
+T11	lifestyle_factor 743 751	gambling
+T12	disease 1002 1013	alexithymia
+T13	lifestyle_factor 1413 1421	gambling
+T14	disease 1455 1466	alexithymia
+T15	lifestyle_factor 1665 1692	body-centered psychotherapy
+R1	positive_statistical_association Arg1:T11 Arg2:T10
+T18	disease 1468 1478	depression
+T22	disease 1564 1574	depression
+T23	disease 1256 1266	depression
+T27	lifestyle_factor 1039 1057	strategic gamblers
+T26	lifestyle_factor 1212 1234	non-strategic gamblers
+R6	Out-of-scope Arg1:T27 Arg2:T12
+T28	lifestyle_factor 1516 1533	non-strategic PGs
+T37	lifestyle_factor 1607 1620	strategic PGs
+T16	Out-of-scope 1033 1035	PG
+R4	Out-of-scope Arg1:T12 Arg2:T16
+T17	Out-of-scope 1286 1288	PG
+R5	Out-of-scope Arg1:T23 Arg2:T17
+T19	Out-of-scope 1484 1486	PG
+T20	lifestyle_factor 332 340	gamblers
+T21	lifestyle_factor 548 570	non-strategic gamblers
+T24	lifestyle_factor 503 521	strategic gamblers
+T25	lifestyle_factor 451 476	non-pathological gamblers

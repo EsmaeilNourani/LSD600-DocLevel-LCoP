@@ -1,0 +1,23 @@
+T1	disease 32 48	allergic disease
+T2	disease 69 86	allergic diseases
+T3	disease 137 146	hay fever
+T4	lifestyle_factor 367 380	air pollution
+T5	lifestyle_factor 417 432	passive smoking
+T6	disease 493 499	asthma
+T8	lifestyle_factor 608 622	sulfur dioxide
+T9	lifestyle_factor 624 642	particulate matter
+T10	disease 712 729	allergic diseases
+T11	lifestyle_factor 821 841	socioeconomic status
+T12	lifestyle_factor 904 918	dietary habits
+T13	disease 1269 1275	asthma
+R1	positive_statistical_association Arg1:T5 Arg2:T6
+T14	disease 504 533	bronchial hyperresponsiveness
+R2	positive_statistical_association Arg1:T5 Arg2:T14
+T15	lifestyle_factor 664 669	ozone
+T16	lifestyle_factor 644 658	diesel exhaust
+T17	lifestyle_factor 843 851	allergen
+T18	lifestyle_factor 967 974	farming
+T19	lifestyle_factor 938 961	anthroposophic families
+T20	disease 1280 1289	allergies
+T21	lifestyle_factor 324 345	environmental factors
+T22	lifestyle_factor 1090 1111	environmental factors

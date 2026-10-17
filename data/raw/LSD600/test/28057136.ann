@@ -1,0 +1,27 @@
+T1	lifestyle_factor 22 32	shift work
+T2	disease 48 55	obesity
+T3	lifestyle_factor 132 142	shift work
+T4	disease 158 165	obesity
+T5	lifestyle_factor 381 391	shift work
+T6	disease 407 414	obesity
+T7	disease 691 698	obesity
+T8	lifestyle_factor 754 771	educational level
+T9	lifestyle_factor 784 797	family income
+T10	lifestyle_factor 861 871	shift work
+T11	disease 903 910	obesity
+T12	disease 915 922	obesity
+T13	lifestyle_factor 1090 1100	shift work
+T14	disease 1122 1129	obesity
+T15	lifestyle_factor 1304 1314	shift work
+T16	disease 1325 1332	obesity
+T17	lifestyle_factor 1444 1454	Shift work
+T18	disease 1490 1497	obesity
+T19	lifestyle_factor 1529 1539	shift work
+T20	disease 1561 1568	obesity
+R1	positive_statistical_association Arg1:T10 Arg2:T11
+R2	positive_statistical_association Arg1:T10 Arg2:T12
+R3	statistical_association Arg1:T17 Arg2:T18
+R4	statistical_association Arg1:T19 Arg2:T20
+R6	statistical_association Arg1:T13 Arg2:T14
+R7	statistical_association Arg1:T15 Arg2:T16
+T30	disease 621 628	obesity

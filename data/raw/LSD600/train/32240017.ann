@@ -1,0 +1,40 @@
+T1	disease 34 43	cirrhosis
+T2	disease 172 187	liver cirrhosis
+T3	lifestyle_factor 189 206	Physical activity
+T4	disease 404 413	Cirrhosis
+T5	disease 603 612	cirrhosis
+T6	disease 711 720	cirrhosis
+T7	disease 930 939	cirrhosis
+T8	disease 1121 1130	cirrhosis
+T9	lifestyle_factor 1182 1200	endurance exercise
+T10	lifestyle_factor 1300 1318	Endurance exercise
+T11	disease 1379 1388	cirrhosis
+T12	lifestyle_factor 1412 1431	resistance exercise
+T14	lifestyle_factor 1449 1472	Nutritional supplements
+T15	disease 1557 1566	cirrhosis
+T16	lifestyle_factor 1620 1638	endurance exercise
+T17	lifestyle_factor 1672 1691	resistance exercise
+T18	disease 1881 1890	cirrhosis
+T19	lifestyle_factor 0 8	Exercise
+T20	lifestyle_factor 79 87	exercise
+T21	lifestyle_factor 211 219	exercise
+T22	lifestyle_factor 488 496	exercise
+T23	lifestyle_factor 591 599	exercise
+T24	lifestyle_factor 1001 1009	exercise
+T25	lifestyle_factor 1109 1117	exercise
+T26	Out-of-scope 1192 1200	exercise
+T27	Out-of-scope 1310 1318	exercise
+T28	Out-of-scope 1423 1431	exercise
+T29	lifestyle_factor 1497 1505	exercise
+T30	Out-of-scope 1630 1638	exercise
+T31	Out-of-scope 1683 1691	exercise
+T32	lifestyle_factor 1869 1877	exercise
+T33	lifestyle_factor 13 30	physical activity
+T34	Out-of-scope 1260 1273	grip strength
+R1	Out-of-scope Arg1:T25 Arg2:T8
+T35	Out-of-scope 1362 1378	well-compensated
+R2	Out-of-scope Arg1:T10 Arg2:T11
+T13	Out-of-scope 135 143	observed
+T36	disease 754 779	mitochondrial dysfunction
+R3	Out-of-scope Arg1:T23 Arg2:T5
+T37	Out-of-scope 1436 1447	conflicting

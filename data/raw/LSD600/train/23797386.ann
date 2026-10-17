@@ -1,0 +1,43 @@
+T1	disease 0 15	Atherosclerosis
+T2	disease 144 151	Obesity
+T3	lifestyle_factor 279 283	diet
+T4	Out-of-scope 441 448	dieting
+T5	Out-of-scope 561 568	dieting
+T6	lifestyle_factor 648 652	diet
+T7	disease 792 807	atherosclerosis
+T8	disease 931 949	metabolic syndrome
+T9	lifestyle_factor 987 1001	high-fat diets
+T10	lifestyle_factor 1037 1045	high-fat
+T11	disease 1250 1265	atherosclerosis
+T12	disease 1484 1499	atherosclerosis
+T15	disease 1550 1565	atherosclerosis
+T18	lifestyle_factor 1844 1848	diet
+T20	Out-of-scope 1991 1998	dieting
+T21	disease 2002 2020	metabolic syndrome
+T22	lifestyle_factor 285 293	exercise
+T23	lifestyle_factor 1850 1869	calorie restriction
+T24	Out-of-scope 992 995	fat
+T25	Out-of-scope 1042 1045	fat
+T26	Out-of-scope 1054 1057	fat
+T27	Out-of-scope 1522 1525	fat
+T28	Out-of-scope 1743 1746	fat
+T29	disease 954 977	cardiovascular diseases
+T30	disease 2025 2048	cardiovascular diseases
+T31	lifestyle_factor 555 568	yo-yo dieting
+T32	lifestyle_factor 1985 1998	yo-yo dieting
+T33	lifestyle_factor 433 448	'yo-yo' dieting
+T34	lifestyle_factor 1050 1077	low-fat (rodent chow) diets
+T13	lifestyle_factor 1517 1530	high-fat diet
+T14	lifestyle_factor 1738 1751	high-fat diet
+R1	causes Arg1:T13 Arg2:T12
+T16	lifestyle_factor 394 408	weight cycling
+T17	Out-of-scope 1050 1057	low-fat
+T35	Out-of-scope 1072 1077	diets
+R2	statistical_association Arg1:T32 Arg2:T21
+R3	statistical_association Arg1:T32 Arg2:T30
+T36	lifestyle_factor 115 129	weight cycling
+T37	lifestyle_factor 1100 1114	weight cycling
+T38	lifestyle_factor 1339 1353	weight cycling
+T39	lifestyle_factor 753 767	weight cycling
+R4	causes Arg1:T9 Arg2:T29
+R5	causes Arg1:T9 Arg2:T8

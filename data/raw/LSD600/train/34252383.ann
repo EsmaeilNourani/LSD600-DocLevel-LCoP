@@ -1,0 +1,28 @@
+T2	disease 90 113	Cutaneous leishmaniasis
+T3	disease 141 154	leishmaniasis
+T4	lifestyle_factor 338 350	poor housing
+T5	lifestyle_factor 363 379	domestic hygiene
+T6	lifestyle_factor 381 393	malnutrition
+T7	lifestyle_factor 432 447	Solar radiation
+T8	disease 593 616	cutaneous leishmaniasis
+T9	Out-of-scope 734 750	hypersensitivity
+T10	disease 1249 1272	cutaneous leishmaniasis
+T11	lifestyle_factor 1393 1406	UVB radiation
+T12	disease 1410 1433	cutaneous leishmaniasis
+T13	lifestyle_factor 449 452	UVB
+T14	lifestyle_factor 21 34	UVB radiation
+T15	lifestyle_factor 714 717	UVB
+T16	lifestyle_factor 1057 1060	UVB
+T17	lifestyle_factor 1222 1225	UVB
+*	Equiv T13 T7
+T1	disease 721 750	delayed-type hypersensitivity
+T19	disease 752 755	DTH
+R4	positive_statistical_association Arg1:T4 Arg2:T2
+R5	negative_statistical_association Arg1:T5 Arg2:T2
+R7	causes Arg1:T11 Arg2:T12
+R8	causes Arg1:T17 Arg2:T10
+T21	Out-of-scope 705 707	cm
+*	Equiv T1 T19
+T18	lifestyle_factor 329 336	poverty
+R1	positive_statistical_association Arg1:T18 Arg2:T2
+R2	positive_statistical_association Arg1:T6 Arg2:T2

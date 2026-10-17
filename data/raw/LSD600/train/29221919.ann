@@ -1,0 +1,31 @@
+T1	lifestyle_factor 44 56	Healthy Diet
+T2	lifestyle_factor 58 75	Physical Activity
+T3	disease 96 102	Asthma
+T4	lifestyle_factor 178 190	diet quality
+T5	lifestyle_factor 192 211	sedentary lifestyle
+T6	disease 217 224	obesity
+T7	disease 277 283	asthma
+T8	disease 299 305	asthma
+T9	disease 496 529	atherothrombotic vascular disease
+T10	disease 534 542	diabetes
+T11	disease 600 606	asthma
+T12	disease 625 632	obesity
+T14	lifestyle_factor 700 719	physical inactivity
+T15	disease 801 807	asthma
+T16	lifestyle_factor 825 834	poor diet
+T17	lifestyle_factor 836 855	physical inactivity
+T18	disease 1005 1011	asthma
+T19	Out-of-scope 709 719	inactivity
+T20	Out-of-scope 845 855	inactivity
+R1	positive_statistical_association Arg1:T14 Arg2:T12
+T22	lifestyle_factor 686 695	poor diet
+R2	positive_statistical_association Arg1:T22 Arg2:T12
+T13	disease 471 487	chronic diseases
+T23	lifestyle_factor 137 164	Unhealthy lifestyle factors
+R4	causes Arg1:T15 Arg2:T16
+T21	Out-of-scope 808 812	care
+R6	controls Arg1:T4 Arg2:T8
+R7	causes Arg1:T17 Arg2:T15
+R3	positive_statistical_association Arg1:T5 Arg2:T7
+R5	negative_statistical_association Arg1:T4 Arg2:T7
+R8	positive_statistical_association Arg1:T23 Arg2:T7

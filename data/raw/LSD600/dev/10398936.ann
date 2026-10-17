@@ -1,0 +1,22 @@
+T2	disease 35 48	breast cancer
+T3	disease 149 162	breast cancer
+T7	disease 389 402	breast cancer
+T8	disease 461 474	breast cancer
+T9	disease 549 562	breast cancer
+T10	lifestyle_factor 631 635	jobs
+T12	lifestyle_factor 783 797	sedentary jobs
+T14	disease 1076 1089	breast cancer
+T16	lifestyle_factor 1218 1248	leisure time physical activity
+T5	lifestyle_factor 241 271	leisure-time physical activity
+T18	lifestyle_factor 0 30	Occupational physical activity
+T19	lifestyle_factor 355 385	occupational physical activity
+T20	lifestyle_factor 604 621	Physical activity
+T17	lifestyle_factor 1039 1067	job of medium/heavy activity
+R4	no_statistical_association Arg1:T17 Arg2:T14
+T21	Out-of-scope 76 82	cancer
+T6	lifestyle_factor 744 770	medium/heavy activity jobs
+R1	negative_statistical_association Arg1:T5 Arg2:T3
+T4	lifestyle_factor 839 856	medium/heavy jobs
+T11	lifestyle_factor 225 237	occupational
+R2	negative_statistical_association Arg1:T11 Arg2:T3
+T13	lifestyle_factor 734 739	light

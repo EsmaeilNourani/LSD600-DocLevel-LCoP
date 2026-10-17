@@ -1,0 +1,36 @@
+T1	lifestyle_factor 4 13	vitamin K
+T2	disease 72 91	Alzheimer's disease
+T3	lifestyle_factor 146 155	vitamin K
+T4	lifestyle_factor 262 271	vitamin K
+T5	lifestyle_factor 319 328	vitamin K
+T6	disease 373 392	Alzheimer's disease
+T7	disease 446 465	Alzheimer's disease
+T8	lifestyle_factor 480 489	vitamin K
+T9	lifestyle_factor 596 605	vitamin K
+T10	lifestyle_factor 668 677	vitamin K
+T11	disease 806 825	Alzheimer's disease
+T12	lifestyle_factor 899 908	vitamin K
+T13	lifestyle_factor 1019 1028	Vitamin K
+T14	disease 1082 1101	Alzheimer's disease
+T15	lifestyle_factor 1166 1176	Vegetables
+T16	lifestyle_factor 1188 1194	fruits
+T17	lifestyle_factor 1230 1239	vitamin K
+T18	lifestyle_factor 1282 1291	vitamin K
+T19	lifestyle_factor 1302 1312	vegetables
+T20	lifestyle_factor 1441 1451	vegetables
+T21	disease 1473 1492	Alzheimer's disease
+T22	lifestyle_factor 1515 1524	vitamin K
+T23	lifestyle_factor 1627 1636	vitamin K
+T24	disease 1641 1660	Alzheimer's disease
+T25	lifestyle_factor 1692 1701	vitamin K
+T26	lifestyle_factor 1742 1746	diet
+T27	disease 1750 1769	Alzheimer's disease
+R1	negative_statistical_association Arg1:T13 Arg2:T14
+T28	lifestyle_factor 1178 1182	fats
+T29	Out-of-scope 300 310	hypothesis
+R2	Out-of-scope Arg1:T5 Arg2:T6
+R3	negative_statistical_association Arg1:T8 Arg2:T7
+T30	lifestyle_factor 1139 1153	energy intakes
+R6	controls Arg1:T25 Arg2:T27
+R7	controls Arg1:T26 Arg2:T27
+R4	negative_statistical_association Arg1:T20 Arg2:T21

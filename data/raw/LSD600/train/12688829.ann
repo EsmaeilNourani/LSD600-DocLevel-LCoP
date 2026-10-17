@@ -1,0 +1,9 @@
+T1	lifestyle_factor 21 26	sport
+T2	lifestyle_factor 89 95	sports
+T7	lifestyle_factor 1227 1232	sport
+T8	disease 1074 1086	enophthalmos
+T3	disease 1187 1204	orbital fractures
+T4	disease 0 17	Orbital fractures
+#2	AnnotatorNotes T4	https://icd.who.int/browse10/2019/en#/S02.3
+T5	disease 39 56	Orbital fractures
+T6	disease 763 779	Orbital fracture

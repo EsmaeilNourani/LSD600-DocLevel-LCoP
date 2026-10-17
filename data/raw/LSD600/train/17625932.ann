@@ -1,0 +1,12 @@
+T1	lifestyle_factor 12 25	long sleepers
+T2	lifestyle_factor 146 164	insufficient sleep
+T3	lifestyle_factor 221 236	excessive sleep
+T4	lifestyle_factor 335 354	habitual long sleep
+T5	lifestyle_factor 471 481	long sleep
+T6	lifestyle_factor 692 711	sleep fragmentation
+T8	lifestyle_factor 1039 1049	long sleep
+T9	lifestyle_factor 1249 1259	long sleep
+T10	lifestyle_factor 784 801	lack of challenge
+T11	disease 865 876	sleep apnea
+T12	disease 882 895	heart disease
+T13	disease 807 817	depression

@@ -1,0 +1,31 @@
+T1	disease 14 21	obesity
+T3	disease 150 157	obesity
+T4	lifestyle_factor 268 287	developed countries
+T5	disease 408 415	obesity
+T6	lifestyle_factor 505 522	primary education
+T7	disease 712 727	central obesity
+T8	disease 824 831	obesity
+T10	disease 978 985	obesity
+T11	lifestyle_factor 1040 1046	fruits
+T12	lifestyle_factor 1051 1061	vegetables
+T13	lifestyle_factor 1087 1098	soft drinks
+T14	lifestyle_factor 1111 1138	healthy nutrition in school
+T15	disease 1185 1200	central obesity
+T16	lifestyle_factor 1224 1235	watching TV
+T17	disease 1281 1288	obesity
+T18	lifestyle_factor 1544 1555	screen time
+T19	Out-of-scope 1119 1128	nutrition
+T20	lifestyle_factor 87 104	physical activity
+T21	lifestyle_factor 1512 1529	physical activity
+T22	Out-of-scope 1233 1235	TV
+T23	lifestyle_factor 1077 1082	bread
+T24	lifestyle_factor 1471 1483	healthy food
+T9	lifestyle_factor 1006 1024	skipping breakfast
+R1	positive_statistical_association Arg1:T9 Arg2:T10
+R2	negative_statistical_association Arg1:T11 Arg2:T10
+R3	negative_statistical_association Arg1:T12 Arg2:T10
+R4	positive_statistical_association Arg1:T23 Arg2:T10
+R5	positive_statistical_association Arg1:T13 Arg2:T10
+R6	positive_statistical_association Arg1:T16 Arg2:T17
+R7	negative_statistical_association Arg1:T14 Arg2:T15
+R8	Out-of-scope Arg1:T4 Arg2:T3

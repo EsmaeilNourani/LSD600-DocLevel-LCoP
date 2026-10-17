@@ -1,0 +1,25 @@
+T1	disease 7 15	COVID-19
+T2	disease 90 98	COVID-19
+T3	Out-of-scope 268 280	social media
+T4	Out-of-scope 374 382	COVID-19
+T5	Out-of-scope 386 398	social media
+T6	disease 442 450	COVID-19
+T7	Out-of-scope 483 491	COVID-19
+T8	lifestyle_factor 793 807	marital status
+T10	lifestyle_factor 964 974	urban area
+T11	lifestyle_factor 1022 1040	social media usage
+T12	lifestyle_factor 1042 1060	social media usage
+T13	Out-of-scope 1097 1105	COVID-19
+T14	Out-of-scope 1128 1140	social media
+T15	Out-of-scope 1323 1331	COVID-19
+T16	Out-of-scope 1355 1367	social media
+T17	lifestyle_factor 1510 1522	social media
+T18	Out-of-scope 1878 1886	COVID-19
+T19	Out-of-scope 1921 1929	COVID-19
+T20	Out-of-scope 1946 1958	social media
+T21	lifestyle_factor 2050 2068	social media usage
+T22	disease 206 213	anxiety
+T23	disease 64 88	Coronavirus disease 2019
+*	Equiv T2 T23
+T24	Out-of-scope 524 529	scale
+T9	lifestyle_factor 850 872	educational background

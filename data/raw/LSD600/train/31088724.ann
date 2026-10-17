@@ -1,0 +1,29 @@
+T3	lifestyle_factor 147 170	middle-income countries
+T4	disease 286 295	diarrhoea
+T5	lifestyle_factor 321 333	malnutrition
+T6	disease 335 350	schistosomiasis
+T7	disease 352 359	malaria
+T8	disease 378 397	helminth infections
+T9	disease 402 410	trachoma
+T12	lifestyle_factor 521 544	middle-income countries
+T15	disease 1351 1360	diarrhoea
+T16	disease 297 319	respiratory infections
+T17	lifestyle_factor 23 39	inadequate water
+T19	lifestyle_factor 138 141	low
+T21	lifestyle_factor 928 944	inadequate water
+T23	lifestyle_factor 1725 1729	WASH
+T24	lifestyle_factor 1954 1958	WASH
+T20	lifestyle_factor 512 515	low
+T22	disease 1225 1244	diarrhoeal diseases
+T10	lifestyle_factor 428 477	inadequate drinking-water, sanitation and hygiene
+T11	lifestyle_factor 490 494	WASH
+*	Equiv T10 T11
+T18	lifestyle_factor 1163 1167	WASH
+T26	lifestyle_factor 1333 1337	WASH
+T1	lifestyle_factor 41 51	sanitation
+T2	lifestyle_factor 56 63	hygiene
+T13	lifestyle_factor 946 956	sanitation
+T14	lifestyle_factor 961 968	hygiene
+T25	Out-of-scope 188 213	develop updated estimates
+R1	causes Arg1:T18 Arg2:T22
+R2	causes Arg1:T26 Arg2:T15

@@ -1,0 +1,30 @@
+T2	disease 84 102	hypervitaminosis D
+T3	lifestyle_factor 105 114	Vitamin D
+T7	lifestyle_factor 509 526	sunlight exposure
+T11	disease 656 674	hypervitaminosis D
+T14	lifestyle_factor 890 899	vitamin D
+T15	lifestyle_factor 943 968	vitamin D supplementation
+T16	disease 980 993	hypercalcemia
+T17	disease 1014 1031	hyperphosphatemia
+T20	disease 1271 1289	hypervitaminosis D
+T21	disease 1396 1409	hypercalcemia
+T22	disease 1417 1434	hyperphosphatemia
+T23	lifestyle_factor 1457 1482	vitamin D supplementation
+R1	causes Arg1:T15 Arg2:T16
+R2	causes Arg1:T15 Arg2:T17
+T24	disease 995 1009	hypercalciuria
+R3	causes Arg1:T15 Arg2:T24
+T25	lifestyle_factor 240 245	drugs
+R4	causes Arg1:T23 Arg2:T22
+R5	causes Arg1:T23 Arg2:T21
+T26	lifestyle_factor 33 58	vitamin D supplementation
+T27	lifestyle_factor 210 237	vitamin D-supplemented food
+T4	lifestyle_factor 381 402	vitamin D supplements
+T28	lifestyle_factor 574 595	vitamin D supplements
+T29	lifestyle_factor 1182 1207	vitamin D supplementation
+T30	lifestyle_factor 699 724	vitamin D supplementation
+T1	disease 608 630	vitamin D intoxication
+T5	disease 1081 1103	vitamin D intoxication
+T31	Out-of-scope 775 784	vitamin D
+R6	causes Arg1:T28 Arg2:T1
+R7	causes Arg1:T15 Arg2:T5

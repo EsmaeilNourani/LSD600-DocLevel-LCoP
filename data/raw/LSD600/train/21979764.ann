@@ -1,0 +1,35 @@
+T1	disease 14 25	root caries
+T4	lifestyle_factor 426 445	fluoride toothpaste
+T7	disease 1200 1211	Root Caries
+T8	disease 1259 1270	root caries
+T9	disease 1297 1315	gingival recession
+T10	disease 1496 1507	root caries
+T11	disease 1647 1658	root caries
+T13	disease 1805 1816	root caries
+T15	disease 2108 2119	root caries
+T17	disease 2316 2327	root caries
+T18	lifestyle_factor 200 222	oral hygiene practices
+T19	Out-of-scope 299 311	oral hygiene
+T20	lifestyle_factor 2272 2284	oral hygiene
+T22	lifestyle_factor 1124 1139	sodium fluoride
+T25	lifestyle_factor 403 413	toothbrush
+T2	lifestyle_factor 666 689	sodium fluoride varnish
+T3	lifestyle_factor 2021 2044	sodium fluoride varnish
+T5	lifestyle_factor 2049 2070	chlorhexidine varnish
+T26	lifestyle_factor 588 609	chlorhexidine varnish
+T27	lifestyle_factor 1099 1120	chlorhexidine varnish
+T28	lifestyle_factor 744 756	SDF solution
+T29	lifestyle_factor 1035 1047	SDF solution
+T30	lifestyle_factor 2007 2019	SDF solution
+T14	lifestyle_factor 1706 1721	sodium fluoride
+T12	lifestyle_factor 1691 1704	chlorhexidine
+T16	lifestyle_factor 1726 1729	SDF
+R1	prevents Arg1:T12 Arg2:T11
+R2	prevents Arg1:T14 Arg2:T11
+R3	prevents Arg1:T16 Arg2:T11
+R4	prevents Arg1:T30 Arg2:T15
+R5	prevents Arg1:T3 Arg2:T15
+R6	prevents Arg1:T5 Arg2:T15
+T21	Out-of-scope 2220 2240	three test materials
+T23	lifestyle_factor 380 388	brushing
+R7	prevents Arg1:T20 Arg2:T17

@@ -1,0 +1,30 @@
+T1	lifestyle_factor 4 8	MDMA
+T2	disease 41 56	substance abuse
+T3	disease 114 139	substance abuse disorders
+T4	disease 200 215	substance abuse
+T5	lifestyle_factor 251 255	MDMA
+T6	disease 276 291	substance abuse
+T8	lifestyle_factor 569 573	MDMA
+T9	lifestyle_factor 612 616	MDMA
+T10	lifestyle_factor 889 893	MDMA
+T11	lifestyle_factor 1108 1112	MDMA
+T13	lifestyle_factor 1229 1256	MDMA-assisted psychotherapy
+T15	lifestyle_factor 1400 1404	MDMA
+T16	lifestyle_factor 1704 1731	MDMA-assisted psychotherapy
+T18	disease 1754 1778	substance abuse disorder
+T19	disease 429 433	PTSD
+T20	lifestyle_factor 146 167	psychedelic compounds
+R3	treats Arg1:T20 Arg2:T4
+T21	lifestyle_factor 322 343	psychedelic compounds
+T22	lifestyle_factor 379 405	MDMAassisted psychotherapy
+T23	disease 1433 1467	neuropharmacological abnormalities
+T24	disease 1576 1607	comorbid psychiatric conditions
+T27	disease 1171 1196	substance abuse disorders
+T28	lifestyle_factor 539 552	substance use
+T29	lifestyle_factor 1664 1677	substance use
+T12	lifestyle_factor 1484 1493	addiction
+R5	Out-of-scope Arg1:T15 Arg2:T23
+R7	Out-of-scope Arg1:T15 Arg2:T24
+R1	Out-of-scope Arg1:T6 Arg2:T21
+R2	statistical_association Arg1:T12 Arg2:T23
+R4	treats Arg1:T22 Arg2:T19

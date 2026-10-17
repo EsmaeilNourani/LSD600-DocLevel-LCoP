@@ -1,0 +1,28 @@
+T1	lifestyle_factor 0 15	Childhood abuse
+T2	disease 45 61	eating disorders
+T3	lifestyle_factor 113 131	child sexual abuse
+T4	disease 179 195	anorexia nervosa
+T5	lifestyle_factor 302 316	physical abuse
+T6	disease 346 361	eating disorder
+T7	lifestyle_factor 422 437	childhood abuse
+T8	lifestyle_factor 442 457	sexually abused
+T10	disease 599 615	eating disorders
+T11	lifestyle_factor 717 731	physical abuse
+T12	lifestyle_factor 873 887	physical abuse
+T13	disease 903 918	eating disorder
+T14	lifestyle_factor 984 1002	child sexual abuse
+T15	lifestyle_factor 1025 1038	psychotherapy
+T16	disease 1122 1138	eating disorders
+T17	lifestyle_factor 701 713	child sexual
+T18	disease 200 207	bulimia
+R1	positive_statistical_association Arg1:T3 Arg2:T4
+R2	positive_statistical_association Arg1:T3 Arg2:T18
+T19	lifestyle_factor 281 297	childhood sexual
+T20	lifestyle_factor 462 479	physically abused
+T21	lifestyle_factor 856 868	child sexual
+T22	lifestyle_factor 385 408	female college students
+R5	no_statistical_association Arg1:T21 Arg2:T13
+R6	no_statistical_association Arg1:T12 Arg2:T13
+R3	positive_statistical_association Arg1:T14 Arg2:T16
+T24	disease 526 541	eating disorder
+R4	positive_statistical_association Arg1:T15 Arg2:T16

@@ -1,0 +1,10 @@
+T1	lifestyle_factor 32 45	air pollution
+T4	lifestyle_factor 295 315	air pollution source
+T7	lifestyle_factor 668 698	releases within motor vehicles
+T9	lifestyle_factor 721 731	urban area
+T5	lifestyle_factor 428 445	emitted pollutant
+T3	lifestyle_factor 207 216	pollutant
+T6	lifestyle_factor 264 273	pollutant
+T8	lifestyle_factor 737 755	emissions outdoors
+T10	lifestyle_factor 811 833	emissions in buildings
+T2	lifestyle_factor 837 855	in moving vehicles

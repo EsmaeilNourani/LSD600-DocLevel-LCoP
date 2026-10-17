@@ -1,0 +1,23 @@
+T1	Out-of-scope 138 147	vitamin D
+T2	disease 173 188	prostate cancer
+T3	disease 329 344	prostate cancer
+T5	disease 432 447	prostate cancer
+T8	disease 741 756	prostate cancer
+T9	lifestyle_factor 860 870	cigarettes
+T10	disease 902 917	prostate cancer
+T11	disease 993 1008	prostate cancer
+T12	disease 1384 1399	prostate cancer
+T13	disease 1474 1489	prostate cancer
+T14	lifestyle_factor 1564 1573	vitamin D
+T15	disease 1596 1611	prostate cancer
+T16	disease 1673 1688	prostate cancer
+T23	lifestyle_factor 841 858	physical activity
+T25	disease 45 51	Cancer
+T4	Out-of-scope 244 254	malignancy
+T6	Out-of-scope 944 949	serum
+T7	Out-of-scope 391 396	serum
+T17	Out-of-scope 408 417	vitamin D
+T18	Out-of-scope 1408 1413	serum
+T19	Out-of-scope 126 137	circulating
+R1	Out-of-scope Arg1:T2 Arg2:T1
+R2	Out-of-scope Arg1:T14 Arg2:T15

@@ -1,0 +1,33 @@
+T1	disease 11 17	asthma
+T2	disease 106 112	asthma
+T4	lifestyle_factor 382 395	Air pollution
+T5	disease 450 456	asthma
+T6	lifestyle_factor 464 488	industrialized countries
+T7	lifestyle_factor 567 587	developing countries
+T9	lifestyle_factor 641 651	fireplaces
+T11	lifestyle_factor 699 712	air pollution
+T12	disease 773 779	asthma
+T13	lifestyle_factor 927 951	industrialized countries
+T14	disease 1025 1031	asthma
+T15	disease 1082 1088	asthma
+T16	lifestyle_factor 813 817	salt
+T17	lifestyle_factor 1009 1013	salt
+R2	statistical_association Arg1:T17 Arg2:T14
+T18	lifestyle_factor 1049 1053	salt
+T19	lifestyle_factor 1672 1676	salt
+T21	lifestyle_factor 1204 1208	salt
+T22	lifestyle_factor 369 373	salt
+T20	lifestyle_factor 1314 1318	salt
+T23	lifestyle_factor 1380 1384	salt
+T24	lifestyle_factor 1439 1443	salt
+T25	lifestyle_factor 288 324	less technically developed countries
+T26	lifestyle_factor 539 544	urban
+T27	lifestyle_factor 653 669	indoor pollution
+T28	lifestyle_factor 30 34	salt
+T3	Out-of-scope 399 404	often
+R5	causes Arg1:T4 Arg2:T5
+R1	positive_statistical_association Arg1:T16 Arg2:T12
+R3	positive_statistical_association Arg1:T18 Arg2:T15
+T10	lifestyle_factor 595 606	rural areas
+T8	lifestyle_factor 894 906	urbanization
+R4	causes Arg1:T8 Arg2:T12

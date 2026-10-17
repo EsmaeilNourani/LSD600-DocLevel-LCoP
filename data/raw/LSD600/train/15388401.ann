@@ -1,0 +1,17 @@
+T1	lifestyle_factor 24 37	group therapy
+T2	lifestyle_factor 550 563	group therapy
+T4	lifestyle_factor 332 345	group therapy
+T5	lifestyle_factor 503 522	group psychotherapy
+T6	lifestyle_factor 246 263	social adjustment
+T7	lifestyle_factor 288 302	peer relations
+T3	lifestyle_factor 699 726	interpersonal group therapy
+T8	disease 83 104	learning disabilities
+T9	disease 137 158	learning disabilities
+T11	disease 240 242	LD
+T12	disease 462 464	LD
+T13	disease 604 606	LD
+T14	disease 782 784	LD
+T10	disease 160 162	LD
+*	Equiv T9 T10
+R1	prevents Arg1:T11 Arg2:T6
+R2	treats Arg1:T5 Arg2:T12

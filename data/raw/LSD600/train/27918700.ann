@@ -1,0 +1,23 @@
+T8	lifestyle_factor 40 57	Physical Activity
+T9	lifestyle_factor 151 168	physical activity
+T10	lifestyle_factor 447 464	physical activity
+T11	lifestyle_factor 283 300	physical activity
+T12	lifestyle_factor 560 577	physical activity
+T13	lifestyle_factor 811 828	physical activity
+T14	lifestyle_factor 1144 1161	physical activity
+T15	lifestyle_factor 1344 1361	physical activity
+T16	lifestyle_factor 62 74	Sitting Time
+T17	lifestyle_factor 830 842	sitting time
+T18	lifestyle_factor 582 594	sitting time
+T19	lifestyle_factor 1163 1175	Sitting time
+T25	lifestyle_factor 240 254	sedentary time
+T29	lifestyle_factor 895 915	socioeconomic status
+T1	lifestyle_factor 878 893	education level
+T2	lifestyle_factor 399 409	urbanicity
+T3	lifestyle_factor 25 35	Urbanicity
+T4	lifestyle_factor 503 513	urbanicity
+T5	lifestyle_factor 847 857	urbanicity
+T28	lifestyle_factor 1219 1229	urbanicity
+T30	lifestyle_factor 1329 1339	urbanicity
+T6	lifestyle_factor 941 951	urbanicity
+T7	lifestyle_factor 968 978	urbanicity

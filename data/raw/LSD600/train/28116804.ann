@@ -1,0 +1,8 @@
+T1	lifestyle_factor 221 226	sleep
+T2	lifestyle_factor 370 375	sleep
+T3	lifestyle_factor 1136 1141	sleep
+T5	lifestyle_factor 1006 1034	non-rapid eye movement sleep
+T7	lifestyle_factor 142 172	drugs with sedative properties
+T8	lifestyle_factor 704 711	placebo
+T9	lifestyle_factor 1174 1181	placebo
+T10	disease 407 418	sleep apnea

@@ -1,0 +1,33 @@
+T1	disease 14 35	Pathological Gambling
+T2	lifestyle_factor 389 397	gambling
+T3	lifestyle_factor 422 440	gambling addiction
+T4	lifestyle_factor 530 538	Gambling
+T5	disease 727 745	alcohol dependence
+T6	lifestyle_factor 794 802	gambling
+T7	Out-of-scope 854 862	Gambling
+T8	disease 964 984	alcohol use disorder
+T9	disease 1121 1142	Pathological gambling
+T10	disease 1283 1304	pathological gambling
+T12	lifestyle_factor 1423 1431	gambling
+T13	disease 1630 1651	pathological gambling
+T14	lifestyle_factor 1706 1714	Gambling
+T15	disease 1896 1917	pathological gambling
+T16	lifestyle_factor 2007 2025	addictive behavior
+T17	Out-of-scope 89 93	City
+T18	Out-of-scope 492 496	city
+T19	Out-of-scope 613 617	City
+T20	disease 268 291	mental health disorders
+T23	lifestyle_factor 42 57	Alcohol Addicts
+T24	lifestyle_factor 1244 1259	Alcohol addicts
+T25	lifestyle_factor 1658 1673	alcohol addicts
+T26	lifestyle_factor 1826 1841	alcohol addicts
+T28	lifestyle_factor 1342 1357	addictive games
+T29	lifestyle_factor 1359 1373	sports betting
+T11	lifestyle_factor 1375 1388	slot machines
+T30	lifestyle_factor 1390 1398	roulette
+T31	lifestyle_factor 582 599	alcohol addiction
+T32	lifestyle_factor 897 914	alcohol addiction
+T33	lifestyle_factor 1503 1520	alcohol addiction
+R1	positive_statistical_association Arg1:T25 Arg2:T13
+R2	positive_statistical_association Arg1:T26 Arg2:T15
+T21	Out-of-scope 1315 1321	tended

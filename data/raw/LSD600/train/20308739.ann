@@ -1,0 +1,17 @@
+T2	disease 0 32	Circadian rhythm sleep disorders
+T4	disease 35 67	Circadian rhythm sleep disorders
+T5	lifestyle_factor 129 141	sleep period
+T6	disease 192 211	Delayed sleep phase
+T7	disease 241 261	advanced sleep phase
+T8	lifestyle_factor 313 325	sleep period
+T11	lifestyle_factor 562 578	biological clock
+T16	disease 797 812	Sleep Disorders
+T17	lifestyle_factor 602 613	night-shift
+T18	lifestyle_factor 614 628	rotating-shift
+T19	disease 663 695	circadian rhythm sleep disorders
+R1	positive_statistical_association Arg1:T17 Arg2:T19
+R2	positive_statistical_association Arg1:T18 Arg2:T19
+T20	disease 408 440	circadian rhythm sleep disorders
+T21	disease 718 744	circadian rhythm syndromes
+#1	AnnotatorNotes T6	https://icd.who.int/browse10/2019/en#/G47.2
+#2	AnnotatorNotes T7	DOID:0050628

@@ -1,0 +1,17 @@
+T1	disease 0 17	Rift Valley fever
+T3	disease 200 217	Rift Valley fever
+T4	disease 219 222	RVF
+T5	disease 365 368	RVF
+T6	disease 590 593	RVF
+T8	disease 695 698	RVF
+T10	Out-of-scope 1083 1086	RVF
+T11	disease 1196 1199	RVF
+T15	disease 1567 1570	RVF
+T17	disease 1619 1622	RVF
+T20	disease 1813 1816	RVF
+T21	Out-of-scope 1928 1931	RVF
+T23	disease 2166 2169	RVF
+*	Equiv T4 T3
+T28	disease 1039 1056	zoonotic diseases
+T24	lifestyle_factor 1285 1289	milk
+T25	lifestyle_factor 732 749	farming practices

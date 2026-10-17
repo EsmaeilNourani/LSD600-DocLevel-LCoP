@@ -1,0 +1,26 @@
+T2	disease 31 44	breast cancer
+T3	disease 157 170	breast cancer
+T4	lifestyle_factor 187 205	sedentary behavior
+T6	disease 365 378	breast cancer
+T11	disease 761 774	breast cancer
+T12	lifestyle_factor 870 888	competitive sports
+T13	lifestyle_factor 931 957	occupational sedentariness
+T14	disease 996 1009	breast cancer
+T16	lifestyle_factor 1303 1321	competitive sports
+T18	disease 1438 1451	breast cancer
+T19	disease 1614 1627	breast cancer
+T20	lifestyle_factor 108 125	physical activity
+R1	negative_statistical_association Arg1:T20 Arg2:T3
+R2	positive_statistical_association Arg1:T13 Arg2:T14
+T22	lifestyle_factor 1381 1407	occupational sedentariness
+R3	positive_statistical_association Arg1:T22 Arg2:T18
+T23	lifestyle_factor 257 274	physical activity
+T24	lifestyle_factor 0 26	Occupational sedentariness
+T25	lifestyle_factor 334 360	occupational sedentariness
+T26	lifestyle_factor 730 756	occupational sedentariness
+T29	lifestyle_factor 617 638	sedentary occupations
+T30	lifestyle_factor 674 699	non-sedentary occupations
+T31	lifestyle_factor 649 666	mixed occupations
+T32	lifestyle_factor 1073 1078	mixed
+T33	lifestyle_factor 1082 1107	non-sedentary occupations
+R6	positive_statistical_association Arg1:T4 Arg2:T3

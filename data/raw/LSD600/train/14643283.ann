@@ -1,0 +1,31 @@
+T4	lifestyle_factor 123 138	cigarette smoke
+T5	lifestyle_factor 177 209	polycyclic aromatic hydrocarbons
+T10	lifestyle_factor 1059 1074	cooking methods
+T13	lifestyle_factor 1798 1805	cooking
+T16	Out-of-scope 2483 2490	cooking
+T17	lifestyle_factor 2562 2569	cooking
+T18	lifestyle_factor 0 43	Environmental exposure to cooking oil fumes
+T19	lifestyle_factor 2372 2389	cooking oil fumes
+T20	disease 2400 2433	cervical intraepithelial neoplasm
+R1	causes Arg1:T19 Arg2:T20
+T21	lifestyle_factor 336 353	cooking oil fumes
+T22	disease 370 403	cervical intraepithelial neoplasm
+T23	disease 717 750	cervical intraepithelium neoplasm
+T24	disease 1674 1707	cervical intraepithelial neoplasm
+T25	disease 1345 1378	cervical intraepithelial neoplasm
+T26	disease 48 81	cervical intraepithelial neoplasm
+T27	lifestyle_factor 228 266	nitro-polycyclic aromatic hydrocarbons
+T28	lifestyle_factor 88 110	fumes from cooking oil
+T29	lifestyle_factor 1195 1209	fume extractor
+R2	negative_statistical_association Arg1:T29 Arg2:T25
+T30	lifestyle_factor 1596 1611	fume extractors
+R3	negative_statistical_association Arg1:T30 Arg2:T24
+T32	lifestyle_factor 211 226	aromatic amines
+T33	lifestyle_factor 1076 1087	ventilation
+T34	lifestyle_factor 1747 1762	fume extractors
+T35	lifestyle_factor 1850 1864	fume extractor
+T36	lifestyle_factor 2065 2080	fume extractors
+T37	lifestyle_factor 2517 2532	fume extractors
+R4	prevents Arg1:T37 Arg2:T20
+R5	prevents Arg1:T35 Arg2:T24
+R6	prevents Arg1:T36 Arg2:T24

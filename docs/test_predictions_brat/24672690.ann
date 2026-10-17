@@ -1,0 +1,21 @@
+T1	disease 28 39	lung cancer
+T2	disease 76 87	lung cancer
+T3	lifestyle_factor 156 173	cigarette smoking
+T5	lifestyle_factor 261 281	exposure to asbestos
+T7	lifestyle_factor 351 364	air pollution
+T8	disease 633 642	neoplasms
+T9	disease 660 675	prostate cancer
+T10	disease 707 729	coronary heart disease
+T11	lifestyle_factor 761 778	cigarette smoking
+T12	disease 886 897	lung cancer
+T13	disease 1260 1271	lung cancer
+T14	lifestyle_factor 285 297	heavy metals
+T15	lifestyle_factor 318 337	radon gas radiation
+T16	lifestyle_factor 470 483	heavy-smokers
+T17	disease 650 656	breast
+T4	disease 731 735	COPD
+R1	causes Arg1:T2 Arg2:T3
+R2	causes Arg1:T2 Arg2:T5
+R3	causes Arg1:T2 Arg2:T14
+R4	causes Arg1:T2 Arg2:T15
+R5	causes Arg1:T2 Arg2:T7

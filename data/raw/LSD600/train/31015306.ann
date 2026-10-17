@@ -1,0 +1,10 @@
+T6	lifestyle_factor 1311 1322	dental care
+T7	disease 0 10	Hypodontia
+T8	disease 12 23	Oligodontia
+T9	disease 28 37	Anodontia
+T10	disease 282 292	hypodontia
+T11	disease 293 304	oligodontia
+T12	disease 305 314	anodontia
+T13	disease 1351 1361	hypodontia
+T14	disease 1362 1373	oligodontia
+T15	disease 1374 1383	anodontia

@@ -1,0 +1,27 @@
+T1	lifestyle_factor 13 29	benzene exposure
+T2	disease 46 70	chronic myeloid leukemia
+T3	lifestyle_factor 268 275	benzene
+T4	disease 318 326	lymphoma
+T5	disease 351 367	multiple myeloma
+T6	disease 383 411	chronic lymphocytic leukemia
+T7	disease 447 471	chronic myeloid leukemia
+T8	disease 627 649	acute myeloid leukemia
+T9	lifestyle_factor 706 722	benzene exposure
+T10	lifestyle_factor 784 800	benzene exposure
+T11	lifestyle_factor 1017 1024	benzene
+T12	lifestyle_factor 1684 1691	benzene
+T13	lifestyle_factor 740 748	employed
+R1	statistical_association Arg1:T3 Arg2:T4
+R2	statistical_association Arg1:T3 Arg2:T5
+R3	statistical_association Arg1:T3 Arg2:T6
+T14	disease 473 476	CML
+*	Equiv T14 T7
+T15	disease 651 654	AML
+*	Equiv T15 T8
+T16	disease 1369 1372	AML
+T17	disease 805 808	CML
+T18	disease 1029 1032	CML
+T19	disease 1708 1711	CML
+T23	disease 373 378	acute
+#1	AnnotatorNotes T23	DOID:9952
+R5	statistical_association Arg1:T3 Arg2:T23

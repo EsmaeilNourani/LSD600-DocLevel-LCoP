@@ -1,0 +1,31 @@
+T1	disease 67 80	Mood Disorder
+T2	disease 172 186	mood disorders
+T3	lifestyle_factor 330 338	gambling
+T4	disease 372 385	mood disorder
+T5	disease 408 417	dysthymia
+T6	disease 581 595	mood disorders
+T7	lifestyle_factor 640 648	gambling
+T8	lifestyle_factor 691 699	gambling
+T9	disease 780 793	mood disorder
+T10	lifestyle_factor 876 884	gambling
+T11	disease 910 923	mood disorder
+T12	disease 1213 1226	mood disorder
+T13	Out-of-scope 1267 1275	gambling
+T14	disease 1482 1495	mood disorder
+T15	disease 1510 1524	Mood disorders
+T17	lifestyle_factor 1622 1630	gambling
+T18	disease 1748 1761	mood disorder
+T28	Out-of-scope 989 995	stress
+T29	disease 393 403	depression
+T20	Out-of-scope 146 157	more likely
+R2	positive_statistical_association Arg1:T17 Arg2:T15
+T32	Out-of-scope 799 810	more likely
+T33	disease 1562 1583	pathological gambling
+R5	positive_statistical_association Arg1:T10 Arg2:T9
+T34	lifestyle_factor 1035 1051	social closeness
+T35	lifestyle_factor 1364 1380	social closeness
+R3	negative_statistical_association Arg1:T34 Arg2:T11
+T16	Out-of-scope 1248 1262	coping motives
+R4	negative_statistical_association Arg1:T35 Arg2:T14
+R6	Out-of-scope Arg1:T15 Arg2:T33
+T19	Out-of-scope 106 127	pathological gamblers

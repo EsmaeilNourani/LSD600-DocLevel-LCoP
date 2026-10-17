@@ -1,0 +1,51 @@
+T1	lifestyle_factor 142 158	arachidonic acid
+T2	lifestyle_factor 227 240	linoleic acid
+T3	lifestyle_factor 259 275	arachidonic acid
+T4	lifestyle_factor 466 479	linoleic acid
+T6	lifestyle_factor 516 524	fat diet
+T7	disease 555 564	papilloma
+T8	disease 569 578	carcinoma
+T10	disease 984 993	papilloma
+T11	lifestyle_factor 1007 1011	diet
+T14	lifestyle_factor 1132 1145	corn oil diet
+T16	lifestyle_factor 1306 1310	diet
+T17	lifestyle_factor 1350 1354	diet
+T18	disease 1359 1368	carcinoma
+T20	lifestyle_factor 1417 1430	corn oil diet
+T21	disease 1452 1461	carcinoma
+T22	disease 1539 1549	papillomas
+T26	disease 1641 1650	Papilloma
+T27	lifestyle_factor 1682 1686	diet
+T30	Out-of-scope 2001 2017	arachidonic acid
+T32	lifestyle_factor 2262 2266	diet
+T33	Out-of-scope 2561 2577	arachidonic acid
+T35	lifestyle_factor 27 30	fat
+T37	lifestyle_factor 498 506	corn oil
+T38	lifestyle_factor 717 725	corn oil
+T39	lifestyle_factor 1111 1119	corn oil
+T41	lifestyle_factor 1207 1215	corn oil
+T43	lifestyle_factor 1582 1590	corn oil
+T44	lifestyle_factor 1604 1612	corn oil
+T45	lifestyle_factor 1630 1638	corn oil
+T46	lifestyle_factor 1723 1731	corn oil
+T47	lifestyle_factor 1769 1777	corn oil
+T48	lifestyle_factor 2052 2060	corn oil
+R1	statistical_association Arg1:T17 Arg2:T18
+R2	negative_statistical_association Arg1:T20 Arg2:T21
+R3	statistical_association Arg1:T27 Arg2:T26
+T9	Out-of-scope 1085 1090	tumor
+T12	Out-of-scope 1801 1811	fatty acid
+T49	lifestyle_factor 481 483	LA
+T50	lifestyle_factor 1908 1910	LA
+T51	Out-of-scope 1959 1961	LA
+T52	Out-of-scope 2102 2104	LA
+T53	Out-of-scope 2161 2163	LA
+T54	lifestyle_factor 2504 2506	LA
+*	Equiv T49 T4
+T13	Out-of-scope 767 797	7,12-dimethylbenz(a)anthracene
+T15	Out-of-scope 860 909	1 micrograms 12-O-tetradecanoylphorbol-13-acetate
+R6	Out-of-scope Arg1:T39 Arg2:T9
+T19	Out-of-scope 57 62	tumor
+R7	statistical_association Arg1:T11 Arg2:T10
+R8	negative_statistical_association Arg1:T39 Arg2:T10
+R4	negative_statistical_association Arg1:T46 Arg2:T26

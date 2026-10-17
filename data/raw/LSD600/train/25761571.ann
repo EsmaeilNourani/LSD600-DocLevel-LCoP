@@ -1,0 +1,33 @@
+T1	lifestyle_factor 93 97	Diet
+T3	lifestyle_factor 147 157	junk-foods
+T4	lifestyle_factor 445 455	junk-foods
+T5	disease 486 493	obesity
+T8	disease 617 624	obesity
+T9	lifestyle_factor 676 680	diet
+T10	lifestyle_factor 735 742	sucrose
+T11	lifestyle_factor 811 815	diet
+T12	disease 820 827	obesity
+T13	lifestyle_factor 933 937	diet
+T14	disease 946 953	obesity
+T15	disease 1024 1031	obesity
+T16	lifestyle_factor 1052 1066	junk-food diet
+T18	disease 1103 1110	obesity
+T19	lifestyle_factor 1165 1172	sucrose
+T20	lifestyle_factor 1273 1280	sucrose
+T21	lifestyle_factor 1482 1491	junk-food
+T22	lifestyle_factor 1527 1538	amphetamine
+T23	disease 1631 1638	obesity
+T24	lifestyle_factor 1759 1774	junk-food diets
+T25	disease 106 113	Obesity
+R1	causes Arg1:T4 Arg2:T5
+R2	causes Arg1:T1 Arg2:T25
+R4	causes Arg1:T13 Arg2:T14
+T2	lifestyle_factor 593 608	junk-foods diet
+R3	causes Arg1:T2 Arg2:T8
+T26	lifestyle_factor 189 200	fatty foods
+T27	lifestyle_factor 175 180	sweet
+T28	lifestyle_factor 159 166	caloric
+T6	lifestyle_factor 221 229	brownies
+T7	lifestyle_factor 528 537	food cues
+T17	lifestyle_factor 364 373	food cues
+T29	Out-of-scope 1077 1087	those rats

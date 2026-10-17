@@ -1,0 +1,36 @@
+T1	lifestyle_factor 15 29	water fluoride
+T2	Out-of-scope 42 50	fluoride
+T3	disease 71 111	attention deficit hyperactivity disorder
+T4	lifestyle_factor 156 164	fluoride
+T5	disease 210 250	attention deficit hyperactivity disorder
+T6	disease 252 256	ADHD
+T7	lifestyle_factor 364 372	fluoride
+T8	Out-of-scope 581 589	fluoride
+T9	lifestyle_factor 678 692	Water fluoride
+T10	lifestyle_factor 783 801	water fluoridation
+T11	lifestyle_factor 995 1003	fluoride
+T12	disease 1017 1021	ADHD
+T13	lifestyle_factor 1118 1126	fluoride
+T14	disease 1275 1279	ADHD
+T15	lifestyle_factor 1348 1366	tap water fluoride
+T16	disease 1423 1427	ADHD
+T18	lifestyle_factor 1579 1597	tap water fluoride
+T19	lifestyle_factor 1677 1691	water fluoride
+T20	disease 2073 2077	ADHD
+T21	lifestyle_factor 2242 2263	fluoride in tap water
+T23	disease 2335 2339	ADHD
+T24	Out-of-scope 857 861	city
+*	Equiv T5 T6
+R1	positive_statistical_association Arg1:T4 Arg2:T5
+R3	Out-of-scope Arg1:T21 Arg2:T23
+R4	positive_statistical_association Arg1:T15 Arg2:T16
+T25	Out-of-scope 1616 1636	inattention symptoms
+T26	Out-of-scope 1602 1615	hyperactivity
+T27	lifestyle_factor 1961 1979	fluoridated region
+R8	positive_statistical_association Arg1:T27 Arg2:T20
+T29	lifestyle_factor 719 728	tap water
+T17	lifestyle_factor 1503 1521	tap water fluoride
+T28	lifestyle_factor 2139 2157	fluoridated region
+R2	positive_statistical_association Arg1:T21 Arg2:T23
+T22	disease 2304 2308	ADHD
+R5	positive_statistical_association Arg1:T21 Arg2:T22

@@ -1,0 +1,18 @@
+T1	lifestyle_factor 0 12	Social media
+T2	lifestyle_factor 99 123	social media utilization
+T3	disease 143 154	infertility
+T4	disease 279 290	infertility
+T5	lifestyle_factor 365 377	social media
+T6	lifestyle_factor 436 452	social media use
+T7	disease 460 471	infertility
+T8	lifestyle_factor 642 651	Instagram
+T9	lifestyle_factor 842 854	social media
+T10	disease 905 916	infertility
+T11	Out-of-scope 934 943	Education
+T12	Out-of-scope 954 965	infertility
+T13	disease 1016 1027	infertility
+T14	disease 1461 1472	infertility
+T15	lifestyle_factor 1524 1543	use of social media
+T16	disease 1596 1607	infertility
+T17	lifestyle_factor 684 691	Twitter
+T18	Out-of-scope 1567 1576	education

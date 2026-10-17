@@ -1,0 +1,44 @@
+T2	disease 97 119	coronary heart disease
+T3	disease 124 130	stroke
+T5	disease 239 261	coronary heart disease
+T6	disease 272 278	stroke
+T8	disease 425 431	stroke
+T9	lifestyle_factor 607 617	occupation
+T11	disease 772 778	stroke
+T12	disease 868 874	stroke
+T13	disease 1048 1054	stroke
+T14	lifestyle_factor 1157 1167	occupation
+T15	disease 1185 1197	hypertension
+T16	disease 1199 1207	diabetes
+T18	disease 1775 1781	stroke
+T19	lifestyle_factor 1843 1848	noise
+T20	disease 2046 2052	stroke
+T22	disease 1891 1894	CHD
+T23	disease 263 266	CHD
+*	Equiv T23 T5
+R1	positive_statistical_association Arg1:T19 Arg2:T22
+T24	lifestyle_factor 1967 1978	high strain
+T25	disease 1675 1678	CHD
+T26	lifestyle_factor 1588 1599	high strain
+T27	disease 1321 1324	CHD
+T28	lifestyle_factor 1340 1345	noise
+R4	positive_statistical_association Arg1:T28 Arg2:T27
+T29	lifestyle_factor 1495 1500	noise
+T30	disease 1535 1538	CHD
+R5	positive_statistical_association Arg1:T29 Arg2:T30
+T31	lifestyle_factor 35 40	noise
+T32	lifestyle_factor 210 215	noise
+T33	lifestyle_factor 691 696	noise
+T34	lifestyle_factor 1645 1650	noise
+T35	lifestyle_factor 1789 1794	noise
+T36	disease 860 863	CHD
+T37	disease 1041 1044	CHD
+T38	disease 764 767	CHD
+T39	disease 417 420	CHD
+T40	lifestyle_factor 1231 1238	smoking
+R6	positive_statistical_association Arg1:T34 Arg2:T25
+T41	lifestyle_factor 314 342	stressful working conditions
+R7	no_statistical_association Arg1:T35 Arg2:T18
+T1	lifestyle_factor 73 83	job strain
+R2	Out-of-scope Arg1:T26 Arg2:T25
+#1	AnnotatorNotes R2	enhancement effect 

@@ -1,0 +1,26 @@
+T1	lifestyle_factor 0 19	Resistance training
+T2	disease 46 60	rectal cancers
+T3	disease 141 153	colon cancer
+T4	lifestyle_factor 272 291	resistance training
+T5	disease 334 348	rectal cancers
+T6	disease 390 407	colorectal cancer
+T7	lifestyle_factor 646 665	resistance training
+T8	lifestyle_factor 738 757	resistance training
+T9	disease 772 785	rectal cancer
+T10	lifestyle_factor 890 909	resistance training
+T11	disease 966 978	colon cancer
+T12	lifestyle_factor 1010 1029	resistance training
+T13	disease 1138 1151	rectal cancer
+T14	lifestyle_factor 1203 1222	resistance training
+T15	disease 1259 1271	colon cancer
+T16	lifestyle_factor 1440 1459	resistance training
+T17	disease 1493 1505	colon cancer
+T18	lifestyle_factor 115 132	physical activity
+R1	negative_statistical_association Arg1:T18 Arg2:T3
+T20	disease 36 41	colon
+T21	disease 324 329	colon
+T22	lifestyle_factor 432 462	recreational physical activity
+T19	disease 762 767	colon
+T23	lifestyle_factor 197 213	aerobic activity
+R7	negative_statistical_association Arg1:T23 Arg2:T3
+R2	no_statistical_association Arg1:T10 Arg2:T13

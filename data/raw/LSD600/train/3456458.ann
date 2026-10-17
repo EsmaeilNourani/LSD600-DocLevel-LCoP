@@ -1,0 +1,36 @@
+T4	lifestyle_factor 199 207	sunlight
+T6	disease 450 458	melanoma
+T7	disease 532 540	melanoma
+T8	disease 680 688	melanoma
+T9	lifestyle_factor 735 745	sunbathing
+T10	disease 860 868	melanoma
+T12	lifestyle_factor 1110 1120	sunbathing
+T13	disease 1197 1205	melanoma
+T15	disease 1370 1386	nodular melanoma
+T16	disease 1482 1491	melanomas
+T17	lifestyle_factor 1855 1872	sunlight exposure
+T18	lifestyle_factor 637 644	boating
+T19	lifestyle_factor 649 656	fishing
+R1	positive_statistical_association Arg1:T18 Arg2:T7
+R2	positive_statistical_association Arg1:T19 Arg2:T7
+R3	statistical_association Arg1:T9 Arg2:T8
+T20	lifestyle_factor 1579 1604	recreational sun exposure
+R5	positive_statistical_association Arg1:T20 Arg2:T16
+T21	disease 16 44	cutaneous malignant melanoma
+T1	disease 137 165	cutaneous malignant melanoma
+T23	lifestyle_factor 268 280	sunscreening
+T26	lifestyle_factor 571 587	outdoor exposure
+R6	negative_statistical_association Arg1:T26 Arg2:T7
+T27	lifestyle_factor 801 817	working outdoors
+R7	statistical_association Arg1:T27 Arg2:T8
+T28	lifestyle_factor 970 976	bikini
+T29	lifestyle_factor 980 991	bathed nude
+R8	positive_statistical_association Arg1:T29 Arg2:T10
+R9	positive_statistical_association Arg1:T28 Arg2:T10
+T30	lifestyle_factor 1055 1077	one-piece bathing suit
+T31	lifestyle_factor 1134 1140	bikini
+T33	disease 1285 1324	Hutchinson's melanotic freckle melanoma
+T35	lifestyle_factor 1706 1731	recreational sun exposure
+T36	lifestyle_factor 1771 1787	outdoor exposure
+T2	Out-of-scope 1089 1104	little evidence
+R4	no_statistical_association Arg1:T36 Arg2:T16

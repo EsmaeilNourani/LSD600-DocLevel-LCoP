@@ -1,0 +1,46 @@
+T3	lifestyle_factor 161 174	sleep quality
+T7	lifestyle_factor 838 851	sleep quality
+T9	disease 981 993	Hypertension
+T10	disease 1021 1029	diabetes
+T13	disease 1101 1121	hyperhomocysteinemia
+T15	disease 1225 1237	hypertension
+T16	lifestyle_factor 1253 1266	sleep quality
+T17	disease 1284 1294	alcoholism
+T18	disease 1296 1316	hyperhomocysteinemia
+T20	disease 1352 1360	diabetes
+T25	lifestyle_factor 1639 1652	sleep quality
+T28	lifestyle_factor 1031 1038	smoking
+T29	lifestyle_factor 1239 1246	smoking
+T30	disease 21 36	ischemic stroke
+T31	disease 96 111	ischemic stroke
+T32	disease 184 199	ischemic stroke
+T33	disease 303 318	ischemic stroke
+T34	disease 768 783	ischemic stroke
+T35	disease 933 948	ischemic stroke
+T36	disease 1162 1177	ischemic stroke
+T37	disease 1365 1380	ischemic stroke
+T38	disease 1514 1529	ischemic stroke
+T39	disease 1617 1632	ischemic stroke
+T1	disease 113 115	IS
+*	Equiv T1 T31
+T2	lifestyle_factor 1057 1070	sleep quality
+R1	negative_statistical_association Arg1:T2 Arg2:T36
+T4	lifestyle_factor 1043 1051	drinking
+R2	positive_statistical_association Arg1:T28 Arg2:T36
+R3	positive_statistical_association Arg1:T4 Arg2:T36
+T5	disease 1090 1096	stroke
+T40	Out-of-scope 30 36	stroke
+T41	Out-of-scope 105 111	stroke
+T42	Out-of-scope 193 199	stroke
+T43	Out-of-scope 312 318	stroke
+T44	Out-of-scope 777 783	stroke
+T45	Out-of-scope 942 948	stroke
+T46	Out-of-scope 1171 1177	stroke
+T47	disease 1341 1347	stroke
+T48	Out-of-scope 1374 1380	stroke
+T49	Out-of-scope 1523 1529	stroke
+T50	Out-of-scope 1626 1632	stroke
+T6	lifestyle_factor 1401 1414	sleep quality
+R4	negative_statistical_association Arg1:T6 Arg2:T37
+R5	negative_statistical_association Arg1:T25 Arg2:T39
+T8	disease 1268 1282	hyperlipidemia

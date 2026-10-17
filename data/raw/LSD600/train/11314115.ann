@@ -1,0 +1,18 @@
+T1	lifestyle_factor 0 15	Sugar replacers
+T2	lifestyle_factor 176 191	sugar replacers
+T3	lifestyle_factor 274 284	sweeteners
+T6	lifestyle_factor 473 481	starches
+T7	lifestyle_factor 498 504	snacks
+T9	lifestyle_factor 588 598	sugar-free
+T10	lifestyle_factor 630 658	noncariogenic sugar replacer
+T13	Out-of-scope 994 1009	sugar replacers
+T15	lifestyle_factor 1204 1219	sugar replacers
+T19	lifestyle_factor 448 468	foods high in sugars
+T4	lifestyle_factor 846 865	sugar-free products
+T5	lifestyle_factor 1260 1277	nutrition choices
+T16	lifestyle_factor 561 569	products
+T18	lifestyle_factor 918 926	products
+T20	disease 216 229	dental caries
+R1	prevents Arg1:T2 Arg2:T20
+T11	disease 825 831	caries
+R2	negative_statistical_association Arg1:T4 Arg2:T11

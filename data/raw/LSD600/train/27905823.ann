@@ -1,0 +1,22 @@
+T1	disease 35 41	asthma
+T2	disease 88 94	Asthma
+T4	disease 254 260	asthma
+T5	disease 392 398	asthma
+T6	lifestyle_factor 700 706	diving
+T7	disease 739 745	asthma
+T8	lifestyle_factor 935 941	diving
+T9	disease 974 980	asthma
+T10	lifestyle_factor 1024 1030	diving
+T11	lifestyle_factor 1054 1060	diving
+T12	disease 1232 1238	asthma
+T13	lifestyle_factor 1268 1274	diving
+T16	lifestyle_factor 727 733	divers
+T17	lifestyle_factor 952 958	divers
+T18	lifestyle_factor 1318 1324	divers
+T19	lifestyle_factor 1220 1226	divers
+T20	lifestyle_factor 374 386	SCUBA divers
+T21	lifestyle_factor 17 29	SCUBA divers
+T15	lifestyle_factor 152 212	self-contained underwater breathing apparatus (SCUBA) diving
+T3	Out-of-scope 715 723	injuries
+R1	Out-of-scope Arg1:T6 Arg2:T3
+T22	Out-of-scope 1268 1291	diving-related injuries

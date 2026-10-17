@@ -1,0 +1,38 @@
+T2	disease 97 105	COVID-19
+T4	disease 248 256	COVID-19
+T7	disease 493 501	COVID-19
+T8	lifestyle_factor 526 546	socioeconomic status
+T9	disease 688 696	COVID-19
+T10	lifestyle_factor 1131 1144	washing hands
+T11	disease 1220 1228	COVID-19
+T12	lifestyle_factor 1240 1260	socioeconomic status
+T13	disease 1323 1331	COVID-19
+T14	disease 1935 1943	COVID-19
+T16	lifestyle_factor 2501 2512	small towns
+T17	disease 2678 2686	COVID-19
+T19	disease 2775 2783	COVID-19
+T20	lifestyle_factor 2723 2735	hand hygiene
+R1	negative_statistical_association Arg1:T20 Arg2:T17
+T21	lifestyle_factor 2450 2462	hand hygiene
+T22	lifestyle_factor 0 12	Hand Hygiene
+T25	lifestyle_factor 194 206	hand hygiene
+T26	lifestyle_factor 303 315	hand hygiene
+T27	lifestyle_factor 387 399	hand hygiene
+R2	Out-of-scope Arg1:T25 Arg2:T4
+T15	lifestyle_factor 570 575	rural
+T23	lifestyle_factor 579 584	urban
+T24	lifestyle_factor 1280 1285	rural
+T28	lifestyle_factor 1286 1291	urban
+T29	lifestyle_factor 2488 2496	villages
+T30	lifestyle_factor 1030 1041	handwashing
+T31	lifestyle_factor 1894 1905	handwashing
+T32	lifestyle_factor 2014 2025	handwashing
+R3	negative_statistical_association Arg1:T32 Arg2:T14
+T34	lifestyle_factor 2543 2555	large cities
+T35	lifestyle_factor 2532 2538	medium
+T1	lifestyle_factor 1418 1437	washing their hands
+T3	lifestyle_factor 858 865	schools
+T5	Out-of-scope 796 803	schools
+T6	Out-of-scope 1836 1849	cleaning home
+T18	Out-of-scope 1061 1072	Handwashing
+R4	negative_statistical_association Arg1:T1 Arg2:T13

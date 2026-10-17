@@ -1,0 +1,27 @@
+T1	disease 0 7	Obesity
+T2	disease 101 108	Obesity
+T3	disease 177 185	diabetes
+T4	disease 291 298	obesity
+T5	lifestyle_factor 406 428	very-low-calorie diets
+T6	lifestyle_factor 554 568	healthy eating
+T7	lifestyle_factor 653 657	Diet
+T8	disease 817 825	diabetes
+T9	lifestyle_factor 910 914	Diet
+T14	disease 1590 1598	diabetes
+T15	lifestyle_factor 1670 1674	Diet
+T16	lifestyle_factor 430 435	VLCDs
+T17	lifestyle_factor 1753 1757	VLCD
+T18	lifestyle_factor 590 594	VLCD
+T19	lifestyle_factor 1682 1686	VLCD
+T21	lifestyle_factor 662 666	VLCD
+T22	lifestyle_factor 922 926	VLCD
+T23	lifestyle_factor 1035 1039	VLCD
+*	Equiv T16 T5
+T20	disease 150 172	cardiovascular disease
+T26	lifestyle_factor 633 641	exercise
+T27	lifestyle_factor 570 586	hypocaloric diet
+T11	disease 1901 1915	cardiovascular
+#2	AnnotatorNotes T11	cardiovascular disease is implied
+T10	disease 1796 1810	cardiovascular
+R1	Out-of-scope Arg1:T19 Arg2:T14
+T12	Out-of-scope 1725 1757	weight loss achieved with a VLCD

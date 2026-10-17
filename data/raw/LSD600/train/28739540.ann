@@ -1,0 +1,34 @@
+T1	disease 183 196	breast cancer
+T2	disease 212 222	lymphedema
+T3	disease 239 252	Breast cancer
+T4	disease 349 356	Obesity
+T5	lifestyle_factor 363 382	sedentary lifestyle
+T6	disease 491 501	lymphedema
+T7	disease 517 530	breast cancer
+T8	disease 699 712	breast cancer
+T9	disease 776 789	breast-cancer
+T10	disease 798 808	lymphedema
+T12	lifestyle_factor 845 861	aerobic exercise
+T13	lifestyle_factor 988 1003	weight training
+T14	lifestyle_factor 1065 1081	meal replacement
+T15	disease 1270 1283	breast cancer
+T18	disease 1742 1755	breast cancer
+T19	disease 1932 1942	lymphedema
+T20	lifestyle_factor 1904 1912	exercise
+T21	lifestyle_factor 815 823	exercise
+T22	lifestyle_factor 881 889	exercise
+T23	lifestyle_factor 460 468	exercise
+T24	lifestyle_factor 1497 1505	exercise
+T25	lifestyle_factor 20 28	exercise
+T26	lifestyle_factor 138 146	exercise
+T33	lifestyle_factor 1437 1450	high-fat diet
+T32	Out-of-scope 476 487	weight-loss
+T11	lifestyle_factor 1507 1526	calorie restriction
+T16	disease 1568 1574	cancer
+T17	Out-of-scope 151 162	weight-loss
+T28	Out-of-scope 1917 1928	weight-loss
+T29	Out-of-scope 866 877	weight-loss
+T30	Out-of-scope 894 905	weight-loss
+T31	Out-of-scope 1127 1138	weight-loss
+T34	lifestyle_factor 825 840	weight training
+#1	AnnotatorNotes T31	# TODO: check

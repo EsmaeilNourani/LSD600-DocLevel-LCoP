@@ -1,0 +1,41 @@
+T1	disease 47 55	dementia
+T2	disease 60 79	Alzheimer's disease
+T3	lifestyle_factor 94 124	Leisure-time physical activity
+T4	disease 165 173	dementia
+T5	disease 178 197	Alzheimer's disease
+T6	lifestyle_factor 219 231	occupational
+T7	disease 441 449	dementia
+T9	lifestyle_factor 814 826	occupational
+T10	disease 984 992	dementia
+T11	lifestyle_factor 1083 1093	occupation
+T12	lifestyle_factor 1107 1113	income
+T13	lifestyle_factor 1126 1156	leisure-time physical activity
+T14	lifestyle_factor 1368 1398	leisure-time physical activity
+T15	disease 1516 1524	dementia
+R1	negative_statistical_association Arg1:T3 Arg2:T4
+R2	negative_statistical_association Arg1:T3 Arg2:T5
+T16	disease 199 201	AD
+*	Equiv T16 T5
+T18	disease 996 998	AD
+T19	disease 1529 1531	AD
+T17	disease 450 452	AD
+T21	lifestyle_factor 265 282	physical activity
+T28	lifestyle_factor 1249 1256	smoking
+T29	lifestyle_factor 1627 1644	physical activity
+T30	lifestyle_factor 236 263	commuting physical activity
+T31	lifestyle_factor 13 30	physical activity
+T33	lifestyle_factor 406 436	work-related physical activity
+T34	lifestyle_factor 895 922	commuting physical activity
+T35	disease 1222 1240	vascular disorders
+T36	lifestyle_factor 1175 1205	work-related physical activity
+T37	lifestyle_factor 1031 1040	education
+T38	lifestyle_factor 1305 1335	work-related physical activity
+T39	lifestyle_factor 1435 1465	work-related physical activity
+R5	no_statistical_association Arg1:T9 Arg2:T10
+R6	no_statistical_association Arg1:T34 Arg2:T18
+R7	no_statistical_association Arg1:T9 Arg2:T18
+R8	no_statistical_association Arg1:T34 Arg2:T10
+R3	Out-of-scope Arg1:T39 Arg2:T15
+#1	AnnotatorNotes R3	did not prevent
+R4	Out-of-scope Arg1:T39 Arg2:T19
+T8	disease 483 497	Cardiovascular

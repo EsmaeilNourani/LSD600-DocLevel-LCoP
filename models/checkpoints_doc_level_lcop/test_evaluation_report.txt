@@ -1,0 +1,10 @@
+LSD600 Document-Level LCoP Evaluation Report
+============================================================
+Best Dev F1: 56.6%
+Test Precision: 47.6%
+Test Recall: 57.3%
+Test F1: 52.0%
+
+Raw evalsorel output:
+TOTAL: precision 47.6% (215/452) recall 57.3% (215/375) F 52.0%
+

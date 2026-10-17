@@ -1,0 +1,39 @@
+T1	disease 0 15	Prostate cancer
+T2	lifestyle_factor 25 47	exposure to pesticides
+T4	disease 155 170	prostate cancer
+T6	disease 231 246	prostate cancer
+T7	lifestyle_factor 303 313	pesticides
+T8	disease 367 382	prostate cancer
+T9	disease 479 490	lung cancer
+T10	disease 495 502	cancers
+T12	lifestyle_factor 764 774	pesticides
+T13	disease 827 842	prostate cancer
+T14	lifestyle_factor 947 966	alcohol consumption
+T15	disease 1071 1086	prostate cancer
+T16	lifestyle_factor 1096 1111	exposure to DDT
+T17	lifestyle_factor 1225 1232	lindane
+T18	lifestyle_factor 1162 1170	simazine
+R2	positive_statistical_association Arg1:T16 Arg2:T15
+R3	positive_statistical_association Arg1:T17 Arg2:T15
+R4	positive_statistical_association Arg1:T18 Arg2:T15
+T19	disease 456 462	cancer
+T20	lifestyle_factor 968 975	smoking
+T21	lifestyle_factor 977 986	education
+T22	lifestyle_factor 1485 1493	dichlone
+T23	lifestyle_factor 1495 1508	dinoseb amine
+T24	lifestyle_factor 1510 1519	malathion
+T25	lifestyle_factor 1521 1531	endosulfan
+T26	lifestyle_factor 1533 1538	2,4-D
+T27	lifestyle_factor 1540 1546	2,4-DB
+T28	lifestyle_factor 1552 1560	carbaryl
+R5	positive_statistical_association Arg1:T22 Arg2:T15
+R6	positive_statistical_association Arg1:T23 Arg2:T15
+R7	positive_statistical_association Arg1:T24 Arg2:T15
+R8	positive_statistical_association Arg1:T25 Arg2:T15
+R9	positive_statistical_association Arg1:T26 Arg2:T15
+R10	positive_statistical_association Arg1:T27 Arg2:T15
+R11	positive_statistical_association Arg1:T28 Arg2:T15
+T29	lifestyle_factor 1658 1664	captan
+T30	lifestyle_factor 1666 1673	dicamba
+T31	lifestyle_factor 1679 1687	diazinon
+T11	lifestyle_factor 537 557	occupational history

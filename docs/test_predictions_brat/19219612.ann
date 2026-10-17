@@ -1,0 +1,37 @@
+T1	lifestyle_factor 10 24	marital status
+T2	disease 71 85	bladder cancer
+T3	lifestyle_factor 110 119	unmarried
+T4	disease 286 298	lung cancers
+T5	disease 369 383	bladder cancer
+T6	lifestyle_factor 410 424	marital status
+T7	disease 677 691	bladder cancer
+T8	lifestyle_factor 728 742	marital status
+T9	lifestyle_factor 764 773	unmarried
+T10	lifestyle_factor 775 782	widowed
+T11	lifestyle_factor 784 792	divorced
+T12	lifestyle_factor 881 888	tobacco
+T14	lifestyle_factor 1160 1169	unmarried
+T15	disease 1703 1717	bladder cancer
+T16	lifestyle_factor 1866 1875	unmarried
+T17	lifestyle_factor 2044 2053	unmarried
+T18	disease 2173 2187	bladder cancer
+T19	lifestyle_factor 2007 2014	married
+T21	lifestyle_factor 1452 1459	married
+T23	lifestyle_factor 97 104	Married
+T24	lifestyle_factor 794 807	never married
+T25	lifestyle_factor 1135 1142	Married
+T26	lifestyle_factor 1243 1250	Married
+T27	lifestyle_factor 1719 1726	married
+T22	disease 253 261	prostate
+T28	disease 263 269	breast
+T31	lifestyle_factor 753 760	married
+T32	lifestyle_factor 1126 1133	married
+T33	lifestyle_factor 1381 1388	married
+T34	lifestyle_factor 2151 2158	married
+T35	Out-of-scope 1964 1969	tumor
+T36	lifestyle_factor 894 905	alcohol use
+T13	disease 271 280	head/neck
+R1	negative_statistical_association Arg1:T23 Arg2:T22
+R2	negative_statistical_association Arg1:T23 Arg2:T28
+R3	negative_statistical_association Arg1:T23 Arg2:T13
+R4	negative_statistical_association Arg1:T23 Arg2:T4

@@ -1,0 +1,39 @@
+T1	lifestyle_factor 129 143	Dietary habits
+T2	lifestyle_factor 301 305	diet
+T3	disease 316 329	dental caries
+T4	disease 352 371	infectious diseases
+T5	disease 373 390	Diabetes Mellitus
+T6	disease 429 447	metabolic disorder
+T7	disease 552 576	type I Diabetes Mellitus
+T8	disease 628 641	dental caries
+T9	disease 760 784	type I Diabetes Mellitus
+T11	lifestyle_factor 1039 1051	oral hygiene
+T12	lifestyle_factor 1060 1072	social class
+T13	lifestyle_factor 1420 1424	diet
+T14	lifestyle_factor 1871 1888	cheese with bread
+T15	lifestyle_factor 2072 2086	dietary habits
+T16	lifestyle_factor 2194 2200	cheese
+R1	causes Arg1:T2 Arg2:T3
+T17	lifestyle_factor 21 37	dietary patterns
+T18	lifestyle_factor 518 534	dietary patterns
+T19	lifestyle_factor 1018 1034	dietary patterns
+T20	lifestyle_factor 1120 1136	Dietary patterns
+T29	lifestyle_factor 1372 1389	cariogenic snacks
+T30	lifestyle_factor 1704 1718	tooth brushing
+T31	lifestyle_factor 1730 1742	mouth washes
+T32	lifestyle_factor 2139 2152	mouth washing
+T33	lifestyle_factor 2120 2134	tooth brushing
+T34	lifestyle_factor 1803 1815	dental floss
+T36	lifestyle_factor 2205 2210	bread
+T37	lifestyle_factor 2091 2106	dental flossing
+T10	disease 2223 2229	caries
+R7	prevents Arg1:T36 Arg2:T10
+R8	prevents Arg1:T16 Arg2:T10
+T38	disease 1214 1220	caries
+T21	lifestyle_factor 1244 1249	foods
+T22	lifestyle_factor 2182 2188	snacks
+R2	causes Arg1:T2 Arg2:T4
+R4	prevents Arg1:T21 Arg2:T38
+R5	causes Arg1:T21 Arg2:T38
+T23	Out-of-scope 1159 1163	food
+R3	Out-of-scope Arg1:T2 Arg2:T5

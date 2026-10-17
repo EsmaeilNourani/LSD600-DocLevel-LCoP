@@ -1,0 +1,10 @@
+T1	lifestyle_factor 11 28	sleep deprivation
+T2	lifestyle_factor 48 65	Sleep deprivation
+T3	lifestyle_factor 643 660	sleep deprivation
+T4	lifestyle_factor 341 383	rapid eye-movement (REM) sleep deprivation
+T5	lifestyle_factor 164 187	Severely sleep-deprived
+T6	lifestyle_factor 679 697	REM sleep-deprived
+T7	lifestyle_factor 769 772	RSD
+T8	lifestyle_factor 871 874	RSD
+T9	lifestyle_factor 385 388	RSD
+*	Equiv T4 T9

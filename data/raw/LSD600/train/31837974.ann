@@ -1,0 +1,29 @@
+T2	lifestyle_factor 689 709	socioeconomic status
+T4	lifestyle_factor 749 757	literacy
+T5	lifestyle_factor 1043 1050	bathing
+T6	disease 1227 1235	diabetes
+T7	disease 1237 1259	coronary heart disease
+T8	disease 1261 1267	stroke
+T9	disease 1269 1306	chronic obstructive pulmonary disease
+T10	disease 1320 1329	arthritis
+T11	disease 1339 1347	dementia
+T12	disease 1353 1372	Parkinson's disease
+T13	lifestyle_factor 2226 2246	socioeconomic status
+T14	lifestyle_factor 2270 2280	occupation
+T15	lifestyle_factor 2289 2309	socioeconomic status
+T16	lifestyle_factor 2546 2566	Socioeconomic status
+T17	lifestyle_factor 2688 2708	Socioeconomic status
+T18	disease 1331 1337	cancer
+T19	lifestyle_factor 911 928	physical activity
+T20	disease 1308 1318	depression
+T21	lifestyle_factor 711 720	education
+T22	lifestyle_factor 201 222	high-income countries
+T1	lifestyle_factor 722 743	occupational position
+T3	lifestyle_factor 1110 1117	walking
+T25	lifestyle_factor 356 375	social inequalities
+T26	lifestyle_factor 157 176	Social inequalities
+T27	lifestyle_factor 0 19	Social inequalities
+T28	lifestyle_factor 1477 1496	social inequalities
+T29	lifestyle_factor 2913 2932	social inequalities
+T30	lifestyle_factor 1414 1438	sociodemographic factors
+T31	Out-of-scope 2214 2222	modified

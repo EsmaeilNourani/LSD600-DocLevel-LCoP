@@ -1,0 +1,45 @@
+T1	disease 63 71	COVID-19
+T3	disease 133 141	COVID-19
+T4	lifestyle_factor 235 247	social media
+T5	disease 348 356	COVID-19
+T6	disease 496 504	COVID-19
+T7	lifestyle_factor 571 583	social media
+T8	lifestyle_factor 637 645	Facebook
+T9	lifestyle_factor 660 669	Instagram
+T10	disease 785 793	COVID-19
+T11	lifestyle_factor 837 867	Pittsburgh Sleep Quality Index
+T12	lifestyle_factor 970 988	Poor sleep quality
+T13	lifestyle_factor 1459 1473	sleep duration
+T14	lifestyle_factor 1723 1733	nightmares
+T15	disease 1935 1943	COVID-19
+T16	disease 2065 2079	sleep disorder
+T17	disease 2345 2353	COVID-19
+T18	lifestyle_factor 2421 2433	social media
+T19	lifestyle_factor 2580 2590	nightmares
+T20	disease 2540 2557	sleep disruptions
+T21	disease 1680 1697	sleep disruptions
+T22	lifestyle_factor 414 419	sleep
+T23	lifestyle_factor 281 286	sleep
+T24	lifestyle_factor 1241 1246	sleep
+T25	lifestyle_factor 2186 2196	poor sleep
+T26	lifestyle_factor 2443 2453	poor sleep
+T27	lifestyle_factor 2592 2611	Sleep interventions
+T28	disease 212 230	sleep disturbances
+T29	disease 0 18	Sleep Disturbances
+T30	disease 2301 2319	sleep disturbances
+T38	lifestyle_factor 647 654	Twitter
+T39	disease 1623 1631	insomnia
+T40	lifestyle_factor 1551 1561	poor sleep
+T41	lifestyle_factor 1705 1715	device use
+T42	lifestyle_factor 2565 2575	device use
+T43	disease 2144 2152	insomnia
+T46	disease 2479 2487	insomnia
+T47	disease 1041 1049	insomnia
+T2	disease 879 887	Insomnia
+T31	Out-of-scope 1858 1870	nonphysician
+T32	lifestyle_factor 869 873	PSQI
+*	Equiv T11 T32
+T33	lifestyle_factor 1006 1010	PSQI
+T34	lifestyle_factor 1563 1567	PSQI
+R1	causes Arg1:T20 Arg2:T42
+R2	causes Arg1:T20 Arg2:T19

@@ -1,0 +1,26 @@
+T1	lifestyle_factor 6 21	psychotherapies
+T2	disease 26 42	anorexia nervosa
+T3	disease 167 183	anorexia nervosa
+T4	lifestyle_factor 216 243	interpersonal psychotherapy
+T5	disease 281 296	bulimia nervosa
+T6	disease 369 385	anorexia nervosa
+T7	disease 416 432	anorexia nervosa
+T8	lifestyle_factor 552 567	psychotherapies
+T9	lifestyle_factor 600 627	interpersonal psychotherapy
+T13	lifestyle_factor 1454 1469	psychotherapies
+T14	disease 1597 1613	anorexia nervosa
+R1	treats Arg1:T4 Arg2:T5
+T15	lifestyle_factor 185 211	Cognitive behavior therapy
+R2	treats Arg1:T15 Arg2:T5
+T16	lifestyle_factor 569 595	cognitive behavior therapy
+T17	lifestyle_factor 696 720	supportive psychotherapy
+T18	lifestyle_factor 1037 1064	interpersonal psychotherapy
+T19	lifestyle_factor 1072 1098	cognitive behavior therapy
+T20	lifestyle_factor 1195 1222	interpersonal psychotherapy
+T10	lifestyle_factor 722 764	nonspecific supportive clinical management
+*	Equiv T17 T10
+T11	lifestyle_factor 978 1020	Nonspecific supportive clinical management
+T12	lifestyle_factor 1136 1178	nonspecific supportive clinical management
+T21	lifestyle_factor 1258 1300	nonspecific supportive clinical management
+T22	lifestyle_factor 1378 1420	nonspecific supportive clinical management
+R3	treats Arg1:T22 Arg2:T14

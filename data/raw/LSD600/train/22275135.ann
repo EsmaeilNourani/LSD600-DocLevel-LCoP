@@ -1,0 +1,34 @@
+T1	lifestyle_factor 16 21	sleep
+T2	disease 54 61	obesity
+T3	disease 82 89	obesity
+T4	disease 158 165	obesity
+T5	disease 215 223	diabetes
+T6	disease 326 333	obesity
+T7	lifestyle_factor 559 564	sleep
+T8	disease 635 642	obesity
+T9	lifestyle_factor 731 748	sleep restriction
+T10	lifestyle_factor 933 947	sleep duration
+T11	disease 1008 1015	obesity
+T12	disease 1027 1035	diabetes
+T13	disease 1051 1063	hypertension
+T14	lifestyle_factor 1134 1148	sleep duration
+T15	disease 1296 1304	diabetes
+T16	disease 1319 1331	hypertension
+T17	lifestyle_factor 1359 1364	sleep
+T18	lifestyle_factor 1410 1415	sleep
+T19	disease 1420 1427	obesity
+T20	disease 1747 1754	obesity
+T21	disease 1180 1203	cardiometabolic disease
+R4	positive_statistical_association Arg1:T14 Arg2:T21
+R5	negative_statistical_association Arg1:T17 Arg2:T15
+R6	negative_statistical_association Arg1:T17 Arg2:T16
+T24	lifestyle_factor 1640 1645	sleep
+T25	lifestyle_factor 1737 1742	sleep
+T26	lifestyle_factor 1521 1526	sleep
+T28	disease 188 210	cardiovascular disease
+T29	disease 658 681	cardiometabolic disease
+R1	negative_statistical_association Arg1:T10 Arg2:T11
+R2	negative_statistical_association Arg1:T10 Arg2:T12
+R3	negative_statistical_association Arg1:T10 Arg2:T13
+R9	statistical_association Arg1:T25 Arg2:T20
+R7	negative_statistical_association Arg1:T18 Arg2:T19

@@ -1,0 +1,19 @@
+T1	Out-of-scope 12 20	curcumin
+T2	disease 73 96	eosinophilic meningitis
+T3	disease 183 206	eosinophilic meningitis
+T4	disease 223 242	meningoencephalitis
+T5	lifestyle_factor 244 252	Curcumin
+T6	lifestyle_factor 385 393	curcumin
+T8	lifestyle_factor 511 519	curcumin
+T9	disease 546 569	eosinophilic meningitis
+T10	disease 731 749	angiostrongyliasis
+T11	lifestyle_factor 988 996	curcumin
+T12	lifestyle_factor 1155 1163	curcumin
+T13	disease 1364 1374	meningitis
+T14	Out-of-scope 415 423	possibly
+T15	Out-of-scope 523 537	A. cantonensis
+R2	Out-of-scope Arg1:T15 Arg2:T9
+T16	Out-of-scope 472 477	study
+T17	Out-of-scope 1007 1019	low efficacy
+T7	disease 448 458	meningitis
+R1	treats Arg1:T6 Arg2:T7

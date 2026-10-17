@@ -1,0 +1,27 @@
+T1	Out-of-scope 38 51	air pollution
+T2	disease 56 64	diabetes
+T3	lifestyle_factor 170 183	air pollution
+T4	disease 262 277	type 2 diabetes
+T5	Out-of-scope 337 341	Diet
+T6	disease 372 380	diabetes
+T7	lifestyle_factor 627 643	nitrogen dioxide
+T8	Out-of-scope 742 755	air pollution
+T9	disease 977 985	diabetes
+T10	Out-of-scope 1329 1342	air pollution
+T11	disease 1377 1385	diabetes
+T12	Out-of-scope 1453 1466	air pollution
+T13	disease 1542 1550	diabetes
+T14	lifestyle_factor 645 648	NO2
+T15	lifestyle_factor 895 898	NO2
+T16	lifestyle_factor 1212 1215	NO2
+T17	lifestyle_factor 22 51	traffic-related air pollution
+T18	lifestyle_factor 726 755	traffic-related air pollution
+T19	lifestyle_factor 1313 1342	traffic-related air pollution
+T20	lifestyle_factor 1437 1466	traffic-related air pollution
+T21	Out-of-scope 109 119	HYPOTHESIS
+R1	statistical_association Arg1:T19 Arg2:T11
+R3	statistical_association Arg1:T15 Arg2:T9
+*	Equiv T14 T7
+T22	Out-of-scope 343 349	Cancer
+T23	disease 252 258	type 1
+R4	positive_statistical_association Arg1:T16 Arg2:T9

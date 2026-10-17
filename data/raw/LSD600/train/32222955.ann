@@ -1,0 +1,40 @@
+T1	disease 14 30	eating disorders
+T2	disease 157 173	eating disorders
+T3	lifestyle_factor 175 192	disordered eating
+T4	disease 462 477	eating disorder
+T5	lifestyle_factor 495 512	disordered eating
+T7	lifestyle_factor 574 581	fasting
+T9	lifestyle_factor 712 722	overeating
+T10	disease 1114 1129	eating disorder
+T11	lifestyle_factor 1338 1344	eating
+T12	disease 1408 1424	Eating disorders
+T13	disease 1510 1526	eating disorders
+T14	lifestyle_factor 1544 1561	disordered eating
+T15	disease 1359 1377	sleep disturbances
+R1	statistical_association Arg1:T11 Arg2:T15
+T16	disease 1452 1470	sleep disturbances
+T17	disease 1592 1610	sleep disturbances
+T18	disease 738 756	sleep disturbances
+T19	disease 208 226	sleep disturbances
+T20	disease 1007 1025	sleep disturbances
+T21	disease 35 53	sleep disturbances
+T22	lifestyle_factor 582 596	skipping meals
+T23	lifestyle_factor 535 553	restrictive eating
+T6	lifestyle_factor 669 686	weight loss pills
+T8	lifestyle_factor 645 654	laxatives
+T24	lifestyle_factor 655 664	diuretics
+T25	disease 904 921	sleep disturbance
+R2	positive_statistical_association Arg1:T5 Arg2:T25
+R3	positive_statistical_association Arg1:T23 Arg2:T25
+R4	positive_statistical_association Arg1:T7 Arg2:T25
+R5	positive_statistical_association Arg1:T22 Arg2:T25
+R6	positive_statistical_association Arg1:T8 Arg2:T25
+R7	positive_statistical_association Arg1:T24 Arg2:T25
+R8	positive_statistical_association Arg1:T6 Arg2:T25
+R9	positive_statistical_association Arg1:T9 Arg2:T25
+T26	lifestyle_factor 1160 1167	falling
+T27	lifestyle_factor 1224 1231	staying
+R10	negative_statistical_association Arg1:T26 Arg2:T10
+R11	negative_statistical_association Arg1:T27 Arg2:T10
+R12	positive_statistical_association Arg1:T14 Arg2:T17
+T28	Out-of-scope 1152 1159	trouble

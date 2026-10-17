@@ -1,0 +1,27 @@
+T1	lifestyle_factor 0 21	Outdoor air pollution
+T2	disease 52 56	ADHD
+T3	disease 96 136	Attention deficit hyperactivity disorder
+T4	disease 138 142	ADHD
+T5	disease 262 266	ADHD
+T6	lifestyle_factor 315 336	outdoor air pollution
+T7	disease 359 363	ADHD
+T8	disease 703 707	ADHD
+T9	lifestyle_factor 827 845	particulate matter
+T10	lifestyle_factor 880 896	nitrogen dioxide
+T11	disease 1149 1153	ADHD
+T12	disease 1256 1260	ADHD
+T13	disease 1396 1400	ADHD
+T14	disease 1531 1535	ADHD
+T15	lifestyle_factor 1611 1624	air pollution
+T16	disease 1638 1642	ADHD
+T17	lifestyle_factor 1748 1768	socioeconomic status
+R1	statistical_association Arg1:T15 Arg2:T16
+*	Equiv T4 T3
+T18	disease 170 197	neurodevelopmental disorder
+T19	lifestyle_factor 873 877	PM10
+T20	lifestyle_factor 898 901	NO2
+*	Equiv T20 T10
+T21	lifestyle_factor 1200 1204	PM10
+T22	lifestyle_factor 1209 1212	NO2
+R2	positive_statistical_association Arg1:T21 Arg2:T12
+R3	positive_statistical_association Arg1:T22 Arg2:T12

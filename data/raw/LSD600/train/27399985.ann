@@ -1,0 +1,44 @@
+T2	disease 310 324	muscle wasting
+T4	disease 529 543	muscle wasting
+T5	disease 601 628	myophosphorylase deficiency
+T6	disease 630 645	McArdle disease
+T7	disease 664 691	inborn errors of metabolism
+T8	lifestyle_factor 771 778	fasting
+T9	disease 894 907	renal failure
+T11	disease 1533 1577	carnitine palmitoyltransferase II deficiency
+T12	disease 1661 1710	very long chain acyl-CoA dehydrogenase deficiency
+T18	disease 2267 2282	McArdle disease
+T19	disease 2607 2620	hypoglycaemia
+T20	lifestyle_factor 2628 2645	prolonged fasting
+T22	lifestyle_factor 751 769	Prolonged exercise
+T24	disease 826 840	rhabdomyolysis
+R1	causes Arg1:T22 Arg2:T24
+R2	causes Arg1:T8 Arg2:T24
+R4	causes Arg1:T20 Arg2:T19
+T26	lifestyle_factor 1950 1963	fat-rich diet
+T27	lifestyle_factor 1880 1902	carbohydrate rich diet
+T28	disease 261 281	metabolic myopathies
+T29	disease 365 390	skeletal muscle disorders
+T30	disease 474 494	metabolic myopathies
+*	Equiv T6 T5
+T31	disease 725 739	rhabdomyolysis
+T32	disease 1167 1187	metabolic myopathies
+T33	disease 1425 1449	fat metabolism disorders
+T34	disease 545 578	Disorders of fatty acid oxidation
+R5	controls Arg1:T27 Arg2:T33
+R6	controls Arg1:T27 Arg2:T12
+R7	controls Arg1:T27 Arg2:T11
+T35	disease 2287 2320	phosphorylase b kinase deficiency
+T36	disease 2798 2818	metabolic myopathies
+T37	disease 36 75	disorders of skeletal muscle metabolism
+T1	lifestyle_factor 1002 1013	wheel chair
+T10	lifestyle_factor 1018 1037	respiratory support
+T43	lifestyle_factor 218 243	nutritional interventions
+T3	lifestyle_factor 2445 2453	exercise
+T13	lifestyle_factor 2076 2084	exercise
+T14	lifestyle_factor 1827 1835	exercise
+T15	lifestyle_factor 1047 1072	nutritional interventions
+T16	lifestyle_factor 180 192	carbohydrate
+T17	disease 580 583	FAO
+*	Equiv T34 T17
+T21	Out-of-scope 1865 1872	benefit

@@ -1,0 +1,25 @@
+T1	lifestyle_factor 31 36	snuff
+T2	disease 53 74	myocardial infarction
+T3	lifestyle_factor 182 187	snuff
+T4	lifestyle_factor 243 250	tobacco
+T5	lifestyle_factor 327 332	snuff
+T6	lifestyle_factor 432 437	snuff
+T7	disease 458 479	myocardial infarction
+T9	lifestyle_factor 721 728	tobacco
+T10	disease 854 875	myocardial infarction
+T11	disease 919 940	myocardial infarction
+T12	lifestyle_factor 1194 1199	snuff
+T13	disease 1255 1276	myocardial infarction
+T14	lifestyle_factor 1356 1361	snuff
+T15	disease 1557 1578	myocardial infarction
+T16	lifestyle_factor 1625 1630	Snuff
+T17	disease 1719 1740	myocardial infarction
+T18	lifestyle_factor 1789 1794	snuff
+T19	disease 1845 1866	myocardial infarction
+R1	positive_statistical_association Arg1:T18 Arg2:T19
+R2	positive_statistical_association Arg1:T16 Arg2:T22
+T20	lifestyle_factor 818 828	nonsmoking
+T21	lifestyle_factor 1219 1229	nonsmoking
+T22	disease 1679 1701	cardiovascular disease
+R3	positive_statistical_association Arg1:T14 Arg2:T15
+T8	Out-of-scope 1404 1413	0.81-1.02

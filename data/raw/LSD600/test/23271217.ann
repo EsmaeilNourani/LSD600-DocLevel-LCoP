@@ -1,0 +1,28 @@
+T1	lifestyle_factor 12 20	fluoride
+T3	disease 81 92	root caries
+T4	lifestyle_factor 144 152	fluoride
+T6	disease 206 217	root caries
+T7	lifestyle_factor 354 373	Fluoride toothpaste
+T8	lifestyle_factor 519 527	Fluoride
+T10	disease 733 744	root caries
+T11	lifestyle_factor 794 802	fluoride
+T12	lifestyle_factor 863 871	fluoride
+T13	lifestyle_factor 879 887	fluoride
+T14	lifestyle_factor 924 932	Fluoride
+T15	lifestyle_factor 956 967	chewing gum
+T16	lifestyle_factor 1077 1085	fluoride
+T17	disease 1195 1206	root caries
+T18	lifestyle_factor 1232 1240	fluoride
+T19	lifestyle_factor 1298 1306	Fluoride
+T20	disease 1359 1370	root caries
+R1	prevents Arg1:T11 Arg2:T10
+R3	prevents Arg1:T18 Arg2:T17
+R4	prevents Arg1:T19 Arg2:T20
+T24	lifestyle_factor 1266 1276	toothpaste
+R6	Out-of-scope Arg1:T24 Arg2:T17
+T25	lifestyle_factor 759 769	toothpaste
+R7	prevents Arg1:T25 Arg2:T10
+T26	lifestyle_factor 969 978	toothpick
+T27	lifestyle_factor 984 992	flossing
+R10	prevents Arg1:T12 Arg2:T10
+R11	prevents Arg1:T13 Arg2:T10

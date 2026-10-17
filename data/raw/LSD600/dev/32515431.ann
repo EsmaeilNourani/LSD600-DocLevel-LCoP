@@ -1,0 +1,36 @@
+T1	disease 0 13	Dental Caries
+T2	disease 147 160	dental caries
+T3	lifestyle_factor 179 192	socioeconomic
+T4	Out-of-scope 275 282	hygiene
+T5	Out-of-scope 594 601	hygiene
+T6	disease 612 625	dental caries
+T7	Out-of-scope 751 758	hygiene
+T8	Out-of-scope 804 811	hygiene
+T9	disease 884 897	Dental caries
+T10	lifestyle_factor 922 935	family income
+T11	Out-of-scope 952 959	hygiene
+T12	lifestyle_factor 961 968	sucrose
+T13	Out-of-scope 1125 1132	hygiene
+T14	lifestyle_factor 1155 1162	sucrose
+T15	disease 1194 1207	dental caries
+T16	lifestyle_factor 1231 1244	socioeconomic
+T17	disease 1302 1315	dental caries
+T18	lifestyle_factor 270 282	oral hygiene
+T19	lifestyle_factor 589 601	oral hygiene
+T20	lifestyle_factor 746 758	oral hygiene
+T21	lifestyle_factor 799 811	oral hygiene
+T22	lifestyle_factor 947 959	oral hygiene
+T23	lifestyle_factor 1120 1132	oral hygiene
+T27	lifestyle_factor 874 882	siblings
+T28	Out-of-scope 219 239	Streptococcus mutans
+T29	lifestyle_factor 776 787	sweet foods
+R1	negative_statistical_association Arg1:T10 Arg2:T9
+R2	negative_statistical_association Arg1:T22 Arg2:T9
+R3	statistical_association Arg1:T12 Arg2:T9
+T30	lifestyle_factor 1021 1035	bottle-feeding
+R4	statistical_association Arg1:T30 Arg2:T9
+R5	negative_statistical_association Arg1:T23 Arg2:T15
+R6	positive_statistical_association Arg1:T14 Arg2:T15
+R7	statistical_association Arg1:T16 Arg2:T17
+T31	lifestyle_factor 693 706	toothbrushing
+T24	lifestyle_factor 259 265	saliva

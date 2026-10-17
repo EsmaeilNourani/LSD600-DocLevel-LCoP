@@ -1,0 +1,31 @@
+T1	disease 0 15	Bulimia nervosa
+T2	disease 65 80	bulimia nervosa
+T3	lifestyle_factor 155 167	binge-eating
+T4	lifestyle_factor 242 252	overeating
+T5	disease 266 281	bulimia nervosa
+T6	disease 382 397	bulimia nervosa
+T7	disease 659 674	bulimia nervosa
+T8	disease 749 764	bulimia nervosa
+T11	lifestyle_factor 1916 1929	psychotherapy
+R1	causes Arg1:T2 Arg2:T3
+T13	lifestyle_factor 1499 1528	cognitive behavioural therapy
+T14	lifestyle_factor 1530 1533	CBT
+T15	lifestyle_factor 1592 1621	cognitive orientation therapy
+T16	lifestyle_factor 1623 1654	dialectical behavioural therapy
+T17	lifestyle_factor 1755 1779	hypnobehavioural therapy
+T18	lifestyle_factor 1781 1808	interpersonal psychotherapy
+T19	Out-of-scope 1810 1821	mirtazapine
+T20	lifestyle_factor 1861 1893	motivational enhancement therapy
+T22	lifestyle_factor 1931 1935	pure
+T23	lifestyle_factor 1939 1987	unguided self-help cognitive behavioural therapy
+T24	lifestyle_factor 1989 1999	reboxetine
+T25	Out-of-scope 2050 2060	topiramate
+T27	Out-of-scope 2089 2093	TCAs
+T28	Out-of-scope 2100 2111	venlafaxine
+T31	lifestyle_factor 1707 1753	guided self-help cognitive behavioural therapy
+T9	Out-of-scope 2001 2040	selective serotonin reuptake inhibitors
+T10	Out-of-scope 2042 2047	SSRIs
+T32	Out-of-scope 2072 2087	antidepressants
+T12	Out-of-scope 1084 1088	Drug
+T21	Out-of-scope 1075 1079	Food
+*	Equiv T13 T14

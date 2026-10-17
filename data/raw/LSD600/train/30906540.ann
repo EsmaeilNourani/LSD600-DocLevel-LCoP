@@ -1,0 +1,53 @@
+T1	lifestyle_factor 54 74	socioeconomic status
+T2	lifestyle_factor 79 93	dietary habits
+T3	disease 115 128	dental caries
+T4	disease 191 204	Dental caries
+T5	disease 377 390	dental caries
+T6	disease 453 466	dental caries
+T7	disease 1000 1013	dental caries
+T8	lifestyle_factor 1325 1346	socio-economic status
+T9	lifestyle_factor 1354 1369	education level
+T10	lifestyle_factor 1450 1459	junk food
+T13	lifestyle_factor 1871 1886	education level
+T14	disease 1957 1970	dental caries
+T15	lifestyle_factor 2024 2038	dietary habits
+T16	disease 2053 2060	obesity
+T17	disease 2086 2099	dental caries
+T18	disease 1280 1293	Decayed teeth
+R1	negative_statistical_association Arg1:T8 Arg2:T18
+T19	lifestyle_factor 1348 1351	SES
+*	Equiv T19 T8
+R3	negative_statistical_association Arg1:T9 Arg2:T18
+T20	lifestyle_factor 1371 1379	brushing
+R4	negative_statistical_association Arg1:T20 Arg2:T18
+T21	lifestyle_factor 1394 1398	milk
+R5	negative_statistical_association Arg1:T21 Arg2:T18
+T22	lifestyle_factor 1442 1448	grains
+T23	lifestyle_factor 1464 1475	soda drinks
+R6	positive_statistical_association Arg1:T23 Arg2:T18
+R7	positive_statistical_association Arg1:T10 Arg2:T18
+R8	positive_statistical_association Arg1:T22 Arg2:T18
+R10	causes Arg1:T15 Arg2:T17
+T24	lifestyle_factor 1866 1869	SES
+T25	lifestyle_factor 1891 1899	brushing
+R11	positive_statistical_association Arg1:T24 Arg2:T14
+R12	positive_statistical_association Arg1:T13 Arg2:T14
+R13	positive_statistical_association Arg1:T25 Arg2:T14
+T26	lifestyle_factor 1534 1537	SES
+T27	lifestyle_factor 1723 1726	SES
+T28	lifestyle_factor 1559 1567	brushing
+T29	lifestyle_factor 751 759	brushing
+T30	disease 262 277	chronic disease
+T31	lifestyle_factor 797 810	eating habits
+T32	lifestyle_factor 1625 1642	caffeinated drink
+T33	lifestyle_factor 1781 1787	grains
+T34	lifestyle_factor 1792 1808	sugars in drinks
+T35	disease 1489 1502	Missing teeth
+T11	lifestyle_factor 1539 1554	education level
+T12	lifestyle_factor 1731 1746	education level
+R14	negative_statistical_association Arg1:T26 Arg2:T35
+R15	negative_statistical_association Arg1:T11 Arg2:T35
+R16	negative_statistical_association Arg1:T28 Arg2:T35
+R17	positive_statistical_association Arg1:T32 Arg2:T35
+T36	Out-of-scope 4 13	potential
+T37	Out-of-scope 1668 1680	filled teeth

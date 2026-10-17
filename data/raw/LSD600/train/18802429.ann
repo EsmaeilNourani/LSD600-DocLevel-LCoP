@@ -1,0 +1,27 @@
+T2	disease 325 337	hypertension
+T3	disease 361 373	hypertension
+T8	disease 854 867	hyperglycemia
+T9	disease 872 888	hyperinsulinemia
+T12	disease 1194 1206	hypertension
+T13	disease 1437 1449	hypertension
+T18	lifestyle_factor 613 629	high-sodium diet
+T19	lifestyle_factor 659 677	normal-sodium diet
+T20	lifestyle_factor 679 682	NSD
+T21	lifestyle_factor 631 634	HSD
+T22	lifestyle_factor 896 899	HSD
+T23	lifestyle_factor 923 926	HSD
+T24	lifestyle_factor 1037 1040	HSD
+T25	lifestyle_factor 1048 1051	NSD
+T26	lifestyle_factor 1081 1084	NSD
+T27	lifestyle_factor 1181 1184	HSD
+R1	causes Arg1:T27 Arg2:T12
+T28	lifestyle_factor 131 147	high-sodium diet
+T31	disease 1284 1302	insulin resistance
+T32	disease 1454 1472	insulin resistance
+R2	causes Arg1:T22 Arg2:T8
+R3	causes Arg1:T22 Arg2:T9
+R4	causes Arg1:T27 Arg2:T31
+*	Equiv T18 T21
+*	Equiv T19 T20
+T1	lifestyle_factor 1422 1426	salt
+R5	causes Arg1:T1 Arg2:T13

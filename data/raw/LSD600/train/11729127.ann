@@ -1,0 +1,24 @@
+T2	disease 41 56	Crohn's disease
+T3	lifestyle_factor 62 97	tanning bed ultraviolet B radiation
+T4	disease 103 118	Crohn's disease
+T5	disease 154 183	secondary hyperparathyroidism
+T6	Out-of-scope 247 256	vitamin D
+T7	disease 294 312	intestinal disease
+T8	lifestyle_factor 358 367	vitamin D
+T9	disease 434 449	Crohn's disease
+T10	disease 454 474	short-bowel syndrome
+T11	lifestyle_factor 607 616	vitamin D
+T12	lifestyle_factor 693 702	vitamin D
+T17	disease 127 152	skeletal demineralization
+T18	disease 189 204	muscle weakness
+T20	disease 13 33	vitamin D deficiency
+T21	lifestyle_factor 707 714	calcium
+T22	Out-of-scope 895 914	vitamin D-deficient
+T25	disease 854 869	muscle weakness
+T26	disease 1543 1558	muscle weakness
+T27	Out-of-scope 1388 1395	calcium
+T1	lifestyle_factor 573 585	multivitamin
+T16	lifestyle_factor 1186 1197	irradiation
+T28	lifestyle_factor 1453 1456	UVB
+T23	lifestyle_factor 971 1000	ultraviolet B (UVB) radiation
+R5	treats Arg1:T28 Arg2:T26

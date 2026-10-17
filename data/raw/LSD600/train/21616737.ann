@@ -1,0 +1,14 @@
+T1	disease 38 46	diabetes
+T2	lifestyle_factor 69 92	middle-income countries
+T3	Out-of-scope 98 106	Diabetes
+T4	Out-of-scope 174 182	Diabetes
+T5	disease 455 479	type 2 diabetes mellitus
+T6	disease 621 629	Diabetes
+T7	disease 699 707	diabetes
+T11	disease 960 968	diabetes
+T12	disease 1093 1101	diabetes
+T14	lifestyle_factor 1554 1575	middle-income country
+T16	lifestyle_factor 1546 1549	low
+T8	lifestyle_factor 61 64	low
+T9	disease 1520 1536	chronic diseases
+T10	Out-of-scope 174 222	Diabetes Community Lifestyle Improvement Program

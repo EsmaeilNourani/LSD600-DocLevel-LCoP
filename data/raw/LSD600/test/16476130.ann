@@ -1,0 +1,23 @@
+T1	disease 18 34	eating disorders
+T2	disease 193 209	eating disorders
+T3	lifestyle_factor 247 257	rural area
+T4	lifestyle_factor 337 348	child abuse
+T6	disease 1237 1252	eating disorder
+T7	disease 1305 1321	anorexia nervosa
+T8	disease 1423 1438	bulimia nervosa
+T10	lifestyle_factor 1738 1753	emotional abuse
+T11	disease 2046 2061	bulimia nervosa
+T12	lifestyle_factor 2146 2157	child abuse
+T13	disease 211 214	EDs
+*	Equiv T13 T2
+T14	disease 2253 2256	EDs
+R1	positive_statistical_association Arg1:T12 Arg2:T14
+T15	disease 1476 1497	binge eating disorder
+T16	disease 1499 1502	BED
+*	Equiv T16 T15
+T17	disease 2066 2069	BED
+T18	disease 1556 1559	BED
+T19	disease 429 432	EDs
+T20	lifestyle_factor 1727 1733	sexual
+T9	disease 817 833	axis I Disorders
+T5	Out-of-scope 930 957	Childhood Abuse and Neglect

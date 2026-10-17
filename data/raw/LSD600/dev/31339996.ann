@@ -1,0 +1,36 @@
+T1	disease 0 11	Infertility
+T4	disease 210 221	infertility
+T5	disease 285 296	Infertility
+T7	disease 630 641	infertility
+T8	disease 739 750	infertility
+T12	disease 1686 1697	infertility
+T14	lifestyle_factor 1832 1848	education level,
+T15	lifestyle_factor 1849 1863	marital status
+T16	disease 1932 1943	infertility
+T18	disease 2603 2614	infertility
+T22	disease 3103 3114	infertility
+T25	disease 3689 3700	infertility
+T27	disease 3990 4001	infertility
+T28	disease 4484 4495	Infertility
+T29	disease 3584 3604	depressive disorders
+T30	lifestyle_factor 3461 3482	psychological support
+T31	lifestyle_factor 4128 4149	psychological support
+T32	Out-of-scope 2376 2390	antidepressant
+T33	Out-of-scope 43 58	antidepressants
+T34	Out-of-scope 168 183	antidepressants
+T35	Out-of-scope 450 465	antidepressants
+T36	Out-of-scope 792 807	antidepressants
+T37	Out-of-scope 1529 1544	antidepressants
+T38	Out-of-scope 1810 1825	antidepressants
+T39	Out-of-scope 2509 2524	antidepressants
+T40	Out-of-scope 2813 2828	antidepressants
+T41	Out-of-scope 2918 2933	antidepressants
+T42	Out-of-scope 3071 3086	antidepressants
+T43	Out-of-scope 3386 3401	antidepressants
+T44	Out-of-scope 3515 3530	antidepressants
+T45	Out-of-scope 3811 3826	antidepressants
+T2	lifestyle_factor 2830 2843	Social stress
+T3	lifestyle_factor 2703 2717	marital stress
+T6	lifestyle_factor 2644 2659	personal stress
+T9	Out-of-scope 0 26	Infertility-related stress
+T10	disease 980 991	Infertility

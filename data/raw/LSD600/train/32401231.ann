@@ -1,0 +1,28 @@
+T1	lifestyle_factor 64 85	socio-economic status
+T2	disease 104 126	chronic kidney disease
+T3	disease 134 146	hypertension
+T4	disease 151 159	diabetes
+T6	disease 537 559	chronic kidney disease
+T8	disease 590 598	diabetes
+T9	lifestyle_factor 1156 1177	socio-economic status
+T11	lifestyle_factor 1795 1816	socio-economic status
+T5	lifestyle_factor 462 474	oral hygiene
+T15	lifestyle_factor 1530 1542	dental floss
+T16	lifestyle_factor 1544 1569	changing their toothbrush
+T17	lifestyle_factor 1589 1609	brushing their teeth
+T18	lifestyle_factor 1658 1687	Oral Hygiene Index-Simplified
+T20	lifestyle_factor 1974 1986	oral hygiene
+T7	disease 561 582	arterial hypertension
+T10	Out-of-scope 2029 2037	observed
+R1	negative_statistical_association Arg1:T15 Arg2:T6
+R2	negative_statistical_association Arg1:T16 Arg2:T7
+R3	negative_statistical_association Arg1:T17 Arg2:T8
+R4	negative_statistical_association Arg1:T15 Arg2:T7
+R5	negative_statistical_association Arg1:T15 Arg2:T8
+R6	negative_statistical_association Arg1:T16 Arg2:T6
+R7	negative_statistical_association Arg1:T16 Arg2:T8
+R8	negative_statistical_association Arg1:T17 Arg2:T6
+R9	negative_statistical_association Arg1:T17 Arg2:T7
+R10	positive_statistical_association Arg1:T18 Arg2:T6
+R11	positive_statistical_association Arg1:T18 Arg2:T7
+R12	positive_statistical_association Arg1:T18 Arg2:T8

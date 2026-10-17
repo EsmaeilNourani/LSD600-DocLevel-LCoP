@@ -1,0 +1,35 @@
+T1	disease 79 92	schizophrenia
+T2	disease 152 165	schizophrenia
+T3	disease 351 364	schizophrenia
+T4	disease 402 415	schizophrenia
+T5	lifestyle_factor 526 556	Pittsburgh Sleep Quality Index
+T6	lifestyle_factor 599 609	Occupation
+T7	lifestyle_factor 815 825	occupation
+T8	lifestyle_factor 1080 1090	occupation
+T9	lifestyle_factor 1185 1198	sleep quality
+T10	lifestyle_factor 1495 1508	sleep quality
+T11	lifestyle_factor 1548 1558	nightmares
+T12	disease 1618 1631	schizophrenia
+T13	lifestyle_factor 1700 1713	sleep quality
+T14	disease 1729 1742	schizophrenia
+T15	lifestyle_factor 1844 1857	sleep quality
+T16	disease 1585 1602	sleep disruptions
+T17	lifestyle_factor 203 208	sleep
+T18	lifestyle_factor 34 44	poor sleep
+T20	lifestyle_factor 2164 2169	sleep
+T21	lifestyle_factor 1689 1694	sleep
+T22	lifestyle_factor 1295 1305	poor sleep
+T23	lifestyle_factor 762 767	sleep
+T19	lifestyle_factor 665 670	sleep
+T24	lifestyle_factor 944 949	sleep
+R2	causes Arg1:T12 Arg2:T11
+T25	disease 107 123	Sleep disruption
+T26	lifestyle_factor 1642 1657	economic status
+T27	lifestyle_factor 1307 1323	sleep medication
+R1	Out-of-scope Arg1:T14 Arg2:T13
+T28	Out-of-scope 1743 1748	tends
+T29	Out-of-scope 1564 1574	identified
+T30	lifestyle_factor 558 562	PSQI
+*	Equiv T5 T30
+T31	lifestyle_factor 1782 1786	PSQI
+T32	lifestyle_factor 1246 1250	PSQI

@@ -1,0 +1,43 @@
+T1	disease 59 72	Schizophrenia
+T2	lifestyle_factor 133 138	sleep
+T3	disease 260 273	schizophrenia
+T4	lifestyle_factor 294 308	sleep patterns
+T5	disease 462 475	schizophrenia
+T6	lifestyle_factor 519 524	sleep
+T7	disease 569 582	schizophrenia
+T8	disease 660 673	schizophrenia
+T9	Out-of-scope 726 731	sleep
+T10	disease 958 971	schizophrenia
+T11	lifestyle_factor 1048 1061	Sleep quality
+T12	lifestyle_factor 1173 1187	sleep duration
+T13	disease 1238 1251	schizophrenia
+T14	disease 1467 1480	schizophrenia
+T15	lifestyle_factor 1520 1534	sleep duration
+T16	lifestyle_factor 1690 1715	changes in sleep patterns
+T17	disease 1771 1784	schizophrenia
+T19	lifestyle_factor 24 41	Exercise Patterns
+T20	lifestyle_factor 529 537	exercise
+T21	Out-of-scope 733 741	exercise
+T22	lifestyle_factor 1729 1737	exercise
+T23	lifestyle_factor 143 160	physical activity
+T24	lifestyle_factor 323 340	physical activity
+T25	lifestyle_factor 1551 1568	physical activity
+T26	lifestyle_factor 14 19	Sleep
+T27	Out-of-scope 133 138	sleep
+T28	lifestyle_factor 1365 1372	smoking
+T29	disease 868 878	depression
+T30	disease 1093 1103	depression
+R1	Out-of-scope Arg1:T3 Arg2:T4
+R2	Out-of-scope Arg1:T3 Arg2:T24
+T18	Out-of-scope 1336 1350	antipsychotics
+T31	lifestyle_factor 1272 1294	sleeping more than 8 h
+R4	positive_statistical_association Arg1:T15 Arg2:T14
+R5	positive_statistical_association Arg1:T31 Arg2:T13
+R6	negative_statistical_association Arg1:T25 Arg2:T14
+R3	negative_statistical_association Arg1:T11 Arg2:T30
+T32	lifestyle_factor 972 999	slept more than 8 h per day
+T33	lifestyle_factor 1004 1013	exercised
+R7	positive_statistical_association Arg1:T32 Arg2:T10
+R8	negative_statistical_association Arg1:T33 Arg2:T10
+R9	statistical_association Arg1:T22 Arg2:T17
+R10	statistical_association Arg1:T16 Arg2:T17

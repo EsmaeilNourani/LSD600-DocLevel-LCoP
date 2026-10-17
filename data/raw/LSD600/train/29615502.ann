@@ -1,0 +1,25 @@
+T1	disease 169 177	mastitis
+T2	lifestyle_factor 217 233	dairy production
+T4	disease 1563 1571	mastitis
+T5	disease 1764 1772	mastitis
+T6	disease 1786 1804	infectious disease
+T7	Out-of-scope 1808 1813	dairy
+T8	Out-of-scope 1872 1877	dairy
+T9	lifestyle_factor 1926 1940	dairy products
+T12	disease 2019 2027	Mastitis
+T14	disease 2201 2209	mastitis
+T15	disease 2280 2288	mastitis
+T16	disease 2387 2395	mastitis
+T17	disease 2551 2559	mastitis
+T18	disease 2939 2947	mastitis
+T20	Out-of-scope 2103 2107	farm
+T21	Out-of-scope 2070 2081	antibiotics
+T10	lifestyle_factor 2085 2096	dairy farms
+T3	lifestyle_factor 405 415	dairy-farm
+T11	lifestyle_factor 767 771	milk
+T13	lifestyle_factor 1025 1029	milk
+T19	lifestyle_factor 1059 1063	milk
+T23	lifestyle_factor 1369 1373	milk
+T24	lifestyle_factor 1229 1233	milk
+T22	Out-of-scope 1917 1922	price
+R1	Out-of-scope Arg1:T1 Arg2:T2

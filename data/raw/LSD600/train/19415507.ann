@@ -1,0 +1,40 @@
+T1	lifestyle_factor 10 16	folate
+T2	disease 62 79	pancreatic cancer
+T3	lifestyle_factor 140 146	Folate
+T4	disease 305 322	pancreatic cancer
+T5	lifestyle_factor 337 343	folate
+T6	disease 507 524	pancreatic cancer
+T7	lifestyle_factor 923 929	folate
+T8	disease 967 984	pancreatic cancer
+T9	lifestyle_factor 1068 1091	vitamin B(12) from food
+T10	disease 1123 1140	pancreatic cancer
+T11	lifestyle_factor 1277 1289	vitamin B(6)
+T12	disease 1328 1345	pancreatic cancer
+T13	lifestyle_factor 1432 1438	folate
+T14	disease 1450 1467	pancreatic cancer
+T15	disease 1488 1505	pancreatic cancer
+T16	lifestyle_factor 1516 1529	vitamin B(12)
+T17	lifestyle_factor 31 34	B12
+T18	Out-of-scope 697 701	food
+T20	lifestyle_factor 1542 1546	food
+T21	lifestyle_factor 170 179	nutrients
+T22	lifestyle_factor 18 29	vitamins B6
+T23	lifestyle_factor 345 358	vitamins B(6)
+T24	lifestyle_factor 360 365	B(12)
+R1	positive_statistical_association Arg1:T16 Arg2:T15
+T25	lifestyle_factor 1293 1303	methionine
+R2	no_statistical_association Arg1:T11 Arg2:T12
+R3	no_statistical_association Arg1:T25 Arg2:T12
+R4	negative_statistical_association Arg1:T13 Arg2:T14
+R5	positive_statistical_association Arg1:T9 Arg2:T10
+R6	negative_statistical_association Arg1:T7 Arg2:T8
+T26	lifestyle_factor 39 49	methionine
+T27	lifestyle_factor 370 380	methionine
+T28	Out-of-scope 73 79	cancer
+T29	Out-of-scope 316 322	cancer
+T30	Out-of-scope 518 524	cancer
+T31	Out-of-scope 978 984	cancer
+T32	Out-of-scope 1134 1140	cancer
+T33	Out-of-scope 1339 1345	cancer
+T34	Out-of-scope 1461 1467	cancer
+T35	Out-of-scope 1499 1505	cancer

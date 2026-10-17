@@ -1,0 +1,29 @@
+T1	disease 56 71	Dry Eye Disease
+T2	disease 139 154	Dry eye disease
+T4	lifestyle_factor 378 391	computer work
+T5	lifestyle_factor 396 407	watching TV
+T6	disease 476 484	migraine
+T7	lifestyle_factor 767 774	hygiene
+T8	lifestyle_factor 1126 1137	wakefulness
+T9	disease 1394 1409	dry eye disease
+T10	disease 1593 1608	dry eye disease
+T11	lifestyle_factor 1672 1678	garlic
+T12	lifestyle_factor 1867 1884	sleeping patterns
+T13	disease 1972 1987	dry eye disease
+T14	lifestyle_factor 1683 1688	onion
+T15	lifestyle_factor 1116 1121	sleep
+T16	disease 560 570	depression
+T17	lifestyle_factor 1097 1105	exercise
+T18	lifestyle_factor 1886 1894	exercise
+R3	treats Arg1:T18 Arg2:T13
+R4	treats Arg1:T12 Arg2:T13
+T3	lifestyle_factor 613 627	contact lenses
+R5	prevents Arg1:T2 Arg2:T4
+T19	disease 489 495	angina
+T20	lifestyle_factor 1856 1862	eating
+R1	treats Arg1:T20 Arg2:T13
+R2	causes Arg1:T11 Arg2:T10
+R6	causes Arg1:T14 Arg2:T10
+T21	lifestyle_factor 360 367	reading
+R7	prevents Arg1:T2 Arg2:T5
+R8	prevents Arg1:T2 Arg2:T21

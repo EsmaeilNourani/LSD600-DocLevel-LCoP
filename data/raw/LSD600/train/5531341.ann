@@ -1,0 +1,28 @@
+T1	lifestyle_factor 177 188	amphetamine
+T2	lifestyle_factor 190 198	caffeine
+T3	lifestyle_factor 218 226	morphine
+T4	lifestyle_factor 295 306	amphetamine
+T5	lifestyle_factor 310 318	caffeine
+T6	disease 336 351	hyperthyroidism
+T7	disease 369 383	hypothyroidism
+T8	lifestyle_factor 404 415	amphetamine
+T9	lifestyle_factor 420 428	caffeine
+T10	disease 600 615	hyperthyroidism
+T11	disease 661 675	Hypothyroidism
+T12	lifestyle_factor 700 711	amphetamine
+T13	lifestyle_factor 729 737	sleeping
+T14	lifestyle_factor 848 856	sleeping
+T15	lifestyle_factor 988 996	sleeping
+T16	lifestyle_factor 1152 1160	sleeping
+T17	lifestyle_factor 1406 1414	sleeping
+T18	disease 1443 1452	Analgesia
+T19	lifestyle_factor 1464 1472	morphine
+T20	disease 1499 1514	hyperthyroidism
+T21	lifestyle_factor 1633 1641	morphine
+T22	lifestyle_factor 500 504	drug
+T23	lifestyle_factor 1870 1874	drug
+T24	lifestyle_factor 70 75	drugs
+T25	lifestyle_factor 1752 1757	drugs
+R1	causes Arg1:T19 Arg2:T18
+T26	Out-of-scope 200 213	hexobarbitone
+R2	Out-of-scope Arg1:T11 Arg2:T12

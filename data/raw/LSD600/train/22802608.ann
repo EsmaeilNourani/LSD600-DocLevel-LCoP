@@ -1,0 +1,45 @@
+T1	lifestyle_factor 13 19	sports
+T2	lifestyle_factor 299 319	high school students
+T3	lifestyle_factor 428 439	team sports
+T5	lifestyle_factor 565 576	screen time
+T6	lifestyle_factor 578 590	diet quality
+T7	disease 621 628	obesity
+T8	disease 666 673	obesity
+T9	lifestyle_factor 872 878	sports
+T10	disease 934 941	obesity
+T11	lifestyle_factor 1019 1025	sports
+T12	disease 1046 1053	obesity
+T13	lifestyle_factor 1093 1099	sports
+T14	disease 1183 1190	obesity
+T15	disease 1293 1300	obesity
+T16	lifestyle_factor 1389 1395	sports
+T17	lifestyle_factor 1527 1537	Team sport
+T18	disease 1680 1687	obesity
+T19	disease 1752 1759	Obesity
+T20	lifestyle_factor 1819 1829	team sport
+T21	lifestyle_factor 186 203	physical activity
+T22	lifestyle_factor 477 494	physical activity
+T23	Out-of-scope 65 71	school
+T24	Out-of-scope 304 310	school
+T25	Out-of-scope 1151 1157	school
+T26	Out-of-scope 1481 1487	school
+T27	Out-of-scope 1650 1656	school
+T28	Out-of-scope 21 39	physical education
+T29	Out-of-scope 514 532	physical education
+T30	lifestyle_factor 45 71	active commuting to school
+R1	negative_statistical_association Arg1:T9 Arg2:T10
+R2	negative_statistical_association Arg1:T9 Arg2:T12
+T31	lifestyle_factor 1131 1157	active commuting to school
+T32	lifestyle_factor 1630 1656	Active commuting to school
+R3	negative_statistical_association Arg1:T31 Arg2:T14
+T33	lifestyle_factor 1472 1487	biked to school
+T34	lifestyle_factor 1465 1471	walked
+R4	negative_statistical_association Arg1:T16 Arg2:T15
+R5	negative_statistical_association Arg1:T34 Arg2:T15
+R6	negative_statistical_association Arg1:T33 Arg2:T15
+R7	negative_statistical_association Arg1:T32 Arg2:T18
+R8	prevents Arg1:T20 Arg2:T19
+R9	negative_statistical_association Arg1:T11 Arg2:T10
+R10	negative_statistical_association Arg1:T13 Arg2:T12
+T4	lifestyle_factor 534 555	recreational activity
+T35	lifestyle_factor 496 512	active commuting

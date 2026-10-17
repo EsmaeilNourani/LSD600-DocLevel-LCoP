@@ -1,0 +1,22 @@
+T1	Out-of-scope 0 8	COVID-19
+T2	lifestyle_factor 45 56	High School
+T3	disease 197 205	COVID-19
+T4	lifestyle_factor 351 362	screen time
+T5	lifestyle_factor 364 376	Social media
+T6	Out-of-scope 550 558	COVID-19
+T7	lifestyle_factor 693 705	high schools
+T8	disease 829 837	COVID-19
+T9	lifestyle_factor 864 876	social media
+T10	disease 975 983	COVID-19
+T11	lifestyle_factor 1209 1220	screen time
+T12	Out-of-scope 1301 1309	COVID-19
+T13	lifestyle_factor 1352 1364	social media
+T14	lifestyle_factor 1443 1454	screen time
+T15	lifestyle_factor 319 336	physical activity
+T16	lifestyle_factor 1467 1484	physical activity
+T17	lifestyle_factor 216 231	Remote learning
+T18	lifestyle_factor 107 114	schools
+T19	lifestyle_factor 1105 1116	handwashing
+T20	Out-of-scope 1073 1083	prevention
+R1	prevents Arg1:T19 Arg2:T10
+T21	Out-of-scope 1310 1319	knowledge

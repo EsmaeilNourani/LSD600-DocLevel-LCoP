@@ -1,0 +1,28 @@
+T1	disease 0 8	Leukemia
+T2	disease 102 110	leukemia
+T4	lifestyle_factor 236 246	occupation
+T5	disease 292 300	leukemia
+T6	disease 428 454	chronic lymphatic leukemia
+T9	disease 573 597	acute monocytic leukemia
+T15	lifestyle_factor 1087 1092	dairy
+T16	disease 1125 1151	chronic lymphatic leukemia
+T18	lifestyle_factor 1172 1186	corn-producing
+T20	disease 1343 1369	acute unspecified leukemia
+T22	lifestyle_factor 1052 1070	cattle inventories
+T24	lifestyle_factor 1197 1212	chicken-raising
+T25	lifestyle_factor 1188 1191	hog
+T26	lifestyle_factor 1233 1249	fertilizer-using
+T27	lifestyle_factor 1218 1227	pesticide
+T28	disease 1290 1305	acute lymphatic
+T29	disease 1307 1320	acute myeloid
+T30	disease 1322 1337	chronic myeloid
+T32	disease 759 774	acute lymphatic
+T33	disease 776 789	acute myeloid
+T34	disease 791 806	chronic myeloid
+T35	disease 808 825	acute unspecified
+T31	disease 615 641	acute unspecified leukemia
+T38	disease 535 559	acute lymphatic leukemia
+T8	disease 831 851	unspecified leukemia
+T10	lifestyle_factor 222 229	farming
+T3	Out-of-scope 1019 1026	Farmers
+R1	Out-of-scope Arg1:T16 Arg2:T3

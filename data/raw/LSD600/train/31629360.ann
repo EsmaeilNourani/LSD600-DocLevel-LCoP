@@ -1,0 +1,20 @@
+T1	lifestyle_factor 57 74	Physical Activity
+T4	lifestyle_factor 361 363	PA
+T5	lifestyle_factor 1100 1102	PA
+T6	lifestyle_factor 931 933	PA
+T7	lifestyle_factor 474 476	PA
+T8	lifestyle_factor 285 287	PA
+T9	lifestyle_factor 39 52	Pet Ownership
+T10	lifestyle_factor 137 150	Pet ownership
+T11	lifestyle_factor 430 443	pet ownership
+T12	lifestyle_factor 333 346	pet ownership
+T14	lifestyle_factor 532 534	PA
+T15	lifestyle_factor 665 687	pet-related activities
+T17	lifestyle_factor 770 784	sedentary time
+T18	lifestyle_factor 986 1022	socially interacting with their pets
+T19	lifestyle_factor 1043 1062	sedentary behaviors
+T2	lifestyle_factor 190 207	physical activity
+T3	lifestyle_factor 292 303	dog walking
+T13	lifestyle_factor 209 211	PA
+T20	lifestyle_factor 973 981	pet care
+*	Equiv T2 T13

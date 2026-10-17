@@ -1,0 +1,40 @@
+T1	disease 41 50	diarrhoea
+T2	disease 217 226	diarrhoea
+T3	disease 377 386	Diarrhoea
+T4	disease 442 451	diarrhoea
+T5	disease 617 626	diarrhoea
+T6	lifestyle_factor 844 857	socioeconomic
+T7	lifestyle_factor 1025 1046	socioeconomic factors
+T8	lifestyle_factor 1063 1073	illiteracy
+T9	lifestyle_factor 1156 1162	income
+T12	disease 1411 1420	diarrhoea
+T13	lifestyle_factor 1641 1651	illiteracy
+T15	disease 1909 1918	diarrhoea
+T16	disease 1967 1976	diarrhoea
+T17	lifestyle_factor 2207 2227	socioeconomic status
+T18	lifestyle_factor 2249 2261	water supply
+T19	disease 2346 2355	diarrhoea
+T20	disease 2522 2531	diarrhoea
+T21	lifestyle_factor 756 770	breast-feeding
+T22	lifestyle_factor 1509 1523	breast-feeding
+T23	lifestyle_factor 1753 1767	breast-feeding
+T26	Out-of-scope 184 189	study
+T30	Out-of-scope 1608 1621	prenatal care
+R1	statistical_association Arg1:T22 Arg2:T12
+R3	statistical_association Arg1:T13 Arg2:T12
+R4	controls Arg1:T23 Arg2:T16
+R5	Out-of-scope Arg1:T30 Arg2:T12
+T33	lifestyle_factor 2266 2284	maternal education
+T34	disease 2115 2133	diarrhoeal disease
+R6	prevents Arg1:T17 Arg2:T19
+T10	lifestyle_factor 1194 1217	inadequate water supply
+T14	lifestyle_factor 1661 1684	inadequate water supply
+R2	statistical_association Arg1:T14 Arg2:T12
+T11	lifestyle_factor 1222 1243	inadequate sanitation
+T24	Out-of-scope 721 741	adequate weight gain
+#4	AnnotatorNotes T30	# TODO: check why OOS?
+T35	Out-of-scope 2188 2201	prenatal care
+#5	AnnotatorNotes T35	# TODO: check
+R9	prevents Arg1:T18 Arg2:T19
+R10	prevents Arg1:T33 Arg2:T19
+T28	lifestyle_factor 1249 1261	urbanization

@@ -1,0 +1,41 @@
+T1	lifestyle_factor 0 30	Occupational physical activity
+T7	lifestyle_factor 414 418	OCPA
+T8	lifestyle_factor 423 427	LTPA
+T9	lifestyle_factor 546 550	OCPA
+T10	lifestyle_factor 593 597	LTPA
+T11	lifestyle_factor 719 721	PA
+T13	lifestyle_factor 825 829	LTPA
+T14	lifestyle_factor 871 875	LTPA
+T15	lifestyle_factor 934 951	moderately active
+T16	lifestyle_factor 955 965	heavy work
+T17	lifestyle_factor 994 998	LTPA
+T18	lifestyle_factor 1036 1040	LTPA
+T19	lifestyle_factor 1070 1091	sedentary occupations
+T20	lifestyle_factor 1116 1120	LTPA
+T23	lifestyle_factor 1239 1261	adequate amounts of PA
+T24	lifestyle_factor 438 455	lifestyle factors
+T2	lifestyle_factor 183 213	occupational physical activity
+T4	lifestyle_factor 225 255	leisure-time physical activity
+T22	lifestyle_factor 215 219	OCPA
+T25	lifestyle_factor 257 261	LTPA
+T26	lifestyle_factor 1184 1221	moderate to heavy working occupations
+T28	disease 39 57	metabolic syndrome
+T29	disease 150 168	metabolic syndrome
+T3	disease 170 176	MetSyn
+T5	disease 311 317	MetSyn
+T6	disease 559 565	MetSyn
+T12	disease 661 667	MetSyn
+T21	disease 726 732	MetSyn
+T30	disease 753 759	MetSyn
+T31	disease 890 896	MetSyn
+T32	disease 1282 1288	MetSyn
+T33	disease 1167 1173	MetSyn
+*	Equiv T29 T3
+*	Equiv T2 T22
+*	Equiv T4 T25
+R1	negative_statistical_association Arg1:T10 Arg2:T12
+R2	negative_statistical_association Arg1:T13 Arg2:T30
+R3	negative_statistical_association Arg1:T20 Arg2:T33
+R4	prevents Arg1:T23 Arg2:T32
+T34	lifestyle_factor 789 806	sedentary workers
+R5	no_statistical_association Arg1:T17 Arg2:T31

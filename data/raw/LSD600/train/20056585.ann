@@ -1,0 +1,25 @@
+T1	lifestyle_factor 12 22	pesticides
+T2	disease 27 45	childhood leukemia
+T3	disease 348 366	childhood leukemia
+T4	disease 530 548	childhood leukemia
+T5	lifestyle_factor 1071 1081	pesticides
+T6	lifestyle_factor 1132 1144	insecticides
+T7	lifestyle_factor 1190 1200	herbicides
+T8	disease 1273 1291	childhood leukemia
+T9	lifestyle_factor 1347 1357	pesticides
+T10	lifestyle_factor 1402 1414	insecticides
+T11	disease 1492 1510	childhood leukemia
+T12	lifestyle_factor 1546 1556	herbicides
+T13	disease 1615 1633	childhood leukemia
+T14	lifestyle_factor 1822 1832	pesticides
+T15	lifestyle_factor 1874 1884	pesticides
+T17	lifestyle_factor 1650 1669	pesticide exposures
+R1	positive_statistical_association Arg1:T17 Arg2:T13
+T16	lifestyle_factor 244 253	pesticide
+R2	positive_statistical_association Arg1:T9 Arg2:T11
+R3	positive_statistical_association Arg1:T10 Arg2:T11
+R4	positive_statistical_association Arg1:T5 Arg2:T8
+R5	positive_statistical_association Arg1:T6 Arg2:T8
+R6	positive_statistical_association Arg1:T7 Arg2:T8
+T18	lifestyle_factor 649 658	pesticide
+R7	no_statistical_association Arg1:T12 Arg2:T11

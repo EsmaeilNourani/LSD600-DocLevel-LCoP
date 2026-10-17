@@ -1,0 +1,16 @@
+T2	lifestyle_factor 73 90	Exercise training
+T3	lifestyle_factor 119 138	nutritional support
+T6	lifestyle_factor 423 448	resistance-based training
+T7	lifestyle_factor 532 540	exercise
+T1	lifestyle_factor 4 36	High-Intensity Interval Training
+T10	lifestyle_factor 832 851	resistance exercise
+T11	lifestyle_factor 859 863	HIIT
+T12	lifestyle_factor 953 957	HIIT
+T14	lifestyle_factor 1158 1162	HIIT
+T15	lifestyle_factor 1230 1234	HIIT
+T5	lifestyle_factor 263 279	adequate protein
+T4	lifestyle_factor 212 246	single bout of resistance exercise
+T9	lifestyle_factor 636 659	short bouts of exercise
+T8	lifestyle_factor 586 618	High-intensity interval training
+T17	lifestyle_factor 620 624	HIIT
+*	Equiv T8 T17

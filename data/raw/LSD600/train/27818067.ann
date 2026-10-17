@@ -1,0 +1,20 @@
+T1	Out-of-scope 1 9	Thiamine
+T2	Out-of-scope 11 21	vitamin B1
+T3	disease 50 68	alcohol dependence
+T5	lifestyle_factor 93 103	vitamin B1
+T6	disease 132 150	alcohol dependence
+T8	disease 226 251	Wernicke's encephalopathy
+T9	disease 317 342	Wernicke's encephalopathy
+T10	Out-of-scope 355 363	thiamine
+T12	disease 491 516	Wernicke's encephalopathy
+T13	Out-of-scope 518 537	parenteral thiamine
+T14	Out-of-scope 611 619	thiamine
+T17	Out-of-scope 765 773	thiamine
+T18	disease 833 851	alcohol dependence
+T19	Out-of-scope 859 867	thiamine
+T20	Out-of-scope 929 937	thiamine
+T21	disease 152 173	Cognitive impairments
+T22	disease 205 224	thiamine deficiency
+T23	disease 72 91	Thiamine deficiency
+T24	disease 663 682	thiamine deficiency
+T4	Out-of-scope 439 447	thiamine

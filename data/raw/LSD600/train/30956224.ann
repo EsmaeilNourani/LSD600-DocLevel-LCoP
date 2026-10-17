@@ -1,0 +1,29 @@
+T1	lifestyle_factor 28 37	vitamin D
+T2	disease 41 53	osteoporosis
+T3	disease 165 177	Osteoporosis
+T4	disease 197 214	metabolic disease
+T5	disease 229 241	Osteoporosis
+T6	disease 336 348	Osteoporosis
+T8	lifestyle_factor 475 484	vitamin D
+T9	disease 488 500	osteoporosis
+T10	Out-of-scope 757 766	vitamin D
+T12	lifestyle_factor 882 891	Vitamin D
+T13	disease 1063 1075	osteoporosis
+T15	Out-of-scope 1177 1186	vitamin D
+T16	Out-of-scope 1213 1222	vitamin D
+T17	Out-of-scope 1244 1253	vitamin D
+T18	disease 1271 1283	osteoporosis
+T19	disease 1459 1471	osteoporosis
+T20	lifestyle_factor 1522 1531	vitamin D
+T22	lifestyle_factor 1821 1830	vitamin D
+T23	disease 415 435	vitamin D deficiency
+T24	disease 823 843	vitamin D deficiency
+T25	disease 1122 1142	vitamin D deficiency
+T26	disease 1647 1667	vitamin D deficiency
+T7	disease 1330 1340	osteopenia
+R1	controls Arg1:T20 Arg2:T19
+T11	Out-of-scope 1806 1815	treatment
+T14	disease 1090 1100	osteopenia
+R2	treats Arg1:T12 Arg2:T24
+T21	Out-of-scope 1504 1516	intervention
+T27	Out-of-scope 751 756	serum

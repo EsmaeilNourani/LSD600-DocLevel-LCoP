@@ -1,0 +1,26 @@
+T5	lifestyle_factor 890 902	regular diet
+T6	lifestyle_factor 493 509	LA-enriched diet
+T7	lifestyle_factor 304 321	alpha-lipoic acid
+T9	lifestyle_factor 832 834	LA
+T10	lifestyle_factor 1101 1103	LA
+T11	lifestyle_factor 1146 1148	LA
+T12	lifestyle_factor 1229 1231	LA
+T8	lifestyle_factor 998 1000	LA
+T14	lifestyle_factor 662 664	LA
+T15	lifestyle_factor 973 975	LA
+T16	lifestyle_factor 323 325	LA
+T17	disease 107 118	sleep apnea
+T18	disease 197 212	kidney diseases
+T19	disease 241 264	obstructive sleep apnea
+T20	disease 369 380	sleep apnea
+T2	disease 266 269	OSA
+T3	disease 1224 1227	OSA
+*	Equiv T19 T2
+*	Equiv T7 T16
+T23	disease 1189 1206	renal dysfunction
+T25	disease 74 86	renal injury
+T26	disease 1124 1136	renal injury
+T1	lifestyle_factor 16 33	alpha-lipoic acid
+R1	controls Arg1:T1 Arg2:T25
+R2	prevents Arg1:T10 Arg2:T26
+R3	treats Arg1:T11 Arg2:T23

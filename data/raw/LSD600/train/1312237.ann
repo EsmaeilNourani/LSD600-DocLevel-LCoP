@@ -1,0 +1,27 @@
+T1	lifestyle_factor 78 99	fermented cereal food
+T5	lifestyle_factor 230 247	sieved maize mash
+T6	lifestyle_factor 275 294	unsieved maize mash
+T7	lifestyle_factor 836 863	fermented sieved maize mash
+T8	lifestyle_factor 884 903	unsieved maize mash
+T9	lifestyle_factor 607 624	sieved maize mash
+T10	lifestyle_factor 964 981	sieved maize mash
+T11	lifestyle_factor 435 464	fermented unsieved maize mash
+T12	lifestyle_factor 772 801	fermented unsieved maize mash
+T4	lifestyle_factor 31 50	unsieved maize mash
+T13	lifestyle_factor 135 154	unsieved maize mash
+T14	lifestyle_factor 345 362	sieved maize mash
+T15	lifestyle_factor 493 508	protein content
+T16	lifestyle_factor 584 599	protein content
+T17	lifestyle_factor 749 764	protein content
+T18	lifestyle_factor 920 936	nutrient quality
+T19	lifestyle_factor 395 408	unsieved mash
+T3	lifestyle_factor 21 27	sieved
+T20	lifestyle_factor 70 73	OGI
+T21	lifestyle_factor 994 997	Ogi
+T22	lifestyle_factor 124 130	sieved
+T23	lifestyle_factor 209 214	lipid
+T24	lifestyle_factor 296 307	Crude fibre
+T25	lifestyle_factor 312 315	ash
+T26	lifestyle_factor 558 570	fermentation
+T27	lifestyle_factor 692 704	fermentation
+T2	lifestyle_factor 197 204	protein

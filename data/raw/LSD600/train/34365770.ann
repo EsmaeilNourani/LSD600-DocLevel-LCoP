@@ -1,0 +1,38 @@
+T1	disease 18 45	high-frequency hearing loss
+T2	disease 121 148	high-frequency hearing loss
+T3	disease 150 154	HFHL
+T5	lifestyle_factor 503 518	education level
+T8	disease 814 818	HFHL
+T9	disease 935 939	HFHL
+T10	disease 1099 1103	HFHL
+T11	disease 1191 1195	HFHL
+T13	disease 1290 1298	diabetes
+T14	disease 1497 1501	HFHL
+T15	disease 1547 1551	HFHL
+T17	disease 1653 1657	HFHL
+T18	lifestyle_factor 1448 1455	smoking
+T19	lifestyle_factor 1460 1465	noise
+R1	positive_statistical_association Arg1:T18 Arg2:T14
+R2	positive_statistical_association Arg1:T19 Arg2:T14
+T20	lifestyle_factor 1604 1611	smoking
+R4	statistical_association Arg1:T20 Arg2:T17
+*	Equiv T3 T2
+T22	lifestyle_factor 1616 1621	noise
+R5	statistical_association Arg1:T22 Arg2:T17
+T23	lifestyle_factor 670 675	noise
+T24	lifestyle_factor 1268 1273	noise
+T25	lifestyle_factor 1693 1723	noise control in the workplace
+T26	lifestyle_factor 954 959	noise
+T27	lifestyle_factor 1328 1335	smoking
+T31	Out-of-scope 295 300	noise
+T33	disease 555 566	ear disease
+T34	lifestyle_factor 1340 1348	drinking
+T4	lifestyle_factor 1236 1253	educational level
+R6	statistical_association Arg1:T34 Arg2:T11
+R7	statistical_association Arg1:T27 Arg2:T11
+R8	statistical_association Arg1:T24 Arg2:T11
+R9	statistical_association Arg1:T4 Arg2:T11
+T6	Out-of-scope 49 87	noise workers in an automobile factory
+T7	Out-of-scope 159 191	workers in an automobile factory
+#1	AnnotatorNotes T31	# TODO: check
+T12	lifestyle_factor 49 54	noise

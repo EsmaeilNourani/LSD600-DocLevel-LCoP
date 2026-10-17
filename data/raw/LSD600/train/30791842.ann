@@ -1,0 +1,39 @@
+T1	disease 35 69	esophageal squamous cell carcinoma
+T2	lifestyle_factor 73 83	low-income
+T3	disease 109 129	Esophageal carcinoma
+T4	disease 305 323	esophageal cancers
+T5	disease 338 372	esophageal squamous cell carcinoma
+T6	disease 409 434	esophageal adenocarcinoma
+T7	disease 671 705	squamous cell esophageal carcinoma
+T8	lifestyle_factor 891 923	polycyclic aromatic hydrocarbons
+T9	lifestyle_factor 925 937	nitrosamines
+T10	lifestyle_factor 1078 1082	diet
+T11	lifestyle_factor 1112 1124	oral hygiene
+T12	disease 1165 1181	viral infections
+T14	lifestyle_factor 1405 1409	diet
+T16	lifestyle_factor 1294 1301	smoking
+T17	lifestyle_factor 1028 1035	smoking
+T18	lifestyle_factor 939 951	acetaldehyde
+T20	lifestyle_factor 1038 1045	alcohol
+T21	disease 1047 1073	micronutrient deficiencies
+T22	lifestyle_factor 1084 1094	mycotoxins
+T23	lifestyle_factor 1158 1163	smoke
+T24	lifestyle_factor 1306 1313	alcohol
+T13	lifestyle_factor 1341 1352	high-income
+T25	lifestyle_factor 1393 1403	mycotoxins
+T15	lifestyle_factor 1479 1492	middle-income
+T26	Out-of-scope 650 667	aetiopathogenesis
+R1	causes Arg1:T8 Arg2:T7
+R2	causes Arg1:T9 Arg2:T7
+R3	causes Arg1:T18 Arg2:T7
+R4	causes Arg1:T17 Arg2:T7
+R5	causes Arg1:T20 Arg2:T7
+R6	causes Arg1:T10 Arg2:T7
+R7	causes Arg1:T22 Arg2:T7
+R8	causes Arg1:T11 Arg2:T7
+R9	causes Arg1:T23 Arg2:T7
+R10	causes Arg1:T16 Arg2:T7
+R11	causes Arg1:T24 Arg2:T7
+R12	causes Arg1:T25 Arg2:T7
+R13	causes Arg1:T14 Arg2:T7
+T27	lifestyle_factor 1471 1474	low

@@ -1,0 +1,37 @@
+T1	disease 56 74	metabolic syndrome
+T2	lifestyle_factor 152 182	leisure time physical activity
+T3	disease 211 229	metabolic syndrome
+T4	disease 354 362	diabetes
+T5	lifestyle_factor 396 426	leisure time physical activity
+T6	disease 484 502	metabolic syndrome
+T7	Out-of-scope 576 583	fasting
+T8	disease 655 673	metabolic syndrome
+T9	disease 826 844	Metabolic syndrome
+T11	lifestyle_factor 1004 1019	education level
+T12	lifestyle_factor 1168 1198	leisure time physical activity
+T13	disease 1229 1247	metabolic syndrome
+T14	disease 1506 1524	metabolic syndrome
+T16	lifestyle_factor 451 470	computer activities
+T17	lifestyle_factor 912 931	computer activities
+T18	lifestyle_factor 21 38	physical activity
+T19	Out-of-scope 165 182	physical activity
+T20	Out-of-scope 409 426	physical activity
+T21	lifestyle_factor 727 744	physical activity
+T22	lifestyle_factor 949 966	physical activity
+T23	Out-of-scope 1181 1198	physical activity
+T24	lifestyle_factor 1611 1637	vigorous physical activity
+T25	lifestyle_factor 0 9	Sedentary
+T26	lifestyle_factor 128 147	sedentary behaviour
+T27	lifestyle_factor 703 722	sedentary behaviour
+T28	lifestyle_factor 1125 1145	time being sedentary
+T29	lifestyle_factor 1483 1502	sedentary behaviour
+T30	lifestyle_factor 431 450	television watching
+T31	lifestyle_factor 892 911	watching television
+T32	lifestyle_factor 1021 1028	smoking
+R1	positive_statistical_association Arg1:T31 Arg2:T9
+R2	positive_statistical_association Arg1:T17 Arg2:T9
+R3	negative_statistical_association Arg1:T12 Arg2:T13
+T10	disease 328 350	cardiovascular disease
+T15	Out-of-scope 933 945	irrespective
+R4	causes Arg1:T29 Arg2:T14
+R5	prevents Arg1:T24 Arg2:T14

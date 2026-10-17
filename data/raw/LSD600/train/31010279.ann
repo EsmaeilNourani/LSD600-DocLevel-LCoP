@@ -1,0 +1,41 @@
+T1	disease 40 47	cholera
+T2	disease 106 113	cholera
+T3	disease 180 187	cholera
+T4	disease 317 324	cholera
+T5	disease 435 442	cholera
+T6	disease 488 495	cholera
+T7	disease 608 615	cholera
+T8	lifestyle_factor 661 671	travelling
+T10	lifestyle_factor 769 779	vegetables
+T11	lifestyle_factor 872 886	using chlorine
+T12	disease 1041 1048	cholera
+T13	disease 1155 1162	cholera
+T14	disease 1213 1220	cholera
+T17	lifestyle_factor 724 738	eating outside
+R2	positive_statistical_association Arg1:T17 Arg2:T7
+T18	lifestyle_factor 843 862	common-source water
+R3	positive_statistical_association Arg1:T18 Arg2:T7
+T19	lifestyle_factor 890 894	soap
+T20	lifestyle_factor 975 994	common-source water
+R6	positive_statistical_association Arg1:T20 Arg2:T12
+T21	lifestyle_factor 1092 1104	unsafe water
+R7	positive_statistical_association Arg1:T21 Arg2:T13
+R4	negative_statistical_association Arg1:T19 Arg2:T7
+T24	lifestyle_factor 754 767	washing fruit
+R5	negative_statistical_association Arg1:T24 Arg2:T7
+R8	negative_statistical_association Arg1:T10 Arg2:T7
+R9	positive_statistical_association Arg1:T8 Arg2:T7
+T26	lifestyle_factor 1305 1324	safe drinking water
+R12	negative_statistical_association Arg1:T26 Arg2:T14
+R1	negative_statistical_association Arg1:T11 Arg2:T7
+T27	lifestyle_factor 785 789	khat
+R13	negative_statistical_association Arg1:T27 Arg2:T7
+T30	lifestyle_factor 947 959	washing khat
+R14	negative_statistical_association Arg1:T30 Arg2:T12
+T9	lifestyle_factor 1222 1239	hygiene practices
+R11	negative_statistical_association Arg1:T9 Arg2:T14
+T15	Out-of-scope 566 578	risk factors
+T16	lifestyle_factor 1244 1256	washing khat
+T22	lifestyle_factor 1261 1271	vegetables
+R10	negative_statistical_association Arg1:T16 Arg2:T14
+R15	negative_statistical_association Arg1:T22 Arg2:T14

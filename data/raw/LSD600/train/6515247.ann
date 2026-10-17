@@ -1,0 +1,19 @@
+T1	lifestyle_factor 26 31	sleep
+T6	lifestyle_factor 33 52	sleep fragmentation
+T9	lifestyle_factor 138 154	sleep continuity
+T12	lifestyle_factor 581 593	slept longer
+T13	lifestyle_factor 641 654	stage 1 sleep
+T2	lifestyle_factor 159 190	periodic movements during sleep
+T3	lifestyle_factor 119 124	sleep
+T7	lifestyle_factor 58 63	sleep
+T4	lifestyle_factor 463 481	daytime sleepiness
+T5	disease 343 351	insomnia
+T8	disease 527 535	insomnia
+T10	disease 686 694	insomnia
+T11	disease 759 767	Insomnia
+T14	lifestyle_factor 192 195	PMS
+*	Equiv T2 T14
+T15	lifestyle_factor 796 799	PMS
+T16	lifestyle_factor 830 833	PMS
+R1	positive_statistical_association Arg1:T15 Arg2:T11
+R2	negative_statistical_association Arg1:T12 Arg2:T8

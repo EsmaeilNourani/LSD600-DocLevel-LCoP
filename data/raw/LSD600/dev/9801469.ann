@@ -1,0 +1,44 @@
+T1	disease 609 616	cancers
+T2	lifestyle_factor 880 899	alcohol consumption
+T4	lifestyle_factor 939 948	radiation
+T5	disease 950 957	obesity
+T6	disease 1056 1063	cancers
+T7	disease 1235 1242	cancers
+T8	lifestyle_factor 1305 1312	Smoking
+T11	lifestyle_factor 1481 1503	consumption of alcohol
+T12	disease 1612 1619	cancers
+T14	disease 1713 1720	obesity
+T15	disease 1848 1855	cancers
+T16	lifestyle_factor 1913 1927	dietary habits
+T17	disease 1545 1551	cancer
+R4	causes Arg1:T11 Arg2:T17
+T18	lifestyle_factor 1455 1476	therapeutic radiation
+R5	causes Arg1:T18 Arg2:T17
+T19	lifestyle_factor 1394 1409	solar radiation
+R6	causes Arg1:T19 Arg2:T17
+T20	disease 856 862	cancer
+R1	causes Arg1:T2 Arg2:T20
+R3	causes Arg1:T4 Arg2:T20
+T21	lifestyle_factor 871 878	smoking
+R7	causes Arg1:T21 Arg2:T20
+R8	statistical_association Arg1:T19 Arg2:T12
+R9	statistical_association Arg1:T18 Arg2:T12
+R10	statistical_association Arg1:T11 Arg2:T12
+T22	lifestyle_factor 1638 1660	Occupational exposures
+T24	disease 142 148	cancer
+T25	disease 198 204	cancer
+T26	disease 308 314	cancer
+T27	disease 768 774	cancer
+T28	disease 11 17	cancer
+T29	disease 1992 1998	cancer
+T30	disease 2076 2082	cancer
+T32	disease 962 997	infection with human papillomavirus
+T3	lifestyle_factor 1440 1450	diagnostic
+R12	statistical_association Arg1:T3 Arg2:T12
+R13	causes Arg1:T3 Arg2:T17
+R15	causes Arg1:T8 Arg2:T6
+T9	disease 999 1002	HPV
+*	Equiv T32 T9
+T10	disease 1411 1414	HPV
+T13	disease 1419 1438	Helicobacter pylori
+R11	causes Arg1:T22 Arg2:T12

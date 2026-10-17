@@ -1,0 +1,70 @@
+T1	lifestyle_factor 59 83	secondhand tobacco smoke
+T2	lifestyle_factor 149 165	secondhand smoke
+T3	disease 215 234	neural tube defects
+T4	lifestyle_factor 665 681	secondhand smoke
+T5	disease 1195 1203	diabetes
+T6	lifestyle_factor 1242 1258	secondhand smoke
+T7	disease 1370 1386	craniosynostosis
+T8	lifestyle_factor 1843 1859	household income
+T9	lifestyle_factor 1906 1912	income
+T10	lifestyle_factor 1931 1950	alcohol consumption
+T12	lifestyle_factor 2333 2349	secondhand smoke
+T13	lifestyle_factor 2484 2500	secondhand smoke
+T14	disease 2606 2625	neural tube defects
+T15	disease 2627 2638	anencephaly
+T16	disease 2707 2719	spina bifida
+T17	disease 2785 2801	orofacial clefts
+T18	disease 2803 2812	cleft lip
+T19	disease 2821 2833	cleft palate
+T20	disease 2898 2907	cleft lip
+T21	disease 2924 2936	cleft palate
+T22	disease 3001 3013	cleft palate
+T23	disease 3095 3109	renal agenesis
+T25	lifestyle_factor 3601 3617	secondhand smoke
+R1	statistical_association Arg1:T2 Arg2:T3
+T26	disease 199 210	oral clefts
+R2	statistical_association Arg1:T2 Arg2:T26
+T27	lifestyle_factor 1805 1814	education
+T29	lifestyle_factor 1169 1176	smoking
+T30	lifestyle_factor 431 441	nonsmoking
+T31	lifestyle_factor 1515 1525	teratogens
+T32	lifestyle_factor 1956 1982	folic acid supplementation
+T33	lifestyle_factor 2203 2212	household
+T34	lifestyle_factor 2219 2228	workplace
+T35	lifestyle_factor 2229 2235	school
+T36	lifestyle_factor 2242 2251	household
+T37	lifestyle_factor 2274 2283	household
+T38	lifestyle_factor 2287 2296	workplace
+T39	lifestyle_factor 2297 2303	school
+T40	lifestyle_factor 2256 2265	workplace
+T41	lifestyle_factor 2266 2272	school
+T42	lifestyle_factor 2517 2526	household
+T43	lifestyle_factor 2530 2539	workplace
+T44	lifestyle_factor 2540 2546	school
+T45	disease 3175 3220	amniotic band syndrome-limb body wall complex
+T46	disease 3290 3321	atrial septal defects, secundum
+R3	positive_statistical_association Arg1:T13 Arg2:T14
+R4	positive_statistical_association Arg1:T13 Arg2:T15
+R5	positive_statistical_association Arg1:T13 Arg2:T17
+R6	positive_statistical_association Arg1:T13 Arg2:T16
+R7	positive_statistical_association Arg1:T13 Arg2:T23
+R8	positive_statistical_association Arg1:T13 Arg2:T45
+R9	positive_statistical_association Arg1:T13 Arg2:T46
+T47	lifestyle_factor 702 711	workplace
+T48	lifestyle_factor 712 718	school
+T11	lifestyle_factor 689 698	household
+T24	disease 176 189	birth defects
+T28	disease 411 424	birth defects
+T49	disease 497 510	Birth Defects
+T50	disease 729 742	birth defects
+T51	disease 1607 1620	birth defects
+T52	disease 2560 2573	birth defects
+T53	disease 3630 3643	birth defects
+T54	disease 1050 1063	birth defects
+T55	disease 849 862	birth defects
+T56	disease 94 107	birth defects
+R10	statistical_association Arg1:T2 Arg2:T24
+R12	positive_statistical_association Arg1:T13 Arg2:T20
+R13	positive_statistical_association Arg1:T13 Arg2:T18
+R14	positive_statistical_association Arg1:T13 Arg2:T22
+R11	positive_statistical_association Arg1:T25 Arg2:T53

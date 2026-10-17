@@ -1,0 +1,48 @@
+T1	disease 31 47	Anorexia Nervosa
+T2	disease 68 84	eating disorders
+T3	disease 86 102	anorexia nervosa
+T4	disease 104 119	bulimia nervosa
+T5	disease 125 137	binge eating
+T7	disease 416 432	Anorexia nervosa
+T8	disease 524 539	Bulimia nervosa
+T9	lifestyle_factor 560 572	binge eating
+T12	lifestyle_factor 668 675	fasting
+T14	disease 798 814	Eating disorders
+T15	lifestyle_factor 927 939	malnutrition
+T16	disease 1109 1125	eating disorders
+T17	disease 1445 1461	eating disorders
+T18	lifestyle_factor 1471 1484	psychotherapy
+T19	lifestyle_factor 1541 1554	psychotherapy
+R1	causes Arg1:T8 Arg2:T9
+T22	disease 348 369	binge-eating disorder
+T23	disease 677 698	Binge-eating disorder
+T24	disease 1864 1871	bulimia
+T25	disease 52 59	Bulimia
+T26	disease 407 414	bulimia
+T27	disease 998 1005	bulimia
+T28	disease 300 307	bulimia
+R2	treats Arg1:T18 Arg2:T17
+R4	causes Arg1:T8 Arg2:T12
+T29	lifestyle_factor 643 653	diet pills
+T30	disease 195 203	Anorexia
+T31	lifestyle_factor 618 627	laxatives
+T32	lifestyle_factor 629 638	diuretics
+T33	lifestyle_factor 655 663	exercise
+R6	causes Arg1:T8 Arg2:T33
+R7	causes Arg1:T8 Arg2:T31
+R8	causes Arg1:T8 Arg2:T32
+R5	causes Arg1:T8 Arg2:T29
+T34	lifestyle_factor 719 733	binge behavior
+R9	causes Arg1:T23 Arg2:T34
+T35	disease 897 905	anorexia
+T36	lifestyle_factor 944 958	semistarvation
+T37	disease 1171 1181	arrhythmia
+T38	disease 1183 1203	gastric hemorrhaging
+T39	disease 1254 1262	anorexia
+T40	disease 1359 1366	bulimic
+T42	Out-of-scope 1780 1799	serotonergic agents
+T6	lifestyle_factor 1585 1599	chaotic eating
+T43	Out-of-scope 1752 1767	Antidepressants
+R10	causes Arg1:T35 Arg2:T36
+T10	lifestyle_factor 1609 1634	inadequate caloric intake
+R3	causes Arg1:T35 Arg2:T15

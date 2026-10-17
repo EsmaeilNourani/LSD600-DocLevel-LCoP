@@ -1,0 +1,21 @@
+T1	disease 31 41	narcolepsy
+T2	lifestyle_factor 95 119	rapid eye movement sleep
+T3	disease 121 131	Narcolepsy
+T4	lifestyle_factor 181 205	rapid eye movement sleep
+T7	disease 326 369	rapid eye movement sleep behaviour disorder
+T8	lifestyle_factor 563 587	rapid eye movement sleep
+T9	disease 635 645	narcolepsy
+T10	disease 733 743	narcolepsy
+T11	disease 989 999	narcolepsy
+T12	disease 1213 1223	narcolepsy
+T14	disease 1780 1823	rapid eye movement sleep behaviour disorder
+T15	disease 1981 1991	narcolepsy
+T16	lifestyle_factor 2022 2046	rapid eye movement sleep
+R3	positive_statistical_association Arg1:T4 Arg2:T3
+T17	disease 271 280	cataplexy
+T18	disease 309 324	sleep paralysis
+T19	disease 1743 1758	sleep paralysis
+T20	disease 1833 1842	cataplexy
+T22	disease 1682 1692	narcolepsy
+T5	Out-of-scope 217 240	dissociated wakefulness
+T6	lifestyle_factor 245 269	rapid eye movement sleep

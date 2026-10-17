@@ -1,0 +1,17 @@
+T1	lifestyle_factor 429 457	air pollution control device
+T2	lifestyle_factor 184 202	polyvinyl chloride
+T3	lifestyle_factor 578 581	PVC
+T4	lifestyle_factor 15 27	heavy metals
+T5	lifestyle_factor 84 97	fabric filter
+T7	lifestyle_factor 204 207	PVC
+T10	lifestyle_factor 270 281	heavy metal
+T11	lifestyle_factor 286 293	fly ash
+T13	lifestyle_factor 353 365	heavy metals
+T14	lifestyle_factor 400 413	fabric filter
+T15	lifestyle_factor 491 498	fly ash
+T16	lifestyle_factor 503 515	heavy metals
+T17	lifestyle_factor 622 634	heavy metals
+T18	lifestyle_factor 650 657	fly ash
+T23	lifestyle_factor 459 463	APCD
+*	Equiv T2 T7
+*	Equiv T1 T23

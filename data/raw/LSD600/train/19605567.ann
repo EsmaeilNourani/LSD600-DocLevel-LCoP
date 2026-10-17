@@ -1,0 +1,22 @@
+T1	disease 20 33	hyperglycemia
+T3	disease 188 201	Hyperglycemia
+T4	disease 300 315	type 2 diabetes
+T7	lifestyle_factor 666 677	soft drinks
+T8	lifestyle_factor 888 892	diet
+T9	lifestyle_factor 973 980	sucrose
+T13	disease 1231 1244	hyperglycemia
+T15	disease 1334 1347	Hyperglycemia
+T16	lifestyle_factor 1466 1473	sucrose
+T17	disease 1555 1568	hyperglycemia
+T18	disease 1697 1710	hyperglycemia
+T21	disease 1835 1848	hyperglycemia
+T22	lifestyle_factor 332 361	sucrose-sweetened soft drinks
+T23	disease 403 416	hyperglycemic
+R1	Out-of-scope Arg1:T22 Arg2:T23
+T24	lifestyle_factor 146 173	sucrose-containing beverage
+T25	lifestyle_factor 1763 1790	sucrose-sweetened beverages
+T33	lifestyle_factor 1501 1511	soft drink
+R2	no_statistical_association Arg1:T25 Arg2:T21
+R4	no_statistical_association Arg1:T16 Arg2:T17
+R5	no_statistical_association Arg1:T33 Arg2:T17
+#1	AnnotatorNotes R1	hypothesis

@@ -1,0 +1,81 @@
+T1	lifestyle_factor 314 321	tobacco
+T2	lifestyle_factor 507 515	cinnamon
+T3	lifestyle_factor 622 638	personal hygiene
+T4	lifestyle_factor 659 667	perfumes
+T5	lifestyle_factor 695 705	detergents
+T6	lifestyle_factor 790 802	chewing gums
+T11	disease 3592 3610	malignant thymomas
+T12	disease 3671 3681	carcinomas
+T13	disease 3981 3996	keratoacanthoma
+T15	disease 4546 4568	hepatocellular adenoma
+T16	disease 4570 4594	hepatocellular carcinoma
+T17	disease 4600 4622	hepatocellular adenoma
+T18	disease 4626 4635	carcinoma
+T19	disease 4738 4760	hepatocellular adenoma
+T20	disease 4959 4966	sarcoma
+T21	disease 4988 4996	neoplasm
+T22	disease 6605 6612	thymoma
+T23	disease 6631 6640	carcinoma
+T24	disease 6878 6900	hepatocellular adenoma
+T25	disease 6902 6926	hepatocellular carcinoma
+T26	disease 6932 6954	hepatocellular adenoma
+T27	disease 6958 6967	carcinoma
+T28	disease 7115 7122	sarcoma
+T34	lifestyle_factor 608 617	household
+T40	lifestyle_factor 1276 1284	corn oil
+T41	lifestyle_factor 1572 1580	corn oil
+T42	lifestyle_factor 2568 2576	corn oil
+T43	lifestyle_factor 3128 3136	corn oil
+T45	lifestyle_factor 41 51	isoeugenol
+T46	lifestyle_factor 120 130	Isoeugenol
+T47	lifestyle_factor 390 400	Isoeugenol
+T48	lifestyle_factor 567 577	isoeugenol
+T49	lifestyle_factor 729 739	isoeugenol
+T50	lifestyle_factor 804 814	Isoeugenol
+T51	lifestyle_factor 1240 1250	isoeugenol
+T52	lifestyle_factor 1558 1568	isoeugenol
+T53	lifestyle_factor 2009 2019	isoeugenol
+T54	lifestyle_factor 2554 2564	isoeugenol
+T55	lifestyle_factor 3114 3124	isoeugenol
+T56	lifestyle_factor 4127 4137	isoeugenol
+T57	lifestyle_factor 5834 5844	Isoeugenol
+T58	lifestyle_factor 6232 6242	isoeugenol
+T59	lifestyle_factor 6524 6534	isoeugenol
+T60	lifestyle_factor 6692 6702	isoeugenol
+T61	lifestyle_factor 6814 6824	isoeugenol
+T62	lifestyle_factor 7037 7047	isoeugenol
+T63	lifestyle_factor 7136 7146	isoeugenol
+R1	causes Arg1:T61 Arg2:T24
+R2	causes Arg1:T61 Arg2:T25
+R3	causes Arg1:T61 Arg2:T26
+R4	causes Arg1:T61 Arg2:T27
+T64	Out-of-scope 845 851	Cancer
+T7	lifestyle_factor 493 501	bay leaf
+T8	lifestyle_factor 484 491	pimento
+T9	lifestyle_factor 477 482	clove
+T10	lifestyle_factor 442 449	eugenol
+T14	lifestyle_factor 306 312	nutmeg
+T29	lifestyle_factor 684 689	soaps
+T30	lifestyle_factor 669 682	cream lotions
+T31	lifestyle_factor 752 771	nonalcoholic drinks
+T32	lifestyle_factor 773 784	baked foods
+T35	lifestyle_factor 979 994	fragrance agent
+T36	lifestyle_factor 1085 1092	eugenol
+T65	disease 5728 5752	glandular stomach ulcers
+T72	lifestyle_factor 280 285	clove
+T73	lifestyle_factor 712 727	flavoring agent
+T74	lifestyle_factor 965 974	flavoring
+T75	lifestyle_factor 260 265	basil
+T76	lifestyle_factor 346 350	mace
+T77	lifestyle_factor 335 344	dill seed
+R5	positive_statistical_association Arg1:T56 Arg2:T15
+R6	positive_statistical_association Arg1:T56 Arg2:T16
+R7	positive_statistical_association Arg1:T56 Arg2:T17
+R8	positive_statistical_association Arg1:T56 Arg2:T18
+R9	positive_statistical_association Arg1:T56 Arg2:T19
+R10	positive_statistical_association Arg1:T56 Arg2:T20
+R11	positive_statistical_association Arg1:T56 Arg2:T65
+T44	lifestyle_factor 4141 4149	corn oil
+T33	lifestyle_factor 267 278	ylang-ylang
+T78	lifestyle_factor 287 295	tuberose
+T79	lifestyle_factor 297 304	jonquil

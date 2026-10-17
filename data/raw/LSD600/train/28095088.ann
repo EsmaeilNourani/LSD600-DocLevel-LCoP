@@ -1,0 +1,10 @@
+T1	lifestyle_factor 54 71	Physical Activity
+T4	lifestyle_factor 596 598	PA
+T5	lifestyle_factor 611 613	PA
+T6	lifestyle_factor 704 706	PA
+T2	lifestyle_factor 222 239	physical activity
+T3	lifestyle_factor 241 243	PA
+T7	lifestyle_factor 1063 1065	PA
+T8	lifestyle_factor 1072 1074	PA
+T9	lifestyle_factor 1099 1101	PA
+*	Equiv T2 T3

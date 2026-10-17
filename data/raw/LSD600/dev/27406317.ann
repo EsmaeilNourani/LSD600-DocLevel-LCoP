@@ -1,0 +1,34 @@
+T1	lifestyle_factor 11 59	salicylic acid-induced wine rich in anthocyanins
+T2	lifestyle_factor 170 212	Syrah red wine treated with salicylic acid
+T3	lifestyle_factor 237 245	red wine
+T4	lifestyle_factor 368 389	Grape treated with SA
+T5	lifestyle_factor 781 783	RW
+T6	lifestyle_factor 857 862	RW SA
+T7	lifestyle_factor 117 130	high-fructose
+T8	lifestyle_factor 214 219	RW SA
+T9	lifestyle_factor 247 249	RW
+T10	lifestyle_factor 340 353	high-fructose
+T11	lifestyle_factor 355 356	F
+T12	lifestyle_factor 404 415	anthocyanin
+T13	lifestyle_factor 417 421	ANTs
+T14	lifestyle_factor 433 435	RW
+T15	lifestyle_factor 437 438	F
+T16	lifestyle_factor 529 530	F
+T17	lifestyle_factor 709 710	F
+T18	lifestyle_factor 549 551	RW
+T19	lifestyle_factor 600 605	RW SA
+T21	lifestyle_factor 788 793	RW SA
+T22	lifestyle_factor 931 933	RW
+T23	lifestyle_factor 946 948	RW
+T24	lifestyle_factor 953 958	RW SA
+T25	lifestyle_factor 1067 1093	SA-induced RW rich in ANTs
+T32	disease 499 517	insulin resistance
+*	Equiv T2 T8
+*	Equiv T3 T9
+*	Equiv T10 T11
+*	Equiv T12 T13
+R1	causes Arg1:T15 Arg2:T32
+T34	disease 1140 1144	MetS
+R2	prevents Arg1:T18 Arg2:T32
+T20	disease 482 494	dislipidemia
+R3	causes Arg1:T15 Arg2:T20

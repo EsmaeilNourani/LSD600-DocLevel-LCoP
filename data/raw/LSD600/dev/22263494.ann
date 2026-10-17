@@ -1,0 +1,83 @@
+T1	disease 36 65	Trichuris trichiura infection
+T2	disease 189 218	Trichuris trichiura infection
+T3	disease 613 642	Trichuris trichiura infection
+T4	lifestyle_factor 813 843	washing hands after defecation
+T6	lifestyle_factor 879 885	fruits
+T8	lifestyle_factor 990 996	fruits
+T10	lifestyle_factor 1671 1685	raw vegetables
+T11	lifestyle_factor 1698 1704	fruits
+T12	disease 1874 1903	Trichuris trichiura infection
+T13	disease 1950 1979	Trichuris trichiura infection
+T14	lifestyle_factor 2067 2081	raw vegetables
+T15	lifestyle_factor 2094 2100	fruits
+T16	disease 2206 2235	Trichuris trichiura infection
+T17	lifestyle_factor 2266 2287	sanitary water supply
+T18	Out-of-scope 1206 1215	livestock
+T19	Out-of-scope 796 805	vegetable
+T20	Out-of-scope 1289 1298	vegetable
+T21	Out-of-scope 1760 1769	vegetable
+T22	Out-of-scope 2140 2149	vegetable
+T23	lifestyle_factor 2083 2089	melons
+T24	lifestyle_factor 868 874	melons
+T25	lifestyle_factor 979 985	melons
+T26	lifestyle_factor 1687 1693	melons
+T27	lifestyle_factor 852 866	raw vegetables
+T5	Out-of-scope 897 910	anthelminthic
+T28	lifestyle_factor 729 740	toilet type
+T29	lifestyle_factor 703 727	drinking water resources
+R1	statistical_association Arg1:T29 Arg2:T3
+R2	statistical_association Arg1:T27 Arg2:T3
+R3	statistical_association Arg1:T28 Arg2:T3
+R4	statistical_association Arg1:T4 Arg2:T3
+R5	statistical_association Arg1:T24 Arg2:T3
+R6	statistical_association Arg1:T6 Arg2:T3
+T30	lifestyle_factor 963 977	raw vegetables
+T7	lifestyle_factor 1028 1058	washing hands after defecation
+T31	Out-of-scope 1070 1083	anthelminthic
+T32	Out-of-scope 1787 1800	anthelminthic
+T33	Out-of-scope 2179 2192	anthelminthic
+R7	positive_statistical_association Arg1:T30 Arg2:T3
+R8	positive_statistical_association Arg1:T25 Arg2:T3
+R9	positive_statistical_association Arg1:T8 Arg2:T3
+R10	prevents Arg1:T7 Arg2:T3
+T9	lifestyle_factor 742 760	fertilization type
+T34	lifestyle_factor 774 792	fertilization type
+T35	lifestyle_factor 1187 1192	feces
+T36	lifestyle_factor 1229 1248	chemical fertilizer
+T37	lifestyle_factor 1253 1272	compound fertilizer
+R11	prevents Arg1:T36 Arg2:T3
+R12	prevents Arg1:T37 Arg2:T3
+T38	lifestyle_factor 1396 1406	well water
+T39	lifestyle_factor 1411 1423	spring water
+R13	prevents Arg1:T38 Arg2:T3
+R14	prevents Arg1:T39 Arg2:T3
+R15	statistical_association Arg1:T9 Arg2:T3
+R16	statistical_association Arg1:T34 Arg2:T3
+T40	lifestyle_factor 1503 1516	toilet indoor
+T41	lifestyle_factor 1521 1532	biogas pool
+R17	prevents Arg1:T40 Arg2:T3
+R18	prevents Arg1:T41 Arg2:T3
+T42	lifestyle_factor 1706 1724	fertilization type
+T43	lifestyle_factor 1738 1756	fertilization type
+R19	statistical_association Arg1:T10 Arg2:T12
+R20	statistical_association Arg1:T26 Arg2:T12
+R21	statistical_association Arg1:T11 Arg2:T12
+R22	statistical_association Arg1:T42 Arg2:T12
+R23	statistical_association Arg1:T43 Arg2:T12
+T44	lifestyle_factor 2105 2123	fertilization type
+T45	lifestyle_factor 2292 2311	latrine improvement
+R24	negative_statistical_association Arg1:T45 Arg2:T16
+R25	negative_statistical_association Arg1:T17 Arg2:T16
+R26	statistical_association Arg1:T14 Arg2:T13
+R27	statistical_association Arg1:T23 Arg2:T13
+R28	statistical_association Arg1:T15 Arg2:T13
+R29	statistical_association Arg1:T44 Arg2:T13
+T46	Out-of-scope 1387 1395	Drinking
+T47	disease 117 135	parasitic diseases
+T48	disease 267 285	parasitic diseases
+T49	disease 490 508	parasitic diseases
+T50	disease 2033 2051	parasitic diseases
+R30	statistical_association Arg1:T14 Arg2:T50
+R31	statistical_association Arg1:T23 Arg2:T50
+R32	statistical_association Arg1:T15 Arg2:T50
+R33	statistical_association Arg1:T44 Arg2:T50

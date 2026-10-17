@@ -1,0 +1,10 @@
+T1	disease 24 37	leptospirosis
+T3	disease 109 122	Leptospirosis
+T6	disease 354 367	Leptospirosis
+T9	disease 640 653	leptospirosis
+T10	disease 848 861	leptospirosis
+T12	disease 972 985	leptospirosis
+T7	disease 128 144	zoonotic disease
+T2	lifestyle_factor 1598 1642	cattle herds infected with Leptospira hardjo
+T4	lifestyle_factor 1203 1208	herds
+T5	lifestyle_factor 382 393	dairy herds

@@ -1,0 +1,53 @@
+T1	disease 26 49	squamous cell carcinoma
+T3	disease 319 340	uterine corpus cancer
+T4	disease 725 740	Cervical cancer
+T5	disease 1074 1090	anogenital warts
+T8	lifestyle_factor 1195 1214	alcohol consumption
+T9	lifestyle_factor 1254 1268	marital status
+T12	lifestyle_factor 1659 1678	alcohol consumption
+T13	disease 1779 1795	cervical cancers
+T14	lifestyle_factor 1639 1654	tobacco smoking
+T11	disease 1566 1579	VV-SCC(vulva)
+T16	disease 1584 1598	VV-SCC(vagina)
+R1	positive_statistical_association Arg1:T14 Arg2:T16
+R2	positive_statistical_association Arg1:T14 Arg2:T11
+R3	positive_statistical_association Arg1:T12 Arg2:T11
+R4	positive_statistical_association Arg1:T12 Arg2:T16
+T17	disease 1319 1332	VV-SCC(vulva)
+R5	statistical_association Arg1:T9 Arg2:T17
+T18	lifestyle_factor 1443 1458	tobacco smoking
+T19	disease 1536 1543	VV-SCCs
+R6	positive_statistical_association Arg1:T18 Arg2:T19
+T20	disease 1158 1172	VV-SCC(vagina)
+T21	lifestyle_factor 1175 1190	tobacco smoking
+T22	disease 1004 1017	VV-SCC(vulva)
+T23	disease 1022 1036	VV-SCC(vagina)
+R8	positive_statistical_association Arg1:T8 Arg2:T23
+R9	positive_statistical_association Arg1:T8 Arg2:T22
+R10	positive_statistical_association Arg1:T21 Arg2:T23
+R11	positive_statistical_association Arg1:T21 Arg2:T22
+T24	disease 140 182	vulvar and vaginal squamous cell carcinoma
+T25	disease 184 190	VV-SCC
+*	Equiv T25 T24
+T26	disease 258 264	VV-SCC
+T27	disease 275 288	VV-SCC(vulva)
+T28	disease 298 312	VV-SCC(vagina)
+T29	disease 468 474	VV-SCC
+T33	disease 824 838	VV-SCC(vagina)
+T34	disease 869 882	VV-SCC(vulva)
+T35	disease 1095 1108	VV-SCC(vulva)
+T36	disease 1378 1385	VV-SCCs
+T37	disease 1855 1862	VV-SCCs
+T38	lifestyle_factor 1138 1153	genital hygiene
+T39	lifestyle_factor 1229 1242	socioeconomic
+T2	lifestyle_factor 1273 1288	years at school
+R13	statistical_association Arg1:T2 Arg2:T17
+R14	statistical_association Arg1:T39 Arg2:T17
+T6	disease 1110 1128	cervical neoplasia
+R7	negative_statistical_association Arg1:T38 Arg2:T20
+T7	disease 1463 1481	cervical neoplasia
+T10	disease 513 533	human papillomavirus
+#1	AnnotatorNotes T10	DOID:11166
+T15	disease 535 538	HPV
+*	Equiv T10 T15
+T30	disease 762 765	HPV

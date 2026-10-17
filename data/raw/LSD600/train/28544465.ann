@@ -1,0 +1,44 @@
+T1	lifestyle_factor 58 71	Sleep Quality
+T2	disease 107 122	Type 2 Diabetes
+T3	lifestyle_factor 178 191	sleep quality
+T4	lifestyle_factor 293 306	sleep quality
+T5	disease 342 350	diabetes
+T6	disease 454 469	type 2 diabetes
+T7	lifestyle_factor 762 775	sleep quality
+T8	lifestyle_factor 917 930	sleep quality
+T9	disease 1110 1118	diabetes
+T10	lifestyle_factor 1120 1133	sleep quality
+T11	lifestyle_factor 1305 1318	sleep quality
+T12	lifestyle_factor 1401 1414	sleep quality
+T14	disease 1481 1489	diabetes
+T15	lifestyle_factor 1769 1786	physical exercise
+T16	lifestyle_factor 1848 1856	caffeine
+T17	lifestyle_factor 1947 1960	sleep hygiene
+T18	lifestyle_factor 1972 1985	sleep quality
+T20	disease 2197 2205	diabetes
+T21	Out-of-scope 1778 1786	exercise
+T22	lifestyle_factor 1442 1452	poor sleep
+T23	lifestyle_factor 2063 2073	poor sleep
+T24	disease 14 22	Nocturia
+T25	disease 44 52	Nocturia
+T26	disease 160 168	nocturia
+T27	disease 240 248	nocturia
+T28	disease 279 287	nocturia
+T29	disease 830 838	nocturia
+T30	disease 903 911	nocturia
+T31	disease 1016 1024	nocturia
+T32	disease 1196 1204	nocturia
+T33	disease 1256 1264	nocturia
+T34	disease 1280 1288	nocturia
+T35	disease 1429 1437	Nocturia
+T36	disease 1520 1528	nocturia
+T37	disease 2050 2058	nocturia
+R4	negative_statistical_association Arg1:T11 Arg2:T34
+R5	statistical_association Arg1:T10 Arg2:T32
+R3	Out-of-scope Arg1:T17 Arg2:T18
+T19	Out-of-scope 1690 1711	modifiable correlates
+R1	negative_statistical_association Arg1:T15 Arg2:T36
+R2	positive_statistical_association Arg1:T16 Arg2:T36
+R6	negative_statistical_association Arg1:T17 Arg2:T36
+R7	Out-of-scope Arg1:T23 Arg2:T37
+R8	positive_statistical_association Arg1:T23 Arg2:T20

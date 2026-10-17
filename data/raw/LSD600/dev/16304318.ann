@@ -1,0 +1,32 @@
+T9	lifestyle_factor 769 778	hair dyes
+T12	disease 1057 1063	asthma
+T15	disease 1754 1760	asthma
+T16	disease 1789 1799	dermatitis
+T17	disease 1804 1812	rhinitis
+T18	disease 118 138	respiratory diseases
+T20	disease 0 19	Occupational asthma
+T21	disease 37 45	rhinitis
+T22	disease 912 920	rhinitis
+T23	disease 1485 1493	rhinitis
+T2	disease 418 438	respiratory diseases
+T4	lifestyle_factor 1415 1431	persulfate salts
+R2	causes Arg1:T4 Arg2:T23
+T11	lifestyle_factor 1097 1113	bleaching agents
+T14	lifestyle_factor 1046 1056	persulfate
+R4	causes Arg1:T14 Arg2:T12
+T25	lifestyle_factor 939 955	persulfate salts
+T26	lifestyle_factor 986 1006	paraphenylenediamine
+T27	lifestyle_factor 718 734	persulfate salts
+T1	disease 345 364	occupational asthma
+T3	disease 366 368	OA
+T5	disease 689 691	OA
+T6	disease 1465 1467	OA
+T8	lifestyle_factor 1295 1305	persulfate
+R8	causes Arg1:T4 Arg2:T6
+*	Equiv T1 T3
+R1	causes Arg1:T27 Arg2:T5
+R3	causes Arg1:T9 Arg2:T5
+T7	lifestyle_factor 805 810	latex
+R5	causes Arg1:T7 Arg2:T5
+R6	causes Arg1:T25 Arg2:T22
+R7	causes Arg1:T26 Arg2:T22

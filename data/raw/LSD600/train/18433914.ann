@@ -1,0 +1,24 @@
+T1	lifestyle_factor 0 30	Leisure time physical activity
+T2	disease 67 82	type 2 diabetes
+T3	disease 112 127	type 2 diabetes
+T4	lifestyle_factor 159 189	leisure time physical activity
+T5	lifestyle_factor 191 195	LTPA
+T6	disease 330 345	type 2 diabetes
+T7	disease 665 680	type 2 diabetes
+T8	disease 739 754	type 2 diabetes
+T9	lifestyle_factor 887 910	high intensity exercise
+T10	lifestyle_factor 987 991	LTPA
+T11	disease 1070 1085	type 2 diabetes
+T12	disease 1192 1207	type 2 diabetes
+T13	lifestyle_factor 1297 1301	LTPA
+T14	Out-of-scope 902 910	exercise
+T15	Out-of-scope 1208 1216	exercise
+T16	Out-of-scope 13 30	physical activity
+T17	Out-of-scope 172 189	physical activity
+T18	lifestyle_factor 562 579	physical activity
+T19	lifestyle_factor 798 815	physical activity
+*	Equiv T5 T4
+T20	lifestyle_factor 694 716	physically less active
+R1	Out-of-scope Arg1:T10 Arg2:T11
+R2	Out-of-scope Arg1:T20 Arg2:T7
+R3	Out-of-scope Arg1:T13 Arg2:T15

@@ -1,0 +1,75 @@
+T2	lifestyle_factor 113 124	occupations
+T4	disease 197 216	Parkinson's disease
+T5	disease 315 334	Parkinson's disease
+T7	disease 449 468	Parkinson's disease
+T8	disease 480 499	Parkinson's disease
+T9	disease 780 799	Parkinson's disease
+T10	disease 1164 1183	Parkinson's disease
+T11	disease 1301 1320	Parkinson's disease
+T13	lifestyle_factor 1364 1386	exposure to pesticides
+T14	disease 1657 1676	Parkinson's disease
+T16	lifestyle_factor 1691 1713	exposure to pesticides
+T17	disease 1799 1818	Parkinson's disease
+T18	lifestyle_factor 269 287	pesticide exposure
+R2	positive_statistical_association Arg1:T18 Arg2:T4
+T19	lifestyle_factor 1111 1125	inorganic dust
+R3	positive_statistical_association Arg1:T19 Arg2:T10
+T22	lifestyle_factor 1584 1598	Inorganic dust
+R5	positive_statistical_association Arg1:T22 Arg2:T14
+T23	lifestyle_factor 990 997	smoking
+T24	disease 25 47	parkinsonian disorders
+T25	disease 520 532	Parkinsonism
+T26	disease 549 571	Parkinsonian disorders
+T27	disease 738 759	Parkinsonian disorder
+T28	lifestyle_factor 1003 1012	education
+T29	disease 1188 1210	Parkinsonian disorders
+R6	positive_statistical_association Arg1:T19 Arg2:T29
+T30	disease 1324 1346	Parkinsonian disorders
+T31	lifestyle_factor 1388 1401	welding smoke
+T38	lifestyle_factor 1479 1490	nickel dust
+T39	lifestyle_factor 1492 1503	quartz dust
+T40	lifestyle_factor 1505 1517	organic dust
+T41	lifestyle_factor 1519 1522	oil
+T42	lifestyle_factor 1524 1532	asbestos
+T43	lifestyle_factor 1534 1550	organic solvents
+T44	lifestyle_factor 1555 1569	irritating gas
+R7	no_statistical_association Arg1:T16 Arg2:T17
+T1	lifestyle_factor 339 346	welding
+R37	no_statistical_association Arg1:T1 Arg2:T5
+R1	no_statistical_association Arg1:T13 Arg2:T30
+R4	no_statistical_association Arg1:T31 Arg2:T30
+T3	lifestyle_factor 1403 1413	metal dust
+T6	lifestyle_factor 1415 1424	wood dust
+T12	lifestyle_factor 1426 1441	animal handling
+T15	lifestyle_factor 1443 1448	stone
+T20	lifestyle_factor 1453 1466	concrete dust
+T21	lifestyle_factor 1468 1474	chrome
+R8	no_statistical_association Arg1:T3 Arg2:T30
+R9	no_statistical_association Arg1:T6 Arg2:T30
+R10	no_statistical_association Arg1:T12 Arg2:T30
+R11	no_statistical_association Arg1:T15 Arg2:T30
+R12	no_statistical_association Arg1:T20 Arg2:T30
+R13	no_statistical_association Arg1:T21 Arg2:T30
+R14	no_statistical_association Arg1:T38 Arg2:T30
+R15	no_statistical_association Arg1:T39 Arg2:T30
+R16	no_statistical_association Arg1:T40 Arg2:T30
+R17	no_statistical_association Arg1:T41 Arg2:T30
+R18	no_statistical_association Arg1:T42 Arg2:T30
+R19	no_statistical_association Arg1:T43 Arg2:T30
+R20	no_statistical_association Arg1:T44 Arg2:T30
+R21	no_statistical_association Arg1:T13 Arg2:T11
+R22	no_statistical_association Arg1:T31 Arg2:T11
+R23	no_statistical_association Arg1:T3 Arg2:T11
+R24	no_statistical_association Arg1:T6 Arg2:T11
+R25	no_statistical_association Arg1:T12 Arg2:T11
+R26	no_statistical_association Arg1:T15 Arg2:T11
+R27	no_statistical_association Arg1:T20 Arg2:T11
+R28	no_statistical_association Arg1:T21 Arg2:T11
+R29	no_statistical_association Arg1:T38 Arg2:T11
+R30	no_statistical_association Arg1:T39 Arg2:T11
+R31	no_statistical_association Arg1:T40 Arg2:T11
+R32	no_statistical_association Arg1:T41 Arg2:T11
+R33	no_statistical_association Arg1:T42 Arg2:T11
+R34	no_statistical_association Arg1:T43 Arg2:T11
+R35	no_statistical_association Arg1:T44 Arg2:T11
+T32	lifestyle_factor 129 151	occupational exposures

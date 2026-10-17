@@ -1,0 +1,35 @@
+T1	lifestyle_factor 0 14	Sleep duration
+T2	disease 34 46	dyslipidemia
+T3	disease 64 80	bipolar disorder
+T4	disease 166 182	bipolar disorder
+T5	disease 347 363	bipolar disorder
+T6	lifestyle_factor 521 557	disturbances in the sleep-wake cycle
+T7	disease 703 719	bipolar disorder
+T8	Out-of-scope 774 779	sleep
+T9	disease 847 859	dyslipidemia
+T10	lifestyle_factor 965 979	sleep duration
+T11	lifestyle_factor 1047 1061	sleep duration
+T12	lifestyle_factor 1182 1187	sleep
+T13	lifestyle_factor 1213 1227	sleep patterns
+T14	disease 1245 1261	bipolar disorder
+T15	lifestyle_factor 1316 1321	sleep
+T16	disease 1513 1529	bipolar disorder
+T17	lifestyle_factor 1612 1626	sleep duration
+T18	lifestyle_factor 1699 1712	sleep hygiene
+T19	disease 1742 1758	bipolar disorder
+T20	lifestyle_factor 1474 1479	Sleep
+R1	statistical_association Arg1:T1 Arg2:T2
+T23	disease 774 791	sleep disturbance
+T21	lifestyle_factor 882 899	lifestyle factors
+R2	Out-of-scope Arg1:T18 Arg2:T19
+T24	disease 1572 1586	cardiovascular
+#1	AnnotatorNotes T24	cardiovascular disease is implied
+R3	statistical_association Arg1:T20 Arg2:T24
+T25	disease 143 157	cardiovascular
+#2	AnnotatorNotes T25	cardiovascular disease is implied
+T26	disease 315 329	cardiovascular
+#3	AnnotatorNotes T26	cardiovascular disease is implied
+T27	disease 656 670	cardiovascular
+#4	AnnotatorNotes T27	cardiovascular disease is implied
+T28	disease 1440 1454	cardiovascular
+#5	AnnotatorNotes T28	cardiovascular disease is implied

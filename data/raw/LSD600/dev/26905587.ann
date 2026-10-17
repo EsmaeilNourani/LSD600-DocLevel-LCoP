@@ -1,0 +1,49 @@
+T1	disease 0 17	Pancreatic cancer
+T2	lifestyle_factor 61 65	diet
+T3	lifestyle_factor 67 84	cigarette smoking
+T4	disease 103 111	diabetes
+T5	disease 169 186	pancreatic cancer
+T6	lifestyle_factor 239 256	cigarette smoking
+T7	disease 261 269	diabetes
+T8	lifestyle_factor 393 397	diet
+T9	lifestyle_factor 560 564	diet
+T11	disease 614 630	type II diabetes
+T12	lifestyle_factor 741 745	diet
+T13	disease 947 955	diabetes
+T15	disease 1489 1497	diabetes
+T16	disease 1740 1748	diabetes
+T18	lifestyle_factor 1859 1876	cigarette smoking
+T19	disease 1881 1889	diabetes
+R1	statistical_association Arg1:T6 Arg2:T5
+T21	disease 438 440	PC
+R2	negative_statistical_association Arg1:T8 Arg2:T21
+T22	lifestyle_factor 1813 1833	proinflammatory diet
+T23	disease 1910 1912	PC
+R3	positive_statistical_association Arg1:T22 Arg2:T23
+R4	positive_statistical_association Arg1:T18 Arg2:T23
+T24	disease 359 365	cancer
+T25	lifestyle_factor 1116 1136	proinflammatory diet
+T26	disease 1177 1179	PC
+R5	positive_statistical_association Arg1:T25 Arg2:T26
+T27	disease 188 190	PC
+*	Equiv T27 T5
+T28	disease 323 325	PC
+T29	disease 654 656	PC
+T30	disease 1300 1302	PC
+T31	lifestyle_factor 566 583	cigarette smoking
+T32	lifestyle_factor 935 942	smoking
+T35	lifestyle_factor 1410 1417	smokers
+T37	lifestyle_factor 1677 1683	smoker
+T36	lifestyle_factor 1432 1445	never smokers
+T38	lifestyle_factor 338 354	dietary patterns
+R6	positive_statistical_association Arg1:T35 Arg2:T30
+R8	positive_statistical_association Arg1:T37 Arg2:T30
+T10	lifestyle_factor 905 918	energy intake
+T14	Out-of-scope 858 862	food
+T17	lifestyle_factor 769 795	dietary inflammatory index
+T20	lifestyle_factor 797 800	DII
+*	Equiv T17 T20
+T33	lifestyle_factor 1086 1089	DII
+R7	positive_statistical_association Arg1:T33 Arg2:T26
+T34	lifestyle_factor 1646 1649	DII
+R9	positive_statistical_association Arg1:T34 Arg2:T30

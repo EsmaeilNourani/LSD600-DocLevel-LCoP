@@ -1,0 +1,40 @@
+T1	lifestyle_factor 12 33	breast reconstruction
+T2	disease 37 50	breast cancer
+T3	Out-of-scope 85 94	radiation
+T4	disease 99 115	Hodgkin lymphoma
+T5	Out-of-scope 146 155	radiation
+T6	lifestyle_factor 170 185	field radiation
+T7	disease 236 251	Hodgkin disease
+T8	disease 279 287	lymphoma
+T9	lifestyle_factor 370 386	mantle radiation
+T10	disease 409 422	breast cancer
+T11	lifestyle_factor 485 506	breast reconstruction
+T12	lifestyle_factor 514 523	radiation
+T13	Out-of-scope 611 620	radiation
+T14	lifestyle_factor 650 671	breast reconstruction
+T15	disease 790 806	Hodgkin lymphoma
+T16	Out-of-scope 827 836	radiation
+T17	lifestyle_factor 850 871	breast reconstruction
+T18	disease 1218 1233	Hodgkin disease
+T19	Out-of-scope 1245 1254	radiation
+T20	lifestyle_factor 1264 1285	breast reconstruction
+T21	Out-of-scope 1410 1419	radiation
+T22	lifestyle_factor 1470 1479	radiation
+T23	disease 1483 1496	breast cancer
+T24	disease 2035 2045	cellulitis
+T25	lifestyle_factor 2526 2535	radiation
+T26	Out-of-scope 2652 2661	radiation
+T27	lifestyle_factor 2700 2718	radiation exposure
+R1	positive_statistical_association Arg1:T9 Arg2:T10
+T29	Out-of-scope 44 50	cancer
+T30	Out-of-scope 416 422	cancer
+T31	Out-of-scope 1490 1496	cancer
+T32	lifestyle_factor 78 94	mantle radiation
+T33	lifestyle_factor 139 155	mantle radiation
+T35	lifestyle_factor 604 620	mantle radiation
+T36	lifestyle_factor 820 836	mantle radiation
+T37	lifestyle_factor 1238 1254	mantle radiation
+T38	lifestyle_factor 1403 1419	mantle radiation
+T39	lifestyle_factor 2645 2661	mantle radiation
+R2	treats Arg1:T33 Arg2:T7
+R3	treats Arg1:T36 Arg2:T15

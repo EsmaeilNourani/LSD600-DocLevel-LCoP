@@ -1,0 +1,27 @@
+T1	lifestyle_factor 37 47	unemployed
+T2	lifestyle_factor 123 135	unemployment
+T3	disease 176 180	AIDS
+T4	disease 246 250	AIDS
+T5	lifestyle_factor 341 351	unemployed
+T6	lifestyle_factor 624 636	unemployment
+T7	lifestyle_factor 647 659	Unemployment
+T8	disease 708 712	AIDS
+T9	lifestyle_factor 839 851	unemployment
+T10	disease 923 927	AIDS
+T11	lifestyle_factor 963 981	tertiary education
+T12	lifestyle_factor 1024 1036	unemployment
+T13	disease 1066 1070	AIDS
+T14	lifestyle_factor 1223 1235	unemployment
+T15	disease 1300 1304	AIDS
+T16	disease 704 707	HIV
+T17	disease 242 245	HIV
+T18	disease 172 175	HIV
+T19	disease 1062 1065	HIV
+T20	disease 1296 1299	HIV
+T21	disease 919 922	HIV
+T22	lifestyle_factor 1194 1203	education
+T23	lifestyle_factor 23 31	employed
+T24	lifestyle_factor 316 323	working
+R1	positive_statistical_association Arg1:T7 Arg2:T16
+T25	lifestyle_factor 1250 1260	employment
+R2	positive_statistical_association Arg1:T7 Arg2:T8

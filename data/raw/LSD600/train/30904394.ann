@@ -1,0 +1,42 @@
+T1	disease 0 8	Diabetes
+T2	lifestyle_factor 53 67	sleep duration
+T3	disease 103 127	type 1 diabetes mellitus
+T4	disease 213 221	diabetes
+T5	lifestyle_factor 237 251	sleep duration
+T6	disease 288 312	type 1 diabetes mellitus
+T7	lifestyle_factor 494 499	sleep
+T8	Out-of-scope 585 593	Diabetes
+T9	lifestyle_factor 843 858	amount of sleep
+T10	lifestyle_factor 1083 1097	sleep duration
+T11	lifestyle_factor 1224 1229	sleep
+T12	disease 1326 1334	diabetes
+T13	lifestyle_factor 1408 1422	sleep duration
+T14	Out-of-scope 1463 1468	sleep
+T15	lifestyle_factor 1483 1496	sleep quality
+T16	lifestyle_factor 1498 1511	time to sleep
+T17	Out-of-scope 1517 1522	sleep
+T18	disease 1634 1642	diabetes
+T19	lifestyle_factor 1775 1789	sleep deprived
+T20	disease 1829 1837	diabetes
+T21	lifestyle_factor 1884 1898	sleep duration
+T22	lifestyle_factor 2054 2068	sleep duration
+T23	disease 2114 2122	diabetes
+T24	Out-of-scope 853 858	sleep
+T25	lifestyle_factor 932 938	school
+T26	disease 810 814	T1DM
+T27	disease 1823 1827	T1DM
+T28	lifestyle_factor 1699 1712	social jetlag
+T29	lifestyle_factor 1670 1684	later bedtimes
+T30	lifestyle_factor 1517 1534	sleep consistency
+T31	lifestyle_factor 2070 2077	quality
+T32	lifestyle_factor 2083 2094	consistency
+R1	Out-of-scope Arg1:T26 Arg2:T9
+#1	AnnotatorNotes R1	observation
+T33	Out-of-scope 1587 1653	parent and child-reports of various aspects of diabetes management
+T34	Out-of-scope 1903 1919	glycemic control
+T35	Out-of-scope 1427 1443	glycemic control
+R2	Out-of-scope Arg1:T13 Arg2:T35
+R3	Out-of-scope Arg1:T30 Arg2:T33
+R4	statistical_association Arg1:T32 Arg2:T23
+R5	statistical_association Arg1:T31 Arg2:T23
+R6	statistical_association Arg1:T22 Arg2:T23

@@ -1,0 +1,37 @@
+T1	disease 43 78	Acute Respiratory Distress Syndrome
+T2	lifestyle_factor 124 137	air pollution
+T3	disease 218 253	acute respiratory distress syndrome
+T4	disease 255 259	ARDS
+T5	disease 368 372	ARDS
+T6	lifestyle_factor 577 593	nitrogen dioxide
+T7	lifestyle_factor 595 609	sulfur dioxide
+T8	lifestyle_factor 611 626	carbon monoxide
+T9	lifestyle_factor 632 650	particulate matter
+T10	disease 859 863	ARDS
+T11	disease 936 940	ARDS
+T12	disease 1062 1066	ARDS
+T13	disease 1198 1202	ARDS
+T14	lifestyle_factor 1211 1225	sulfur dioxide
+T15	lifestyle_factor 1271 1287	Nitrogen dioxide
+T16	lifestyle_factor 1289 1303	sulfur dioxide
+T17	lifestyle_factor 1309 1327	particulate matter
+T18	disease 1462 1466	ARDS
+T19	disease 1531 1535	ARDS
+T21	disease 1769 1773	ARDS
+T22	disease 1874 1878	ARDS
+T23	lifestyle_factor 1698 1711	air pollutant
+R3	causes Arg1:T23 Arg2:T21
+R4	statistical_association Arg1:T15 Arg2:T18
+R5	statistical_association Arg1:T16 Arg2:T18
+R6	statistical_association Arg1:T17 Arg2:T18
+*	Equiv T4 T3
+T24	lifestyle_factor 340 353	air pollutant
+T25	lifestyle_factor 570 575	ozone
+T26	lifestyle_factor 16 29	Air Pollutant
+R7	statistical_association Arg1:T14 Arg2:T13
+R8	positive_statistical_association Arg1:T23 Arg2:T22
+R9	statistical_association Arg1:T15 Arg2:T19
+R10	statistical_association Arg1:T16 Arg2:T19
+R11	statistical_association Arg1:T17 Arg2:T19
+R1	Out-of-scope Arg1:T2 Arg2:T3
+#1	AnnotatorNotes R1	hypothesis

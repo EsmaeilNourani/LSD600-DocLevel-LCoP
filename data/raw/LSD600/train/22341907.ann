@@ -1,0 +1,47 @@
+T1	lifestyle_factor 21 32	wakefulness
+T2	disease 36 58	restless legs syndrome
+T4	disease 203 225	restless legs syndrome
+T5	disease 227 230	RLS
+T6	lifestyle_factor 286 298	wake fulness
+T8	disease 636 639	RLS
+T9	disease 668 671	RLS
+T10	lifestyle_factor 1033 1038	sleep
+T11	lifestyle_factor 1064 1075	wakefulness
+T12	disease 1128 1131	RLS
+T13	lifestyle_factor 1171 1182	wakefulness
+T14	lifestyle_factor 1376 1387	wakefulness
+T15	lifestyle_factor 1612 1623	wakefulness
+T16	lifestyle_factor 1830 1841	wakefulness
+T17	lifestyle_factor 1846 1851	sleep
+T18	lifestyle_factor 1887 1903	sleep disruption
+T19	disease 1907 1910	RLS
+T20	lifestyle_factor 1979 1990	wakefulness
+T21	lifestyle_factor 1994 1999	sleep
+T23	disease 2061 2064	RLS
+*	Equiv T5 T4
+T24	Out-of-scope 98 133	periodic leg movements during sleep
+T25	Out-of-scope 362 397	periodic leg movements during sleep
+T26	Out-of-scope 399 403	PLMS
+T27	Out-of-scope 614 618	PLMS
+T28	Out-of-scope 1295 1299	PLMS
+T29	Out-of-scope 1653 1657	PLMS
+T30	Out-of-scope 1790 1794	PLMS
+T31	Out-of-scope 266 269	PLM
+T32	Out-of-scope 300 304	PLMW
+T33	Out-of-scope 406 410	PLMW
+T34	Out-of-scope 605 609	PLMW
+T35	Out-of-scope 1269 1273	PLMW
+T36	Out-of-scope 1638 1642	PLMW
+T37	Out-of-scope 1759 1763	PLMW
+T38	Out-of-scope 242 264	periodic leg movements
+T39	Out-of-scope 0 13	Leg movements
+T40	Out-of-scope 107 120	leg movements
+T41	Out-of-scope 251 264	leg movements
+T42	Out-of-scope 371 384	leg movements
+T43	Out-of-scope 1001 1003	LM
+T44	Out-of-scope 1152 1154	LM
+T45	Out-of-scope 1332 1334	LM
+T46	Out-of-scope 1593 1595	LM
+T47	Out-of-scope 1811 1813	LM
+T48	lifestyle_factor 2039 2057	sleep disturbances
+R1	causes Arg1:T19 Arg2:T18

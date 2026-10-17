@@ -1,0 +1,37 @@
+T1	disease 68 76	COVID-19
+T2	lifestyle_factor 184 191	tobacco
+T3	lifestyle_factor 312 319	tobacco
+T4	disease 353 361	COVID-19
+T5	disease 396 411	substance abuse
+T6	disease 475 490	substance abuse
+T7	disease 626 641	substance abuse
+T8	disease 684 708	type 2 diabetes mellitus
+T9	disease 741 748	tobacco
+T10	disease 753 766	alcohol abuse
+T11	disease 804 812	diabetes
+T12	Out-of-scope 888 892	Yoga
+T13	Out-of-scope 937 941	Yoga
+T14	lifestyle_factor 1024 1031	tobacco
+T15	disease 1152 1165	alcohol abuse
+T18	disease 1422 1437	substance abuse
+T19	disease 1577 1585	diabetes
+T20	lifestyle_factor 1323 1329	School
+T21	lifestyle_factor 1464 1483	psychosocial stress
+T22	disease 598 605	anxiety
+T23	lifestyle_factor 14 21	Alcohol
+T24	lifestyle_factor 172 179	alcohol
+T25	lifestyle_factor 1066 1073	alcohol
+T26	disease 1253 1260	alcohol
+T27	lifestyle_factor 26 33	Tobacco
+T28	disease 238 263	non-communicable diseases
+T29	disease 128 153	Abuse of legal substances
+T30	disease 1265 1278	tobacco abuse
+T17	disease 1179 1192	tobacco abuse
+R1	positive_statistical_association Arg1:T3 Arg2:T4
+T16	disease 584 589	COVID
+R2	positive_statistical_association Arg1:T24 Arg2:T28
+R3	positive_statistical_association Arg1:T2 Arg2:T28
+T31	lifestyle_factor 565 569	yoga
+T32	lifestyle_factor 1358 1362	yoga
+T33	lifestyle_factor 1586 1590	yoga
+R4	prevents Arg1:T32 Arg2:T18

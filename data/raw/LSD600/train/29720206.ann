@@ -1,0 +1,41 @@
+T2	disease 26 48	iron deficiency anemia
+T3	lifestyle_factor 62 69	tobacco
+T5	lifestyle_factor 252 259	tobacco
+T6	disease 268 274	anemia
+T7	lifestyle_factor 278 288	low-income
+T8	lifestyle_factor 338 355	tobacco cessation
+T9	lifestyle_factor 537 544	tobacco
+T10	disease 550 556	anemia
+T11	lifestyle_factor 877 884	tobacco
+T12	disease 889 895	anemia
+T13	lifestyle_factor 988 995	tobacco
+T14	disease 1022 1044	iron deficiency anemia
+T15	lifestyle_factor 1111 1118	tobacco
+T16	lifestyle_factor 1173 1195	green leafy vegetables
+T17	lifestyle_factor 1269 1276	tobacco
+T18	lifestyle_factor 1493 1500	tobacco
+T19	Out-of-scope 1577 1584	tobacco
+T20	disease 1662 1668	anemia
+T21	Out-of-scope 1799 1806	tobacco
+T22	disease 1873 1879	anemia
+T23	disease 1046 1049	IDA
+*	Equiv T23 T14
+T24	disease 1260 1263	IDA
+R1	positive_statistical_association Arg1:T15 Arg2:T24
+R2	negative_statistical_association Arg1:T16 Arg2:T24
+T26	lifestyle_factor 0 21	Antenatal tobacco use
+T27	lifestyle_factor 137 165	tobacco use during pregnancy
+T4	lifestyle_factor 598 613	iron rich foods
+T25	disease 1006 1012	anemic
+T28	disease 1435 1441	anemic
+T29	disease 1446 1470	iron-deficient antenatal
+T1	lifestyle_factor 101 106	urban
+T30	lifestyle_factor 1320 1335	iron-rich foods
+T31	lifestyle_factor 1339 1353	household food
+R3	positive_statistical_association Arg1:T4 Arg2:T10
+T32	Out-of-scope 648 653	blood
+T33	Out-of-scope 1762 1773	feasibility
+T34	lifestyle_factor 1577 1608	tobacco screening and cessation
+T35	lifestyle_factor 1799 1830	tobacco screening and cessation
+T36	lifestyle_factor 1678 1685	Tobacco
+R4	controls Arg1:T35 Arg2:T22

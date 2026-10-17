@@ -1,0 +1,36 @@
+T1	lifestyle_factor 0 5	Sleep
+T2	lifestyle_factor 155 168	sleep changes
+T3	lifestyle_factor 228 246	sleep disturbances
+T4	lifestyle_factor 606 622	total sleep time
+T5	lifestyle_factor 624 640	sleep efficiency
+T6	lifestyle_factor 657 672	slow wave sleep
+T7	lifestyle_factor 674 698	rapid eye movement sleep
+T8	lifestyle_factor 734 761	wake time after sleep onset
+T9	lifestyle_factor 925 941	sleep continuity
+T12	lifestyle_factor 1082 1095	sleep quality
+T16	lifestyle_factor 700 703	REM
+T17	disease 9 28	Parkinson's disease
+T18	disease 172 191	Parkinson's disease
+T19	disease 1001 1028	REM sleep behavior disorder
+T11	disease 193 195	PD
+T13	disease 380 382	PD
+T14	disease 251 253	PD
+T15	disease 849 851	PD
+T20	disease 972 974	PD
+T21	disease 1060 1062	PD
+T22	disease 1030 1033	RBD
+T23	disease 1150 1153	RBD
+*	Equiv T18 T11
+*	Equiv T7 T16
+R1	negative_statistical_association Arg1:T4 Arg2:T15
+R2	negative_statistical_association Arg1:T5 Arg2:T15
+R3	negative_statistical_association Arg1:T6 Arg2:T15
+R4	negative_statistical_association Arg1:T7 Arg2:T15
+*	Equiv T19 T22
+R5	negative_statistical_association Arg1:T12 Arg2:T21
+T10	lifestyle_factor 945 963	sleep architecture
+T24	Out-of-scope 899 909	remarkable
+#1	AnnotatorNotes T24	tendency but no importance
+R6	positive_statistical_association Arg1:T8 Arg2:T15
+T25	lifestyle_factor 1100 1108	quantity
+R7	negative_statistical_association Arg1:T25 Arg2:T21

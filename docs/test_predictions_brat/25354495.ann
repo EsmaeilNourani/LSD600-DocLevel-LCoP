@@ -1,0 +1,40 @@
+T1	disease 40 48	melanoma
+T2	lifestyle_factor 308 328	socioeconomic status
+T3	disease 370 378	melanoma
+T4	lifestyle_factor 432 442	occupation
+T5	lifestyle_factor 444 466	occupational exposures
+T6	lifestyle_factor 485 499	marital status
+T7	disease 601 609	melanoma
+T8	disease 648 656	melanoma
+T9	disease 714 722	Melanoma
+T10	disease 1035 1043	melanoma
+T11	lifestyle_factor 1148 1158	occupation
+T13	disease 1183 1190	obesity
+T14	disease 1275 1283	melanoma
+T15	lifestyle_factor 501 508	smoking
+T16	lifestyle_factor 540 547	tanning
+T17	lifestyle_factor 510 535	recreational sun exposure
+T18	lifestyle_factor 639 642	SES
+T19	lifestyle_factor 771 774	SES
+T20	lifestyle_factor 797 812	highly educated
+T21	lifestyle_factor 330 333	SES
+*	Equiv T21 T2
+T22	lifestyle_factor 984 987	SES
+T23	lifestyle_factor 1267 1270	SES
+T24	lifestyle_factor 1192 1217	recreational sun exposure
+T27	lifestyle_factor 1222 1229	tanning
+T28	lifestyle_factor 826 829	SES
+T29	lifestyle_factor 228 241	socioeconomic
+T30	lifestyle_factor 0 13	Socioeconomic
+T25	Out-of-scope 1234 1258	explain the relationship
+T26	lifestyle_factor 195 214	Social determinants
+T31	lifestyle_factor 246 263	lifestyle factors
+T32	lifestyle_factor 1120 1137	lifestyle factors
+T33	lifestyle_factor 404 421	Lifestyle factors
+T34	lifestyle_factor 18 35	lifestyle factors
+T35	lifestyle_factor 1160 1181	occupational exposure
+R1	statistical_association Arg1:T18 Arg2:T8
+R2	positive_statistical_association Arg1:T9 Arg2:T19
+R3	positive_statistical_association Arg1:T9 Arg2:T20
+R4	statistical_association Arg1:T22 Arg2:T10
+R5	statistical_association Arg1:T23 Arg2:T14

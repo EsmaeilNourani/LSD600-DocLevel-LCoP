@@ -1,0 +1,28 @@
+T1	Out-of-scope 87 91	Diet
+T2	lifestyle_factor 244 248	diet
+T3	disease 265 269	gout
+T4	lifestyle_factor 438 450	social media
+T5	disease 504 508	gout
+T6	lifestyle_factor 592 596	diet
+T7	disease 614 618	gout
+T8	disease 818 822	gout
+T9	disease 1142 1146	gout
+T10	lifestyle_factor 1191 1195	diet
+T11	disease 1252 1256	gout
+T12	disease 1357 1361	gout
+T13	lifestyle_factor 1661 1665	diet
+T14	disease 1763 1767	gout
+T15	disease 1807 1811	gout
+T16	lifestyle_factor 225 239	cherry extract
+T17	lifestyle_factor 535 549	cherry extract
+T18	lifestyle_factor 68 82	Cherry Extract
+T21	lifestyle_factor 1172 1186	cherry extract
+T22	lifestyle_factor 1642 1656	cherry extract
+T23	lifestyle_factor 1868 1882	cherry extract
+T19	disease 108 112	Gout
+R1	treats Arg1:T21 Arg2:T9
+R2	treats Arg1:T10 Arg2:T9
+T20	Out-of-scope 1326 1334	p = 0.76
+R3	treats Arg1:T21 Arg2:T11
+R4	treats Arg1:T21 Arg2:T12
+R5	treats Arg1:T10 Arg2:T12

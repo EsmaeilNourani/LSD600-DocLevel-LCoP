@@ -1,0 +1,9 @@
+T1	lifestyle_factor 31 51	physical environment
+T2	lifestyle_factor 81 98	Physical activity
+T3	lifestyle_factor 221 223	PA
+T4	lifestyle_factor 329 331	PA
+T5	lifestyle_factor 284 305	physical environments
+T6	lifestyle_factor 100 102	PA
+*	Equiv T2 T6
+T7	lifestyle_factor 382 393	stair usage
+T8	lifestyle_factor 55 66	stair usage

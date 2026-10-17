@@ -1,0 +1,36 @@
+T1	disease 39 49	narcolepsy
+T2	lifestyle_factor 147 162	nighttime sleep
+T3	disease 175 185	narcolepsy
+T4	disease 213 223	narcolepsy
+T5	disease 355 365	narcolepsy
+T6	lifestyle_factor 599 612	sleep latency
+T7	Out-of-scope 614 619	sleep
+T8	lifestyle_factor 632 647	slow wave sleep
+T9	lifestyle_factor 660 684	rapid eye movement sleep
+T10	lifestyle_factor 756 761	sleep
+T11	Out-of-scope 784 789	sleep
+T12	disease 938 948	narcolepsy
+T13	disease 990 1007	narcolepsy type 1
+T14	lifestyle_factor 1029 1054	disturbed nighttime sleep
+T15	disease 1069 1086	narcolepsy type 2
+T16	disease 1121 1131	narcolepsy
+T17	disease 1259 1269	narcolepsy
+T18	lifestyle_factor 1284 1304	poor nighttime sleep
+T19	Out-of-scope 157 162	sleep
+T20	Out-of-scope 642 647	sleep
+T21	Out-of-scope 679 684	sleep
+T22	Out-of-scope 1049 1054	sleep
+T23	Out-of-scope 1299 1304	sleep
+T24	lifestyle_factor 686 689	REM
+*	Equiv T24 T9
+R1	negative_statistical_association Arg1:T6 Arg2:T12
+R2	negative_statistical_association Arg1:T8 Arg2:T12
+R3	positive_statistical_association Arg1:T9 Arg2:T12
+R4	negative_statistical_association Arg1:T14 Arg2:T13
+R5	positive_statistical_association Arg1:T18 Arg2:T17
+T26	Out-of-scope 768 795	wake time after sleep onset
+T27	Out-of-scope 804 821	awakening numbers
+T28	Out-of-scope 838 849	stage shift
+T29	Out-of-scope 880 894	apnea hypopnea
+T31	Out-of-scope 865 878	N1 percentage
+R7	positive_statistical_association Arg1:T10 Arg2:T12

@@ -1,0 +1,28 @@
+T1	lifestyle_factor 0 11	Air Quality
+T2	disease 61 74	Heart Disease
+T3	lifestyle_factor 96 107	air quality
+T4	lifestyle_factor 210 221	air quality
+T6	disease 354 367	heart disease
+T9	lifestyle_factor 505 518	air pollution
+T10	lifestyle_factor 563 576	air pollution
+T11	lifestyle_factor 600 606	biking
+T12	disease 766 772	asthma
+T13	disease 784 821	chronic obstructive pulmonary disease
+T14	disease 823 836	heart disease
+T18	lifestyle_factor 1152 1165	air pollution
+T19	lifestyle_factor 1228 1241	air pollution
+T20	disease 1252 1258	Asthma
+T22	lifestyle_factor 1510 1523	air pollution
+T23	disease 1577 1590	Heart disease
+T25	disease 1689 1702	heart disease
+T29	disease 1959 1973	heart diseases
+T30	disease 1660 1679	respiratory disease
+T31	disease 1943 1954	respiratory
+T32	lifestyle_factor 1883 1896	air pollution
+R1	positive_statistical_association Arg1:T22 Arg2:T20
+T8	disease 338 349	respiratory
+T15	disease 45 56	Respiratory
+R2	causes Arg1:T32 Arg2:T31
+R3	causes Arg1:T32 Arg2:T29
+T5	lifestyle_factor 611 630	exercising outdoors
+T7	lifestyle_factor 591 598	walking

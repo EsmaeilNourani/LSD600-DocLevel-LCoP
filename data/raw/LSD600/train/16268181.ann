@@ -1,0 +1,60 @@
+T1	disease 0 7	Obesity
+T4	disease 215 221	asthma
+T5	disease 226 243	allergic diseases
+T6	disease 391 398	obesity
+T7	disease 460 467	obesity
+T8	disease 706 713	obesity
+T9	disease 761 768	obesity
+T10	lifestyle_factor 829 839	vegetables
+T11	lifestyle_factor 848 852	rice
+T12	disease 929 935	eczema
+T13	lifestyle_factor 971 976	fruit
+T14	lifestyle_factor 985 991	butter
+T15	lifestyle_factor 1011 1020	fast food
+T16	disease 1085 1091	eczema
+T17	lifestyle_factor 1138 1144	butter
+T18	lifestyle_factor 1232 1241	margarine
+T19	lifestyle_factor 1249 1258	fast food
+T20	lifestyle_factor 1398 1407	fast food
+T22	disease 1492 1498	Asthma
+T23	disease 1540 1547	obesity
+T24	disease 1571 1577	eczema
+T25	disease 1612 1619	obesity
+T26	disease 1473 1490	pediatric obesity
+T27	lifestyle_factor 1409 1419	TV viewing
+T28	lifestyle_factor 1432 1440	exercise
+T29	lifestyle_factor 796 800	meat
+R4	positive_statistical_association Arg1:T29 Arg2:T9
+R5	statistical_association Arg1:T10 Arg2:T9
+R6	positive_statistical_association Arg1:T11 Arg2:T9
+T30	lifestyle_factor 841 846	pasta
+R7	statistical_association Arg1:T30 Arg2:T9
+T21	lifestyle_factor 1161 1178	physical exercise
+T31	lifestyle_factor 978 983	pasta
+T32	lifestyle_factor 993 997	nuts
+T33	lifestyle_factor 999 1005	potato
+T34	lifestyle_factor 1032 1042	TV viewing
+T35	lifestyle_factor 1127 1132	pasta
+T36	lifestyle_factor 1146 1152	potato
+T37	lifestyle_factor 1225 1230	pasta
+T38	lifestyle_factor 1243 1247	milk
+T39	lifestyle_factor 1274 1281	smoking
+R1	statistical_association Arg1:T13 Arg2:T9
+R2	statistical_association Arg1:T31 Arg2:T9
+R3	statistical_association Arg1:T14 Arg2:T9
+R8	statistical_association Arg1:T32 Arg2:T9
+R9	positive_statistical_association Arg1:T33 Arg2:T9
+R10	positive_statistical_association Arg1:T15 Arg2:T9
+R11	positive_statistical_association Arg1:T34 Arg2:T9
+R12	positive_statistical_association Arg1:T35 Arg2:T9
+R13	statistical_association Arg1:T17 Arg2:T9
+R14	statistical_association Arg1:T36 Arg2:T9
+R15	statistical_association Arg1:T21 Arg2:T9
+R16	statistical_association Arg1:T37 Arg2:T9
+R17	statistical_association Arg1:T18 Arg2:T9
+R18	statistical_association Arg1:T38 Arg2:T9
+R19	positive_statistical_association Arg1:T19 Arg2:T9
+R20	statistical_association Arg1:T39 Arg2:T9
+R21	statistical_association Arg1:T27 Arg2:T26
+R22	negative_statistical_association Arg1:T28 Arg2:T26
+R23	statistical_association Arg1:T20 Arg2:T26

@@ -1,0 +1,43 @@
+T1	lifestyle_factor 36 50	sleep duration
+T2	disease 68 81	schizophrenia
+T3	disease 85 109	schizoaffective disorder
+T4	lifestyle_factor 189 203	sleep duration
+T5	disease 224 237	schizophrenia
+T7	disease 461 474	schizophrenia
+T9	lifestyle_factor 792 801	marijuana
+T10	lifestyle_factor 807 820	illicit drugs
+T11	lifestyle_factor 828 842	sleep duration
+T12	lifestyle_factor 940 948	nicotine
+T13	lifestyle_factor 986 994	nicotine
+T14	lifestyle_factor 1082 1096	sleep duration
+T15	disease 1173 1186	schizophrenia
+T16	lifestyle_factor 1361 1375	sleep duration
+T17	disease 1414 1427	schizophrenia
+T18	lifestyle_factor 1664 1678	sleep duration
+T19	lifestyle_factor 1866 1880	sleep duration
+T20	disease 1925 1938	schizophrenia
+T21	disease 478 519	schizoaffective disorder, depressive type
+T22	disease 521 525	SADD
+*	Equiv T22 T21
+T23	disease 241 282	schizoaffective disorder, depressive type
+T24	disease 284 288	SADD
+*	Equiv T24 T23
+T25	disease 1943 1947	SADD
+T26	disease 1432 1436	SADD
+T27	disease 1190 1194	SADD
+T28	lifestyle_factor 881 886	sleep
+T29	lifestyle_factor 1292 1297	sleep
+T30	lifestyle_factor 346 351	Urban
+T31	lifestyle_factor 353 361	suburban
+T32	lifestyle_factor 367 372	rural
+T33	lifestyle_factor 783 790	alcohol
+T42	lifestyle_factor 1217 1240	psychiatric medications
+T43	disease 1515 1532	psychotic illness
+T44	lifestyle_factor 165 178	substance use
+T45	lifestyle_factor 1058 1071	substance use
+T46	lifestyle_factor 1302 1315	substance use
+T47	lifestyle_factor 1380 1393	substance use
+T48	lifestyle_factor 1697 1710	substance use
+T49	lifestyle_factor 1885 1898	substance use
+T50	lifestyle_factor 0 13	Substance use
+T51	lifestyle_factor 670 683	Substance use

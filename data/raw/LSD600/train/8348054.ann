@@ -1,0 +1,31 @@
+T1	lifestyle_factor 37 47	occupation
+T2	disease 52 63	lung cancer
+T3	disease 145 156	lung cancer
+T4	disease 257 268	lung cancer
+T5	disease 306 318	colon cancer
+T6	disease 390 401	lung cancer
+T7	disease 433 445	colon cancer
+T9	lifestyle_factor 605 616	occupations
+T10	disease 636 647	lung cancer
+T11	disease 706 717	lung cancer
+T12	disease 800 811	lung cancer
+T13	lifestyle_factor 865 876	occupations
+T17	lifestyle_factor 582 592	employment
+T18	lifestyle_factor 837 847	employment
+T19	lifestyle_factor 1362 1372	employment
+T24	lifestyle_factor 457 474	Cigarette smoking
+T25	lifestyle_factor 1575 1592	cigarette smoking
+T26	Out-of-scope 57 63	cancer
+T27	Out-of-scope 150 156	cancer
+T28	Out-of-scope 262 268	cancer
+T29	Out-of-scope 312 318	cancer
+T30	Out-of-scope 395 401	cancer
+T31	Out-of-scope 439 445	cancer
+T32	Out-of-scope 641 647	cancer
+T33	Out-of-scope 711 717	cancer
+T34	Out-of-scope 805 811	cancer
+T8	disease 1745 1751	cancer
+T16	disease 1475 1481	cancer
+T22	disease 1632 1638	cancer
+R11	positive_statistical_association Arg1:T13 Arg2:T12
+R19	statistical_association Arg1:T25 Arg2:T22

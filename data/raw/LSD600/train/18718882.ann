@@ -1,0 +1,18 @@
+T1	lifestyle_factor 28 53	intimate partner violence
+T2	lifestyle_factor 190 215	intimate partner violence
+T3	lifestyle_factor 358 370	physical IPV
+T4	lifestyle_factor 545 548	IPV
+T5	lifestyle_factor 622 625	IPV
+T6	lifestyle_factor 1125 1128	IPV
+T7	lifestyle_factor 1046 1049	IPV
+T8	lifestyle_factor 641 644	IPV
+T9	lifestyle_factor 899 902	IPV
+T10	lifestyle_factor 506 524	child sexual abuse
+T11	lifestyle_factor 57 78	marital relationships
+T12	lifestyle_factor 375 386	child abuse
+T13	lifestyle_factor 570 584	child physical
+T14	lifestyle_factor 944 963	exposed to violence
+T16	lifestyle_factor 217 220	IPV
+T17	lifestyle_factor 589 601	sexual abuse
+T15	disease 388 404	mental disorders
+*	Equiv T2 T16

@@ -1,0 +1,6 @@
+T1	lifestyle_factor 0 20	Responsible Gambling
+T2	lifestyle_factor 192 212	responsible gambling
+T3	lifestyle_factor 406 408	RG
+T4	lifestyle_factor 1025 1027	RG
+T5	lifestyle_factor 214 216	RG
+*	Equiv T2 T5

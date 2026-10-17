@@ -1,0 +1,27 @@
+T2	disease 105 122	atopic dermatitis
+T3	disease 146 165	respiratory allergy
+T4	disease 173 190	atopic dermatitis
+T7	disease 444 455	hand eczema
+T10	lifestyle_factor 680 691	occupations
+T12	lifestyle_factor 846 850	jobs
+T14	lifestyle_factor 1052 1062	occupation
+T15	disease 1166 1172	eczema
+T16	lifestyle_factor 1214 1225	occupations
+T17	lifestyle_factor 1276 1286	occupation
+T18	lifestyle_factor 524 529	water
+T19	lifestyle_factor 501 522	exposure to chemicals
+T20	lifestyle_factor 531 535	soil
+R2	statistical_association Arg1:T18 Arg2:T7
+R3	statistical_association Arg1:T19 Arg2:T7
+R4	statistical_association Arg1:T20 Arg2:T7
+T21	disease 13 24	hand eczema
+T22	disease 321 332	hand eczema
+T23	disease 626 637	hand eczema
+T24	disease 764 775	hand eczema
+T25	disease 858 869	hand eczema
+T28	lifestyle_factor 915 936	exposure to chemicals
+T29	lifestyle_factor 938 943	water
+T30	lifestyle_factor 945 949	soil
+R1	causes Arg1:T28 Arg2:T25
+R5	causes Arg1:T29 Arg2:T25
+R6	causes Arg1:T30 Arg2:T25

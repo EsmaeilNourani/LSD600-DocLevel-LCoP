@@ -1,0 +1,15 @@
+T1	Out-of-scope 0 7	Hygiene
+T2	disease 31 37	asthma
+T3	disease 77 94	allergic diseases
+T4	disease 99 105	asthma
+T5	Out-of-scope 420 427	hygiene
+T6	disease 555 572	allergic diseases
+T7	disease 577 583	asthma
+T8	Out-of-scope 925 932	hygiene
+T9	disease 1151 1157	asthma
+T10	Out-of-scope 1302 1309	hygiene
+T11	Out-of-scope 1338 1345	hygiene
+T12	Out-of-scope 1441 1448	hygiene
+T13	lifestyle_factor 1473 1491	endotoxin exposure
+T17	disease 19 26	allergy
+T18	disease 1139 1146	allergy

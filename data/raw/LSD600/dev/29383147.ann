@@ -1,0 +1,41 @@
+T1	lifestyle_factor 0 15	Cigarette smoke
+T2	disease 55 66	lung cancer
+T3	disease 139 150	Lung cancer
+T4	lifestyle_factor 204 217	western world
+T5	disease 277 288	lung cancer
+T6	lifestyle_factor 290 297	Smoking
+T7	disease 307 318	lung cancer
+T8	lifestyle_factor 362 377	cigarette smoke
+T9	disease 381 392	lung cancer
+T10	lifestyle_factor 464 472	nicotine
+T11	disease 702 713	lung cancer
+T12	lifestyle_factor 772 781	cigarette
+T13	lifestyle_factor 890 899	cigarette
+T14	disease 1064 1075	lung cancer
+T15	lifestyle_factor 1113 1122	Cigarette
+T16	disease 1146 1157	lung cancer
+T17	lifestyle_factor 1221 1230	cigarette
+T18	disease 1378 1389	lung cancer
+T19	disease 1475 1486	lung cancer
+T20	disease 1841 1852	lung cancer
+T21	lifestyle_factor 222 229	smoking
+R2	positive_statistical_association Arg1:T21 Arg2:T5
+R4	causes Arg1:T10 Arg2:T9
+T22	lifestyle_factor 1791 1798	smoking
+R5	causes Arg1:T22 Arg2:T20
+T23	disease 175 181	cancer
+R6	causes Arg1:T15 Arg2:T16
+T24	lifestyle_factor 948 955	smoking
+T25	lifestyle_factor 1423 1430	smoking
+T26	lifestyle_factor 1540 1547	smoking
+T27	lifestyle_factor 1337 1344	smokers
+T28	lifestyle_factor 1349 1360	non-smokers
+T29	disease 908 919	lung tumors
+R8	causes Arg1:T13 Arg2:T29
+T30	disease 559 565	cancer
+R10	causes Arg1:T1 Arg2:T2
+R11	causes Arg1:T6 Arg2:T7
+R12	Out-of-scope Arg1:T22 Arg2:T20
+R1	causes Arg1:T8 Arg2:T9
+T31	Out-of-scope 432 441	mutagenic
+T32	Out-of-scope 474 484	leading to

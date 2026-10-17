@@ -1,0 +1,15 @@
+T1	lifestyle_factor 32 46	sexual assault
+T2	lifestyle_factor 157 171	sexual assault
+T3	lifestyle_factor 613 627	sexual assault
+T4	lifestyle_factor 1135 1149	sexual assault
+T11	lifestyle_factor 826 842	drinking alcohol
+T6	lifestyle_factor 421 429	assaults
+T7	lifestyle_factor 511 518	college
+T12	disease 659 688	posttraumatic stress disorder
+T5	disease 690 694	PTSD
+T8	disease 1021 1025	PTSD
+R1	positive_statistical_association Arg1:T3 Arg2:T8
+T9	disease 966 976	depression
+T10	disease 644 654	depression
+*	Equiv T12 T5
+R2	positive_statistical_association Arg1:T3 Arg2:T9

@@ -1,0 +1,24 @@
+T1	disease 26 32	asthma
+T2	disease 151 157	asthma
+T3	disease 195 214	occupational asthma
+T5	disease 329 335	asthma
+T6	disease 445 451	asthma
+T9	disease 613 619	asthma
+T10	lifestyle_factor 762 779	cigarette smoking
+T11	disease 853 872	occupational asthma
+T12	lifestyle_factor 938 944	bleach
+T13	disease 968 974	asthma
+T14	disease 994 1000	asthma
+T15	lifestyle_factor 1080 1094	washing dishes
+T16	disease 1160 1166	asthma
+T18	lifestyle_factor 1211 1215	jobs
+T19	disease 1317 1323	asthma
+T20	lifestyle_factor 392 414	occupational exposures
+R2	causes Arg1:T12 Arg2:T13
+T21	lifestyle_factor 1059 1075	cleaning windows
+R3	positive_statistical_association Arg1:T21 Arg2:T14
+R4	positive_statistical_association Arg1:T15 Arg2:T14
+T22	lifestyle_factor 1246 1254	cleaning
+R5	positive_statistical_association Arg1:T22 Arg2:T16
+T24	lifestyle_factor 13 21	cleaning
+T25	lifestyle_factor 316 324	cleaning

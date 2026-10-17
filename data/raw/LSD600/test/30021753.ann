@@ -1,0 +1,30 @@
+T1	disease 751 774	Ischaemic heart disease
+T2	disease 833 839	stroke
+T3	disease 871 885	stomach cancer
+T4	disease 1168 1180	hypertension
+T5	lifestyle_factor 1228 1241	middle school
+T6	lifestyle_factor 1298 1311	middle school
+T7	lifestyle_factor 1329 1336	tobacco
+T8	disease 1354 1362	diabetes
+T9	lifestyle_factor 1388 1393	fruit
+T10	disease 1579 1585	stroke
+T11	lifestyle_factor 1672 1692	socioeconomic status
+T12	lifestyle_factor 1735 1742	tobacco
+T13	lifestyle_factor 1769 1774	fruit
+T14	disease 1803 1815	hypertension
+T15	disease 1820 1828	diabetes
+T16	disease 909 915	cancer
+T17	lifestyle_factor 1697 1714	physical activity
+T18	lifestyle_factor 1074 1091	physical activity
+T22	lifestyle_factor 1759 1768	vegetable
+T23	lifestyle_factor 1378 1387	vegetable
+T25	lifestyle_factor 1217 1226	education
+T26	lifestyle_factor 1194 1199	opium
+T27	lifestyle_factor 1725 1730	opium
+T19	disease 776 779	IHD
+*	Equiv T19 T1
+T20	Out-of-scope 924 964	Significant risk/protective factors were
+T21	lifestyle_factor 966 972	wealth
+T24	disease 1571 1574	IHD
+T28	Out-of-scope 1855 1871	premature deaths
+T29	Out-of-scope 804 819	premature death

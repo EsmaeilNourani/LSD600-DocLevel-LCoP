@@ -1,0 +1,13 @@
+T1	lifestyle_factor 0 13	Group therapy
+T2	lifestyle_factor 110 138	Psychotherapeutic treatments
+T3	disease 61 92	borderline personality disorder
+T4	disease 142 173	borderline personality disorder
+T5	disease 175 178	BPD
+T6	disease 312 315	BPD
+T7	disease 407 410	BPD
+T8	disease 929 932	BPD
+T9	disease 538 541	BPD
+T10	disease 650 653	BPD
+*	Equiv T4 T5
+T15	lifestyle_factor 358 371	group therapy
+T16	lifestyle_factor 848 855	therapy

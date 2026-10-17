@@ -1,0 +1,27 @@
+T1	disease 222 234	hypertension
+T2	disease 236 244	diabetes
+T3	disease 250 257	obesity
+T4	disease 616 627	sleep apnea
+T7	disease 1196 1208	hypertension
+T8	disease 1210 1217	obesity
+T9	disease 1223 1231	diabetes
+T10	lifestyle_factor 1274 1288	Sleep duration
+T11	disease 1390 1402	hypertension
+T12	disease 1472 1479	obesity
+T13	lifestyle_factor 1533 1552	sleep fragmentation
+T14	disease 1613 1625	hypertension
+T15	lifestyle_factor 1663 1676	sleep quality
+T17	lifestyle_factor 1811 1824	sleep quality
+T18	disease 1886 1898	hypertension
+R1	positive_statistical_association Arg1:T13 Arg2:T12
+R2	positive_statistical_association Arg1:T13 Arg2:T11
+T19	lifestyle_factor 949 954	sleep
+R4	negative_statistical_association Arg1:T15 Arg2:T14
+T22	lifestyle_factor 185 206	sleep characteristics
+T21	lifestyle_factor 15 36	sleep characteristics
+R3	statistical_association Arg1:T17 Arg2:T18
+T5	Out-of-scope 1642 1648	poorer
+T6	lifestyle_factor 1725 1755	Pittsburgh Sleep Quality Index
+R5	positive_statistical_association Arg1:T6 Arg2:T14
+T16	disease 1317 1331	cardiovascular
+R6	Out-of-scope Arg1:T10 Arg2:T16

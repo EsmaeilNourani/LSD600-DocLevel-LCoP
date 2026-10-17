@@ -1,0 +1,36 @@
+T1	lifestyle_factor 30 43	air pollution
+T2	lifestyle_factor 73 90	traffic pollution
+T3	lifestyle_factor 125 138	air pollution
+T4	disease 197 214	allergic diseases
+T5	disease 226 232	asthma
+T6	disease 234 271	chronic obstructive pulmonary disease
+T7	disease 273 282	pneumonia
+T8	disease 297 309	tuberculosis
+T9	lifestyle_factor 341 354	air pollution
+T10	lifestyle_factor 488 517	traffic-related air pollution
+T13	lifestyle_factor 776 790	air pollutants
+T14	disease 1148 1154	asthma
+T15	lifestyle_factor 1221 1234	air pollution
+R1	causes Arg1:T3 Arg2:T4
+R2	causes Arg1:T3 Arg2:T5
+R3	causes Arg1:T3 Arg2:T6
+R4	causes Arg1:T3 Arg2:T7
+R5	causes Arg1:T3 Arg2:T8
+T17	disease 359 378	respiratory disease
+R6	statistical_association Arg1:T9 Arg2:T17
+T18	disease 1326 1345	respiratory disease
+R7	causes Arg1:T15 Arg2:T18
+T19	lifestyle_factor 977 999	exposure to pollutants
+T20	lifestyle_factor 540 564	less-developed countries
+T21	lifestyle_factor 526 535	developed
+T22	lifestyle_factor 675 695	less-developed world
+T23	disease 1165 1191	respiratory tract diseases
+R8	statistical_association Arg1:T19 Arg2:T14
+R9	statistical_association Arg1:T19 Arg2:T23
+T24	lifestyle_factor 1444 1466	traffic air pollutants
+T25	lifestyle_factor 1420 1439	exposure to biomass
+T36	lifestyle_factor 55 68	biomass smoke
+T37	lifestyle_factor 643 656	biomass fuels
+R10	statistical_association Arg1:T10 Arg2:T17
+R11	statistical_association Arg1:T37 Arg2:T17
+T11	lifestyle_factor 887 898	ventilation

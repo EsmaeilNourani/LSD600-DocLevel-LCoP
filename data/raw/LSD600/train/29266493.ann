@@ -1,0 +1,24 @@
+T2	Out-of-scope 43 49	stroke
+T3	Out-of-scope 163 169	stroke
+T6	disease 287 293	stroke
+T7	disease 389 411	aspirational pneumonia
+T8	disease 521 527	stroke
+T9	Out-of-scope 739 745	stroke
+T12	disease 1191 1197	stroke
+T14	Out-of-scope 1373 1379	stroke
+T17	Out-of-scope 1600 1606	stroke
+T20	disease 1781 1787	stroke
+T22	lifestyle_factor 259 271	Oral hygiene
+R1	prevents Arg1:T22 Arg2:T7
+T23	lifestyle_factor 0 22	Oral hygiene practices
+T24	lifestyle_factor 869 881	oral hygiene
+T25	lifestyle_factor 1317 1329	oral hygiene
+T26	lifestyle_factor 1428 1440	oral hygiene
+T27	lifestyle_factor 1506 1518	oral hygiene
+T28	lifestyle_factor 1756 1768	oral hygiene
+T29	lifestyle_factor 1686 1698	oral hygiene
+T30	lifestyle_factor 787 799	oral hygiene
+T31	lifestyle_factor 216 228	oral hygiene
+T1	Out-of-scope 746 750	care
+T4	Out-of-scope 1373 1384	stroke care
+T5	Out-of-scope 988 997	knowledge

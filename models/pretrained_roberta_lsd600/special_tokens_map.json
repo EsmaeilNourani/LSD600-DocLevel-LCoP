@@ -1,0 +1,103 @@
+{
+  "additional_special_tokens": [
+    "[unused1]",
+    "[unused2]",
+    "[unused3]",
+    "[unused4]",
+    "[unused5]",
+    "[unused6]",
+    "[unused7]",
+    "[unused8]",
+    "[unused9]",
+    "[unused10]",
+    "[unused11]",
+    "[unused12]",
+    "[unused13]",
+    "[unused14]",
+    "[unused15]",
+    "[unused16]",
+    "[unused17]",
+    "[unused18]",
+    "[unused19]",
+    "[unused20]",
+    "[unused21]",
+    "[unused22]",
+    "[unused23]",
+    "[unused24]",
+    "[unused25]",
+    "[unused26]",
+    "[unused27]",
+    "[unused28]",
+    "[unused29]",
+    "[unused30]",
+    "[unused31]",
+    "[unused32]",
+    "[unused33]",
+    "[unused34]",
+    "[unused35]",
+    "[unused36]",
+    "[unused37]",
+    "[unused38]",
+    "[unused39]",
+    "[unused40]",
+    "[unused41]",
+    "[unused42]",
+    "[unused43]",
+    "[unused44]",
+    "[unused45]",
+    "[unused46]",
+    "[unused47]",
+    "[unused48]",
+    "[unused49]",
+    "[unused50]"
+  ],
+  "bos_token": {
+    "content": "<s>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "cls_token": {
+    "content": "<s>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "eos_token": {
+    "content": "</s>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "mask_token": {
+    "content": "<mask>",
+    "lstrip": true,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "pad_token": {
+    "content": "<pad>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "sep_token": {
+    "content": "</s>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "unk_token": {
+    "content": "<unk>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  }
+}

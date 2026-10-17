@@ -1,0 +1,21 @@
+T2	disease 108 144	urinary bladder urothelial carcinoma
+T4	disease 263 278	prostate cancer
+T5	disease 283 294	lung cancer
+T6	disease 452 488	urinary bladder urothelial carcinoma
+T10	disease 739 775	urinary bladder urothelial carcinoma
+T11	disease 1414 1450	urinary bladder urothelial carcinoma
+T13	lifestyle_factor 187 204	Pomegranate fruit
+T14	lifestyle_factor 537 563	juice of pomegranate fruit
+R3	treats Arg1:T14 Arg2:T6
+T15	disease 383 389	cancer
+T16	lifestyle_factor 1739 1756	pomegranate fruit
+T17	lifestyle_factor 55 78	pomegranate fruit juice
+T18	lifestyle_factor 707 730	pomegranate fruit juice
+R4	treats Arg1:T18 Arg2:T10
+R2	treats Arg1:T13 Arg2:T4
+R8	treats Arg1:T13 Arg2:T5
+T19	Out-of-scope 367 379	chemotherapy
+R1	treats Arg1:T13 Arg2:T15
+R5	treats Arg1:T17 Arg2:T2
+R6	controls Arg1:T13 Arg2:T15
+T1	Out-of-scope 688 696	efficacy

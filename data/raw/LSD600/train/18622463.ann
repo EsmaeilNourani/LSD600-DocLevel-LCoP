@@ -1,0 +1,75 @@
+T2	lifestyle_factor 40 50	sanitation
+T3	disease 52 62	alcoholism
+T4	disease 106 120	gastric cancer
+T5	lifestyle_factor 209 213	diet
+T6	disease 310 324	stomach cancer
+T8	lifestyle_factor 492 502	sanitation
+T9	disease 513 523	alcoholism
+T10	disease 561 575	gastric cancer
+T11	disease 628 642	gastric cancer
+T13	lifestyle_factor 749 759	sanitation
+T14	disease 770 780	alcoholism
+T15	disease 1079 1093	gastric cancer
+T16	lifestyle_factor 1258 1268	sanitation
+T17	lifestyle_factor 1363 1373	rural area
+T18	disease 1591 1601	Alcoholism
+T20	lifestyle_factor 1715 1736	complex carbohydrates
+T21	lifestyle_factor 1738 1751	refined sugar
+T22	disease 1796 1810	gastric cancer
+T23	disease 1851 1865	gastric cancer
+T24	lifestyle_factor 1959 1969	sanitation
+T25	lifestyle_factor 2021 2031	rural area
+T28	lifestyle_factor 1987 1996	schooling
+T29	lifestyle_factor 2051 2058	alcohol
+T30	lifestyle_factor 2106 2126	industrialized foods
+T31	disease 153 159	cancer
+R8	positive_statistical_association Arg1:T5 Arg2:T31
+T32	lifestyle_factor 230 237	alcohol
+R9	positive_statistical_association Arg1:T32 Arg2:T31
+T33	lifestyle_factor 239 246	smoking
+R10	positive_statistical_association Arg1:T33 Arg2:T31
+T34	lifestyle_factor 248 256	sunlight
+R11	positive_statistical_association Arg1:T34 Arg2:T31
+T35	lifestyle_factor 1659 1676	Food rich in salt
+T36	lifestyle_factor 1678 1688	condiments
+T37	lifestyle_factor 1690 1698	nitrates
+T38	lifestyle_factor 1700 1713	saturated fat
+T39	lifestyle_factor 1756 1773	fried salted food
+T40	disease 348 354	cancer
+T41	disease 680 686	cancer
+T42	disease 1632 1638	cancer
+T43	lifestyle_factor 504 511	smoking
+T44	lifestyle_factor 761 768	smoking
+T45	lifestyle_factor 1576 1583	smoking
+T46	lifestyle_factor 64 71	smoking
+T47	lifestyle_factor 76 88	eating habit
+T48	lifestyle_factor 258 273	chemical agents
+R12	positive_statistical_association Arg1:T48 Arg2:T31
+T49	lifestyle_factor 528 540	eating habit
+T50	lifestyle_factor 785 798	eating habits
+T51	lifestyle_factor 1459 1466	smokers
+T52	lifestyle_factor 1509 1516	smokers
+T53	lifestyle_factor 719 741	educational attainment
+T12	lifestyle_factor 461 484	educational achievement
+T7	lifestyle_factor 9 32	educational achievement
+T1	lifestyle_factor 1113 1119	school
+T54	lifestyle_factor 1172 1189	elementary school
+T26	lifestyle_factor 2087 2101	high fat foods
+R1	negative_statistical_association Arg1:T24 Arg2:T23
+#1	AnnotatorNotes R1	observation
+R2	positive_statistical_association Arg1:T35 Arg2:T22
+R3	negative_statistical_association Arg1:T16 Arg2:T15
+R4	positive_statistical_association Arg1:T17 Arg2:T15
+R5	positive_statistical_association Arg1:T51 Arg2:T15
+R6	statistical_association Arg1:T45 Arg2:T15
+R7	positive_statistical_association Arg1:T36 Arg2:T22
+R13	positive_statistical_association Arg1:T37 Arg2:T22
+R14	positive_statistical_association Arg1:T38 Arg2:T22
+R15	positive_statistical_association Arg1:T20 Arg2:T22
+R16	positive_statistical_association Arg1:T21 Arg2:T22
+R17	positive_statistical_association Arg1:T39 Arg2:T22
+R18	negative_statistical_association Arg1:T28 Arg2:T23
+R19	positive_statistical_association Arg1:T25 Arg2:T23
+R20	positive_statistical_association Arg1:T29 Arg2:T23
+R21	positive_statistical_association Arg1:T26 Arg2:T23
+R22	positive_statistical_association Arg1:T30 Arg2:T23

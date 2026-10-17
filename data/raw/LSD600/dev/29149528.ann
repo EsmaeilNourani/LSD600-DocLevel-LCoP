@@ -1,0 +1,48 @@
+T2	disease 132 145	periodontitis
+T3	disease 166 184	chronic gingivitis
+T5	disease 290 300	gingivitis
+T6	disease 305 318	periodontitis
+T7	disease 441 461	periodontal diseases
+T8	disease 688 698	gingivitis
+T12	disease 1579 1589	gingivitis
+T14	disease 1798 1808	gingivitis
+T16	lifestyle_factor 258 272	dental hygiene
+R1	prevents Arg1:T16 Arg2:T5
+R2	prevents Arg1:T16 Arg2:T6
+T4	lifestyle_factor 382 390	brushing
+T18	lifestyle_factor 395 403	flossing
+R3	prevents Arg1:T4 Arg2:T7
+R4	prevents Arg1:T18 Arg2:T7
+T19	disease 490 496	caries
+R5	negative_statistical_association Arg1:T4 Arg2:T19
+R6	negative_statistical_association Arg1:T18 Arg2:T19
+T20	lifestyle_factor 550 576	antimicrobial mouth-washes
+T21	lifestyle_factor 637 645	brushing
+T22	lifestyle_factor 650 658	flossing
+R7	prevents Arg1:T20 Arg2:T8
+R8	prevents Arg1:T21 Arg2:T8
+R9	prevents Arg1:T22 Arg2:T8
+T23	lifestyle_factor 1697 1733	Essential oil-containing mouthrinses
+R10	controls Arg1:T23 Arg2:T14
+T26	lifestyle_factor 868 888	antiseptic mouthwash
+T27	disease 964 976	oral disease
+R12	prevents Arg1:T26 Arg2:T27
+T29	lifestyle_factor 1083 1095	oral hygiene
+T10	lifestyle_factor 1107 1121	tooth brushing
+T28	lifestyle_factor 1126 1141	dental flossing
+T31	lifestyle_factor 1239 1248	mouthwash
+T32	lifestyle_factor 1002 1013	mouthwashes
+T33	lifestyle_factor 1459 1483	chlorhexidine mouthrinse
+T34	lifestyle_factor 1488 1497	Listerine
+R13	controls Arg1:T33 Arg2:T12
+R14	controls Arg1:T34 Arg2:T12
+T35	lifestyle_factor 2175 2189	dental hygiene
+T36	lifestyle_factor 2206 2228	antiseptic mouthwashes
+T38	lifestyle_factor 735 746	mouthwashes
+T15	lifestyle_factor 1502 1538	essential oil-containing mouth rinse
+R15	controls Arg1:T20 Arg2:T8
+R17	controls Arg1:T21 Arg2:T8
+R18	controls Arg1:T22 Arg2:T8
+R19	controls Arg1:T15 Arg2:T12
+T1	lifestyle_factor 1944 1962	oral care products
+T9	lifestyle_factor 1346 1361	chemical agents

@@ -1,0 +1,16 @@
+T1	lifestyle_factor 26 43	physical activity
+T4	lifestyle_factor 370 372	PA
+T5	lifestyle_factor 763 765	PA
+T6	lifestyle_factor 945 947	PA
+T7	lifestyle_factor 374 376	PA
+T2	lifestyle_factor 189 206	physical activity
+T3	lifestyle_factor 846 853	walking
+T8	lifestyle_factor 508 515	walking
+T9	lifestyle_factor 645 652	walking
+T10	lifestyle_factor 961 968	walking
+T11	lifestyle_factor 208 210	PA
+T12	lifestyle_factor 524 536	time on feet
+T13	lifestyle_factor 858 870	time on feet
+T15	lifestyle_factor 660 672	time on feet
+T14	lifestyle_factor 979 991	time on feet
+*	Equiv T2 T11

@@ -1,0 +1,28 @@
+T1	disease 41 53	hypertension
+T2	lifestyle_factor 265 284	alcohol consumption
+T3	lifestyle_factor 289 293	diet
+T4	disease 412 424	hypertension
+T5	lifestyle_factor 702 728	vigorous physical activity
+T6	disease 758 770	hypertension
+T7	lifestyle_factor 798 818	socioeconomic status
+T8	disease 833 855	coronary heart disease
+T9	disease 857 865	diabetes
+T10	disease 867 876	arthritis
+T11	disease 988 1000	hypertension
+T12	lifestyle_factor 1343 1357	heavy drinkers
+T13	lifestyle_factor 1442 1468	vigorous physical activity
+T14	lifestyle_factor 1620 1627	Smoking
+T15	lifestyle_factor 1694 1713	alcohol consumption
+T17	lifestyle_factor 1718 1735	physical activity
+T18	lifestyle_factor 246 263	physical activity
+T19	lifestyle_factor 653 660	smoking
+T20	lifestyle_factor 1191 1198	smoking
+T21	lifestyle_factor 237 244	smoking
+T22	disease 935 945	depression
+T31	lifestyle_factor 1389 1398	sedentary
+T33	lifestyle_factor 662 676	heavy drinking
+T34	lifestyle_factor 678 697	sedentary behaviour
+T35	lifestyle_factor 1123 1128	smoke
+T16	Out-of-scope 1295 1307	Hypertensive
+T23	Out-of-scope 1077 1089	Hypertensive
+T24	disease 460 474	cardiovascular

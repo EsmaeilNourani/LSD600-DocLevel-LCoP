@@ -1,0 +1,40 @@
+T1	lifestyle_factor 0 19	Sedentary Lifestyle
+T2	disease 24 36	Hypertension
+T3	disease 194 202	diabetes
+T4	lifestyle_factor 425 429	diet
+T5	disease 554 566	hypertension
+T6	lifestyle_factor 592 611	sedentary lifestyle
+T7	lifestyle_factor 745 749	diet
+T10	disease 863 875	Hypertension
+T11	disease 956 968	hypertension
+T12	disease 1091 1103	hypertension
+T15	disease 1247 1254	obesity
+T16	disease 1268 1276	diabetes
+T17	disease 1299 1311	hypertension
+T18	lifestyle_factor 1379 1398	Sedentary lifestyle
+T19	disease 1433 1445	hypertension
+T20	disease 1479 1486	obesity
+T21	disease 1530 1537	obesity
+T22	disease 1539 1551	hypertension
+T23	disease 1557 1565	diabetes
+T24	disease 1600 1612	hypertension
+T25	lifestyle_factor 1648 1662	sedentary work
+T26	lifestyle_factor 434 451	physical activity
+T27	disease 159 182	cardiovascular diseases
+T28	disease 184 188	CVDs
+*	Equiv T28 T27
+T29	disease 485 489	CVDs
+R3	statistical_association Arg1:T18 Arg2:T19
+T30	lifestyle_factor 751 768	physical activity
+T31	lifestyle_factor 774 781	smoking
+T32	disease 230 253	noncommunicable disease
+T33	disease 255 258	NCD
+*	Equiv T33 T32
+T34	disease 1182 1203	systolic hypertension
+T35	disease 1215 1237	diastolic hypertension
+R1	Out-of-scope Arg1:T4 Arg2:T29
+#1	AnnotatorNotes R1	hypothesis
+T8	Out-of-scope 1628 1640	Participants
+#2	AnnotatorNotes T8	participants implies non-generalization to the population
+T9	Out-of-scope 1582 1594	participants
+T13	lifestyle_factor 344 356	Urbanization

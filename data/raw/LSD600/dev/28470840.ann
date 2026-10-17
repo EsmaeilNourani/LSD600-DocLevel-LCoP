@@ -1,0 +1,29 @@
+T2	disease 28 35	rickets
+T3	lifestyle_factor 100 112	malnutrition
+T4	disease 138 145	rickets
+T6	lifestyle_factor 237 246	vitamin D
+T9	disease 533 540	rickets
+T10	lifestyle_factor 608 620	malnutrition
+T11	disease 655 662	rickets
+T12	lifestyle_factor 753 765	malnutrition
+T13	disease 792 799	rickets
+T14	lifestyle_factor 975 987	malnutrition
+T15	disease 1008 1015	rickets
+T16	lifestyle_factor 1143 1155	malnutrition
+T17	lifestyle_factor 1246 1260	calcium intake
+T18	disease 1358 1365	rickets
+T20	lifestyle_factor 1446 1471	vitamin D supplementation
+T21	disease 0 20	Vitamin D deficiency
+T22	disease 159 179	vitamin D deficiency
+T23	disease 1420 1440	vitamin D deficiency
+R6	treats Arg1:T20 Arg2:T18
+T24	disease 329 355	calcium-deficiency rickets
+T27	Out-of-scope 1550 1557	calcium
+T28	lifestyle_factor 289 296	calcium
+T1	lifestyle_factor 1387 1392	urban
+T5	lifestyle_factor 42 47	urban
+T7	lifestyle_factor 564 569	urban
+R1	statistical_association Arg1:T3 Arg2:T21
+T8	Out-of-scope 1516 1523	Wasting
+#1	AnnotatorNotes T8	https://icd.who.int/browse10/2019/en#/R64
+R2	no_statistical_association Arg1:T17 Arg2:T15

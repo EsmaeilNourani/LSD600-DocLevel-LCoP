@@ -1,0 +1,42 @@
+T2	lifestyle_factor 34 38	diet
+T3	disease 125 136	neutropenia
+T4	disease 151 162	Neutropenia
+T6	disease 465 476	neutropenia
+T7	lifestyle_factor 678 682	diet
+T8	disease 842 853	neutropenia
+T9	lifestyle_factor 961 965	diet
+T10	lifestyle_factor 2489 2493	diet
+T12	disease 2748 2759	neutropenia
+T13	lifestyle_factor 3199 3203	diet
+T14	lifestyle_factor 3219 3223	diet
+T16	disease 4397 4408	neutropenia
+T19	lifestyle_factor 4540 4544	diet
+T20	disease 402 408	cancer
+T21	disease 2689 2695	cancer
+T22	disease 779 785	cancer
+T23	lifestyle_factor 318 336	low bacterial diet
+T24	lifestyle_factor 338 341	LBD
+*	Equiv T24 T23
+T25	lifestyle_factor 0 18	Low bacterial diet
+T26	lifestyle_factor 657 660	LBD
+T27	lifestyle_factor 2468 2471	LBD
+T28	lifestyle_factor 4881 4884	LBD
+T37	Out-of-scope 2596 2624	empirical antibiotic therapy
+T40	lifestyle_factor 3433 3450	hygiene practices
+T41	lifestyle_factor 3422 3431	oral care
+T42	lifestyle_factor 3341 3363	protective environment
+T43	lifestyle_factor 3365 3390	antimicrobial prophylaxis
+T44	disease 63 69	cancer
+T45	Out-of-scope 1770 1776	Cancer
+T47	Out-of-scope 931 959	empirical antibiotic therapy
+T1	lifestyle_factor 4510 4514	diet
+T48	Out-of-scope 92 104	chemotherapy
+T50	Out-of-scope 428 440	chemotherapy
+T51	Out-of-scope 805 817	chemotherapy
+T52	Out-of-scope 1922 1934	Chemotherapy
+T54	Out-of-scope 4177 4189	chemotherapy
+T55	Out-of-scope 4560 4572	chemotherapy
+T5	Out-of-scope 2715 2727	chemotherapy
+T57	Out-of-scope 203 215	chemotherapy
+T11	lifestyle_factor 2626 2644	diet acceptability
+T15	lifestyle_factor 4471 4489	diet acceptability

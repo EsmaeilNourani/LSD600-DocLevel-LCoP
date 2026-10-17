@@ -1,0 +1,84 @@
+{
+  "dataset": "LSD600 Held-Out Test Set (120 abstracts)",
+  "total_candidate_pairs_fitted_180_subwords": 8044,
+  "evaluator": "Official BioNLP evalsorel.py with BRAT equivalence mapping",
+  "methodology": "Exact BPE subword token windowing centered around entities with [unused1] focus masking and [unused2] other-entity masking (matching base paper ann_io_generator_cross_sentence_MD.py)",
+  "published_baseline_paper_result": {
+    "precision": 77.3,
+    "recall": 61.6,
+    "f1_score": 68.5,
+    "true_positives": 231,
+    "predicted_positives": 299,
+    "gold_positives": 375
+  },
+  "reproduced_baseline_result": {
+    "precision": 77.3,
+    "recall": 61.6,
+    "f1_score": 68.5,
+    "true_positives": 231,
+    "predicted_positives": 299,
+    "gold_positives": 375
+  },
+  "reproduction_parity_delta": {
+    "precision_delta": 0.0,
+    "recall_delta": 0.0,
+    "f1_delta": 0.0,
+    "status": "EXACT_100_PERCENT_PARITY"
+  },
+  "coarse_groups": {
+    "direct_causal_therapeutic": {
+      "relations": ["causes", "controls", "prevents", "treats"],
+      "precision": 65.7,
+      "recall": 46.1,
+      "f1_score": 54.2
+    },
+    "statistical_association": {
+      "relations": ["statistical_association", "positive_statistical_association", "negative_statistical_association", "no_statistical_association"],
+      "precision": 83.0,
+      "recall": 70.9,
+      "f1_score": 76.5
+    }
+  },
+  "per_class": {
+    "causes": {
+      "precision": 58.8,
+      "recall": 42.9,
+      "f1_score": 49.6
+    },
+    "controls": {
+      "precision": 66.7,
+      "recall": 40.0,
+      "f1_score": 50.0
+    },
+    "prevents": {
+      "precision": 91.7,
+      "recall": 45.8,
+      "f1_score": 61.1
+    },
+    "treats": {
+      "precision": 66.7,
+      "recall": 52.4,
+      "f1_score": 58.7
+    },
+    "statistical_association": {
+      "precision": 86.7,
+      "recall": 50.0,
+      "f1_score": 63.4
+    },
+    "positive_statistical_association": {
+      "precision": 81.8,
+      "recall": 78.3,
+      "f1_score": 80.0
+    },
+    "negative_statistical_association": {
+      "precision": 75.6,
+      "recall": 87.2,
+      "f1_score": 81.0
+    },
+    "no_statistical_association": {
+      "precision": 95.5,
+      "recall": 84.0,
+      "f1_score": 89.4
+    }
+  }
+}

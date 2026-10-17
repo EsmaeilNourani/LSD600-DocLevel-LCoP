@@ -1,0 +1,12 @@
+T1	lifestyle_factor 0 17	Polyvictimization
+T4	lifestyle_factor 465 482	polyvictimization
+T6	lifestyle_factor 847 864	polyvictimization
+T7	lifestyle_factor 956 984	exposure to traumatic events
+T8	lifestyle_factor 1203 1220	Polyvictimization
+T5	lifestyle_factor 1438 1466	exposure to multiple traumas
+T2	lifestyle_factor 184 221	exposure to multiple traumatic events
+T3	lifestyle_factor 223 240	polyvictimization
+T9	disease 243 272	posttraumatic stress disorder
+T10	disease 274 278	PTSD
+*	Equiv T2 T3
+*	Equiv T9 T10

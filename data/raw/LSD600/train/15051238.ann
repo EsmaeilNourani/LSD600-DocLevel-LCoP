@@ -1,0 +1,12 @@
+T1	lifestyle_factor 45 66	occupational exposure
+T2	lifestyle_factor 153 158	radon
+T3	lifestyle_factor 196 212	progeny exposure
+T4	lifestyle_factor 390 418	(222)Rn concentration in air
+T5	lifestyle_factor 791 807	progeny exposure
+T13	lifestyle_factor 160 167	(222)Rn
+T14	lifestyle_factor 439 446	(222)Rn
+T15	lifestyle_factor 377 384	(222)Rn
+T16	lifestyle_factor 16 37	(222)Rn-bearing water
+T17	lifestyle_factor 739 746	(222)Rn
+T18	lifestyle_factor 841 848	(222)Rn
+*	Equiv T2 T13

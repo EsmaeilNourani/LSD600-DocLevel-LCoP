@@ -1,0 +1,36 @@
+T1	lifestyle_factor 0 13	Sleep quality
+T2	lifestyle_factor 87 100	sleep quality
+T3	disease 133 136	pSS
+T4	disease 215 229	mood disorders
+T5	lifestyle_factor 244 257	sleep quality
+T6	disease 264 267	pSS
+T7	lifestyle_factor 318 348	Pittsburgh Sleep Quality Index
+T8	lifestyle_factor 424 437	sleep quality
+T9	lifestyle_factor 450 463	sleep quality
+T10	lifestyle_factor 465 478	sleep latency
+T11	Out-of-scope 512 517	sleep
+T12	lifestyle_factor 530 544	sleep duration
+T13	Out-of-scope 555 560	sleep
+T15	lifestyle_factor 696 709	sleep quality
+T16	Out-of-scope 833 840	Anxiety
+T18	Out-of-scope 1019 1027	Syndrome
+T19	Out-of-scope 1028 1035	Disease
+T20	lifestyle_factor 1524 1537	sleep quality
+T21	disease 1558 1561	pSS
+T25	Out-of-scope 845 855	Depression
+T26	disease 1407 1417	depression
+T27	disease 1361 1368	anxiety
+T28	disease 600 618	sleep disturbances
+T29	disease 31 58	primary Sjoegren's syndrome
+T30	disease 104 131	primary Sjoegren's syndrome
+*	Equiv T3 T30
+T14	disease 951 970	Sjoegren's syndrome
+T24	disease 1008 1027	Sjoegren's Syndrome
+T31	Out-of-scope 487 506	sleeping medication
+R1	negative_statistical_association Arg1:T20 Arg2:T21
+T22	lifestyle_factor 350 354	PSQI
+*	Equiv T7 T22
+T23	lifestyle_factor 1098 1102	PSQI
+R2	positive_statistical_association Arg1:T23 Arg2:T24
+R3	positive_statistical_association Arg1:T23 Arg2:T14
+T17	lifestyle_factor 1506 1510	PSQI

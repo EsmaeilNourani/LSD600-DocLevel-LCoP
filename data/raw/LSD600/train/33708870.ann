@@ -1,0 +1,51 @@
+T1	lifestyle_factor 43 67	rapid eye movement sleep
+T2	disease 119 142	obstructive sleep apnea
+T3	disease 182 205	Obstructive sleep apnea
+T4	lifestyle_factor 307 337	rapid eye movement (REM) sleep
+T6	Out-of-scope 657 662	sleep
+T7	disease 973 989	hyperinsulinemia
+T8	Out-of-scope 1067 1074	fasting
+T9	lifestyle_factor 1299 1312	non-REM sleep
+T10	Out-of-scope 1359 1364	sleep
+T11	disease 1479 1495	hyperinsulinemia
+T13	disease 2092 2108	hyperinsulinemia
+T14	disease 2205 2221	hyperinsulinemia
+T16	disease 2368 2384	hyperinsulinemia
+T17	lifestyle_factor 472 481	REM sleep
+T18	Out-of-scope 1303 1312	REM sleep
+T19	lifestyle_factor 1355 1364	REM sleep
+T20	lifestyle_factor 2039 2057	REM sleep duration
+T21	lifestyle_factor 2315 2333	REM sleep duration
+T22	Out-of-scope 62 67	sleep
+T23	Out-of-scope 131 136	sleep
+T24	Out-of-scope 194 199	sleep
+T26	Out-of-scope 1307 1312	sleep
+T27	disease 207 210	OSA
+T28	disease 302 305	OSA
+T29	disease 531 534	OSA
+T30	disease 616 619	OSA
+T31	disease 1220 1223	OSA
+T32	disease 2296 2299	OSA
+*	Equiv T27 T3
+T33	disease 73 91	insulin resistance
+T34	disease 231 249	insulin resistance
+T35	disease 343 361	insulin resistance
+T36	disease 487 505	insulin resistance
+T37	disease 923 941	insulin resistance
+T38	disease 1027 1045	insulin resistance
+T39	disease 1075 1093	insulin resistance
+T40	disease 1420 1438	insulin resistance
+T5	Out-of-scope 1265 1279	apnea-hypopnea
+R1	Out-of-scope Arg1:T19 Arg2:T40
+R2	negative_statistical_association Arg1:T20 Arg2:T13
+R3	statistical_association Arg1:T21 Arg2:T16
+T41	Out-of-scope 327 330	REM
+T12	Out-of-scope 2164 2170	AHIREM
+R4	Out-of-scope Arg1:T12 Arg2:T14
+T15	Out-of-scope 15 29	apnea-hypopnea
+T25	disease 1047 1054	HOMA-IR
+*	Equiv T38 T25
+T42	disease 2238 2245	HOMA-IR
+T43	disease 1619 1626	HOMA-IR
+T44	Out-of-scope 1344 1347	AHI
+R5	Out-of-scope Arg1:T11 Arg2:T44

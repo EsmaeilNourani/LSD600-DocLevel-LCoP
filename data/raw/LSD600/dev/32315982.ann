@@ -1,0 +1,7 @@
+T1	disease 68 83	Type 2 Diabetes
+T2	disease 214 238	Type 2 diabetes mellitus
+T3	disease 240 242	DM
+T4	disease 378 380	DM
+T5	disease 1137 1139	DM
+T6	disease 1155 1157	DM
+*	Equiv T2 T3

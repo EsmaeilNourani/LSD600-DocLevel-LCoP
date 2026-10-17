@@ -1,0 +1,42 @@
+T1	lifestyle_factor 8 22	sleep duration
+T2	disease 69 77	migraine
+T3	lifestyle_factor 171 184	sleep quality
+T4	disease 216 224	migraine
+T5	lifestyle_factor 268 280	sleep period
+T6	disease 389 397	migraine
+T7	lifestyle_factor 456 461	sleep
+T8	disease 568 576	migraine
+T9	lifestyle_factor 605 619	sleep duration
+T10	lifestyle_factor 689 694	sleep
+T11	lifestyle_factor 782 790	caffeine
+T12	lifestyle_factor 983 1009	Sleep duration <=6.5 hours
+T13	lifestyle_factor 1019 1032	sleep quality
+T14	disease 1058 1066	migraine
+T15	disease 1311 1319	migraine
+T16	lifestyle_factor 1330 1352	wake after sleep onset
+T17	lifestyle_factor 1457 1471	sleep duration
+T18	lifestyle_factor 1480 1493	sleep quality
+T19	disease 1530 1538	migraine
+T20	lifestyle_factor 1540 1559	Sleep fragmentation
+T21	Out-of-scope 1576 1581	sleep
+T22	disease 1629 1637	migraine
+T23	lifestyle_factor 1736 1755	sleep fragmentation
+T24	disease 1768 1776	migraine
+T25	lifestyle_factor 815 832	physical activity
+T28	Out-of-scope 689 694	sleep
+R1	no_statistical_association Arg1:T17 Arg2:T19
+R2	no_statistical_association Arg1:T18 Arg2:T19
+R3	positive_statistical_association Arg1:T20 Arg2:T22
+T26	lifestyle_factor 24 37	fragmentation
+T27	lifestyle_factor 43 50	quality
+T30	Out-of-scope 189 199	temporally
+T31	lifestyle_factor 799 806	alcohol
+R4	no_statistical_association Arg1:T12 Arg2:T14
+R5	no_statistical_association Arg1:T13 Arg2:T14
+T32	Out-of-scope 1155 1163	headache
+T33	Out-of-scope 1101 1115	low efficiency
+T34	Out-of-scope 621 639	high fragmentation
+T35	Out-of-scope 644 655	low quality
+T36	Out-of-scope 1258 1276	high fragmentation
+R6	Out-of-scope Arg1:T23 Arg2:T24
+R7	negative_statistical_association Arg1:T16 Arg2:T15

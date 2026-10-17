@@ -1,0 +1,45 @@
+T1	disease 0 22	Coronary heart disease
+T2	disease 24 36	hypertension
+T3	disease 153 165	hypertension
+T4	disease 170 192	coronary heart disease
+T5	lifestyle_factor 228 235	cooking
+T6	lifestyle_factor 390 397	cooking
+T7	disease 666 678	Hypertension
+T8	disease 854 866	heart attack
+T9	disease 1023 1035	hypertension
+T10	disease 1242 1254	hypertension
+T11	disease 1321 1333	heart attack
+T12	lifestyle_factor 1443 1450	cooking
+T13	lifestyle_factor 1686 1704	particulate matter
+T14	lifestyle_factor 1744 1751	cooking
+T15	disease 1799 1811	hypertension
+T16	lifestyle_factor 1882 1889	cooking
+T17	disease 194 197	CHD
+*	Equiv T17 T4
+T18	disease 1378 1381	CHD
+T19	disease 1040 1043	CHD
+T20	disease 1791 1794	CHD
+T21	lifestyle_factor 373 385	biomass fuel
+T22	lifestyle_factor 41 60	use of biomass fuel
+T23	lifestyle_factor 204 223	use of biomass fuel
+T24	lifestyle_factor 494 506	biomass fuel
+T25	lifestyle_factor 1049 1063	use of biomass
+T26	lifestyle_factor 1431 1438	biomass
+T27	lifestyle_factor 1566 1578	biomass fuel
+T28	lifestyle_factor 1723 1730	biomass
+T29	lifestyle_factor 1870 1877	biomass
+T30	disease 750 753	CHD
+T31	disease 905 908	CHD
+T32	lifestyle_factor 289 294	Rural
+R1	no_statistical_association Arg1:T26 Arg2:T10
+R2	no_statistical_association Arg1:T26 Arg2:T11
+R3	no_statistical_association Arg1:T26 Arg2:T18
+R4	no_statistical_association Arg1:T12 Arg2:T10
+R5	no_statistical_association Arg1:T12 Arg2:T11
+R6	no_statistical_association Arg1:T12 Arg2:T18
+T33	disease 797 803	angina
+T34	disease 1284 1290	angina
+R7	no_statistical_association Arg1:T27 Arg2:T18
+R8	no_statistical_association Arg1:T27 Arg2:T11
+R9	no_statistical_association Arg1:T27 Arg2:T34
+R10	no_statistical_association Arg1:T27 Arg2:T10

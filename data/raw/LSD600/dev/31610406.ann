@@ -1,0 +1,25 @@
+T1	lifestyle_factor 0 13	Sleep quality
+T2	disease 68 81	schizophrenia
+T3	disease 111 124	schizophrenia
+T4	disease 275 288	schizophrenia
+T5	lifestyle_factor 379 392	sleep quality
+T6	disease 434 447	schizophrenia
+T8	lifestyle_factor 521 534	sleep quality
+T9	disease 840 853	schizophrenia
+T10	lifestyle_factor 862 875	sleep quality
+T11	lifestyle_factor 958 971	sleep quality
+T12	disease 1089 1102	schizophrenia
+T13	lifestyle_factor 1129 1142	sleep quality
+T14	lifestyle_factor 1257 1270	sleep quality
+T15	lifestyle_factor 1331 1344	sleep quality
+T16	disease 1377 1390	schizophrenia
+T17	disease 136 154	sleep disturbances
+R1	negative_statistical_association Arg1:T11 Arg2:T12
+R3	statistical_association Arg1:T1 Arg2:T2
+R2	negative_statistical_association Arg1:T10 Arg2:T9
+T18	Out-of-scope 909 925	symptom severity
+R4	statistical_association Arg1:T15 Arg2:T16
+T19	lifestyle_factor 485 489	PSQI
+T7	lifestyle_factor 453 483	Pittsburgh Sleep Quality Index
+*	Equiv T7 T19
+T20	lifestyle_factor 725 729	PSQI

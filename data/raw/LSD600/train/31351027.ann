@@ -1,0 +1,43 @@
+T1	disease 70 77	anaemia
+T2	disease 111 118	Anaemia
+T3	Out-of-scope 333 337	Food
+T4	disease 448 455	anaemia
+T6	lifestyle_factor 686 693	hygiene
+T7	lifestyle_factor 707 714	poultry
+T8	disease 767 774	anaemia
+T9	Out-of-scope 809 816	hygiene
+T10	lifestyle_factor 869 878	nutrition
+T11	disease 891 906	iron deficiency
+T12	disease 944 951	malaria
+T14	disease 1124 1131	malaria
+T15	disease 1190 1197	anaemia
+T16	disease 1478 1485	anaemia
+T17	disease 1658 1665	anaemia
+T18	disease 1697 1704	anaemia
+T19	disease 1763 1770	malaria
+T20	lifestyle_factor 1928 1935	hygiene
+T21	lifestyle_factor 1941 1960	nutrition practices
+T22	Out-of-scope 1012 1027	economic status
+T23	Out-of-scope 620 624	food
+T24	lifestyle_factor 387 396	household
+T25	Out-of-scope 610 619	household
+T28	Out-of-scope 1320 1329	household
+T29	Out-of-scope 1348 1357	Household
+T30	Out-of-scope 1965 1974	household
+T26	lifestyle_factor 661 681	household sanitation
+T5	lifestyle_factor 695 702	latrine
+T32	lifestyle_factor 726 732	bednet
+T33	disease 908 910	ID
+*	Equiv T33 T11
+T34	lifestyle_factor 996 1027	household socio-economic status
+T13	Out-of-scope 1039 1047	polygamy
+T27	disease 1120 1122	ID
+T35	lifestyle_factor 1330 1336	bednet
+T36	lifestyle_factor 638 655	dietary diversity
+T37	lifestyle_factor 1358 1375	dietary diversity
+T38	lifestyle_factor 1975 1992	dietary diversity
+T39	disease 1759 1761	ID
+R1	controls Arg1:T20 Arg2:T18
+R2	controls Arg1:T21 Arg2:T18
+R3	controls Arg1:T38 Arg2:T18
+T31	lifestyle_factor 1066 1075	education

@@ -1,0 +1,42 @@
+T2	disease 74 89	bulimia nervosa
+T3	disease 297 312	bulimia nervosa
+T5	disease 529 544	bulimia nervosa
+T6	Out-of-scope 785 792	Anxiety
+T7	Out-of-scope 797 805	Neurosis
+T8	disease 1038 1054	Eating Disorders
+T11	disease 1320 1335	bulimia nervosa
+T15	lifestyle_factor 2432 2445	psychotherapy
+T17	lifestyle_factor 2580 2593	psychotherapy
+T19	lifestyle_factor 3562 3575	psychotherapy
+T20	lifestyle_factor 3787 3800	psychotherapy
+T22	lifestyle_factor 3856 3869	Psychotherapy
+T24	Out-of-scope 773 783	Depression
+T25	lifestyle_factor 23 47	psychological treatments
+T26	lifestyle_factor 104 132	Psychotherapeutic approaches
+T27	lifestyle_factor 426 450	psychological approaches
+T28	lifestyle_factor 1163 1187	psychological treatments
+T29	lifestyle_factor 1231 1255	psychological approaches
+T30	lifestyle_factor 2303 2327	psychological treatments
+T31	lifestyle_factor 2181 2205	psychological treatments
+T32	lifestyle_factor 2995 3019	psychological approaches
+T33	lifestyle_factor 3291 3315	psychological treatments
+T34	lifestyle_factor 3952 3976	psychological treatments
+T35	lifestyle_factor 141 167	cognitive behavior therapy
+R1	treats Arg1:T26 Arg2:T3
+R2	treats Arg1:T35 Arg2:T3
+T38	Out-of-scope 0 15	Antidepressants
+T39	Out-of-scope 405 420	antidepressants
+T40	Out-of-scope 1128 1143	antidepressants
+T41	Out-of-scope 1210 1225	antidepressants
+T42	Out-of-scope 2158 2173	antidepressants
+T43	Out-of-scope 2232 2247	antidepressants
+T44	Out-of-scope 2389 2404	antidepressants
+T45	Out-of-scope 2555 2570	antidepressants
+T46	Out-of-scope 2844 2859	antidepressants
+T47	Out-of-scope 3839 3854	antidepressants
+T48	Out-of-scope 3919 3934	antidepressants
+T4	Out-of-scope 173 187	antidepressant
+T1	Out-of-scope 2353 2362	Remission
+#1	AnnotatorNotes T1	!!!
+T10	Out-of-scope 3044 3055	combination
+T9	Out-of-scope 3260 3271	combination

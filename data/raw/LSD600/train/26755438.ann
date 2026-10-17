@@ -1,0 +1,44 @@
+T1	disease 10 21	vision loss
+T2	lifestyle_factor 500 506	income
+T3	lifestyle_factor 520 534	marital status
+T5	disease 720 729	amblyopia
+T7	disease 1051 1068	visual impairment
+T8	disease 1113 1132	bilateral blindness
+T9	lifestyle_factor 1156 1165	unmarried
+T10	lifestyle_factor 1305 1315	unemployed
+T11	disease 1385 1402	visual impairment
+T12	disease 1404 1423	Bilateral blindness
+T13	disease 1660 1679	bilateral blindness
+T14	lifestyle_factor 1700 1714	live unmarried
+T15	lifestyle_factor 1741 1751	unemployed
+T16	disease 1768 1785	visual impairment
+T17	lifestyle_factor 1884 1904	socioeconomic status
+T18	disease 1924 1941	visual impairment
+T19	lifestyle_factor 465 478	socioeconomic
+T20	lifestyle_factor 489 498	education
+T21	lifestyle_factor 1571 1584	socioeconomic
+T22	disease 74 91	astroglial tumors
+T23	disease 566 582	astroglial tumor
+T24	disease 978 995	astroglial tumors
+T25	disease 1637 1654	astroglial tumors
+T26	disease 214 231	low-grade gliomas
+T27	lifestyle_factor 540 558	independent living
+T28	disease 671 691	unilateral blindness
+T29	disease 693 714	visual field deficits
+T30	disease 738 757	bilateral blindness
+T31	Out-of-scope 881 906	cranial radiation therapy
+T33	lifestyle_factor 1239 1260	live with a caregiver
+T34	lifestyle_factor 1719 1730	dependently
+T35	lifestyle_factor 508 518	employment
+R10	no_statistical_association Arg1:T17 Arg2:T16
+R3	positive_statistical_association Arg1:T9 Arg2:T8
+R4	positive_statistical_association Arg1:T33 Arg2:T8
+R5	positive_statistical_association Arg1:T10 Arg2:T8
+R1	positive_statistical_association Arg1:T14 Arg2:T13
+R2	positive_statistical_association Arg1:T34 Arg2:T13
+R6	positive_statistical_association Arg1:T15 Arg2:T13
+R7	positive_statistical_association Arg1:T14 Arg2:T25
+R8	positive_statistical_association Arg1:T34 Arg2:T25
+R11	positive_statistical_association Arg1:T15 Arg2:T25
+T4	disease 1489 1511	vision with impairment
+R9	no_statistical_association Arg1:T21 Arg2:T4

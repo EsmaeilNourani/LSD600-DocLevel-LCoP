@@ -1,0 +1,38 @@
+T1	lifestyle_factor 0 8	Fructose
+T2	disease 44 56	dyslipidemia
+T3	disease 59 66	Obesity
+T4	disease 71 86	type 2 diabetes
+T5	disease 174 181	obesity
+T6	lifestyle_factor 244 248	diet
+T7	lifestyle_factor 392 400	fructose
+T8	lifestyle_factor 433 440	sucrose
+T9	lifestyle_factor 445 469	high fructose corn syrup
+T10	lifestyle_factor 532 540	fructose
+T11	lifestyle_factor 851 859	fructose
+T12	lifestyle_factor 984 992	fructose
+T13	disease 1128 1140	dyslipidemia
+T14	lifestyle_factor 1372 1380	fructose
+T15	disease 1456 1474	metabolic syndrome
+T16	lifestyle_factor 1565 1573	fructose
+T17	lifestyle_factor 1677 1685	fructose
+T18	lifestyle_factor 1743 1751	fructose
+T19	lifestyle_factor 1805 1813	fructose
+T20	disease 1925 1937	dyslipidemia
+R1	causes Arg1:T14 Arg2:T15
+R2	causes Arg1:T6 Arg2:T5
+T21	lifestyle_factor 261 278	physical activity
+R3	prevents Arg1:T21 Arg2:T5
+T23	lifestyle_factor 606 618	carbohydrate
+T25	lifestyle_factor 1862 1870	fructose
+R4	causes Arg1:T25 Arg2:T20
+T26	lifestyle_factor 1035 1043	Fructose
+T22	disease 10 28	insulin resistance
+T24	disease 937 955	insulin resistance
+T27	disease 1892 1910	insulin resistance
+T28	disease 1052 1069	insulin resistant
+R5	causes Arg1:T26 Arg2:T28
+R6	causes Arg1:T25 Arg2:T27
+R7	positive_statistical_association Arg1:T26 Arg2:T13
+T29	lifestyle_factor 1652 1666	packaged foods
+T30	lifestyle_factor 480 489	sweetener
+R8	causes Arg1:T12 Arg2:T24

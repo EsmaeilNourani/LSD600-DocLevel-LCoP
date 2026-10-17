@@ -1,0 +1,20 @@
+T1	lifestyle_factor 0 14	Sleep duration
+T2	disease 76 82	asthma
+T3	lifestyle_factor 138 152	sleep duration
+T4	disease 218 224	asthma
+T5	disease 378 384	asthma
+T6	lifestyle_factor 429 443	sleep duration
+T7	lifestyle_factor 565 579	sleep duration
+T8	disease 615 621	asthma
+T9	lifestyle_factor 794 808	sleep duration
+T10	lifestyle_factor 837 851	sleep duration
+T11	disease 959 965	asthma
+T12	disease 1111 1117	asthma
+T13	lifestyle_factor 1265 1279	sleep duration
+T14	disease 1330 1336	asthma
+T15	disease 1422 1428	asthma
+T16	Out-of-scope 837 842	sleep
+T17	lifestyle_factor 907 921	short-sleepers
+R1	positive_statistical_association Arg1:T17 Arg2:T11
+T18	lifestyle_factor 1029 1046	adequate sleepers
+R3	negative_statistical_association Arg1:T13 Arg2:T14

@@ -1,0 +1,38 @@
+T1	disease 21 34	breast cancer
+T2	lifestyle_factor 109 122	hair products
+T3	disease 145 158	breast cancer
+T4	lifestyle_factor 232 241	hair dyes
+T6	disease 390 403	breast cancer
+T7	disease 884 897	breast cancer
+T8	lifestyle_factor 1167 1176	hair dyes
+T9	disease 1228 1241	breast cancer
+T10	lifestyle_factor 1250 1264	dark hair dyes
+T11	lifestyle_factor 1505 1518	hair products
+T12	disease 1523 1536	breast cancer
+T13	lifestyle_factor 1562 1575	hair products
+T14	disease 1615 1628	breast cancer
+R1	Out-of-scope Arg1:T2 Arg2:T3
+R2	statistical_association Arg1:T11 Arg2:T12
+R4	positive_statistical_association Arg1:T8 Arg2:T9
+T15	lifestyle_factor 0 12	Hair product
+T17	lifestyle_factor 214 226	hair product
+T18	lifestyle_factor 243 260	chemical relaxers
+T19	lifestyle_factor 280 312	placenta-containing conditioners
+T20	lifestyle_factor 725 732	relaxer
+T21	lifestyle_factor 1147 1162	use of relaxers
+T22	lifestyle_factor 1343 1354	relaxer use
+T23	lifestyle_factor 1095 1106	relaxer use
+T24	lifestyle_factor 651 659	hair dye
+T25	lifestyle_factor 752 772	deep conditioner use
+T26	lifestyle_factor 833 846	dark hair dye
+R6	positive_statistical_association Arg1:T26 Arg2:T7
+T27	lifestyle_factor 945 956	dark shades
+T28	disease 1068 1079	ER+ disease
+R7	positive_statistical_association Arg1:T27 Arg2:T28
+R8	positive_statistical_association Arg1:T23 Arg2:T9
+R9	positive_statistical_association Arg1:T21 Arg2:T9
+T29	disease 1295 1306	ER+ disease
+T30	disease 1385 1396	ER- disease
+R10	positive_statistical_association Arg1:T22 Arg2:T30
+R11	positive_statistical_association Arg1:T10 Arg2:T29
+T5	Out-of-scope 182 191	equivocal

@@ -1,0 +1,38 @@
+T1	disease 58 65	obesity
+T2	disease 146 153	obesity
+T3	lifestyle_factor 423 438	under-nutrition
+T4	disease 454 461	obesity
+T5	disease 546 553	obesity
+T6	disease 666 673	obesity
+T7	lifestyle_factor 1701 1712	high school
+T8	lifestyle_factor 2044 2076	active travel to and from school
+T9	lifestyle_factor 2126 2145	sedentary behaviors
+T10	lifestyle_factor 2323 2332	junk food
+T11	disease 2436 2443	obesity
+T12	lifestyle_factor 2574 2595	active transportation
+T13	Out-of-scope 429 438	nutrition
+T14	lifestyle_factor 2714 2731	physical activity
+T15	lifestyle_factor 99 104	urban
+T16	lifestyle_factor 680 685	urban
+T17	lifestyle_factor 2268 2273	urban
+T19	Out-of-scope 2328 2332	food
+T20	lifestyle_factor 2698 2702	food
+T21	lifestyle_factor 80 86	school
+T22	lifestyle_factor 694 700	school
+T23	Out-of-scope 1706 1712	school
+T25	Out-of-scope 2445 2451	School
+T26	lifestyle_factor 2599 2605	school
+T27	lifestyle_factor 2349 2367	sedentary activity
+T28	lifestyle_factor 1971 2002	energy-dense less nutrient food
+R1	positive_statistical_association Arg1:T10 Arg2:T11
+R2	statistical_association Arg1:T27 Arg2:T11
+T18	Out-of-scope 2311 2316	obese
+T29	Out-of-scope 2207 2212	obese
+R3	Out-of-scope Arg1:T28 Arg2:T29
+R4	Out-of-scope Arg1:T8 Arg2:T29
+R5	Out-of-scope Arg1:T9 Arg2:T29
+T30	lifestyle_factor 2513 2531	energy-dense foods
+T31	lifestyle_factor 1748 1777	university level of education
+T32	lifestyle_factor 1069 1084	private schools
+T33	lifestyle_factor 941 956	private schools
+T34	lifestyle_factor 2547 2563	active lifestyle

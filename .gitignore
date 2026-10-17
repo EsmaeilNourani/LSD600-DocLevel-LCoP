@@ -1,0 +1,57 @@
+# ==============================================================================
+# Model Weights & Large Checkpoints (>50MB / >100MB)
+# ==============================================================================
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.h5
+*.ckpt
+*.tar.gz
+*.zip
+
+# Explicit model weights
+models/pretrained_roberta_lsd600/pytorch_model.bin
+models/**/*.bin
+models/**/*.pt
+
+# Checkpoint binaries
+models/checkpoints_doc_level_lcop/*.pt
+models/checkpoints_doc_level_lcop/*_preds*/
+models/checkpoints_doc_level_lcop/*_predictions*/
+models/idea2_hierarchical_model/*.pt
+output/
+
+# ==============================================================================
+# macOS & Google Drive Artifacts
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+"Icon\r"
+Students
+.agents/
+
+# ==============================================================================
+# Python & Environment Artifacts
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+
+# ==============================================================================
+# Jupyter & Colab Temporary Files
+# ==============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*

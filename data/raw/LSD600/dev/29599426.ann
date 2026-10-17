@@ -1,0 +1,32 @@
+T2	lifestyle_factor 17 49	leisure time physical inactivity
+T3	disease 66 82	type II diabetes
+T4	disease 87 99	hypertension
+T5	lifestyle_factor 196 215	physical inactivity
+T8	disease 395 411	type II diabetes
+T9	disease 422 434	hypertension
+T11	lifestyle_factor 612 622	low-income
+T12	disease 688 700	hypertension
+T13	disease 825 837	hypertension
+T15	disease 1002 1014	hypertension
+T17	disease 1143 1155	hypertension
+T20	lifestyle_factor 372 376	MVPA
+T22	lifestyle_factor 962 966	MVPA
+R2	negative_statistical_association Arg1:T22 Arg2:T15
+T23	lifestyle_factor 1214 1218	MVPA
+T24	lifestyle_factor 765 769	MVPA
+R3	negative_statistical_association Arg1:T24 Arg2:T13
+T25	disease 1223 1226	T2D
+T26	disease 413 416	T2D
+*	Equiv T26 T8
+T27	disease 680 683	T2D
+T28	disease 871 874	T2D
+T19	disease 220 236	chronic diseases
+R4	no_statistical_association Arg1:T23 Arg2:T25
+R5	negative_statistical_association Arg1:T24 Arg2:T28
+T10	Out-of-scope 746 761	<1 MET/min/week
+T14	Out-of-scope 930 945	<1 MET/min/week
+T16	Out-of-scope 1061 1068	absence
+T6	lifestyle_factor 332 370	moderate-to-vigorous physical activity
+*	Equiv T6 T20
+T30	lifestyle_factor 1097 1101	MVPA
+R6	negative_statistical_association Arg1:T30 Arg2:T17

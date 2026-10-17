@@ -1,0 +1,24 @@
+T1	Out-of-scope 17 44	folate metabolizing enzymes
+T2	disease 84 97	breast cancer
+T3	lifestyle_factor 214 220	folate
+T4	disease 276 289	breast cancer
+T5	Out-of-scope 341 360	transport of folate
+T6	lifestyle_factor 436 442	folate
+T7	disease 447 460	breast cancer
+T8	Out-of-scope 574 580	folate
+T9	disease 611 624	breast cancer
+T10	disease 634 647	breast cancer
+T11	disease 880 893	breast cancer
+T12	Out-of-scope 1010 1016	folate
+T13	disease 1051 1064	breast cancer
+T14	lifestyle_factor 238 247	B-vitamin
+R1	negative_statistical_association Arg1:T3 Arg2:T4
+R2	negative_statistical_association Arg1:T14 Arg2:T4
+T16	Out-of-scope 91 97	cancer
+T17	Out-of-scope 283 289	cancer
+T18	Out-of-scope 454 460	cancer
+T19	Out-of-scope 618 624	cancer
+T20	Out-of-scope 641 647	cancer
+T21	Out-of-scope 887 893	cancer
+T22	Out-of-scope 1058 1064	cancer
+R3	statistical_association Arg1:T6 Arg2:T7

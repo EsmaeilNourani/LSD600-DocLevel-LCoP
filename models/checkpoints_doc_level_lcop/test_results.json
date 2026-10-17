@@ -1,0 +1,58 @@
+{
+  "best_dev_f1": 56.6,
+  "test_precision": 47.6,
+  "test_recall": 57.3,
+  "test_f1": 52.0,
+  "per_class": {
+    "causes": {
+      "precision": 68.9,
+      "recall": 44.3,
+      "f1": 53.9
+    },
+    "controls": {
+      "precision": 25.0,
+      "recall": 20.0,
+      "f1": 22.2
+    },
+    "prevents": {
+      "precision": 53.6,
+      "recall": 62.5,
+      "f1": 57.7
+    },
+    "treats": {
+      "precision": 73.1,
+      "recall": 45.2,
+      "f1": 55.9
+    },
+    "statistical_association": {
+      "precision": 77.4,
+      "recall": 52.6,
+      "f1": 62.6
+    },
+    "positive_statistical_association": {
+      "precision": 34.7,
+      "recall": 83.7,
+      "f1": 49.0
+    },
+    "negative_statistical_association": {
+      "precision": 41.9,
+      "recall": 79.5,
+      "f1": 54.9
+    },
+    "no_statistical_association": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "direct_causal": {
+    "precision": 64.1,
+    "recall": 46.8,
+    "f1": 54.1
+  },
+  "statistical_association": {
+    "precision": 42.7,
+    "recall": 63.7,
+    "f1": 51.1
+  }
+}

@@ -1,0 +1,23 @@
+T4	lifestyle_factor 439 455	sleep-wake cycle
+T5	lifestyle_factor 555 563	sleeping
+T3	lifestyle_factor 1164 1187	normal sleep regulation
+T6	lifestyle_factor 1027 1044	sleep disturbance
+T8	lifestyle_factor 568 574	waking
+T9	lifestyle_factor 1069 1087	daytime sleepiness
+T10	disease 25 40	sleep disorders
+T11	disease 67 81	Norrie disease
+T12	disease 83 104	Prader-Willi syndrome
+T13	disease 171 198	inborn errors of metabolism
+T14	disease 590 613	fatal familial insomnia
+T16	disease 676 690	Norrie disease
+T17	disease 696 717	Prader-Willi syndrome
+R2	causes Arg1:T16 Arg2:T6
+R3	causes Arg1:T17 Arg2:T6
+R5	causes Arg1:T16 Arg2:T9
+R6	causes Arg1:T17 Arg2:T9
+T2	disease 726 742	Moebius syndrome
+#2	AnnotatorNotes T2	https://www.informatics.jax.org/disease/157900
+T7	disease 1056 1067	parasomnias
+#3	AnnotatorNotes T7	https://icd.who.int/browse10/2019/en#/G47.8
+R1	causes Arg1:T2 Arg2:T6
+R4	causes Arg1:T2 Arg2:T9

@@ -1,0 +1,45 @@
+T1	lifestyle_factor 0 25	Vitamin D supplementation
+T2	disease 37 43	asthma
+T3	lifestyle_factor 66 109	traffic-related particulate matter exposure
+T7	disease 499 505	asthma
+T8	disease 519 525	asthma
+T10	disease 704 710	asthma
+T12	disease 790 796	asthma
+T13	Out-of-scope 836 845	vitamin D
+T14	disease 877 883	asthma
+T17	Out-of-scope 1388 1397	vitamin D
+T18	disease 1431 1437	asthma
+T19	lifestyle_factor 1500 1509	vitamin D
+T20	disease 1537 1543	asthma
+T21	Out-of-scope 1611 1632	vitamin D replacement
+T22	disease 1661 1667	asthma
+T23	Out-of-scope 1691 1700	vitamin D
+T24	disease 1804 1819	allergic asthma
+T25	disease 1904 1910	asthma
+R1	controls Arg1:T1 Arg2:T2
+R2	causes Arg1:T3 Arg2:T2
+R3	prevents Arg1:T19 Arg2:T20
+T26	lifestyle_factor 432 457	vitamin D supplementation
+T27	lifestyle_factor 598 623	vitamin D supplementation
+T28	lifestyle_factor 761 786	vitamin D supplementation
+T29	lifestyle_factor 1172 1197	vitamin D supplementation
+T30	disease 173 192	vitamin D deficient
+T31	lifestyle_factor 267 271	TRAP
+T32	lifestyle_factor 375 379	TRAP
+T33	lifestyle_factor 482 486	TRAP
+T34	lifestyle_factor 236 265	traffic-related air pollution
+*	Equiv T34 T31
+T35	lifestyle_factor 902 925	diesel exhaust particle
+T36	lifestyle_factor 927 930	DEP
+*	Equiv T36 T35
+T37	lifestyle_factor 951 954	DEP
+T38	lifestyle_factor 959 967	allergen
+T41	disease 1096 1115	vitamin D-deficient
+T42	lifestyle_factor 1321 1325	TRAP
+T43	lifestyle_factor 1350 1358	allergen
+T44	lifestyle_factor 1587 1591	TRAP
+T45	lifestyle_factor 1788 1791	DEP
+T49	lifestyle_factor 1330 1338	allergen
+R7	causes Arg1:T45 Arg2:T24
+R4	Out-of-scope Arg1:T30 Arg2:T34
+R5	causes Arg1:T44 Arg2:T20

@@ -1,0 +1,30 @@
+T1	disease 54 94	attention-deficit hyperactivity disorder
+T2	disease 271 311	attention-deficit hyperactivity disorder
+T3	disease 313 317	ADHD
+T4	lifestyle_factor 383 396	psychotherapy
+T5	disease 670 674	ADHD
+T6	disease 791 795	ADHD
+T7	disease 865 869	ADHD
+T8	disease 1031 1035	ADHD
+T9	lifestyle_factor 1275 1288	psychotherapy
+T10	lifestyle_factor 1367 1380	psychotherapy
+T11	lifestyle_factor 1588 1601	psychotherapy
+T12	lifestyle_factor 1777 1790	psychotherapy
+T13	lifestyle_factor 1980 1993	psychotherapy
+*	Equiv T3 T2
+R1	treats Arg1:T4 Arg2:T2
+T16	lifestyle_factor 404 429	mental health counselling
+R7	treats Arg1:T16 Arg2:T2
+T17	lifestyle_factor 1296 1321	mental health counselling
+T18	lifestyle_factor 1798 1823	mental health counselling
+T19	lifestyle_factor 2001 2026	mental health counselling
+T20	lifestyle_factor 1609 1634	mental health counselling
+T21	lifestyle_factor 1388 1413	mental health counselling
+T22	Out-of-scope 1163 1172	stimulant
+T23	Out-of-scope 1249 1258	stimulant
+T24	lifestyle_factor 1954 1963	stimulant
+T25	disease 821 835	mental illness
+T26	disease 887 901	mental illness
+T27	disease 1074 1088	mental illness
+T28	Out-of-scope 355 370	pharmacotherapy
+T14	Out-of-scope 345 354	stimulant

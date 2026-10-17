@@ -1,0 +1,39 @@
+T1	disease 54 61	obesity
+T2	lifestyle_factor 76 95	kindergarten school
+T3	lifestyle_factor 207 216	nutrition
+T4	lifestyle_factor 246 261	under-nutrition
+T5	disease 353 360	obesity
+T6	lifestyle_factor 469 481	malnutrition
+T7	lifestyle_factor 498 512	over nutrition
+T8	lifestyle_factor 593 607	socio-economic
+T9	disease 711 718	obesity
+T10	lifestyle_factor 733 745	kindergarten
+T11	lifestyle_factor 1026 1038	Kindergarten
+T12	lifestyle_factor 1039 1048	preschool
+T13	lifestyle_factor 1074 1088	socio-economic
+T14	lifestyle_factor 1288 1297	Nutrition
+T15	disease 1487 1494	obesity
+T16	disease 1655 1662	obesity
+T17	disease 1725 1732	obesity
+T18	disease 1793 1800	obesity
+T19	disease 2078 2085	obesity
+T20	lifestyle_factor 2100 2112	kindergarten
+T21	lifestyle_factor 2113 2122	preschool
+T22	lifestyle_factor 2214 2233	physical activities
+T23	disease 2282 2289	obesity
+T24	Out-of-scope 252 261	nutrition
+T25	Out-of-scope 503 512	nutrition
+T26	lifestyle_factor 2308 2313	urban
+T28	lifestyle_factor 746 752	school
+T29	lifestyle_factor 826 832	school
+T30	lifestyle_factor 488 493	under
+R1	Out-of-scope Arg1:T8 Arg2:T7
+R2	Out-of-scope Arg1:T8 Arg2:T30
+R3	controls Arg1:T22 Arg2:T23
+R4	Out-of-scope Arg1:T20 Arg2:T19
+R5	Out-of-scope Arg1:T21 Arg2:T19
+T31	lifestyle_factor 1837 1860	dietary diversity score
+#1	AnnotatorNotes R1	observation
+R6	positive_statistical_association Arg1:T31 Arg2:T18
+T27	lifestyle_factor 1862 1865	DDS
+*	Equiv T31 T27

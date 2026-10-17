@@ -1,0 +1,71 @@
+T3	disease 279 293	osteoarthritis
+T5	lifestyle_factor 488 496	caffeine
+T6	disease 588 600	osteoporosis
+T8	lifestyle_factor 1068 1079	supplements
+T10	lifestyle_factor 1349 1373	body building supplement
+T11	lifestyle_factor 1442 1456	weight lifting
+T13	disease 2136 2151	atherosclerosis
+T14	disease 2203 2225	coronary heart disease
+T17	disease 2308 2320	hypertension
+T18	disease 2351 2371	hyperhomocysteinemia
+T19	lifestyle_factor 2402 2412	folic acid
+T20	lifestyle_factor 2417 2427	vitamin B6
+T21	lifestyle_factor 2436 2447	supplements
+T23	lifestyle_factor 2728 2737	vitamin E
+T24	lifestyle_factor 3098 3107	Vitamin E
+T27	lifestyle_factor 3583 3594	supplements
+T28	lifestyle_factor 3605 3616	supplements
+T29	lifestyle_factor 3758 3769	supplements
+T30	lifestyle_factor 3866 3876	folic acid
+T31	lifestyle_factor 3906 3915	vitamin E
+T34	lifestyle_factor 115 124	nutrition
+T35	lifestyle_factor 0 9	Nutrition
+T38	disease 2981 3003	cardiovascular disease
+T39	disease 1995 2019	cardiovascular disorders
+T40	lifestyle_factor 1927 1935	exercise
+T42	lifestyle_factor 14 33	dietary supplements
+T43	lifestyle_factor 129 148	dietary supplements
+T44	lifestyle_factor 450 469	Dietary supplements
+T45	lifestyle_factor 3301 3320	dietary supplements
+T46	lifestyle_factor 3484 3503	dietary supplements
+T47	lifestyle_factor 177 196	Glucosamine sulfate
+T48	lifestyle_factor 201 220	chondroitin sulfate
+T51	lifestyle_factor 473 482	ephedrine
+T52	lifestyle_factor 673 692	Phenylpropanolamine
+T53	lifestyle_factor 927 941	Cola acuminata
+T54	lifestyle_factor 943 954	dwarf elder
+T55	lifestyle_factor 956 965	Yohimbine
+T56	lifestyle_factor 971 989	Garcinia camborgia
+T57	lifestyle_factor 749 768	phenylpropanolamine
+T58	lifestyle_factor 735 744	ephedrine
+T59	lifestyle_factor 1335 1343	Chromium
+T60	lifestyle_factor 1416 1424	Creatine
+T61	lifestyle_factor 1557 1577	Carbohydrate loading
+T62	lifestyle_factor 1967 1990	Nutritional supplements
+R4	prevents Arg1:T62 Arg2:T39
+T15	lifestyle_factor 2767 2774	vitamin
+T64	lifestyle_factor 3882 3885	B12
+T65	lifestyle_factor 3887 3900	soluble fiber
+T66	lifestyle_factor 1142 1150	Garcinia
+T78	lifestyle_factor 898 921	weight loss supplements
+T79	lifestyle_factor 1299 1322	weight loss supplements
+T1	Out-of-scope 340 376	nonsteroidal anti-inflammatory drugs
+T2	disease 2531 2554	atherosclerotic disease
+T4	lifestyle_factor 2431 2434	B12
+R7	treats Arg1:T47 Arg2:T3
+R8	treats Arg1:T48 Arg2:T3
+T7	disease 3145 3166	restenosis after PTCA
+R9	prevents Arg1:T24 Arg2:T7
+T9	lifestyle_factor 2611 2624	Soluble fiber
+T12	lifestyle_factor 3678 3682	drug
+T25	lifestyle_factor 1681 1699	sport performances
+T26	lifestyle_factor 3249 3266	developed country
+T22	Out-of-scope 717 728	weight loss
+#1	AnnotatorNotes T22	# TODO: check
+R6	treats Arg1:T19 Arg2:T18
+R10	treats Arg1:T20 Arg2:T18
+R11	treats Arg1:T4 Arg2:T18
+R13	controls Arg1:T23 Arg2:T38
+T16	lifestyle_factor 2235 2280	low meat, high fruit, and vegetable DASH diet
+R1	controls Arg1:T16 Arg2:T17
+R2	treats Arg1:T21 Arg2:T18

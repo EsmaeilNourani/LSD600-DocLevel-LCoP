@@ -1,0 +1,33 @@
+T1	disease 415 422	cancers
+T2	disease 531 538	cancers
+T3	disease 716 734	colorectal cancers
+T4	lifestyle_factor 820 835	passive smoking
+T5	lifestyle_factor 853 873	exposure to asbestos
+T7	lifestyle_factor 920 938	ionising radiation
+T8	disease 940 947	obesity
+T9	disease 1064 1071	cancers
+T10	disease 1241 1248	cancers
+T11	lifestyle_factor 1312 1319	Smoking
+T13	disease 1560 1567	cancers
+T14	disease 1759 1779	female breast cancer
+T15	disease 1784 1801	colorectal cancer
+T16	lifestyle_factor 1483 1498	tobacco smoking
+T17	lifestyle_factor 837 844	alcohol
+T19	disease 1 7	Cancer
+T20	disease 123 129	cancer
+T21	disease 263 269	cancer
+T22	disease 462 468	cancer
+T23	disease 1409 1415	cancer
+T24	disease 1863 1869	cancer
+T25	lifestyle_factor 910 915	solar
+T26	disease 949 979	human papillomavirus infection
+T27	disease 1013 1047	infection with Helicobacter pylori
+T33	disease 705 711	breast
+T34	lifestyle_factor 809 815	active
+T6	Out-of-scope 556 643	lungs, larynx, upper digestive tract, skin, lower urinary tract, and the uterine cervix
+R1	causes Arg1:T3 Arg2:T34
+R2	causes Arg1:T34 Arg2:T8
+R3	causes Arg1:T34 Arg2:T27
+R4	causes Arg1:T4 Arg2:T26
+R5	causes Arg1:T4 Arg2:T27
+R6	prevents Arg1:T23 Arg2:T16

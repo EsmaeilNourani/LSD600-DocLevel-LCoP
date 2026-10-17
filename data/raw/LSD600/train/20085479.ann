@@ -1,0 +1,37 @@
+T2	lifestyle_factor 195 203	painting
+T3	disease 244 259	bladder cancers
+T4	lifestyle_factor 409 417	painting
+T5	disease 428 435	cancers
+T6	lifestyle_factor 688 708	socioeconomic status
+T7	disease 850 857	cancers
+T8	disease 863 874	lung cancer
+T9	disease 1026 1037	lung cancer
+T10	disease 1187 1201	bladder cancer
+T11	lifestyle_factor 1385 1396	occupations
+T12	disease 1453 1468	bladder cancers
+T13	disease 1534 1545	lung cancer
+T14	lifestyle_factor 1806 1814	painting
+T15	disease 1828 1843	bladder cancers
+T17	lifestyle_factor 1988 1996	painting
+T18	Out-of-scope 1379 1396	mixed occupations
+T19	lifestyle_factor 679 686	smoking
+T20	lifestyle_factor 812 819	smoking
+T21	lifestyle_factor 1523 1530	smoking
+T22	lifestyle_factor 1644 1651	smoking
+T23	lifestyle_factor 710 713	SES
+*	Equiv T23 T6
+T24	lifestyle_factor 1490 1493	SES
+T25	lifestyle_factor 1656 1659	SES
+T26	disease 235 239	lung
+R1	causes Arg1:T2 Arg2:T26
+R2	causes Arg1:T2 Arg2:T3
+T27	disease 1874 1878	lung
+T28	disease 1819 1823	lung
+T29	disease 1444 1448	lung
+R3	positive_statistical_association Arg1:T20 Arg2:T7
+T31	Out-of-scope 157 163	Cancer
+T41	lifestyle_factor 44 51	painter
+R4	positive_statistical_association Arg1:T20 Arg2:T26
+R5	positive_statistical_association Arg1:T20 Arg2:T3
+T1	disease 56 60	lung
+T16	disease 65 79	bladder cancer

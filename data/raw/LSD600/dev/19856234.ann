@@ -1,0 +1,12 @@
+T4	lifestyle_factor 466 469	EBT
+T5	lifestyle_factor 875 878	EBT
+T6	lifestyle_factor 678 681	EBT
+T8	lifestyle_factor 803 806	EBT
+T9	lifestyle_factor 588 591	EBT
+T1	lifestyle_factor 16 46	evidence-based psychotherapies
+T10	lifestyle_factor 905 909	EBTs
+T2	lifestyle_factor 248 287	evidence-based psychological treatments
+T11	lifestyle_factor 557 560	EBT
+T14	lifestyle_factor 289 293	EBTs
+T15	lifestyle_factor 379 386	therapy
+*	Equiv T2 T14

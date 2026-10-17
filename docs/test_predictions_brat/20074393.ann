@@ -1,0 +1,33 @@
+T1	disease 27 34	obesity
+T2	disease 81 88	Obesity
+T3	disease 281 288	obesity
+T4	disease 359 366	obesity
+T5	disease 602 609	obesity
+T7	disease 844 851	obesity
+T8	lifestyle_factor 898 928	leisure-time physical activity
+T9	disease 968 975	obesity
+T10	disease 1115 1122	obesity
+T11	lifestyle_factor 1167 1191	sugar-sweetened beverage
+T12	lifestyle_factor 1251 1270	watching television
+T13	disease 1366 1373	obesity
+T14	disease 1516 1523	obesity
+T15	lifestyle_factor 1525 1544	watching television
+T16	lifestyle_factor 1546 1565	sedentary lifestyle
+T17	lifestyle_factor 1585 1610	sugar-sweetened beverages
+T18	disease 1652 1659	obesity
+T19	disease 1729 1736	obesity
+T20	lifestyle_factor 1468 1482	breast-feeding
+T21	lifestyle_factor 862 876	Breast-feeding
+T22	lifestyle_factor 229 243	breast-feeding
+T23	lifestyle_factor 293 313	sedentary behaviours
+T24	lifestyle_factor 245 261	dietary patterns
+T6	lifestyle_factor 483 500	secondary schools
+T25	lifestyle_factor 471 478	primary
+R1	negative_statistical_association Arg1:T21 Arg2:T9
+R2	negative_statistical_association Arg1:T8 Arg2:T9
+R3	positive_statistical_association Arg1:T11 Arg2:T13
+R4	positive_statistical_association Arg1:T12 Arg2:T13
+R5	negative_statistical_association Arg1:T20 Arg2:T18
+R6	positive_statistical_association Arg1:T15 Arg2:T18
+R7	positive_statistical_association Arg1:T16 Arg2:T18
+R8	positive_statistical_association Arg1:T17 Arg2:T18

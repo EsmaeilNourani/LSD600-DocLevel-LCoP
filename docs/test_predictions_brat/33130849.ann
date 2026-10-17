@@ -1,0 +1,25 @@
+T2	disease 38 46	COVID-19
+T3	lifestyle_factor 77 93	personal hygiene
+T5	disease 201 209	COVID-19
+T6	lifestyle_factor 234 250	personal hygiene
+T8	lifestyle_factor 620 636	personal hygiene
+T9	lifestyle_factor 1225 1238	washing hands
+T10	disease 1387 1395	COVID-19
+T11	lifestyle_factor 1449 1465	personal hygiene
+T12	disease 1513 1521	COVID-19
+T13	lifestyle_factor 942 946	food
+T14	lifestyle_factor 392 409	hygiene practices
+T1	disease 12 36	Coronavirus Disease 2019
+T7	disease 175 199	Coronavirus Disease 2019
+*	Equiv T2 T1
+T15	lifestyle_factor 777 781	soap
+T16	lifestyle_factor 1244 1248	soap
+*	Equiv T7 T5
+T4	lifestyle_factor 856 866	face masks
+T17	lifestyle_factor 721 739	washed their hands
+T18	lifestyle_factor 785 801	wash their hands
+T19	lifestyle_factor 818 832	hand sanitizer
+T20	lifestyle_factor 892 910	washed their hands
+T21	lifestyle_factor 1102 1113	shake hands
+R1	causes Arg1:T10 Arg2:T11
+R2	prevents Arg1:T11 Arg2:T12

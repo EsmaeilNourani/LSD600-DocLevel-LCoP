@@ -1,0 +1,35 @@
+T1	disease 17 33	Type II diabetes
+T2	disease 38 58	diabetic retinopathy
+T3	disease 134 150	type II diabetes
+T4	disease 155 175	diabetic retinopathy
+T5	disease 543 551	Diabetes
+T6	disease 651 667	type II diabetes
+T7	disease 682 702	Diabetic retinopathy
+T8	disease 765 773	diabetes
+T9	disease 844 852	diabetes
+T10	disease 912 928	type II diabetes
+T11	lifestyle_factor 950 960	low-income
+T12	lifestyle_factor 975 981	income
+T13	disease 1002 1010	Diabetes
+T14	lifestyle_factor 1083 1089	income
+T15	disease 1208 1216	diabetes
+T16	disease 1336 1344	diabetes
+T17	lifestyle_factor 1355 1361	income
+T18	disease 1583 1591	diabetes
+T19	disease 1617 1637	diabetic retinopathy
+T20	lifestyle_factor 1654 1664	low-income
+T21	disease 1705 1713	diabetes
+T23	lifestyle_factor 1785 1791	income
+R1	positive_statistical_association Arg1:T20 Arg2:T21
+R3	negative_statistical_association Arg1:T14 Arg2:T13
+T25	lifestyle_factor 1096 1105	education
+R4	negative_statistical_association Arg1:T25 Arg2:T13
+T26	disease 1377 1402	proliferative retinopathy
+R5	negative_statistical_association Arg1:T17 Arg2:T26
+T27	lifestyle_factor 1530 1543	socioeconomic
+R6	statistical_association Arg1:T27 Arg2:T18
+T28	lifestyle_factor 1297 1302	smoke
+T29	lifestyle_factor 825 838	socioeconomic
+T22	disease 1722 1754	ocular complications of diabetes
+R10	positive_statistical_association Arg1:T20 Arg2:T22
+R7	statistical_association Arg1:T27 Arg2:T19

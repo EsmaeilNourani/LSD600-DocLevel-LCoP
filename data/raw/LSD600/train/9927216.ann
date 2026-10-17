@@ -1,0 +1,17 @@
+T2	disease 90 107	diabetes mellitus
+T4	disease 298 306	diabetes
+T5	disease 491 508	diabetes mellitus
+T7	disease 852 860	diabetes
+T9	disease 1029 1048	glucose intolerance
+T10	lifestyle_factor 1109 1118	bicycling
+T11	lifestyle_factor 1229 1235	sports
+T12	lifestyle_factor 1455 1474	physical inactivity
+T13	disease 1479 1498	glucose intolerance
+R1	statistical_association Arg1:T12 Arg2:T13
+T14	lifestyle_factor 0 17	Physical activity
+T15	lifestyle_factor 205 222	physical activity
+T16	lifestyle_factor 551 568	Physical activity
+T17	lifestyle_factor 985 1002	physical activity
+T18	lifestyle_factor 866 873	smoking
+R2	negative_statistical_association Arg1:T17 Arg2:T9
+T19	lifestyle_factor 1081 1100	vigorous activities

@@ -1,0 +1,29 @@
+T1	disease 50 62	hypertension
+T2	disease 75 87	Hypertension
+T3	disease 232 244	hypertension
+T4	disease 533 545	hypertension
+T5	Out-of-scope 629 641	Hypertension
+T7	lifestyle_factor 722 732	vegetables
+T8	lifestyle_factor 742 753	dairy foods
+T9	lifestyle_factor 823 832	DASH diet
+T10	lifestyle_factor 912 921	DASH diet
+T11	lifestyle_factor 1041 1050	DASH diet
+T12	lifestyle_factor 1058 1075	Physical exercise
+T13	Out-of-scope 1488 1502	Kidney Disease
+T14	Out-of-scope 1507 1519	Hypertension
+T15	disease 1708 1721	renal failure
+T16	disease 1750 1761	nephropathy
+T17	disease 1788 1796	diabetes
+T18	Out-of-scope 1067 1075	exercise
+T19	Out-of-scope 1634 1641	calcium
+T20	lifestyle_factor 1258 1267	diuretics
+T21	lifestyle_factor 1451 1456	drugs
+T22	lifestyle_factor 734 741	low-fat
+T23	lifestyle_factor 770 783	saturated fat
+T24	lifestyle_factor 791 794	fat
+T25	lifestyle_factor 940 954	dietary sodium
+T27	Out-of-scope 842 856	blood pressure
+T28	Out-of-scope 999 1013	blood pressure
+T29	Out-of-scope 1141 1155	blood pressure
+T6	lifestyle_factor 714 720	fruits
+T26	lifestyle_factor 701 705	diet

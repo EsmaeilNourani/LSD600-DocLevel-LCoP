@@ -1,0 +1,30 @@
+T1	disease 22 29	obesity
+T2	disease 153 160	Obesity
+T3	lifestyle_factor 198 210	Malnutrition
+T4	lifestyle_factor 276 296	developing countries
+T5	disease 308 315	obesity
+T6	disease 441 448	obesity
+T7	lifestyle_factor 452 472	developing countries
+T8	disease 551 558	obesity
+T9	disease 1270 1277	obesity
+T10	disease 1429 1436	obesity
+T11	lifestyle_factor 1607 1631	high socioeconomic class
+T12	lifestyle_factor 1814 1834	sedentary life style
+T13	lifestyle_factor 1862 1873	watching TV
+T14	disease 2064 2071	obesity
+T15	disease 2101 2108	obesity
+T16	lifestyle_factor 2231 2243	healthy diet
+T17	lifestyle_factor 1675 1690	sweetened foods
+T18	lifestyle_factor 1749 1766	physical exercise
+T19	lifestyle_factor 1910 1923	computer game
+R4	positive_statistical_association Arg1:T17 Arg2:T14
+R1	positive_statistical_association Arg1:T11 Arg2:T14
+R2	negative_statistical_association Arg1:T18 Arg2:T14
+T21	disease 338 353	chronic disease
+T22	lifestyle_factor 1535 1549	private school
+R3	positive_statistical_association Arg1:T22 Arg2:T14
+R5	positive_statistical_association Arg1:T13 Arg2:T14
+R6	positive_statistical_association Arg1:T19 Arg2:T14
+T20	Out-of-scope 655 661	school
+T23	lifestyle_factor 1967 1987	having close friends
+R7	negative_statistical_association Arg1:T23 Arg2:T14

@@ -1,0 +1,36 @@
+T1	lifestyle_factor 0 17	Sleep deprivation
+T2	disease 44 58	uterine cancer
+T3	lifestyle_factor 280 297	sleep deprivation
+T4	disease 335 365	post-traumatic stress disorder
+T5	lifestyle_factor 864 878	sleep patterns
+T6	disease 885 899	uterine cancer
+T7	disease 1035 1049	uterine cancer
+T8	lifestyle_factor 1363 1380	sleep deprivation
+T9	disease 1407 1421	uterine cancer
+T10	disease 1504 1518	uterine cancer
+T11	lifestyle_factor 1577 1590	sleep quality
+T12	disease 1685 1699	uterine cancer
+T14	disease 1827 1841	uterine cancer
+T15	lifestyle_factor 1864 1881	sleep deprivation
+T16	disease 1960 1974	uterine cancer
+T17	lifestyle_factor 2000 2010	sleep loss
+T18	lifestyle_factor 2105 2117	healthy diet
+T19	disease 313 319	cancer
+T20	disease 367 371	PTSD
+*	Equiv T20 T4
+T21	lifestyle_factor 2133 2150	physical activity
+T22	disease 2278 2288	depression
+R1	causes Arg1:T14 Arg2:T15
+T23	lifestyle_factor 1719 1732	sleep quality
+T25	Out-of-scope 1091 1105	pharmaceutical
+T27	lifestyle_factor 2028 2056	cognitive behavioral therapy
+T28	lifestyle_factor 2182 2208	cognitive behavior therapy
+T29	lifestyle_factor 2340 2343	CBT
+T30	disease 769 775	cancer
+T31	disease 110 116	cancer
+T32	disease 682 688	cancer
+T41	lifestyle_factor 2236 2253	training programs
+R8	Out-of-scope Arg1:T31 Arg2:T3
+T24	Out-of-scope 488 493	tumor
+#1	AnnotatorNotes R8	observation
+T13	Out-of-scope 117 125	survival

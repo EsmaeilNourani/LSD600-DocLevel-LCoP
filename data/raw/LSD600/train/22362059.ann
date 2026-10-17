@@ -1,0 +1,35 @@
+T1	lifestyle_factor 0 14	Sleep duration
+T2	disease 19 37	endometrial cancer
+T3	lifestyle_factor 86 96	shift work
+T4	disease 126 144	endometrial cancer
+T5	lifestyle_factor 276 293	circadian pattern
+T6	lifestyle_factor 342 356	Sleep duration
+T7	lifestyle_factor 535 549	sleep duration
+T8	disease 554 572	endometrial cancer
+T9	disease 742 760	endometrial cancer
+T10	lifestyle_factor 819 833	Sleep duration
+T11	disease 979 997	endometrial cancer
+T12	lifestyle_factor 1272 1286	sleep duration
+T13	disease 1410 1428	endometrial cancer
+T14	lifestyle_factor 1561 1575	sleep duration
+T15	disease 1580 1598	endometrial cancer
+T16	lifestyle_factor 1619 1633	sleep duration
+T17	lifestyle_factor 1793 1803	shift work
+T18	disease 1814 1832	endometrial cancer
+T19	lifestyle_factor 193 202	melatonin
+T20	lifestyle_factor 215 224	Melatonin
+T21	lifestyle_factor 387 396	melatonin
+T22	lifestyle_factor 435 444	melatonin
+T23	lifestyle_factor 1663 1672	melatonin
+T24	Out-of-scope 1720 1729	melatonin
+R1	positive_statistical_association Arg1:T3 Arg2:T4
+T28	Out-of-scope 31 37	cancer
+T29	Out-of-scope 138 144	cancer
+T30	Out-of-scope 566 572	cancer
+T31	Out-of-scope 754 760	cancer
+T32	Out-of-scope 991 997	cancer
+T33	Out-of-scope 1422 1428	cancer
+T34	Out-of-scope 1592 1598	cancer
+T35	Out-of-scope 1826 1832	cancer
+T36	lifestyle_factor 1075 1083	sleeping
+T37	lifestyle_factor 1139 1147	sleeping

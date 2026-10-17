@@ -1,0 +1,30 @@
+T1	lifestyle_factor 465 471	income
+T3	lifestyle_factor 756 776	developing countries
+T5	lifestyle_factor 1677 1683	income
+T6	lifestyle_factor 2075 2104	lower middle-income countries
+T7	lifestyle_factor 2122 2142	low-income countries
+T8	lifestyle_factor 2146 2175	upper middle-income countries
+T9	disease 2311 2334	urinary tract infection
+T10	disease 2430 2453	urinary tract infection
+T11	disease 2528 2551	urinary tract infection
+T12	lifestyle_factor 2573 2602	lower middle-income countries
+T13	lifestyle_factor 2608 2628	low-income countries
+T14	lifestyle_factor 2632 2661	upper middle-income countries
+T15	disease 2695 2718	urinary tract infection
+T16	disease 2795 2804	pneumonia
+T17	disease 2914 2924	pneumonias
+T18	lifestyle_factor 2982 3011	Lower middle-income countries
+T19	disease 3045 3054	pneumonia
+T20	lifestyle_factor 3066 3086	low-income countries
+T21	lifestyle_factor 3090 3119	upper middle-income countries
+T22	lifestyle_factor 3196 3203	hygiene
+T23	lifestyle_factor 3348 3367	socioeconomic level
+T24	lifestyle_factor 3415 3435	developing countries
+R1	positive_statistical_association Arg1:T18 Arg2:T19
+R3	positive_statistical_association Arg1:T12 Arg2:T11
+T25	disease 2044 2065	bloodstream infection
+R2	positive_statistical_association Arg1:T6 Arg2:T25
+T26	disease 1945 1966	bloodstream infection
+T27	disease 1825 1846	bloodstream infection
+T2	lifestyle_factor 0 13	Socioeconomic
+T4	disease 2214 2236	bloodstream infections

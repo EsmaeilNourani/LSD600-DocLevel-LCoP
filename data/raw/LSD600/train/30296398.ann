@@ -1,0 +1,19 @@
+T1	disease 48 56	Diabetes
+T2	disease 105 116	Prediabetes
+T3	disease 406 414	diabetes
+T4	disease 447 458	prediabetes
+T5	disease 609 620	prediabetes
+T8	lifestyle_factor 753 759	income
+T9	disease 921 929	diabetes
+T11	disease 1090 1098	diabetes
+T12	disease 1167 1175	diabetes
+T13	lifestyle_factor 1246 1263	bachelor's degree
+T14	lifestyle_factor 1361 1367	income
+T15	disease 1604 1612	diabetes
+T16	lifestyle_factor 1527 1551	Area-level socioeconomic
+T17	lifestyle_factor 742 751	education
+R4	positive_statistical_association Arg1:T16 Arg2:T15
+T6	Out-of-scope 1556 1560	food
+T7	Out-of-scope 1196 1263	area where less than 16% of adults had obtained a bachelor's degree
+T10	Out-of-scope 1347 1367	median annual income
+T18	Out-of-scope 1589 1600	development

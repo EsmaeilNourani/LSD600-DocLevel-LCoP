@@ -1,0 +1,14 @@
+T1	lifestyle_factor 0 8	Palm oil
+T3	lifestyle_factor 103 111	palm oil
+T6	lifestyle_factor 643 674	saturated fatty acids-rich fats
+T7	lifestyle_factor 601 609	palm oil
+T8	lifestyle_factor 711 732	saturated fatty acids
+T9	lifestyle_factor 768 776	palm oil
+T10	lifestyle_factor 873 901	saturated fatty acids intake
+T11	lifestyle_factor 948 961	balanced diet
+T12	lifestyle_factor 997 1005	palm oil
+T2	disease 1055 1058	CVD
+T4	disease 1062 1068	cancer
+R1	no_statistical_association Arg1:T12 Arg2:T2
+R2	no_statistical_association Arg1:T12 Arg2:T4
+T5	Out-of-scope 963 982	within these limits

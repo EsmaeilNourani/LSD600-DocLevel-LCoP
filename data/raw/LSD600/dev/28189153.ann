@@ -1,0 +1,39 @@
+T1	lifestyle_factor 28 38	Probiotics
+T2	lifestyle_factor 77 87	Probiotics
+T3	lifestyle_factor 270 280	probiotics
+T4	lifestyle_factor 348 358	probiotics
+T5	disease 381 389	diarrhea
+T6	disease 423 431	diarrhea
+T7	disease 447 455	diarrhea
+T8	disease 457 470	atopic eczema
+T9	disease 488 506	colorectal cancers
+T10	disease 525 551	inflammatory bowel disease
+T11	lifestyle_factor 640 650	probiotics
+T12	lifestyle_factor 693 703	probiotics
+T13	lifestyle_factor 793 803	probiotics
+T14	lifestyle_factor 869 879	probiotics
+T15	disease 1331 1355	urinary tract infections
+T16	lifestyle_factor 1872 1882	probiotics
+T17	lifestyle_factor 2398 2408	probiotics
+T18	lifestyle_factor 2495 2505	probiotics
+T19	lifestyle_factor 2760 2770	probiotics
+R1	prevents Arg1:T4 Arg2:T5
+R2	prevents Arg1:T4 Arg2:T6
+R3	prevents Arg1:T4 Arg2:T7
+R4	prevents Arg1:T4 Arg2:T8
+R5	prevents Arg1:T4 Arg2:T9
+R6	treats Arg1:T4 Arg2:T10
+T20	lifestyle_factor 746 755	nutrition
+T22	disease 1320 1327	vaginal
+R8	prevents Arg1:T14 Arg2:T22
+R9	prevents Arg1:T14 Arg2:T15
+T25	lifestyle_factor 1752 1761	probiotic
+T27	lifestyle_factor 2601 2610	probiotic
+T21	disease 472 486	dental carries
+R7	prevents Arg1:T4 Arg2:T21
+T23	lifestyle_factor 1649 1674	probiotic supplementation
+T24	disease 1292 1299	allergy
+T28	disease 1096 1114	enteric infections
+R11	controls Arg1:T14 Arg2:T24
+T26	lifestyle_factor 836 852	functional foods
+R10	controls Arg1:T14 Arg2:T28

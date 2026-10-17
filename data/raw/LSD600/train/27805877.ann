@@ -1,0 +1,8 @@
+T1	lifestyle_factor 64 85	orthodontic treatment
+T2	lifestyle_factor 609 630	orthodontic treatment
+T4	lifestyle_factor 757 778	orthodontic treatment
+T5	disease 12 40	central giant cell granuloma
+T6	disease 103 131	Central giant cell granuloma
+T7	disease 133 137	CGCG
+T8	disease 413 417	CGCG
+*	Equiv T6 T7

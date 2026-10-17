@@ -1,0 +1,38 @@
+T1	lifestyle_factor 11 24	social status
+T2	disease 45 51	asthma
+T3	disease 108 114	Asthma
+T4	lifestyle_factor 193 213	socioeconomic status
+T5	lifestyle_factor 236 260	subjective social status
+T6	disease 354 360	asthma
+T7	disease 393 399	asthma
+T8	lifestyle_factor 498 522	Subjective Social Status
+T9	disease 657 663	Asthma
+T10	disease 1163 1169	asthma
+T11	lifestyle_factor 1235 1248	sleep quality
+T12	lifestyle_factor 1362 1375	sleep quality
+T13	lifestyle_factor 1539 1552	social status
+T14	disease 1604 1610	asthma
+T15	lifestyle_factor 1630 1643	sleep quality
+T16	disease 1667 1673	asthma
+T17	disease 1748 1754	asthma
+T18	lifestyle_factor 215 218	SES
+*	Equiv T18 T4
+T19	lifestyle_factor 317 320	SES
+T20	lifestyle_factor 1524 1527	SES
+T21	lifestyle_factor 1036 1039	SES
+T22	lifestyle_factor 993 996	SES
+R2	Out-of-scope Arg1:T4 Arg2:T3
+T24	lifestyle_factor 262 265	SSS
+*	Equiv T24 T5
+T25	lifestyle_factor 897 900	SSS
+T26	lifestyle_factor 1075 1078	SSS
+T27	lifestyle_factor 1080 1083	SSS
+R1	negative_statistical_association Arg1:T27 Arg2:T10
+T28	lifestyle_factor 1273 1276	SSS
+T29	lifestyle_factor 1400 1403	SSS
+T30	lifestyle_factor 1475 1478	SSS
+R3	controls Arg1:T13 Arg2:T14
+T31	lifestyle_factor 1675 1678	SSS
+T23	Out-of-scope 1428 1438	depressive
+R4	statistical_association Arg1:T31 Arg2:T17
+T32	Out-of-scope 1118 1124	stress

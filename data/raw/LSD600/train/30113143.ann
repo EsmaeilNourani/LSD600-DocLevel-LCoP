@@ -1,0 +1,37 @@
+T1	lifestyle_factor 10 30	Socioeconomic Status
+T2	disease 100 124	Type 2 Diabetes Mellitus
+T3	lifestyle_factor 188 208	socioeconomic status
+T4	disease 296 320	type 2 diabetes mellitus
+T6	lifestyle_factor 769 785	household income
+T7	lifestyle_factor 802 817	education level
+T8	lifestyle_factor 822 834	lower income
+T9	lifestyle_factor 940 952	lower income
+T10	lifestyle_factor 957 972	education level
+T11	lifestyle_factor 1077 1086	education
+T12	disease 1148 1161	hyperglycemia
+T13	lifestyle_factor 1315 1331	household income
+T14	disease 1380 1400	diabetic retinopathy
+T15	lifestyle_factor 1445 1451	income
+T16	lifestyle_factor 1486 1498	lower income
+T17	disease 1599 1619	diabetic retinopathy
+T18	disease 1637 1650	hyperglycemia
+T19	lifestyle_factor 1569 1572	SES
+T20	lifestyle_factor 210 213	SES
+*	Equiv T20 T3
+R4	negative_statistical_association Arg1:T11 Arg2:T12
+T21	disease 322 326	T2DM
+*	Equiv T21 T4
+T22	disease 512 516	T2DM
+T23	lifestyle_factor 721 724	SES
+T24	lifestyle_factor 625 628	SES
+R5	negative_statistical_association Arg1:T13 Arg2:T14
+R3	negative_statistical_association Arg1:T19 Arg2:T17
+R6	negative_statistical_association Arg1:T19 Arg2:T18
+T25	lifestyle_factor 747 756	education
+T26	lifestyle_factor 984 996	carbohydrate
+T27	lifestyle_factor 1008 1017	at intake
+T28	lifestyle_factor 1274 1283	education
+R1	negative_statistical_association Arg1:T28 Arg2:T12
+R2	negative_statistical_association Arg1:T15 Arg2:T14
+T5	lifestyle_factor 422 458	rapid economic and social transition
+T29	Out-of-scope 1528 1534	stress

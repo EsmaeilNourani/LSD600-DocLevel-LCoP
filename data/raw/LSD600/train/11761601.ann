@@ -1,0 +1,20 @@
+T1	lifestyle_factor 55 75	indoor VOC exposures
+T2	lifestyle_factor 138 155	ndoor air quality
+T10	lifestyle_factor 458 461	IAQ
+T11	lifestyle_factor 396 416	inhalation exposures
+T3	lifestyle_factor 157 160	IAQ
+T4	lifestyle_factor 187 195	emission
+T5	lifestyle_factor 216 227	ventilation
+T7	lifestyle_factor 339 350	contaminant
+T9	lifestyle_factor 603 627	displacement ventilation
+T13	lifestyle_factor 634 652	mixing ventilation
+T14	lifestyle_factor 656 695	volatile organic compound (VOC) removal
+T15	lifestyle_factor 796 822	freshly painted wood stain
+T16	lifestyle_factor 883 895	gypsum board
+T17	lifestyle_factor 927 951	displacement ventilation
+T18	lifestyle_factor 1079 1090	ventilation
+T19	lifestyle_factor 1105 1129	displacement ventilation
+T20	lifestyle_factor 1146 1164	mixing ventilation
+T21	lifestyle_factor 1244 1248	VOCs
+T6	lifestyle_factor 771 792	"wet" emission source
+*	Equiv T2 T3

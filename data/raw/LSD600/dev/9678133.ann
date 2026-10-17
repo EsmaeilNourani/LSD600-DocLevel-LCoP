@@ -1,0 +1,21 @@
+T1	lifestyle_factor 0 19	Oral contraceptives
+T2	lifestyle_factor 177 196	oral contraceptives
+T3	lifestyle_factor 286 289	OCs
+T4	lifestyle_factor 418 421	OCs
+T5	lifestyle_factor 1019 1022	OCs
+T6	lifestyle_factor 198 201	OCs
+T7	lifestyle_factor 225 237	progestogens
+T8	lifestyle_factor 238 249	desogestrel
+T9	lifestyle_factor 253 262	gestodene
+T10	lifestyle_factor 313 325	progestogens
+T11	lifestyle_factor 326 340	levonorgestrel
+T12	lifestyle_factor 344 354	norgestrel
+T13	disease 790 811	myocardial infarction
+*	Equiv T2 T6
+T14	disease 31 46	thromboembolism
+#1	AnnotatorNotes T14	https://icd.who.int/browse10/2019/en#/I74.9
+T16	disease 387 402	thromboembolism
+T15	disease 146 161	thromboembolism
+R2	positive_statistical_association Arg1:T8 Arg2:T15
+R3	positive_statistical_association Arg1:T9 Arg2:T15
+T17	disease 627 642	thromboembolism

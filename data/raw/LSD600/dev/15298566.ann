@@ -1,0 +1,43 @@
+T1	disease 58 78	rubber latex allergy
+T2	Out-of-scope 131 136	fruit
+T3	lifestyle_factor 340 345	fruit
+T4	disease 350 378	Hevea latex hypersensitivity
+T5	disease 461 480	Hevea latex allergy
+T6	lifestyle_factor 509 515	fruits
+T8	Out-of-scope 1434 1439	fruit
+T10	disease 1711 1720	urticaria
+T11	disease 1735 1741	asthma
+T12	disease 1784 1797	fruit allergy
+T13	disease 2296 2316	Hevea latex allergy.
+T14	lifestyle_factor 2396 2411	tropical fruits
+T15	Out-of-scope 2420 2425	fruit
+T17	lifestyle_factor 228 236	allergen
+T18	Out-of-scope 394 399	study
+T19	lifestyle_factor 171 186	Ficus benjamina
+T20	Out-of-scope 71 78	allergy
+T21	Out-of-scope 473 480	allergy
+T22	disease 708 715	allergy
+T23	Out-of-scope 1790 1797	allergy
+T24	Out-of-scope 2308 2315	allergy
+T25	lifestyle_factor 188 190	FB
+*	Equiv T25 T19
+T27	lifestyle_factor 418 420	FB
+T29	lifestyle_factor 744 754	FB extract
+T32	lifestyle_factor 1103 1105	FB
+T33	lifestyle_factor 1153 1155	FB
+T34	lifestyle_factor 1166 1168	FB
+T35	lifestyle_factor 1237 1239	FB
+T36	lifestyle_factor 1336 1338	FB
+T40	lifestyle_factor 2213 2221	FB latex
+T46	lifestyle_factor 1220 1231	Hevea latex
+T59	lifestyle_factor 2014 2025	Hevea latex
+T61	Out-of-scope 2159 2181	rubber latex allergens
+T62	lifestyle_factor 2381 2385	figs
+T63	lifestyle_factor 17 32	Ficus benjamina
+T65	lifestyle_factor 1306 1317	Hevea latex
+T64	lifestyle_factor 101 106	foods
+T66	lifestyle_factor 541 562	responsible allergens
+R2	Out-of-scope Arg1:T19 Arg2:T3
+T43	Out-of-scope 238 253	Little is known
+R1	Out-of-scope Arg1:T19 Arg2:T4
+R3	Out-of-scope Arg1:T40 Arg2:T13

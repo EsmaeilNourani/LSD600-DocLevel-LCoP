@@ -1,0 +1,41 @@
+T1	disease 22 38	eating disorders
+T3	lifestyle_factor 157 164	dancers
+T4	disease 263 279	eating disorders
+T5	lifestyle_factor 303 318	amateur dancers
+T6	disease 688 695	Anxiety
+T8	disease 941 957	eating disorders
+T9	disease 1004 1020	eating disorders
+T11	lifestyle_factor 1109 1123	street dancers
+T12	disease 1239 1255	Eating disorders
+T13	lifestyle_factor 1302 1309	singles
+T14	lifestyle_factor 1573 1580	singles
+T15	disease 1590 1606	eating disorders
+T16	disease 1619 1635	eating disorders
+T18	Out-of-scope 1548 1553	dance
+T19	disease 140 147	anxiety
+T20	disease 1217 1224	anxiety
+T21	disease 1666 1673	anxiety
+T22	Out-of-scope 108 129	pursuit of perfection
+T23	lifestyle_factor 490 502	street dance
+T17	lifestyle_factor 481 485	jazz
+T24	lifestyle_factor 473 479	ballet
+T25	lifestyle_factor 829 843	Ballet dancers
+T26	lifestyle_factor 62 77	amateur dancers
+T2	lifestyle_factor 1037 1051	ballet dancers
+T10	lifestyle_factor 1068 1086	jazz practitioners
+R1	positive_statistical_association Arg1:T2 Arg2:T9
+R2	positive_statistical_association Arg1:T10 Arg2:T9
+R4	positive_statistical_association Arg1:T13 Arg2:T12
+T27	Out-of-scope 892 900	P = 0.05
+T28	Out-of-scope 978 986	P = 0.06
+T29	lifestyle_factor 968 976	amateurs
+T30	lifestyle_factor 1125 1133	Amateurs
+R6	positive_statistical_association Arg1:T30 Arg2:T20
+T31	lifestyle_factor 790 803	professionals
+T33	lifestyle_factor 1492 1505	professionals
+T34	lifestyle_factor 808 816	amateurs
+T35	lifestyle_factor 1387 1395	amateurs
+T36	lifestyle_factor 1510 1518	amateurs
+R7	positive_statistical_association Arg1:T14 Arg2:T15
+T32	Out-of-scope 864 868	pain
+T37	Out-of-scope 1371 1381	body image

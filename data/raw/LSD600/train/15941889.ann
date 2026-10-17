@@ -1,0 +1,35 @@
+T1	disease 0 6	Folate
+T2	disease 11 33	cobalamin deficiencies
+T3	disease 38 58	hyperhomocysteinemia
+T4	disease 163 183	hyperhomocysteinemia
+T6	disease 399 405	folate
+T7	disease 410 432	cobalamin deficiencies
+T8	disease 437 457	hyperhomocysteinemia
+T9	Out-of-scope 520 526	folate
+T11	disease 654 674	hyperhomocysteinemia
+T12	Out-of-scope 857 863	Folate
+T13	Out-of-scope 935 944	cobalamin
+T14	Out-of-scope 1057 1063	Folate
+T15	Out-of-scope 1082 1091	cobalamin
+T18	lifestyle_factor 1259 1266	Smoking
+T19	Out-of-scope 1350 1356	folate
+T20	disease 1413 1433	hyperhomocysteinemia
+T21	Out-of-scope 1473 1479	folate
+T22	Out-of-scope 1490 1499	cobalamin
+T23	Out-of-scope 1653 1659	folate
+T24	Out-of-scope 1664 1673	cobalamin
+R1	Out-of-scope Arg1:T21 Arg2:T20
+T25	lifestyle_factor 1529 1536	smoking
+R2	causes Arg1:T25 Arg2:T20
+T26	lifestyle_factor 1541 1549	betelnut
+R3	causes Arg1:T26 Arg2:T20
+T27	lifestyle_factor 307 320	vegetarianism
+T28	lifestyle_factor 1729 1738	nutrition
+T29	disease 265 290	deficiencies in cobalamin
+R4	statistical_association Arg1:T27 Arg2:T29
+T30	lifestyle_factor 1284 1292	betelnut
+T31	lifestyle_factor 1746 1754	vitamins
+T16	Out-of-scope 1186 1195	cobalamin
+T10	Out-of-scope 532 541	cobalamin
+T5	Out-of-scope 1163 1169	folate
+R5	Out-of-scope Arg1:T22 Arg2:T20

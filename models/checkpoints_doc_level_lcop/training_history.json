@@ -1,0 +1,11 @@
+[
+  {
+    "epoch": 2,
+    "loss": 0.0065,
+    "dev_precision": 52.2,
+    "dev_recall": 61.9,
+    "dev_f1": 56.6,
+    "best_f1_so_far": 56.6,
+    "duration_seconds": 3699.3
+  }
+]

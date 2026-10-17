@@ -1,0 +1,39 @@
+T2	disease 49 56	malaria
+T3	lifestyle_factor 70 80	pre-school
+T4	lifestyle_factor 101 122	Vitamin A supplements
+T6	disease 166 173	malaria
+T8	lifestyle_factor 276 285	vitamin A
+T9	lifestyle_factor 309 322	beta-carotene
+T11	Out-of-scope 399 408	vitamin A
+T12	disease 443 450	malaria
+T13	lifestyle_factor 631 635	diet
+T14	disease 673 680	malaria
+T15	Out-of-scope 926 933	retinol
+T16	Out-of-scope 935 946	carotenoids
+T18	lifestyle_factor 1088 1098	occupation
+T19	Out-of-scope 1199 1212	beta-carotene
+T20	Out-of-scope 1580 1587	retinol
+T21	disease 1830 1837	malaria
+T22	disease 1956 1963	malaria
+R1	treats Arg1:T4 Arg2:T6
+T23	lifestyle_factor 1802 1805	RPO
+R2	prevents Arg1:T23 Arg2:T21
+T25	lifestyle_factor 237 249	Red palm oil
+T26	lifestyle_factor 251 254	RPO
+*	Equiv T26 T25
+T27	lifestyle_factor 1897 1915	nutritional status
+R3	negative_statistical_association Arg1:T27 Arg2:T22
+T24	lifestyle_factor 21 33	red palm oil
+T29	lifestyle_factor 298 303	alpha
+T30	lifestyle_factor 346 385	high-dose retinyl palmitate supplements
+T31	lifestyle_factor 463 466	RPO
+T32	lifestyle_factor 615 623	carotene
+T34	lifestyle_factor 654 657	RPO
+T33	Out-of-scope 527 541	alpha-carotene
+T35	Out-of-scope 951 962	tocopherols
+T36	lifestyle_factor 1031 1042	cooking oil
+T37	lifestyle_factor 1119 1122	RPO
+T38	lifestyle_factor 1074 1083	education
+T39	lifestyle_factor 1047 1060	mosquito nets
+T40	Out-of-scope 1164 1178	alpha-carotene
+T41	Out-of-scope 1596 1610	alpha-carotene

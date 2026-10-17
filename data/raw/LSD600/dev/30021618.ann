@@ -1,0 +1,18 @@
+T1	lifestyle_factor 0 8	Cannabis
+T4	lifestyle_factor 282 290	cannabis
+T6	lifestyle_factor 402 410	cannabis
+T7	lifestyle_factor 718 726	cannabis
+T9	disease 853 861	epilepsy
+T10	lifestyle_factor 881 889	cannabis
+T11	lifestyle_factor 1102 1107	sleep
+T12	disease 1109 1127	status epilepticus
+T13	disease 1197 1205	epilepsy
+T14	disease 1241 1249	diarrhea
+T15	lifestyle_factor 1807 1815	cannabis
+T16	disease 1853 1861	epilepsy
+T19	disease 13 31	pediatric epilepsy
+T20	disease 87 105	Pediatric epilepsy
+T21	disease 310 328	pediatric epilepsy
+T22	disease 736 754	pediatric epilepsy
+R2	Out-of-scope Arg1:T4 Arg2:T21
+T2	disease 1023 1030	seizure

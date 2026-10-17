@@ -1,0 +1,25 @@
+T1	lifestyle_factor 272 288	circadian rhythm
+T3	lifestyle_factor 444 462	sleep disturbances
+T4	lifestyle_factor 576 592	sleep continuity
+T5	disease 41 63	restless legs syndrome
+T6	disease 68 99	periodic limb movement disorder
+T7	disease 116 138	restless legs syndrome
+T8	disease 140 143	RLS
+T9	disease 466 469	RLS
+T10	disease 504 507	RLS
+T11	disease 644 675	periodic limb movement disorder
+T12	disease 677 681	PLMD
+T13	disease 821 824	RLS
+T14	disease 945 948	RLS
+T15	disease 953 957	PLMD
+*	Equiv T7 T8
+T16	disease 321 352	periodic limb movement in sleep
+#1	AnnotatorNotes T16	DOID:9207
+T17	disease 549 553	PLMS
+*	Equiv T11 T12
+R4	prevents Arg1:T11 Arg2:T4
+T2	disease 354 358	PLMS
+*	Equiv T16 T2
+T18	disease 829 833	PLMS
+R1	Out-of-scope Arg1:T16 Arg2:T3
+R2	prevents Arg1:T17 Arg2:T4

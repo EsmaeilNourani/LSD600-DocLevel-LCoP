@@ -1,0 +1,50 @@
+T1	lifestyle_factor 14 27	air pollution
+T3	lifestyle_factor 374 388	air pollutants
+T4	lifestyle_factor 400 432	polycyclic aromatic hydrocarbons
+T5	lifestyle_factor 434 438	PAHs
+T6	lifestyle_factor 476 494	particulate matter
+T7	lifestyle_factor 543 558	carbon monoxide
+T8	lifestyle_factor 625 646	indoor air pollutants
+T9	lifestyle_factor 826 840	Air pollutants
+T10	disease 944 961	atopic dermatitis
+T11	disease 963 973	cellulitis
+T12	disease 979 988	psoriasis
+T13	disease 991 995	acne
+T14	disease 1017 1029	skin cancers
+T15	disease 1038 1046	melanoma
+T16	disease 1051 1074	Squamous Cell Carcinoma
+T17	lifestyle_factor 1506 1520	air pollutants
+T18	disease 1525 1538	skin diseases
+R1	causes Arg1:T9 Arg2:T10
+R2	causes Arg1:T9 Arg2:T11
+R3	causes Arg1:T9 Arg2:T12
+R4	causes Arg1:T9 Arg2:T14
+R5	causes Arg1:T9 Arg2:T15
+R6	causes Arg1:T9 Arg2:T16
+T19	lifestyle_factor 560 562	CO
+*	Equiv T7 T19
+*	Equiv T4 T5
+T20	lifestyle_factor 496 498	PM
+*	Equiv T20 T6
+T21	lifestyle_factor 338 364	ultraviolet (UV) radiation
+T22	lifestyle_factor 441 467	volatile organic compounds
+T23	lifestyle_factor 469 473	VOCs
+*	Equiv T23 T22
+T24	lifestyle_factor 501 513	heavy metals
+T25	lifestyle_factor 515 533	gaseous pollutants
+T26	lifestyle_factor 587 599	sulfur oxide
+T27	lifestyle_factor 601 604	SO2
+T28	lifestyle_factor 608 613	ozone
+T29	lifestyle_factor 615 617	O3
+*	Equiv T29 T28
+*	Equiv T27 T26
+T30	lifestyle_factor 565 578	nitric oxides
+T31	lifestyle_factor 580 583	NOx
+*	Equiv T31 T30
+T32	lifestyle_factor 756 766	pollutants
+T33	lifestyle_factor 1128 1138	pollutants
+T34	disease 921 942	inflammatory diseases
+T2	disease 31 57	skin and related disorders
+R9	causes Arg1:T9 Arg2:T34
+R10	causes Arg1:T9 Arg2:T13
+T36	lifestyle_factor 307 328	environmental factors

@@ -1,0 +1,88 @@
+T2	lifestyle_factor 227 248	unhealthy alcohol use
+T3	disease 551 572	Alcohol Use Disorders
+T4	lifestyle_factor 1026 1037	alcohol use
+T5	disease 1600 1618	alcohol dependence
+T6	disease 2227 2245	alcohol dependence
+T7	disease 2325 2343	alcohol dependence
+T8	disease 2520 2538	alcohol dependence
+T9	disease 2635 2653	alcohol dependence
+T10	disease 2984 3002	alcohol dependence
+T11	disease 4166 4186	alcohol use disorder
+T12	lifestyle_factor 4400 4419	alcohol consumption
+T13	lifestyle_factor 4770 4783	psychotherapy
+T14	lifestyle_factor 5339 5347	literacy
+T15	lifestyle_factor 5814 5825	alcohol use
+T16	disease 6563 6583	alcohol use disorder
+T17	lifestyle_factor 6996 7013	Smoking cessation
+T18	disease 7049 7067	alcohol dependence
+T19	lifestyle_factor 7168 7175	tobacco
+T20	lifestyle_factor 7180 7199	alcohol consumption
+T21	disease 7579 7600	alcohol use disorders
+T22	disease 7624 7644	alcohol use disorder
+T24	disease 8022 8035	liver disease
+T25	disease 8092 8112	alcohol use disorder
+T26	disease 8148 8163	liver cirrhosis
+T27	disease 8191 8200	cirrhosis
+T28	disease 8282 8295	liver disease
+T29	disease 8355 8375	alcohol use disorder
+T30	disease 8476 8482	cancer
+T31	disease 8426 8432	cancer
+T34	lifestyle_factor 6690 6702	opioid drugs
+T33	lifestyle_factor 6794 6806	opioid drugs
+T32	disease 7224 7240	mental disorders
+T35	disease 6483 6499	mental disorders
+T36	disease 7537 7553	mental disorders
+T37	disease 7658 7674	mental disorders
+T38	lifestyle_factor 1219 1233	social support
+T39	lifestyle_factor 2146 2173	Cognitive behaviour therapy
+T40	lifestyle_factor 2119 2145	Psychosocial interventions
+T41	lifestyle_factor 2003 2029	psychosocial interventions
+T44	lifestyle_factor 1157 1164	alcohol
+T46	lifestyle_factor 1905 1912	alcohol
+T47	lifestyle_factor 3063 3070	alcohol
+T49	lifestyle_factor 4277 4284	alcohol
+T52	lifestyle_factor 5846 5853	alcohol
+T55	lifestyle_factor 6782 6789	alcohol
+T59	lifestyle_factor 8221 8228	alcohol
+T42	disease 4454 4471	alcohol dependent
+T43	lifestyle_factor 8387 8405	Alcohol abstinence
+T45	lifestyle_factor 6853 6871	alcohol withdrawal
+R1	negative_statistical_association Arg1:T43 Arg2:T31
+R2	treats Arg1:T39 Arg2:T6
+T60	Out-of-scope 2305 2320	pharmacotherapy
+T48	lifestyle_factor 4082 4096	domestic abuse
+T50	lifestyle_factor 181 202	unhealthy alcohol use
+T1	lifestyle_factor 7837 7848	alcohol use
+T23	lifestyle_factor 7925 7939	alcohol intake
+T51	lifestyle_factor 7959 7973	alcohol intake
+T53	lifestyle_factor 3137 3151	heavy drinking
+T54	lifestyle_factor 3698 3706	drinking
+T56	lifestyle_factor 3894 3902	drinking
+T57	lifestyle_factor 3602 3610	drinking
+T58	lifestyle_factor 4753 4761	drinking
+T61	lifestyle_factor 4202 4215	contraceptive
+T62	lifestyle_factor 47 54	alcohol
+T63	lifestyle_factor 3977 3984	alcohol
+T64	lifestyle_factor 4669 4676	alcohol
+T65	lifestyle_factor 6184 6191	alcohol
+T66	lifestyle_factor 6423 6430	alcohol
+T67	lifestyle_factor 1679 1686	alcohol
+T68	lifestyle_factor 1805 1830	motivational interviewing
+T69	lifestyle_factor 2392 2417	motivational interviewing
+T70	lifestyle_factor 2430 2455	Motivational interviewing
+T71	Out-of-scope 3082 3092	Naltrexone
+T72	lifestyle_factor 4309 4322	breastfeeding
+T73	lifestyle_factor 4349 4362	breastfeeding
+T74	disease 6065 6085	Cognitive impairment
+R3	treats Arg1:T39 Arg2:T7
+R4	treats Arg1:T69 Arg2:T7
+R5	treats Arg1:T70 Arg2:T8
+T75	Out-of-scope 2420 2427	Level A
+T76	Out-of-scope 2540 2547	Level A
+T77	Out-of-scope 3003 3014	Acamprosate
+T78	disease 6044 6064	Cognitive impairment
+T79	Out-of-scope 6393 6406	comorbidities
+R6	Out-of-scope Arg1:T59 Arg2:T27
+R7	Out-of-scope Arg1:T24 Arg2:T51
+T80	Out-of-scope 8437 8454	improves outcomes
+R8	controls Arg1:T43 Arg2:T30

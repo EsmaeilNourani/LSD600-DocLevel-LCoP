@@ -1,0 +1,38 @@
+T1	disease 19 25	asthma
+T4	disease 203 209	asthma
+T5	disease 313 319	asthma
+T6	disease 376 382	asthma
+T8	disease 496 502	asthma
+T9	lifestyle_factor 577 589	kindergarten
+T10	disease 624 630	asthma
+T12	lifestyle_factor 903 919	nitrogen dioxide
+T13	lifestyle_factor 933 951	particulate matter
+T14	disease 1074 1080	asthma
+T15	disease 1227 1233	Asthma
+T16	lifestyle_factor 1262 1287	traffic-related pollution
+T17	disease 1645 1651	asthma
+T18	lifestyle_factor 1657 1682	traffic-related pollution
+T19	lifestyle_factor 1792 1817	Traffic-related pollution
+T20	disease 1889 1895	asthma
+R1	causes Arg1:T19 Arg2:T20
+R2	positive_statistical_association Arg1:T16 Arg2:T15
+T21	lifestyle_factor 921 926	NO(2)
+*	Equiv T21 T12
+T22	lifestyle_factor 1130 1140	pollutants
+T23	lifestyle_factor 1728 1733	NO(2)
+T24	lifestyle_factor 1569 1574	NO(2)
+T25	lifestyle_factor 1420 1433	Ambient NO(2)
+T26	lifestyle_factor 888 901	ambient ozone
+T27	lifestyle_factor 30 59	traffic-related air pollution
+T28	lifestyle_factor 93 122	Traffic-related air pollution
+T29	lifestyle_factor 388 413	traffic-related pollution
+T30	lifestyle_factor 731 756	traffic-related pollution
+R4	positive_statistical_association Arg1:T28 Arg2:T4
+R3	statistical_association Arg1:T18 Arg2:T17
+R5	positive_statistical_association Arg1:T25 Arg2:T15
+T2	Out-of-scope 293 299	school
+T3	Out-of-scope 1830 1836	school
+T7	Out-of-scope 848 854	school
+T11	Out-of-scope 1686 1692	school
+T31	lifestyle_factor 1382 1389	schools
+T32	Out-of-scope 1767 1776	0.69-2.71

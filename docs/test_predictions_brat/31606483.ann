@@ -1,0 +1,69 @@
+T2	disease 157 174	allergic diseases
+T3	disease 306 323	allergic diseases
+T4	disease 470 487	atopic dermatitis
+T5	disease 489 506	allergic rhinitis
+T6	disease 508 514	asthma
+T7	disease 537 549	food allergy
+T8	disease 598 615	allergic diseases
+T9	lifestyle_factor 633 653	socioeconomic status
+T10	lifestyle_factor 770 787	sunlight exposure
+T11	lifestyle_factor 819 834	cigarette smoke
+T12	lifestyle_factor 850 857	cooking
+T13	lifestyle_factor 921 936	cigarette smoke
+T14	lifestyle_factor 1003 1009	fruits
+T15	lifestyle_factor 1014 1024	vegetables
+T16	lifestyle_factor 1026 1036	fast foods
+T17	lifestyle_factor 1038 1049	soft drinks
+T18	lifestyle_factor 1050 1062	fruit juices
+T19	disease 1512 1524	food allergy
+T20	disease 1596 1602	asthma
+T21	disease 1607 1624	atopic dermatitis
+T22	disease 1739 1745	asthma
+T23	lifestyle_factor 1766 1776	fast foods
+T24	lifestyle_factor 1183 1195	farm animals
+T26	lifestyle_factor 1545 1559	fermented milk
+T27	lifestyle_factor 1781 1792	fried meats
+T28	disease 1814 1821	allergy
+T29	lifestyle_factor 1673 1694	environmental smoking
+T30	lifestyle_factor 1642 1668	antenatal maternal smoking
+T31	disease 2158 2165	allergy
+T32	lifestyle_factor 49 54	urban
+T33	lifestyle_factor 327 332	urban
+T34	lifestyle_factor 186 191	urban
+T35	lifestyle_factor 1145 1150	urban
+T36	lifestyle_factor 1452 1457	urban
+T37	lifestyle_factor 1922 1927	urban
+T38	lifestyle_factor 59 64	rural
+T39	lifestyle_factor 196 201	rural
+T40	lifestyle_factor 337 342	rural
+T41	lifestyle_factor 1155 1160	rural
+T42	lifestyle_factor 1371 1376	rural
+T43	lifestyle_factor 1290 1295	rural
+T44	lifestyle_factor 1431 1436	rural
+T45	lifestyle_factor 1843 1848	rural
+T46	lifestyle_factor 1068 1073	fried
+T47	lifestyle_factor 1074 1089	microwaved meat
+T48	lifestyle_factor 789 792	pet
+T49	lifestyle_factor 797 808	farm animal
+T50	lifestyle_factor 862 875	heating fuels
+T51	lifestyle_factor 712 721	fermented
+T52	lifestyle_factor 726 744	unpasteurized milk
+T55	lifestyle_factor 685 694	probiotic
+T56	lifestyle_factor 900 904	pets
+T57	lifestyle_factor 906 915	livestock
+T58	lifestyle_factor 1323 1341	unpasteurized milk
+T59	lifestyle_factor 1873 1882	livestock
+T60	lifestyle_factor 2056 2070	fermented milk
+T62	disease 38 45	allergy
+T64	lifestyle_factor 442 454	aeroallergen
+T1	Out-of-scope 746 768	antihelminth treatment
+T53	lifestyle_factor 617 631	household size
+T54	lifestyle_factor 0 21	Environmental factors
+T61	lifestyle_factor 424 437	food allergen
+T25	lifestyle_factor 2202 2214	urbanization
+R1	negative_statistical_association Arg1:T26 Arg2:T20
+R2	negative_statistical_association Arg1:T26 Arg2:T21
+R3	statistical_association Arg1:T30 Arg2:T22
+R4	statistical_association Arg1:T29 Arg2:T22
+R5	statistical_association Arg1:T23 Arg2:T28
+R6	statistical_association Arg1:T27 Arg2:T28

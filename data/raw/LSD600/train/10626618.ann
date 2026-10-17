@@ -1,0 +1,9 @@
+T4	lifestyle_factor 28 56	cognitive behavioral therapy
+T5	lifestyle_factor 573 603	cognitive-behavioral treatment
+T6	disease 361 390	posttraumatic stress disorder
+T7	disease 392 396	PTSD
+T8	disease 1023 1027	PTSD
+*	Equiv T6 T7
+T9	disease 1007 1017	depression
+R1	treats Arg1:T5 Arg2:T8
+R2	treats Arg1:T5 Arg2:T9

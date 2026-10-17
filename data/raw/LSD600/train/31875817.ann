@@ -1,0 +1,111 @@
+T1	lifestyle_factor 45 56	smoked food
+T2	disease 105 116	lung cancer
+T3	lifestyle_factor 197 207	fried food
+T4	lifestyle_factor 212 223	smoked food
+T5	disease 272 283	lung cancer
+T6	lifestyle_factor 768 778	fried food
+T7	lifestyle_factor 783 794	smoked food
+T8	disease 873 884	lung cancer
+T9	lifestyle_factor 970 980	fried food
+T10	lifestyle_factor 985 996	smoked food
+T11	disease 1018 1029	lung cancer
+T12	disease 1172 1183	lung cancer
+T13	lifestyle_factor 1242 1253	smoked food
+T14	lifestyle_factor 1292 1303	smoked food
+T15	disease 1355 1366	lung cancer
+T18	disease 1591 1602	lung cancer
+T21	disease 1776 1787	lung cancer
+T22	disease 1949 1960	lung cancer
+T23	lifestyle_factor 2037 2045	drinkers
+T24	disease 2147 2158	lung cancer
+T25	lifestyle_factor 2232 2242	fried food
+T26	lifestyle_factor 2247 2258	smoked food
+T27	disease 2291 2302	lung cancer
+T28	lifestyle_factor 2335 2345	fried food
+T29	lifestyle_factor 2350 2361	smoked food
+T30	disease 2433 2444	lung cancer
+T31	disease 2556 2567	lung cancer
+T34	Out-of-scope 52 56	food
+T36	Out-of-scope 203 207	food
+T37	Out-of-scope 219 223	food
+T39	Out-of-scope 774 778	food
+T40	Out-of-scope 790 794	food
+T41	Out-of-scope 976 980	food
+T42	Out-of-scope 992 996	food
+T45	Out-of-scope 1249 1253	food
+T46	Out-of-scope 1299 1303	food
+T47	lifestyle_factor 1487 1491	food
+T48	lifestyle_factor 1538 1542	food
+T49	lifestyle_factor 1674 1678	food
+T50	lifestyle_factor 1725 1729	food
+T51	Out-of-scope 1907 1911	food
+T52	Out-of-scope 2101 2105	food
+T53	Out-of-scope 2238 2242	food
+T54	Out-of-scope 2254 2258	food
+T55	Out-of-scope 2329 2333	food
+T56	Out-of-scope 2341 2345	food
+T57	Out-of-scope 2357 2361	food
+T58	Out-of-scope 2529 2533	food
+T59	Out-of-scope 514 522	Military
+T60	lifestyle_factor 1465 1480	smoking drinker
+T61	lifestyle_factor 1652 1667	smoking drinker
+T62	lifestyle_factor 2025 2032	smokers
+T63	lifestyle_factor 2054 2061	smokers
+T64	lifestyle_factor 2571 2578	smokers
+T65	lifestyle_factor 71 78	smoking
+T66	lifestyle_factor 238 245	smoking
+T67	lifestyle_factor 800 807	smoking
+T68	Out-of-scope 1465 1472	smoking
+T70	Out-of-scope 1652 1659	smoking
+T72	lifestyle_factor 2387 2394	smoking
+T75	lifestyle_factor 812 820	drinking
+T76	lifestyle_factor 2399 2415	alcohol drinking
+T77	Out-of-scope 110 116	cancer
+T78	Out-of-scope 277 283	cancer
+T79	Out-of-scope 878 884	cancer
+T80	Out-of-scope 1023 1029	cancer
+T81	Out-of-scope 1177 1183	cancer
+T82	Out-of-scope 1360 1366	cancer
+T83	Out-of-scope 1596 1602	cancer
+T84	Out-of-scope 1781 1787	cancer
+T85	Out-of-scope 1954 1960	cancer
+T86	Out-of-scope 2152 2158	cancer
+T87	Out-of-scope 2296 2302	cancer
+T88	Out-of-scope 2438 2444	cancer
+T89	Out-of-scope 2561 2567	cancer
+T93	lifestyle_factor 16 28	pickled food
+T94	lifestyle_factor 184 196	pickled food
+T95	lifestyle_factor 754 766	pickled food
+T96	lifestyle_factor 2321 2333	pickled food
+T97	lifestyle_factor 30 40	fired food
+T98	lifestyle_factor 1061 1071	fired food
+T99	lifestyle_factor 1110 1120	fired food
+T32	lifestyle_factor 83 99	alcohol drinking
+T33	lifestyle_factor 250 266	alcohol drinking
+R1	positive_statistical_association Arg1:T9 Arg2:T11
+R2	positive_statistical_association Arg1:T10 Arg2:T11
+R4	positive_statistical_association Arg1:T99 Arg2:T12
+R6	positive_statistical_association Arg1:T14 Arg2:T15
+T16	lifestyle_factor 1516 1531	smoking drinker
+R7	positive_statistical_association Arg1:T16 Arg2:T18
+T17	lifestyle_factor 1703 1718	smoking drinker
+R8	positive_statistical_association Arg1:T17 Arg2:T21
+T19	lifestyle_factor 1901 1911	risky food
+R9	Out-of-scope Arg1:T62 Arg2:T22
+R10	Out-of-scope Arg1:T23 Arg2:T22
+R11	positive_statistical_association Arg1:T19 Arg2:T22
+T20	lifestyle_factor 2095 2105	risky food
+R12	positive_statistical_association Arg1:T25 Arg2:T27
+R13	positive_statistical_association Arg1:T26 Arg2:T27
+R14	positive_statistical_association Arg1:T96 Arg2:T30
+R15	positive_statistical_association Arg1:T28 Arg2:T30
+R16	positive_statistical_association Arg1:T29 Arg2:T30
+R17	positive_statistical_association Arg1:T72 Arg2:T30
+R18	positive_statistical_association Arg1:T76 Arg2:T30
+T35	lifestyle_factor 2523 2533	risky food
+R19	positive_statistical_association Arg1:T35 Arg2:T31
+R20	positive_statistical_association Arg1:T20 Arg2:T24
+R21	Out-of-scope Arg1:T63 Arg2:T24
+T38	Out-of-scope 2464 2476	risk factors
+R3	positive_statistical_association Arg1:T48 Arg2:T18
+R5	positive_statistical_association Arg1:T50 Arg2:T21

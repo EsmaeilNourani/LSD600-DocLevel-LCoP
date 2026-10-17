@@ -1,0 +1,37 @@
+T1	lifestyle_factor 0 27	Environmental tobacco smoke
+T2	disease 32 45	periodontitis
+T3	lifestyle_factor 96 113	second hand smoke
+T4	lifestyle_factor 117 144	environmental tobacco smoke
+T5	disease 155 168	periodontitis
+T6	disease 254 267	periodontitis
+T7	disease 473 486	periodontitis
+T8	lifestyle_factor 642 659	second hand smoke
+T9	disease 673 686	periodontitis
+T10	lifestyle_factor 855 865	cigarettes
+T11	lifestyle_factor 898 905	tobacco
+T12	disease 1097 1110	Periodontitis
+T14	disease 1490 1503	periodontitis
+T16	lifestyle_factor 1575 1588	family income
+T17	disease 1775 1788	periodontitis
+T18	disease 1923 1936	periodontitis
+T19	lifestyle_factor 146 149	ETS
+*	Equiv T19 T4
+T20	lifestyle_factor 1885 1888	ETS
+R1	positive_statistical_association Arg1:T20 Arg2:T18
+T21	lifestyle_factor 228 231	ETS
+T22	lifestyle_factor 390 393	ETS
+T23	lifestyle_factor 518 521	ETS
+T24	lifestyle_factor 1430 1433	ETS
+T25	lifestyle_factor 1706 1709	ETS
+T26	lifestyle_factor 1505 1508	ETS
+R3	positive_statistical_association Arg1:T25 Arg2:T17
+T27	lifestyle_factor 54 65	non-smokers
+T28	lifestyle_factor 282 293	non-smokers
+T29	lifestyle_factor 172 183	non-smokers
+T30	lifestyle_factor 1018 1025	smokers
+T31	lifestyle_factor 1949 1960	non-smokers
+T32	lifestyle_factor 363 376	socioeconomic
+T33	lifestyle_factor 833 845	smoked fewer
+T34	lifestyle_factor 907 910	ETS
+T13	lifestyle_factor 1548 1570	educational attainment
+R2	positive_statistical_association Arg1:T8 Arg2:T9

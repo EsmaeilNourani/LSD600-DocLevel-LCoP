@@ -1,0 +1,28 @@
+T1	disease 0 7	Obesity
+T2	disease 137 144	obesity
+T3	lifestyle_factor 162 166	diet
+T4	disease 248 255	obesity
+T5	disease 436 443	obesity
+T6	disease 508 515	obesity
+T7	disease 603 610	Obesity
+T8	lifestyle_factor 1227 1233	fruits
+T9	lifestyle_factor 1234 1244	vegetables
+T10	lifestyle_factor 1313 1339	vigorous physical activity
+T11	lifestyle_factor 1397 1408	screen time
+T12	lifestyle_factor 1532 1543	screen time
+T13	disease 1707 1714	obesity
+T14	disease 1790 1797	obesity
+T15	disease 1984 1991	obesity
+T16	disease 2003 2010	obesity
+T17	disease 2055 2062	obesity
+T18	lifestyle_factor 1826 1845	sedentary behaviour
+R1	positive_statistical_association Arg1:T18 Arg2:T14
+T19	lifestyle_factor 168 185	physical activity
+T20	lifestyle_factor 1481 1486	sleep
+T21	lifestyle_factor 190 209	sedentary behaviour
+T22	lifestyle_factor 976 984	siblings
+T23	Out-of-scope 145 160	risk behaviours
+R2	positive_statistical_association Arg1:T3 Arg2:T2
+R3	positive_statistical_association Arg1:T19 Arg2:T2
+R4	positive_statistical_association Arg1:T21 Arg2:T2
+T24	Out-of-scope 737 746	Nutrition

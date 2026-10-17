@@ -1,0 +1,17 @@
+T1	lifestyle_factor 71 96	ammonium nitrate aerosols
+T2	lifestyle_factor 228 253	ammonium nitrate aerosols
+T3	lifestyle_factor 458 483	ammonium nitrate aerosols
+T4	lifestyle_factor 760 785	ammonium nitrate aerosols
+T6	lifestyle_factor 858 866	aerosols
+T5	lifestyle_factor 517 525	humidity
+T7	lifestyle_factor 497 515	indoor temperature
+T8	lifestyle_factor 549 560	nitric acid
+T9	lifestyle_factor 573 580	ammonia
+T10	lifestyle_factor 562 566	HNO3
+*	Equiv T10 T8
+T11	lifestyle_factor 582 585	NH3
+*	Equiv T9 T11
+T12	lifestyle_factor 1048 1052	HNO3
+T13	lifestyle_factor 1095 1098	NH3
+T14	lifestyle_factor 1145 1148	NH3
+T15	lifestyle_factor 1178 1182	HNO3

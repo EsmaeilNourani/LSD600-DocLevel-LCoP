@@ -1,0 +1,62 @@
+T1	lifestyle_factor 29 42	sleep quality
+T2	disease 104 126	coronary heart disease
+T3	lifestyle_factor 134 147	sleep quality
+T4	disease 222 244	coronary heart disease
+T5	disease 252 259	Anxiety
+T6	lifestyle_factor 390 403	sleep quality
+T8	disease 632 639	obesity
+T9	disease 1426 1432	angina
+T10	lifestyle_factor 502 515	sleep quality
+T11	Out-of-scope 831 838	Anxiety
+T12	lifestyle_factor 887 900	sleep quality
+T14	lifestyle_factor 964 977	sleep quality
+T15	lifestyle_factor 1198 1211	sleep quality
+T16	lifestyle_factor 1314 1327	sleep quality
+T17	disease 1449 1472	acute coronary syndrome
+T18	lifestyle_factor 1513 1526	sleep quality
+T19	lifestyle_factor 1738 1751	sleep quality
+T20	lifestyle_factor 1782 1795	sleep quality
+T33	disease 59 69	depression
+T34	disease 264 274	depression
+T35	disease 344 354	depression
+T37	Out-of-scope 843 853	Depression
+T38	disease 1085 1095	depression
+T39	disease 1242 1252	depression
+T40	disease 1381 1391	depression
+T41	disease 1564 1574	depression
+T42	disease 1661 1671	depression
+T43	disease 47 54	anxiety
+T44	disease 332 339	anxiety
+T45	disease 571 578	anxiety
+T46	disease 1073 1080	anxiety
+T47	disease 1175 1182	anxiety
+T48	disease 1369 1376	anxiety
+T49	disease 1552 1559	anxiety
+T50	disease 1649 1656	anxiety
+T51	disease 1673 1680	anxiety
+T21	disease 1474 1477	ACS
+*	Equiv T21 T17
+T22	disease 246 249	CHD
+*	Equiv T22 T4
+T52	disease 429 432	CHD
+T53	disease 541 544	CHD
+T54	disease 644 647	CHD
+T55	disease 1609 1612	CHD
+T56	disease 1841 1844	CHD
+R4	negative_statistical_association Arg1:T16 Arg2:T48
+R5	negative_statistical_association Arg1:T16 Arg2:T40
+R8	negative_statistical_association Arg1:T19 Arg2:T51
+T23	Out-of-scope 148 170	might be a potentially
+R9	Out-of-scope Arg1:T3 Arg2:T4
+T7	lifestyle_factor 803 816	sleep quality
+T13	lifestyle_factor 1025 1038	sleep quality
+T25	disease 583 593	depression
+T26	Out-of-scope 1694 1701	related
+T24	lifestyle_factor 742 772	Pittsburgh Sleep Quality Index
+T27	lifestyle_factor 774 778	PSQI
+*	Equiv T24 T27
+R1	negative_statistical_association Arg1:T13 Arg2:T46
+R2	negative_statistical_association Arg1:T13 Arg2:T38
+R3	statistical_association Arg1:T15 Arg2:T47
+R6	negative_statistical_association Arg1:T18 Arg2:T49
+R7	negative_statistical_association Arg1:T18 Arg2:T41

@@ -1,0 +1,22 @@
+T1	disease 28 43	type 2 diabetes
+T2	lifestyle_factor 47 57	occupation
+T3	disease 178 193	type 2 diabetes
+T4	lifestyle_factor 228 239	occupations
+T5	disease 351 366	type 2 diabetes
+T6	disease 591 599	diabetes
+T7	lifestyle_factor 807 818	occupations
+T8	disease 1016 1031	type 2 diabetes
+T11	disease 1791 1806	type 2 diabetes
+T12	lifestyle_factor 2070 2081	occupations
+T13	lifestyle_factor 2027 2044	physical activity
+T14	lifestyle_factor 511 519	employed
+T15	lifestyle_factor 117 126	workplace
+T16	lifestyle_factor 1970 1979	workplace
+T17	lifestyle_factor 881 888	smoking
+T18	lifestyle_factor 1573 1580	smoking
+T19	lifestyle_factor 860 876	physical fitness
+T20	lifestyle_factor 1095 1116	motor vehicle drivers
+T27	lifestyle_factor 1601 1617	physical fitness
+T32	Out-of-scope 132 159	potentially important arena
+R6	Out-of-scope Arg1:T15 Arg2:T3
+T21	Out-of-scope 1308 1320	professional

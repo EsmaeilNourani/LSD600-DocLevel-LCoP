@@ -1,0 +1,16 @@
+T1	disease 8 19	lung cancer
+T7	disease 586 597	lung cancer
+T8	disease 758 769	lung cancer
+T12	disease 873 884	lung cancer
+T13	disease 1098 1109	lung cancer
+T17	disease 1676 1687	lung cancer
+T20	disease 664 676	brain tumors
+T25	lifestyle_factor 961 975	length of work
+R5	negative_statistical_association Arg1:T25 Arg2:T12
+T26	disease 447 453	Cancer
+T27	disease 733 739	cancer
+T28	lifestyle_factor 1620 1630	Endotoxins
+T29	lifestyle_factor 1333 1340	smokers
+T30	lifestyle_factor 51 60	endotoxin
+T36	lifestyle_factor 1502 1511	endotoxin
+R3	Out-of-scope Arg1:T28 Arg2:T17

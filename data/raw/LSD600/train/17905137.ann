@@ -1,0 +1,47 @@
+T1	disease 25 36	hypospadias
+T2	disease 235 246	hypospadias
+T3	disease 410 421	hypospadias
+T4	lifestyle_factor 492 496	diet
+T5	lifestyle_factor 607 622	vegetarian diet
+T6	disease 627 638	hypospadias
+T8	disease 739 750	hypospadias
+T9	lifestyle_factor 801 811	pesticides
+T10	disease 965 976	hypospadias
+T12	lifestyle_factor 1217 1226	corn oil.
+T13	lifestyle_factor 1253 1261	corn oil
+T14	disease 1328 1339	hypospadias
+T15	disease 1408 1419	hypospadias
+T16	lifestyle_factor 1427 1435	corn oil
+T17	disease 1460 1471	hypospadias
+T18	disease 1713 1724	hypospadias
+T19	lifestyle_factor 673 700	nonorganic vegetarian diets
+R1	Out-of-scope Arg1:T19 Arg2:T8
+T20	lifestyle_factor 1012 1025	soy-free diet
+T21	lifestyle_factor 379 390	vinclozolin
+T22	lifestyle_factor 1485 1494	genistein
+T23	lifestyle_factor 1511 1522	vinclozolin
+T24	lifestyle_factor 475 484	genistein
+R2	causes Arg1:T21 Arg2:T3
+T25	lifestyle_factor 820 831	vinclozolin
+T26	lifestyle_factor 901 910	genistein
+T27	lifestyle_factor 915 926	vinclozolin
+T28	lifestyle_factor 1126 1137	vinclozolin
+T29	lifestyle_factor 1142 1151	genistein
+T30	lifestyle_factor 1156 1167	vinclozolin
+T32	lifestyle_factor 1099 1108	genistein
+T31	lifestyle_factor 46 55	genistein
+T33	lifestyle_factor 135 144	genistein
+T34	lifestyle_factor 215 224	genistein
+T40	lifestyle_factor 1543 1552	genistein
+T41	lifestyle_factor 74 85	vinclozolin
+T42	lifestyle_factor 1557 1568	vinclozolin
+R5	causes Arg1:T34 Arg2:T2
+R8	causes Arg1:T22 Arg2:T18
+R9	causes Arg1:T42 Arg2:T18
+R10	causes Arg1:T40 Arg2:T18
+R11	causes Arg1:T23 Arg2:T18
+R12	no_statistical_association Arg1:T5 Arg2:T6
+T7	lifestyle_factor 157 169	soy products
+T11	lifestyle_factor 270 297	maternal consumption of soy
+T35	lifestyle_factor 521 526	foods
+T36	lifestyle_factor 760 776	nonorganic diets

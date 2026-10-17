@@ -1,0 +1,11 @@
+T1	lifestyle_factor 63 84	gender-based violence
+T2	lifestyle_factor 181 202	gender-based violence
+T3	lifestyle_factor 383 404	gender-based violence
+T4	lifestyle_factor 1022 1043	gender-based violence
+T5	lifestyle_factor 446 467	gender-based violence
+T12	lifestyle_factor 26 49	female college students
+T7	lifestyle_factor 702 727	physical and sexual abuse
+T9	lifestyle_factor 333 362	female undergraduate students
+T6	disease 286 296	depression
+T8	disease 532 542	depression
+R1	positive_statistical_association Arg1:T5 Arg2:T8

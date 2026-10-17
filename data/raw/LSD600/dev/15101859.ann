@@ -1,0 +1,23 @@
+T1	Out-of-scope 24 32	morphine
+T2	disease 149 157	diabetes
+T3	disease 161 174	hyperglycemia
+T4	disease 263 280	diabetes mellitus
+T5	disease 483 500	diabetes mellitus
+T6	Out-of-scope 504 512	morphine
+T7	Out-of-scope 572 580	morphine
+T9	Out-of-scope 696 704	morphine
+T10	Out-of-scope 734 742	morphine
+T12	Out-of-scope 826 834	morphine
+T13	lifestyle_factor 879 887	morphine
+T14	lifestyle_factor 917 925	morphine
+T15	lifestyle_factor 1078 1086	morphine
+T16	lifestyle_factor 1192 1200	morphine
+T17	lifestyle_factor 1312 1320	morphine
+T18	Out-of-scope 1652 1660	morphine
+T19	Out-of-scope 1731 1739	morphine
+T11	Out-of-scope 284 290	opioid
+T22	Out-of-scope 181 187	opioid
+T8	disease 1678 1702	hyperglycemic conditions
+R1	Out-of-scope Arg1:T3 Arg2:T22
+R2	Out-of-scope Arg1:T2 Arg2:T22
+R3	Out-of-scope Arg1:T4 Arg2:T11

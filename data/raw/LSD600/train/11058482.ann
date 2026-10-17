@@ -1,0 +1,42 @@
+T2	disease 91 104	schizophrenia
+T4	lifestyle_factor 220 239	group psychotherapy
+T5	disease 288 301	schizophrenia
+T6	disease 305 329	schizoaffective disorder
+T8	disease 633 646	schizophrenia
+T15	disease 1708 1721	schizophrenia
+T17	disease 2024 2037	schizophrenia
+T18	lifestyle_factor 160 177	cigarette smoking
+T26	lifestyle_factor 620 627	smokers
+T27	disease 118 131	Schizophrenic
+T28	lifestyle_factor 0 26	Nicotine transdermal patch
+T29	lifestyle_factor 361 387	nicotine transdermal patch
+T30	lifestyle_factor 821 847	nicotine transdermal patch
+T32	Out-of-scope 404 449	atypical or typical antipsychotic medications
+T33	lifestyle_factor 1264 1290	nicotine transdermal patch
+T34	lifestyle_factor 1667 1693	nicotine transdermal patch
+T35	lifestyle_factor 1972 1998	nicotine transdermal patch
+T36	Out-of-scope 956 996	typical (N=27) antipsychotic medications
+T39	Out-of-scope 1209 1231	atypical antipsychotic
+T40	lifestyle_factor 31 65	atypical antipsychotic medications
+T41	lifestyle_factor 70 87	smoking cessation
+T42	lifestyle_factor 253 270	smoking cessation
+T43	lifestyle_factor 1327 1344	smoking cessation
+T44	lifestyle_factor 1634 1651	smoking cessation
+T45	lifestyle_factor 1872 1889	smoking cessation
+T46	lifestyle_factor 2003 2020	smoking cessation
+T47	lifestyle_factor 716 738	social skills training
+T49	lifestyle_factor 1054 1072	smoking abstinence
+T50	lifestyle_factor 1125 1143	Smoking abstinence
+T51	disease 1756 1769	schizophrenic
+T59	lifestyle_factor 512 525	group therapy
+T60	lifestyle_factor 594 607	group therapy
+T61	lifestyle_factor 874 887	group therapy
+T62	lifestyle_factor 1176 1189	group therapy
+T63	lifestyle_factor 1738 1751	group therapy
+T64	lifestyle_factor 1841 1854	group therapy
+T1	lifestyle_factor 1497 1512	carbon monoxide
+T3	lifestyle_factor 1093 1108	carbon monoxide
+#3	AnnotatorNotes T36	# TODO: check
+R1	Out-of-scope Arg1:T27 Arg2:T18
+R2	Out-of-scope Arg1:T29 Arg2:T6
+R3	Out-of-scope Arg1:T29 Arg2:T5

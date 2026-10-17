@@ -1,0 +1,30 @@
+T1	lifestyle_factor 34 50	Personal Hygiene
+T2	disease 99 112	Skin diseases
+T3	lifestyle_factor 259 279	socioeconomic status
+T4	lifestyle_factor 303 319	personal hygiene
+T5	disease 339 352	skin diseases
+T6	disease 406 418	skin disease
+T7	disease 454 466	skin disease
+T8	lifestyle_factor 515 531	personal hygiene
+T9	lifestyle_factor 815 831	personal hygiene
+T10	disease 835 847	skin disease
+T11	disease 948 958	Dermatitis
+T12	disease 982 994	skin disease
+T13	lifestyle_factor 1018 1038	socioeconomic status
+T14	disease 1130 1142	Skin disease
+T15	lifestyle_factor 1206 1226	socioeconomic status
+T16	lifestyle_factor 1231 1247	personal hygiene
+T17	disease 1284 1296	skin disease
+R1	negative_statistical_association Arg1:T4 Arg2:T5
+R2	negative_statistical_association Arg1:T3 Arg2:T5
+T18	disease 1106 1116	dermatoses
+T19	disease 199 209	dermatoses
+T20	disease 555 565	dermatoses
+T21	disease 231 241	dermatoses
+T22	disease 74 84	Dermatoses
+R6	negative_statistical_association Arg1:T13 Arg2:T18
+R7	negative_statistical_association Arg1:T15 Arg2:T17
+R8	negative_statistical_association Arg1:T16 Arg2:T17
+T23	lifestyle_factor 12 29	Sociodemographics
+T24	lifestyle_factor 486 510	sociodemographic factors
+T25	lifestyle_factor 783 800	sociodemographics

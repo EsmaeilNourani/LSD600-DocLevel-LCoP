@@ -1,0 +1,25 @@
+T2	lifestyle_factor 269 280	xenobiotics
+T3	disease 439 450	hypospadias
+T4	disease 455 469	cryptorchidism
+T7	lifestyle_factor 1317 1328	occupations
+T9	disease 1503 1517	cryptorchidism
+T10	disease 1556 1567	hypospadias
+T11	disease 1604 1615	hypospadias
+T12	disease 1816 1827	hypospadias
+T13	disease 1860 1874	cryptorchidism
+T15	disease 2132 2143	hypospadias
+T16	lifestyle_factor 2062 2109	endocrine disrupting chemicals during pregnancy
+R2	positive_statistical_association Arg1:T16 Arg2:T15
+T17	lifestyle_factor 952 974	occupational exposures
+T18	lifestyle_factor 888 918	endocrine disrupting chemicals
+T19	lifestyle_factor 920 924	EDCs
+*	Equiv T19 T18
+T20	lifestyle_factor 1717 1721	EDCs
+T21	lifestyle_factor 34 64	endocrine disrupting chemicals
+T22	lifestyle_factor 539 569	endocrine disrupting chemicals
+T23	lifestyle_factor 1292 1296	EDCs
+T27	lifestyle_factor 1760 1793	paternal exposure to heavy metals
+R1	Out-of-scope Arg1:T11 Arg2:T20
+R3	positive_statistical_association Arg1:T27 Arg2:T12
+R4	positive_statistical_association Arg1:T20 Arg2:T11
+R5	positive_statistical_association Arg1:T27 Arg2:T13
