@@ -25,6 +25,7 @@ import shutil
 import tempfile
 import argparse
 import subprocess
+import itertools
 from typing import Dict, List, Tuple, Any, Optional, Union
 import numpy as np
 import torch
@@ -590,9 +591,13 @@ def main():
     # Auto-resume logic
     latest_ckpt_path = os.path.join(args.output_dir, "latest_checkpoint.pt")
     resume_target = None
-    if args.checkpoint_path and os.path.exists(args.checkpoint_path):
+
+    # Priority: When resuming, prefer latest_checkpoint.pt as it holds exact mid-epoch steps and optimizer states
+    if args.resume and os.path.exists(latest_ckpt_path):
+        resume_target = latest_ckpt_path
+    elif args.checkpoint_path and os.path.exists(args.checkpoint_path):
         resume_target = args.checkpoint_path
-    elif args.resume and os.path.exists(latest_ckpt_path):
+    elif os.path.exists(latest_ckpt_path):
         resume_target = latest_ckpt_path
 
     if resume_target:
@@ -634,9 +639,13 @@ def main():
             model.load_state_dict(ckpt)
             print("Loaded model weights from checkpoint.")
 
+    # Guard: If user explicitly supplied --start-epoch matching the in-progress epoch, keep the mid-epoch step!
     if args.start_epoch is not None:
-        start_epoch = args.start_epoch
-        start_step = 0
+        if resume_target and args.start_epoch == start_epoch:
+            print(f"--> [Mid-Epoch Guard] Keeping mid-epoch resume step {start_step}/{len(train_loader)} for Epoch {start_epoch}")
+        else:
+            start_epoch = args.start_epoch
+            start_step = 0
 
     model.to(device)
 
@@ -652,15 +661,16 @@ def main():
         model.train()
         total_loss = 0.0
         optimizer.zero_grad()
-        pbar = tqdm(train_loader, desc=f"Epoch {epoch}/{args.epochs}")
 
         current_start_step = start_step if epoch == start_epoch else 0
         if current_start_step > 0:
-            pbar.update(current_start_step)
+            print(f"--> Fast-forwarding to step {current_start_step}/{len(train_loader)} (skipping first {current_start_step} steps already done)...")
+            batches_to_run = itertools.islice(train_loader, current_start_step, None)
+            pbar = tqdm(batches_to_run, total=len(train_loader), initial=current_start_step, desc=f"Epoch {epoch}/{args.epochs}")
+        else:
+            pbar = tqdm(train_loader, total=len(train_loader), desc=f"Epoch {epoch}/{args.epochs}")
 
-        for step, batch in enumerate(pbar):
-            if step < current_start_step:
-                continue
+        for step, batch in enumerate(pbar, start=current_start_step):
 
             input_ids = batch["input_ids"].to(device)
             attention_mask = batch["attention_mask"].to(device)
