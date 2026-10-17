@@ -117,19 +117,4 @@ python -m src.evaluation.evaluator \
   --save-output docs/evaluation_results_test.json
 ```
 
----
 
-## 6. High-Potential Master's Thesis Research Extensions
-
-The base paper's error analysis provides clear avenues for novel contributions:
-
-1. **Document-Level Modeling with Localized Context Pooling (LCoP):**
-   - The baseline truncates text at a narrow 180-subword window, missing 40% of relations that span across sentences.
-   - *Opportunity:* Full document context modeling with Localized Context Pooling (LCoP) to capture cross-sentence entity bridges and evidence tokens linking candidate pairs.
-2. **Coreference & Anaphora Resolution:**
-   - Many missed entities were referred to by pronouns or noun phrases ("these interventions", "such habits").
-   - *Opportunity:* Preprocessing with biomedical coreference resolution or entity-linking prior to relation classification.
-3. **Instruction Fine-Tuning & LLM Prompting:**
-   - Comparing or ensembling specialized biomedical LLMs (e.g., BioMistral, PMC-LLaMA, Meditron) using parameter-efficient fine-tuning (LoRA).
-4. **Ontology Knowledge Grounding:**
-   - Incorporating Disease Ontology and MeSH hierarchical embeddings into entity representation.
