@@ -100,13 +100,16 @@ The paper's manual error analysis identified critical bottlenecks in the base sy
 
 ---
 
-## 6. High-Potential Thesis Extension Directions
+## 6. High-Potential Thesis Extension Directions (2026 Roadmap)
 
-1. **Document-Level Modeling with Localized Context Pooling (LCoP):**
-   - Address the primary source of false negatives (40% of all missed relations across sentence boundaries) by encoding full abstracts and pooling evidence tokens connecting candidate entities.
-2. **Cross-Sentence Context Modeling & Document Graphs:**
-   - Dependency parse trees, entity coreference chains, or Graph Neural Networks (GNNs) over document structure to explicitly capture inter-sentence dependencies.
-3. **Instruction Fine-Tuning & Modern LLM Prompting:**
-   - Modern biomedical foundation models (BioMistral, LLaMA-3 Med, PMC-LLaMA, Meditron) using parameter-efficient fine-tuning (LoRA / QLoRA) or structured extraction (JSON/schema constrained decoding).
-4. **Knowledge-Enhanced Relation Extraction:**
-   - Inject biomedical ontology knowledge (Disease Ontology, MeSH, Unified Medical Language System - UMLS) to enrich entity representations and resolve ambiguous context.
+The research plan has transitioned from generic pipeline baselines to two core innovation vectors defined in [MASTER_THESIS_PROPOSALS.md](file:///Users/dzq660/My%20Drive/Students/AtashBar/Project/docs/MASTER_THESIS_PROPOSALS.md):
+
+1. **Option A (Vector 1): Aligned Contrastive Learning (ACL) & Label-Guided Alignment:**
+   - Mitigates the 24% label hierarchy confusion by projecting candidate pairs and semantic label definitions into a shared metric space.
+   - Plugs directly on top of the current document-level LCoP architecture (`src/training/train_doc_level_lcop.py`).
+2. **Option B (Vector 2): Span-Based End-to-End Extraction with Packed Levitated Markers (PL-Marker):**
+   - Resolves the pipeline fragility and gold-entity dependency bottleneck, enabling simultaneous NER and RE across full documents.
+3. **Option C (Hybrid): Dense-Retrieval Cascade & Metric Learning:**
+   - Specifically targets the 40% cross-sentence false negative rate through inter-sentence evidence retrieval and multi-hop metric classification.
+
+*See full details, experimental designs, and comparison matrix in [docs/MASTER_THESIS_PROPOSALS.md](file:///Users/dzq660/My%20Drive/Students/AtashBar/Project/docs/MASTER_THESIS_PROPOSALS.md).*
